@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-27T09:08:19+00:00",
+ "events": [
+  {
+   "date": "2026-10-22",
+   "category": "front_line",
+   "source_id": "deepstate",
+   "source_name": "DeepState",
+   "source_side": "osint",
+   "source_url": "https://t.me/DeepStateUA/23919",
+   "quote": "🔄 Мапу оновлено ⚔️ Ворог просунувся у Рай-Олександрівці та поблизу Вільного.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "advanced near",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Рай-Олександрівці",
+    "поблизу Вільного"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "id": "7926fec7d9d5"
+  }
+ ]
+}

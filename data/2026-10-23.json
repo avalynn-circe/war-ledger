@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-27T09:08:19+00:00",
+ "events": [
+  {
+   "date": "2026-10-23",
+   "category": "front_line",
+   "source_id": "deepstate",
+   "source_name": "DeepState",
+   "source_side": "osint",
+   "source_url": "https://t.me/DeepStateUA/23924",
+   "quote": "🔄 Мапу оновлено ⚔️ Ворог просунувся поблизу Малих Щербаків та Щербаків.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "advanced near",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Малих Щербаків",
+    "Щербаків"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "id": "1ff0d445fc4b"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-24",
+ "generated_at": "2026-10-27T09:08:19+00:00",
+ "events": [
+  {
+   "date": "2026-10-24",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42680",
+   "quote": "Оперативна інформація станом на 22:00 24.10.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 117 бойових зіткнень.",
+   "time": "22:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours, as reported",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "clashes": 117,
+    "kamikaze_drones": 6000,
+    "shellings": 1899
+   },
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "id": "cd8fc5985bcf"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "date": "2026-10-25",
+ "generated_at": "2026-10-27T09:08:19+00:00",
+ "events": [
+  {
+   "date": "2026-10-25",
+   "category": "front_line",
+   "source_id": "deepstate",
+   "source_name": "DeepState",
+   "source_side": "osint",
+   "source_url": "https://t.me/DeepStateUA/23932",
+   "quote": "🔄 Мапу оновлено ⚔️ Ворог просунувся поблизу Костянтинівки та Воздвижівки.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "advanced near",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Костянтинівки",
+    "Воздвижівки"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "id": "35034883cec2"
+  },
+  {
+   "date": "2026-10-25",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42683",
+   "quote": "Оперативна інформація станом на 08:00 25.10.2026 щодо російського вторгнення Слава Україні!",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours, as reported",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "clashes": 193,
+    "kamikaze_drones": 10010,
+    "shellings": 3276
+   },
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "id": "5c02f4163a3b"
+  },
+  {
+   "date": "2026-10-25",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42687",
+   "quote": "Оперативна інформація станом на 22:00 25.10.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 157 бойових зіткнень.",
+   "time": "22:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours, as reported",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "clashes": 157,
+    "kamikaze_drones": 4834,
+    "shellings": 1758
+   },
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "id": "9f6d269415f4"
+  }
+ ]
+}
