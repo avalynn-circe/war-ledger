@@ -117,7 +117,7 @@ def returns(events: list[dict]) -> list[dict]:
     missiles = _weapon_sum(af, False, "launched")
     if missiles[0] is None and any("UAV" not in w["name"] for e in af for w in e["weapons"]):
         names = sorted({w["name"] for e in af for w in e["weapons"] if "UAV" not in w["name"]})
-        missiles = (", ".join(names) + " (count not stated)", af[0])
+        missiles = (", ".join(n.replace(" ballistic missile", "").replace(" cruise missile", "") for n in names) + " (count not stated)", af[0])
     direction = next(((e["detail"].split(": ", 1)[1], e) for e in af if (e.get("detail") or "").startswith("Main direction")), (None, None))
 
     groups = [

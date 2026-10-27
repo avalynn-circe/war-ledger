@@ -41,6 +41,26 @@ sources.yaml  ->  fetch  ->  parse  ->  extract  ->  fold  ->  data/YYYY-MM-DD.j
 6. **Render.** `pipeline/render.py` writes `site/`: one page per day,
    `index.html` for the latest day, `archive.html`, `events.json`, `events.csv`.
 
+## The day page
+
+Three layers, top to bottom.
+
+1. **Day strip.** Thirty small bars, one per day, height by strike UAVs
+   launched that night. Click a bar to open that day.
+2. **Returns sheet.** The same rows every day in the same order, with one
+   column for figures reported by Ukraine and one for figures reported by
+   Russia: the air war on Ukraine, the air war on Russia, front activity, and
+   the enemy losses each side claims for the past 24 hours. The source sits
+   under each figure. A dot marks a figure that side did not publish that
+   day. Each row carries a line for the last 14 days. DeepState is
+   independent and appears in the Ukrainian column under its own label.
+3. **Entries by category.** Ten sections, closed by default. Each opens to
+   every entry of the day with its counts, places, source link and source
+   text.
+
+The archive page is a table of days with the returns-sheet figures as
+columns. Click a heading to sort.
+
 Entries carry `extraction: structured` when a purpose-built parser produced the
 numbers, and `extraction: rules` when the keyword classifier did.
 
