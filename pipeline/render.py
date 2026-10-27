@@ -242,6 +242,17 @@ def _longdate(d: str) -> str:
     return f"{dt.day} {dt:%B %Y}"
 
 
+def _cal(d: str, dates: list[str], i: int, prefix: str) -> dict:
+    return {
+        "date": d, "long": _longdate(d), "weekday": date.fromisoformat(d).strftime("%A").upper(),
+        "prev": dates[i + 1] if i + 1 < len(dates) else None, "next": dates[i - 1] if i > 0 else None, "prefix": prefix,
+    }
+
+
+def _cats(evs: list[dict]) -> list[dict]:
+    return [{"key": k, "label": label, "n": sum(1 for e in evs if e["category"] == k)} for k, label in CATEGORIES]
+
+
 def _fmt(v) -> str:
     return f"{v:,}" if isinstance(v, int) else str(v)
 
@@ -284,11 +295,12 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
                 r["spark"] = sparkline(series(r["key"], d, SPARK_DAYS, side)) if side else ""
         html = day_tpl.render(
             title=f"{_longdate(d)} · The Ukraine War Ledger",
+            nav="day",
             day={"date": d, "groups": group(evs), "n": len(evs)},
             sheet=sheet,
             strip=strip_for(d),
-            prev=dates[i + 1] if i + 1 < len(dates) else None,
-            next=dates[i - 1] if i > 0 else None,
+            cats=_cats(evs),
+            cal=_cal(d, dates, i, ""),
             **base_ctx,
         )
         (site_dir / f"{d}.html").write_text(html, encoding="utf-8")
@@ -297,15 +309,16 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
     wire_tpl = env.get_template("wire.html")
     for i, d in enumerate(dates):
         evs = days[d]
-        cats = [{"key": k, "label": label, "n": sum(1 for e in evs if e["category"] == k)} for k, label in CATEGORIES]
+        cats = _cats(evs)
         html = wire_tpl.render(
             title=f"Wire · {_longdate(d)} · The Ukraine War Ledger",
+            nav="wire",
             body_class="wire",
             day={"date": d},
             wire=wire(evs),
-            cats=[c for c in cats if c["n"]],
-            prev=dates[i + 1] if i + 1 < len(dates) else None,
-            next=dates[i - 1] if i > 0 else None,
+            earlier=dates[i + 1:],
+            cats=cats,
+            cal=_cal(d, dates, i, "wire-"),
             **base_ctx,
         )
         (site_dir / f"wire-{d}.html").write_text(html, encoding="utf-8")
@@ -314,7 +327,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
 
     if not dates:
         (site_dir / "index.html").write_text(
-            day_tpl.render(title="The Ukraine War Ledger", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), strip=[], prev=None, next=None, **base_ctx),
+            day_tpl.render(title="The Ukraine War Ledger", nav="day", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), strip=[], cats=_cats([]), cal=_cal(latest, [latest], 0, ""), **base_ctx),
             encoding="utf-8",
         )
 
@@ -328,7 +341,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
     for d in dates:
         archive_rows.append({"date": d, "n": len(days[d]), "cells": [_numeric(sheets[d][k][side]) for k, side, _ in columns]})
     (site_dir / "archive.html").write_text(
-        env.get_template("archive.html").render(title="Archive · The Ukraine War Ledger", columns=[c[2] for c in columns], rows=archive_rows, **base_ctx),
+        env.get_template("archive.html").render(title="Archive · The Ukraine War Ledger", nav="archive", columns=[c[2] for c in columns], rows=archive_rows, **base_ctx),
         encoding="utf-8",
     )
 
@@ -348,3 +361,4 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
                     "; ".join(e["locations"]), e["quote"], e["source_url"],
                 ])
     shutil.copy(TEMPLATES / "style.css", site_dir / "style.css")
+    shutil.copy(TEMPLATES / "ledger.js", site_dir / "ledger.js")

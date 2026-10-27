@@ -1,18 +1,6 @@
 {% extends "base.html" %}
 {% block main %}
-<h1>{{ day.date|longdate }} <span class="tz">Kyiv date · {{ day.n }} entries</span></h1>
-
-{% if strip %}
-<nav class="strip" aria-label="Last {{ strip|length }} days, bar height is strike UAVs launched">
-{% for b in strip %}{% if b.has_page %}<a class="bar{% if b.current %} current{% endif %}" href="{{ b.date }}.html" title="{{ b.date }}{% if b.value %} · {{ b.value }} UAVs launched{% endif %}"><span style="height:{{ [b.pct, 6]|max }}%"></span></a>{% else %}<span class="bar empty" title="{{ b.date }} · no entries"><span></span></span>{% endif %}{% endfor %}
-</nav>
-<p class="strip-dates"><span>{{ strip[0].date }}</span><span>{{ strip[-1].date }}</span></p>
-{% endif %}
-<p class="daynav">
-  {% if prev %}<a href="{{ prev }}.html">&larr; {{ prev }}</a>{% endif %}
-  {% if next %}<a href="{{ next }}.html">{{ next }} &rarr;</a>{% endif %}
-  <a href="wire-{{ day.date }}.html">Wire</a>
-</p>
+<p class="wire-meta">{{ day.n }} entries · <a href="wire-{{ day.date }}.html">wire for this day</a></p>
 
 <section class="returns">
 <table>
@@ -36,7 +24,7 @@
 </section>
 
 {% for group in day.groups %}
-<details class="cat" id="{{ group.key }}">
+<details class="cat" id="{{ group.key }}" data-cat="{{ group.key }}">
 <summary><span class="cat-label">{{ group.label }}</span><span class="n">{{ group.events|length }} · {{ group.sources|join(' · ') }}</span></summary>
 <ol class="ledger">
 {% for e in group.events %}
