@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-27T21:54:18+00:00",
+ "generated_at": "2026-10-27T22:07:07+00:00",
  "events": [
   {
    "date": "2026-10-26",
@@ -25,6 +25,9 @@
    "extraction": "rules",
    "also_reported_by": [],
    "published": "2026-10-26T20:16:41+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "4dc5cea6890f"
   },
   {
@@ -55,6 +58,9 @@
     }
    ],
    "published": "2026-10-26T20:33:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "c3c5e188ef66"
   },
   {
@@ -87,6 +93,9 @@
    "extraction": "structured",
    "also_reported_by": [],
    "published": "2026-10-26T17:15:20+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "2122fe1b12b5"
   },
   {
@@ -122,6 +131,9 @@
    "extraction": "rules",
    "also_reported_by": [],
    "published": "2026-10-26T11:13:58+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "97d504bcb03b"
   },
   {
@@ -145,6 +157,9 @@
    "extraction": "rules",
    "also_reported_by": [],
    "published": "2026-10-26T12:33:13+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "0cf965f3a9a5"
   },
   {
@@ -168,6 +183,9 @@
    "extraction": "rules",
    "also_reported_by": [],
    "published": "2026-10-26T15:05:07+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "fd09c2fdf67d"
   },
   {
@@ -193,6 +211,9 @@
    "extraction": "rules",
    "also_reported_by": [],
    "published": "2026-10-26T13:38:46+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "2512ed942522"
   },
   {
@@ -218,6 +239,11 @@
    "extraction": "structured",
    "also_reported_by": [],
    "published": "2026-10-26T16:51:01+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Світлого"
+   ],
    "id": "0422a3031c82"
   },
   {
@@ -243,6 +269,11 @@
    "extraction": "structured",
    "also_reported_by": [],
    "published": "2026-10-26T18:45:01+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Общее"
+   ],
    "id": "2c81e84b1c57"
   },
   {
@@ -276,6 +307,12 @@
    "extraction": "structured",
    "also_reported_by": [],
    "published": "2026-10-26T06:00:27+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Мала Корчаківка, Товстодубове, Сопич, Кореньок, Лужки, Студенок, Писарівка, Потапівка, Нова Січ",
+    "Chernihiv oblast: Клюси, Камінь, Миколаївка"
+   ],
    "id": "3aebbd70820a"
   },
   {
@@ -305,6 +342,9 @@
    "extraction": "structured",
    "also_reported_by": [],
    "published": "2026-10-26T20:03:01+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "a3a036d9c13b"
   },
   {
@@ -369,6 +409,9 @@
    "extraction": "structured",
    "also_reported_by": [],
    "published": "2026-10-26T06:00:27+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "78cda16aa9ef"
   },
   {
@@ -394,6 +437,9 @@
    "extraction": "rules",
    "also_reported_by": [],
    "published": "2026-10-26T18:42:57+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "e06722f30443"
   },
   {
@@ -419,6 +465,9 @@
    "extraction": "rules",
    "also_reported_by": [],
    "published": "2026-10-26T19:01:03+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "bf795cbfc790"
   },
   {
@@ -442,6 +491,9 @@
    "extraction": "rules",
    "also_reported_by": [],
    "published": "2026-10-26T19:13:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "cf48e07e90ee"
   },
   {
@@ -467,6 +519,9 @@
    "extraction": "rules",
    "also_reported_by": [],
    "published": "2026-10-26T21:28:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
    "id": "cce7239326c1"
   }
  ]

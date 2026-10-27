@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "generated_at": "2026-10-27T21:54:18+00:00",
+ "generated_at": "2026-10-27T22:07:07+00:00",
  "events": [
   {
    "date": "2026-10-23",
@@ -26,6 +26,12 @@
    "extraction": "structured",
    "also_reported_by": [],
    "published": "2026-10-23T04:40:14+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Малих Щербаків",
+    "Щербаків"
+   ],
    "id": "1ff0d445fc4b"
   }
  ]

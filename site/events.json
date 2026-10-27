@@ -1,6 +1,261 @@
 {
- "generated_at": "2026-10-27 21:54",
+ "generated_at": "2026-10-27 22:07",
  "days": [
+  {
+   "date": "2026-10-28",
+   "events": [
+    {
+     "date": "2026-10-28",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24236, of which: destroyed: 19201, damaged: 1001, abandoned: 1192, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24236,
+      "destroyed": 19201,
+      "damaged": 1001,
+      "abandoned": 1192,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4451
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2427
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6493
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 756
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 440
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 740
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 620
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1066
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 643
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 30
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 448
+      },
+      {
+       "label": "Radars",
+       "count": 133
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 205
+      },
+      {
+       "label": "Helicopters",
+       "count": 185
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 40
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4738
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-10-27T22:07:06.379932+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "c3f2304c2cb1"
+    },
+    {
+     "date": "2026-10-28",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12294, of which: destroyed: 9689, damaged: 715, abandoned: 692, captured: 1198",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12294,
+      "destroyed": 9689,
+      "damaged": 715,
+      "abandoned": 692,
+      "captured": 1198
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1472
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 565
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1627
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1468
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1015
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2192
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 104
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 302
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 305
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 997
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 135
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 150
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1402
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-10-27T22:07:07.013223+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7a361d4976d4"
+    }
+   ]
+  },
   {
    "date": "2026-10-27",
    "events": [
@@ -56,6 +311,9 @@
       }
      ],
      "published": "2026-10-27T07:08:41+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "97ca80952f7e"
     },
     {
@@ -84,6 +342,9 @@
       }
      ],
      "published": "2026-10-27T05:06:57+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "abb59224ad56"
     },
     {
@@ -107,6 +368,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T15:39:23+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "1c622ac1d554"
     },
     {
@@ -130,6 +394,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T18:31:32+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "474cd69ce322"
     },
     {
@@ -155,6 +422,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T05:24:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "90cf74f10ac4"
     },
     {
@@ -180,6 +450,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T05:44:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "ce37241dc569"
     },
     {
@@ -205,6 +478,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T06:56:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "69c8b93af0be"
     },
     {
@@ -230,6 +506,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T08:35:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "befbce6cb892"
     },
     {
@@ -260,6 +539,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T09:11:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "19b40500d260"
     },
     {
@@ -285,6 +567,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T13:00:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "4cfe5b90b365"
     },
     {
@@ -308,6 +593,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T13:19:08+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "806adca53ad2"
     },
     {
@@ -333,6 +621,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T13:58:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "3528654781c0"
     },
     {
@@ -358,6 +649,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T14:01:08+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "c44a6a29835c"
     },
     {
@@ -383,6 +677,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T15:30:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "b115adf44d3e"
     },
     {
@@ -409,6 +706,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T15:45:45+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "558fe552c70a"
     },
     {
@@ -432,6 +732,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T16:29:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "ec77d7d932f5"
     },
     {
@@ -455,6 +758,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T17:14:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "f2f25b294dcf"
     },
     {
@@ -485,6 +791,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T18:15:18+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "f0b23b234369"
     },
     {
@@ -515,6 +824,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T18:43:40+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "fa60657a10fc"
     },
     {
@@ -544,7 +856,38 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T19:42:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "f7599fb70e39"
+    },
+    {
+     "date": "2026-10-27",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129522",
+     "quote": "Четыре человека, в том числе ребенок, пострадали в результате атаки ВС РФ в Харькове, — ОВА 32-летняя и 65-летняя женщины, 56-летний мужчина и 4-летний мальчик пострадали в результате «прилета» БПЛА в Основянском районе.",
+     "time": "23:53",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-27T21:53:20+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "3de17250954f"
     },
     {
      "date": "2026-10-27",
@@ -584,6 +927,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-27T05:52:37+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "b0de695bbaac"
     },
     {
@@ -617,6 +963,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-27T17:58:41+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "b6436202aa2f"
     },
     {
@@ -640,6 +989,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T13:44:26+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "c4dac4ec9864"
     },
     {
@@ -665,6 +1017,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T00:32:47+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "9fadc649467b"
     },
     {
@@ -691,6 +1046,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T14:34:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "e41203c86941"
     },
     {
@@ -716,6 +1074,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T15:45:21+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "963f10f9a878"
     },
     {
@@ -741,6 +1102,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T17:33:33+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "b65e49341fe7"
     },
     {
@@ -766,6 +1130,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T18:25:46+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "0ecddac8a6cb"
     },
     {
@@ -792,6 +1159,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T07:18:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "cd769297e8ee"
     },
     {
@@ -817,6 +1187,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T18:05:12+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "2f62c8fb926e"
     },
     {
@@ -844,6 +1217,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T19:20:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "0e7f9305eac1"
     },
     {
@@ -869,6 +1245,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T21:17:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "a1ccae2a3451"
     },
     {
@@ -905,6 +1284,12 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-27T06:02:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Sumy oblast: Безсалівка, Кореньок, Товстодубове, Уланове, Рогізне, Нескучне, Бачівськ, Вовківка, Гірки, Нововасилівка, Миколаївка, Яструбщина, Марчишина Буда, Лужки, Потапівка, Сопич, Кучерівка, Стара Гута, Харківка",
+      "Chernihiv oblast: Гута-Студенецька, Михальчина-Слобода, Карповичі, Клюси, Гірськ, Янжулівка"
+     ],
      "id": "3720cc8666ae"
     },
     {
@@ -935,6 +1320,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-27T20:01:48+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "943b30ea59a8"
     },
     {
@@ -997,6 +1385,9 @@
       }
      ],
      "published": "2026-10-27T06:02:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "847e7af4a1b6"
     },
     {
@@ -1119,6 +1510,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-27T21:54:17.666611+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "c3f2304c2cb1"
     },
     {
@@ -1241,6 +1635,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-27T21:54:18.309127+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "7a361d4976d4"
     },
     {
@@ -1264,6 +1661,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T07:29:15+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "e62dc5b520b3"
     },
     {
@@ -1287,6 +1687,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T11:25:09+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "7559790a719d"
     },
     {
@@ -1320,6 +1723,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T09:47:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "701caf69fd01"
     },
     {
@@ -1343,6 +1749,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T11:20:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "45a60da135ad"
     },
     {
@@ -1368,6 +1777,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T07:05:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "cb306085fc0f"
     },
     {
@@ -1393,6 +1805,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T08:47:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "d07e525d70f6"
     },
     {
@@ -1418,6 +1833,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-27T14:39:36+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "d97561669c5e"
     }
    ]
@@ -1448,6 +1866,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-26T20:16:41+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "4dc5cea6890f"
     },
     {
@@ -1478,6 +1899,9 @@
       }
      ],
      "published": "2026-10-26T20:33:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "c3c5e188ef66"
     },
     {
@@ -1510,6 +1934,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-26T17:15:20+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "2122fe1b12b5"
     },
     {
@@ -1545,6 +1972,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-26T11:13:58+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "97d504bcb03b"
     },
     {
@@ -1568,6 +1998,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-26T12:33:13+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "0cf965f3a9a5"
     },
     {
@@ -1591,6 +2024,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-26T15:05:07+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "fd09c2fdf67d"
     },
     {
@@ -1616,6 +2052,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-26T13:38:46+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "2512ed942522"
     },
     {
@@ -1641,6 +2080,11 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-26T16:51:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Світлого"
+     ],
      "id": "0422a3031c82"
     },
     {
@@ -1666,6 +2110,11 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-26T18:45:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Общее"
+     ],
      "id": "2c81e84b1c57"
     },
     {
@@ -1699,6 +2148,12 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-26T06:00:27+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Мала Корчаківка, Товстодубове, Сопич, Кореньок, Лужки, Студенок, Писарівка, Потапівка, Нова Січ",
+      "Chernihiv oblast: Клюси, Камінь, Миколаївка"
+     ],
      "id": "3aebbd70820a"
     },
     {
@@ -1728,6 +2183,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-26T20:03:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "a3a036d9c13b"
     },
     {
@@ -1792,6 +2250,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-26T06:00:27+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "78cda16aa9ef"
     },
     {
@@ -1817,6 +2278,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-26T18:42:57+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "e06722f30443"
     },
     {
@@ -1842,6 +2306,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-26T19:01:03+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "bf795cbfc790"
     },
     {
@@ -1865,6 +2332,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-26T19:13:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "cf48e07e90ee"
     },
     {
@@ -1890,6 +2360,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-26T21:28:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "cce7239326c1"
     }
    ]
@@ -1920,6 +2393,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-25T09:00:52+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "cf8bc4f64f4d"
     },
     {
@@ -1945,6 +2421,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-25T07:16:32+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "89467190ef1f"
     },
     {
@@ -1971,6 +2450,12 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-25T21:50:20+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Костянтинівки",
+      "Воздвижівки"
+     ],
      "id": "35034883cec2"
     },
     {
@@ -2005,6 +2490,12 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-25T06:01:06+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Sumy oblast: Павлівка, Кореньок, Сопич, Нескучне, Безсалівка, Кучерівка, Лужки, Мала Корчаківка, Тополя, Нова Січ, Храпівщина, Ободи, Яструбщина, Баранівка, Мала Слобідка, Миропілля, Хотінь, Волфине, Іскрисківщина, Фотовиж, Потапівка, Гірки, Стара Гута, Уланове, Кіндратівка, Запсілля",
+      "Chernihiv oblast: Михальчина-Слобода, Буда-Вороб'ївська, Хрінівка, Клюси"
+     ],
      "id": "5c02f4163a3b"
     },
     {
@@ -2034,6 +2525,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-25T20:00:40+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "9f6d269415f4"
     },
     {
@@ -2090,6 +2584,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-25T06:01:06+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "a625aff9b87c"
     }
    ]
@@ -2120,6 +2617,9 @@
      "extraction": "rules",
      "also_reported_by": [],
      "published": "2026-10-24T13:07:07+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "e263448626e3"
     },
     {
@@ -2149,6 +2649,9 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-24T19:02:29+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
      "id": "cd8fc5985bcf"
     }
    ]
@@ -2180,6 +2683,12 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-23T04:40:14+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Малих Щербаків",
+      "Щербаків"
+     ],
      "id": "1ff0d445fc4b"
     }
    ]
@@ -2211,6 +2720,12 @@
      "extraction": "structured",
      "also_reported_by": [],
      "published": "2026-10-21T21:45:17+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Рай-Олександрівці",
+      "поблизу Вільного"
+     ],
      "id": "7926fec7d9d5"
     }
    ]
