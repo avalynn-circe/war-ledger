@@ -7,11 +7,12 @@
 <meta name="description" content="The Ukraine War Ledger. A daily record of Russia's war on Ukraine: strikes, weapons, interceptions, front line changes, losses and field adaptations, as published by each source.">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body{% if body_class %} class="{{ body_class }}"{% endif %}>
 <header class="top">
   <a class="brand" href="index.html">The Ukraine War Ledger</a>
   <nav>
     <a href="index.html">Latest</a>
+    <a href="wire.html">Wire</a>
     <a href="archive.html">Archive</a>
     <a href="events.json">JSON</a>
     <a href="events.csv">CSV</a>

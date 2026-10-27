@@ -14,7 +14,7 @@ from datetime import date, datetime, timedelta, timezone
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from .extract.common import CATEGORIES, SIDE_LABELS
+from .extract.common import CATEGORIES, CATEGORY_LABELS, SIDE_LABELS
 
 TEMPLATES = pathlib.Path(__file__).parent / "templates"
 
@@ -220,6 +220,23 @@ def group(events: list[dict]) -> list[dict]:
     return out
 
 
+WIRE_KEYS = ["launched", "intercepted", "impact_locations", "clashes", "guided_bombs", "kamikaze_drones", "shellings", "settlements_shelled", "intercepted_claimed"]
+
+
+def wire_line(e: dict) -> str:
+    """One-line digest of a structured entry's main figures."""
+    return " · ".join(f"{_fmt(e['counts'][k])} {COUNT_LABELS.get(k, k)}" for k in WIRE_KEYS if k in e["counts"])
+
+
+def wire(events: list[dict]) -> list[dict]:
+    rows = []
+    for e in events:
+        r = dict(e)
+        r["line"] = wire_line(e) if e["extraction"] == "structured" else ""
+        rows.append(r)
+    return sorted(rows, key=lambda r: (r.get("time") is None, r.get("time") or "", r["source_name"]))
+
+
 def _longdate(d: str) -> str:
     dt = date.fromisoformat(d)
     return f"{dt.day} {dt:%B %Y}"
@@ -236,6 +253,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
     env.filters["side"] = lambda s: SIDE_LABELS.get(s, s)
     env.filters["longdate"] = _longdate
     env.filters["fmt"] = _fmt
+    env.filters["catlabel"] = lambda k: CATEGORY_LABELS.get(k, k)
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     base_ctx = {"sources": sources, "generated_at": generated}
 
@@ -276,6 +294,24 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
         (site_dir / f"{d}.html").write_text(html, encoding="utf-8")
         if i == 0:
             (site_dir / "index.html").write_text(html, encoding="utf-8")
+    wire_tpl = env.get_template("wire.html")
+    for i, d in enumerate(dates):
+        evs = days[d]
+        cats = [{"key": k, "label": label, "n": sum(1 for e in evs if e["category"] == k)} for k, label in CATEGORIES]
+        html = wire_tpl.render(
+            title=f"Wire · {_longdate(d)} · The Ukraine War Ledger",
+            body_class="wire",
+            day={"date": d},
+            wire=wire(evs),
+            cats=[c for c in cats if c["n"]],
+            prev=dates[i + 1] if i + 1 < len(dates) else None,
+            next=dates[i - 1] if i > 0 else None,
+            **base_ctx,
+        )
+        (site_dir / f"wire-{d}.html").write_text(html, encoding="utf-8")
+        if i == 0:
+            (site_dir / "wire.html").write_text(html, encoding="utf-8")
+
     if not dates:
         (site_dir / "index.html").write_text(
             day_tpl.render(title="The Ukraine War Ledger", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), strip=[], prev=None, next=None, **base_ctx),

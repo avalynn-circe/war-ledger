@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block main %}
+<h1 class="wire-title">{{ day.date|longdate }} <span class="tz">Kyiv time · <span id="wire-count">{{ wire|length }}</span> lines</span></h1>
+<p class="daynav">
+  {% if prev %}<a href="wire-{{ prev }}.html">&larr; {{ prev }}</a>{% endif %}
+  {% if next %}<a href="wire-{{ next }}.html">{{ next }} &rarr;</a>{% endif %}
+  <a href="{{ day.date }}.html">Day page</a>
+</p>
+
+<section class="toggles" aria-label="Category toggles" id="toggles">
+{% for c in cats %}<button type="button" class="chip" data-cat="{{ c.key }}" aria-pressed="true">{{ c.label }} <span class="n">{{ c.n }}</span></button>{% endfor %}
+<button type="button" class="chip ctl" data-all="1">ALL</button>
+<button type="button" class="chip ctl" data-none="1">NONE</button>
+</section>
+
+<section class="wire" aria-label="Wire">
+<div class="row head"><span>Time</span><span class="cat">Category</span><span>Entry</span><span class="src">Source</span></div>
+{% for e in wire %}
+<div class="row" data-cat="{{ e.category }}">
+  <span class="time">{{ e.time or '––:––' }}</span>
+  <span class="cat">{{ e.category|catlabel }}</span>
+  <span class="entry">
+    {% if e.extraction == 'structured' %}<span><b>{{ e.actor }}{% if e.target %} → {{ e.target }}{% endif %}</b>{% if e.line %} · {{ e.line }}{% endif %}{% if not e.line and e.action %} · {{ e.action }}{% endif %}</span>
+    {% else %}<span lang="{{ e.lang }}">{{ e.quote }}</span>{% endif %}
+    {% if e.breakdown %}<span class="sub">{% for b in e.breakdown %}{{ b.label }} {% if b.delta is defined %}+{{ b.delta|fmt }}{% else %}{{ b.count|fmt }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}
+    {% if e.detail %}<span class="sub">{{ e.detail }}</span>{% endif %}
+    {% if e.locations %}<span class="sub muted">{{ e.locations|join(' · ') }}</span>{% endif %}
+  </span>
+  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
+</div>
+{% endfor %}
+</section>
+<p class="legend">Every entry of the day in the order it was published. Entries without a published time sort last. Toggles are remembered in this browser.</p>
+<script>
+(function () {
+  var KEY = 'ledger-wire-hidden';
+  var hidden = {};
+  try { hidden = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { hidden = {}; }
+  var chips = Array.prototype.slice.call(document.querySelectorAll('#toggles .chip[data-cat]'));
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.wire .row[data-cat]'));
+  function apply() {
+    var n = 0;
+    rows.forEach(function (r) { var off = !!hidden[r.getAttribute('data-cat')]; r.hidden = off; if (!off) n++; });
+    chips.forEach(function (c) { c.setAttribute('aria-pressed', hidden[c.getAttribute('data-cat')] ? 'false' : 'true'); });
+    var count = document.getElementById('wire-count'); if (count) count.textContent = n;
+    try { localStorage.setItem(KEY, JSON.stringify(hidden)); } catch (e) {}
+  }
+  chips.forEach(function (c) { c.addEventListener('click', function () { var k = c.getAttribute('data-cat'); if (hidden[k]) delete hidden[k]; else hidden[k] = true; apply(); }); });
+  var all = document.querySelector('#toggles [data-all]'), none = document.querySelector('#toggles [data-none]');
+  if (all) all.addEventListener('click', function () { hidden = {}; apply(); });
+  if (none) none.addEventListener('click', function () { chips.forEach(function (c) { hidden[c.getAttribute('data-cat')] = true; }); apply(); });
+  apply();
+})();
+</script>
+{% endblock %}

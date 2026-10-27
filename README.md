@@ -58,6 +58,11 @@ Three layers, top to bottom.
    every entry of the day with its counts, places, source link and source
    text.
 
+The **wire** page (`wire.html`, one per day as `wire-YYYY-MM-DD.html`) lists
+every entry of the day in the order it was published: time, category, entry,
+source. A row of toggles shows or hides each category and the choice is
+remembered in the browser.
+
 The archive page is a table of days with the returns-sheet figures as
 columns. Click a heading to sort.
 
