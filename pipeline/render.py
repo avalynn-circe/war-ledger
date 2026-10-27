@@ -1,11 +1,16 @@
-"""Render the static site from the day files."""
+"""Render the static site from the day files.
+
+Each day page has three layers: a 30-day strip for navigation, the returns
+sheet (the same rows every day, one column per side, a 14-day sparkline per
+row), and the entries grouped by category in sections closed by default.
+"""
 from __future__ import annotations
 
 import csv
 import json
 import pathlib
 import shutil
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -20,6 +25,8 @@ COUNT_LABELS = {
     "impact_locations": "impact locations",
     "debris_locations": "debris fall locations",
     "shahed_of_which": "of which Shahed",
+    "jet_powered_shahed": "of which jet-powered",
+    "jet_powered_shahed_intercepted": "jet-powered intercepted",
     "lost_from_radar": "lost from radar",
     "clashes": "combat clashes",
     "missile_strikes": "missile strikes",
@@ -29,62 +36,197 @@ COUNT_LABELS = {
     "kamikaze_drones": "kamikaze drones used",
     "shellings": "shellings",
     "mlrs_shellings": "of which MLRS",
+    "settlements_shelled": "settlements shelled",
     "intercepted_claimed": "UAVs intercepted, as claimed",
     "concentration_areas_struck": "concentration areas struck, as claimed",
-    "settlements_shelled": "settlements shelled",
-    "jet_powered_shahed": "of which jet-powered",
-    "jet_powered_shahed_intercepted": "jet-powered intercepted",
 }
+SHORT_SOURCE = {"kpszsu": "Air Force", "generalstaff": "General Staff", "mod_russia": "MoD", "deepstate": "DeepState"}
 
+STRIP_DAYS = 30
+SPARK_DAYS = 14
+
+
+# ---------------------------------------------------------------- selection helpers
+
+def _structured(events: list[dict], source: str, category: str | None = None) -> list[dict]:
+    return [
+        e for e in events
+        if e["source_id"] == source and e["extraction"] == "structured" and (category is None or e["category"] == category)
+    ]
+
+
+def _cell(value, event: dict | None, note: str | None = None) -> dict | None:
+    if value is None or event is None:
+        return None
+    return {"value": value, "source": note or SHORT_SOURCE.get(event["source_id"], event["source_name"]), "url": event["source_url"]}
+
+
+def _sum_counts(evs: list[dict], key: str) -> tuple[int | None, dict | None]:
+    hits = [e for e in evs if key in e["counts"]]
+    if not hits:
+        return None, None
+    return sum(e["counts"][key] for e in hits), hits[0]
+
+
+def _max_counts(evs: list[dict], key: str) -> tuple[int | None, dict | None]:
+    hits = [e for e in evs if key in e["counts"]]
+    if not hits:
+        return None, None
+    best = max(hits, key=lambda e: e["counts"][key])
+    return best["counts"][key], best
+
+
+def _weapon_sum(evs: list[dict], uav: bool, key: str) -> tuple[int | None, dict | None]:
+    total, hit = 0, None
+    for e in evs:
+        for w in e["weapons"]:
+            if ("UAV" in w["name"]) == uav and key in w:
+                total += w[key]
+                hit = hit or e
+    return (total, hit) if hit else (None, None)
+
+
+def _delta(evs: list[dict], label: str) -> tuple[int | None, dict | None]:
+    best: tuple[int | None, dict | None] = (None, None)
+    for e in evs:
+        for b in e["breakdown"]:
+            if b["label"] == label and "delta" in b and (best[0] is None or b["delta"] > best[0]):
+                best = (b["delta"], e)
+    return best
+
+
+def _places(evs: list[dict]) -> tuple[int | None, dict | None]:
+    if not evs:
+        return None, None
+    return sum(len(e["locations"]) for e in evs), evs[0]
+
+
+# ---------------------------------------------------------------- the returns sheet
+
+def returns(events: list[dict]) -> list[dict]:
+    """The fixed rows of the daily returns sheet, grouped, with a cell per side."""
+    af = _structured(events, "kpszsu", "air_attack")
+    gs_day = [e for e in _structured(events, "generalstaff", "front_activity") if (e.get("action") or "").startswith("past 24")]
+    gs_loss = _structured(events, "generalstaff", "losses_claimed")
+    mod_loss = _structured(events, "mod_russia", "losses_claimed")
+    mod_air = _structured(events, "mod_russia", "strikes_in_russia")
+    mod_taken = _structured(events, "mod_russia", "front_line")
+    ds_taken = [e for e in _structured(events, "deepstate", "front_line") if e["action"] == "occupied"]
+    ds_retaken = [e for e in _structured(events, "deepstate", "front_line") if e["action"] == "liberated"]
+
+    missiles = _weapon_sum(af, False, "launched")
+    if missiles[0] is None and any("UAV" not in w["name"] for e in af for w in e["weapons"]):
+        names = sorted({w["name"] for e in af for w in e["weapons"] if "UAV" not in w["name"]})
+        missiles = (", ".join(names) + " (count not stated)", af[0])
+    direction = next(((e["detail"].split(": ", 1)[1], e) for e in af if (e.get("detail") or "").startswith("Main direction")), (None, None))
+
+    groups = [
+        ("Air war on Ukraine, overnight", [
+            ("uav_launched", "Strike UAVs launched", _weapon_sum(af, True, "launched"), (None, None)),
+            ("missiles_launched", "Missiles launched", missiles, (None, None)),
+            ("intercepted", "Targets intercepted", _sum_counts(af, "intercepted"), (None, None)),
+            ("impact_locations", "Impact locations", _sum_counts(af, "impact_locations"), (None, None)),
+            ("direction", "Main direction", direction, (None, None)),
+        ]),
+        ("Air war on Russia", [
+            ("intercepted_over_russia", "UAVs intercepted over Russia", (None, None), _sum_counts(mod_air, "intercepted_claimed")),
+        ]),
+        ("Front, past 24 hours", [
+            ("clashes", "Combat clashes", _max_counts(gs_day, "clashes"), (None, None)),
+            ("guided_bombs", "Guided aerial bombs", _max_counts(gs_day, "guided_bombs"), (None, None)),
+            ("kamikaze_drones", "Kamikaze drones used", _max_counts(gs_day, "kamikaze_drones"), (None, None)),
+            ("shellings", "Shellings", _max_counts(gs_day, "shellings"), (None, None)),
+            ("settlements_shelled", "Settlements shelled", _max_counts(gs_day, "settlements_shelled"), (None, None)),
+            ("taken", "Settlements taken", _places(ds_taken), _places(mod_taken)),
+            ("retaken", "Settlements retaken", _places(ds_retaken), (None, None)),
+        ]),
+        ("Enemy losses in 24 hours, as each side claims", [
+            ("loss_personnel", "Personnel", _delta(gs_loss, "personnel"), _delta(mod_loss, "personnel")),
+            ("loss_tanks", "Tanks", _delta(gs_loss, "tanks"), _delta(mod_loss, "tanks")),
+            ("loss_afv", "Armoured fighting vehicles", _delta(gs_loss, "armoured fighting vehicles"), _delta(mod_loss, "armoured fighting vehicles")),
+            ("loss_artillery", "Artillery systems", _delta(gs_loss, "artillery systems"), _delta(mod_loss, "artillery systems")),
+            ("loss_uav", "UAVs", _delta(gs_loss, "UAVs"), _delta(mod_loss, "UAVs")),
+            ("loss_vehicles", "Vehicles", _delta(gs_loss, "vehicles and fuel tankers"), _delta(mod_loss, "vehicles")),
+        ]),
+    ]
+    out = []
+    for label, rows in groups:
+        out.append({"label": label, "rows": [
+            {"key": key, "label": lab, "ua": _cell(*ua), "ru": _cell(*ru)} for key, lab, ua, ru in rows
+        ]})
+    return out
+
+
+def _flat(sheet: list[dict]) -> dict[str, dict]:
+    return {r["key"]: r for g in sheet for r in g["rows"]}
+
+
+def _numeric(cell: dict | None) -> int | None:
+    return cell["value"] if cell and isinstance(cell["value"], int) else None
+
+
+def sparkline(points: list[int | None], width: int = 84, height: int = 20) -> str:
+    """A single thin line over the last days; gaps where a day has no figure."""
+    vals = [v for v in points if v is not None]
+    if len(vals) < 2:
+        return ""
+    lo, hi = 0, max(vals) or 1
+    pad = 2
+    step = (width - 2 * pad) / (len(points) - 1)
+    def xy(i: int, v: int) -> str:
+        x = pad + i * step
+        y = height - pad - (v - lo) / (hi - lo or 1) * (height - 2 * pad)
+        return f"{x:.1f},{y:.1f}"
+    segments, current = [], []
+    for i, v in enumerate(points):
+        if v is None:
+            if current:
+                segments.append(current)
+            current = []
+        else:
+            current.append(xy(i, v))
+    if current:
+        segments.append(current)
+    paths = "".join(
+        f'<polyline points="{" ".join(seg)}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
+        if len(seg) > 1 else f'<circle cx="{seg[0].split(",")[0]}" cy="{seg[0].split(",")[1]}" r="1.5" fill="currentColor"/>'
+        for seg in segments
+    )
+    last_i = max(i for i, v in enumerate(points) if v is not None)
+    lx, ly = xy(last_i, points[last_i]).split(",")
+    return (
+        f'<svg class="spark" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img">'
+        f'{paths}<circle cx="{lx}" cy="{ly}" r="2.5" fill="currentColor"/></svg>'
+    )
+
+
+def _date_range(end: str, n: int) -> list[str]:
+    last = date.fromisoformat(end)
+    return [(last - timedelta(days=i)).isoformat() for i in range(n - 1, -1, -1)]
+
+
+# ---------------------------------------------------------------- page assembly
 
 def group(events: list[dict]) -> list[dict]:
     out = []
     for key, label in CATEGORIES:
         evs = [e for e in events if e["category"] == key]
         if evs:
-            out.append({"key": key, "label": label, "events": evs})
+            sources = []
+            for e in evs:
+                if e["source_name"] not in sources:
+                    sources.append(e["source_name"])
+            out.append({"key": key, "label": label, "events": evs, "sources": sources})
     return out
-
-
-def headline(events: list[dict]) -> list[dict]:
-    rows: list[dict] = []
-    air = [e for e in events if e["category"] == "air_attack" and e["extraction"] == "structured" and e["counts"]]
-    if air:
-        launched = sum(e["counts"].get("launched", 0) for e in air)
-        intercepted = sum(e["counts"].get("intercepted", 0) for e in air)
-        impacts = sum(e["counts"].get("impacts", 0) for e in air)
-        places = sum(e["counts"].get("impact_locations", 0) for e in air)
-        value = f"{launched} launched · {intercepted} intercepted"
-        if impacts:
-            value += f" · {impacts} impacts"
-        if places:
-            value += f" · {places} impact locations"
-        rows.append({"label": "Air attack on Ukraine (Air Force)", "value": value})
-    full_day = [e for e in events if e["category"] == "front_activity" and (e.get("action") or "").startswith("past 24")]
-    clashes = max((e["counts"].get("clashes", 0) for e in full_day), default=0)
-    if clashes:
-        rows.append({"label": "Combat clashes (General Staff)", "value": str(clashes)})
-    ru = sum(e["counts"].get("intercepted_claimed", 0) for e in events if e["category"] == "strikes_in_russia")
-    if ru:
-        rows.append({"label": "UAVs over Russia, intercepted as claimed (Russian MoD)", "value": str(ru)})
-    front = [e for e in events if e["category"] == "front_line" and e["source_id"] == "deepstate"]
-    if front:
-        tally = {}
-        for e in front:
-            tally[e["action"]] = tally.get(e["action"], 0) + len(e["locations"])
-        rows.append({"label": "Front line (DeepState)", "value": " · ".join(f"{v} {k}" for k, v in tally.items())})
-    losses = [e for e in events if e["category"] == "losses_claimed" and e["breakdown"]]
-    if losses:
-        want = {"personnel", "tanks", "artillery systems"}
-        parts = [f"+{b['delta']:,} {b['label']}" for b in losses[0]["breakdown"] if b["label"] in want]
-        if parts:
-            rows.append({"label": "Russian losses in 24 h, as claimed (General Staff)", "value": " · ".join(parts)})
-    return rows
 
 
 def _longdate(d: str) -> str:
     dt = date.fromisoformat(d)
     return f"{dt.day} {dt:%B %Y}"
+
+
+def _fmt(v) -> str:
+    return f"{v:,}" if isinstance(v, int) else str(v)
 
 
 def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[dict]) -> None:
@@ -93,16 +235,40 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
     env.filters["countlabel"] = lambda k: COUNT_LABELS.get(k, k.replace("_", " "))
     env.filters["side"] = lambda s: SIDE_LABELS.get(s, s)
     env.filters["longdate"] = _longdate
+    env.filters["fmt"] = _fmt
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     base_ctx = {"sources": sources, "generated_at": generated}
 
     dates = sorted(days, reverse=True)
+    sheets = {d: _flat(returns(days[d])) for d in dates}
+    latest = dates[0] if dates else date.today().isoformat()
+
+    def series(key: str, end: str, n: int, side: str = "ua") -> list[int | None]:
+        return [_numeric(sheets[d][key][side]) if d in sheets else None for d in _date_range(end, n)]
+
+    strip_dates = _date_range(latest, STRIP_DAYS)
+    strip_vals = series("uav_launched", latest, STRIP_DAYS)
+    strip_max = max((v for v in strip_vals if v), default=0) or 1
+
+    def strip_for(current: str) -> list[dict]:
+        return [
+            {"date": d, "value": v, "pct": round(100 * v / strip_max) if v else 0, "has_page": d in days, "current": d == current}
+            for d, v in zip(strip_dates, strip_vals)
+        ]
+
     day_tpl = env.get_template("day.html")
     for i, d in enumerate(dates):
         evs = days[d]
+        sheet = returns(evs)
+        for g in sheet:
+            for r in g["rows"]:
+                side = "ua" if r["ua"] and isinstance(r["ua"]["value"], int) else ("ru" if r["ru"] and isinstance(r["ru"]["value"], int) else None)
+                r["spark"] = sparkline(series(r["key"], d, SPARK_DAYS, side)) if side else ""
         html = day_tpl.render(
             title=f"{_longdate(d)} · The Ukraine War Ledger",
-            day={"date": d, "groups": group(evs), "headline": headline(evs), "n": len(evs)},
+            day={"date": d, "groups": group(evs), "n": len(evs)},
+            sheet=sheet,
+            strip=strip_for(d),
             prev=dates[i + 1] if i + 1 < len(dates) else None,
             next=dates[i - 1] if i > 0 else None,
             **base_ctx,
@@ -112,13 +278,22 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
             (site_dir / "index.html").write_text(html, encoding="utf-8")
     if not dates:
         (site_dir / "index.html").write_text(
-            day_tpl.render(title="The Ukraine War Ledger", day={"date": date.today().isoformat(), "groups": [], "headline": [], "n": 0}, prev=None, next=None, **base_ctx),
+            day_tpl.render(title="The Ukraine War Ledger", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), strip=[], prev=None, next=None, **base_ctx),
             encoding="utf-8",
         )
 
-    archive = [{"date": d, "n": len(days[d]), "headline": headline(days[d])} for d in dates]
+    columns = [
+        ("uav_launched", "ua", "UAVs launched"), ("intercepted", "ua", "Intercepted"), ("impact_locations", "ua", "Impact locations"),
+        ("clashes", "ua", "Clashes"), ("guided_bombs", "ua", "Guided bombs"), ("settlements_shelled", "ua", "Settlements shelled"),
+        ("taken", "ua", "Taken (DeepState)"), ("intercepted_over_russia", "ru", "UAVs over Russia (MoD)"),
+        ("loss_personnel", "ua", "Russian personnel (GS)"), ("loss_personnel", "ru", "Ukrainian personnel (MoD)"),
+    ]
+    archive_rows = []
+    for d in dates:
+        archive_rows.append({"date": d, "n": len(days[d]), "cells": [_numeric(sheets[d][k][side]) for k, side, _ in columns]})
     (site_dir / "archive.html").write_text(
-        env.get_template("archive.html").render(title="Archive · The Ukraine War Ledger", days=archive, **base_ctx), encoding="utf-8"
+        env.get_template("archive.html").render(title="Archive · The Ukraine War Ledger", columns=[c[2] for c in columns], rows=archive_rows, **base_ctx),
+        encoding="utf-8",
     )
 
     (site_dir / "events.json").write_text(

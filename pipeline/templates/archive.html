@@ -1,11 +1,40 @@
 {% extends "base.html" %}
 {% block main %}
-<h1>Archive <span class="tz">{{ days|length }} days</span></h1>
-<table class="archive">
-<tr><th>Date</th><th>Entries</th><th>Figures</th></tr>
-{% for d in days %}
-<tr><td><a href="{{ d.date }}.html">{{ d.date }}</a></td><td class="num">{{ d.n }}</td><td>{% for h in d.headline %}<div><span class="act">{{ h.label }}:</span> {{ h.value }}</div>{% endfor %}</td></tr>
+<h1>Archive <span class="tz">{{ rows|length }} days</span></h1>
+<p class="legend">One row per day, the returns-sheet figures as columns. Click a heading to sort.</p>
+<div class="scroll">
+<table class="archive" id="archive">
+<thead><tr><th data-sort="text">Date</th><th data-sort="num">Entries</th>{% for c in columns %}<th data-sort="num">{{ c }}</th>{% endfor %}</tr></thead>
+<tbody>
+{% for r in rows %}
+<tr><td><a href="{{ r.date }}.html">{{ r.date }}</a></td><td class="num">{{ r.n }}</td>{% for v in r.cells %}<td class="num">{% if v is not none %}{{ v|fmt }}{% else %}<span class="blank">·</span>{% endif %}</td>{% endfor %}</tr>
 {% endfor %}
+</tbody>
 </table>
-{% if not days %}<p class="empty">No days collected yet.</p>{% endif %}
+</div>
+{% if not rows %}<p class="empty">No days collected yet.</p>{% endif %}
+<script>
+(function () {
+  var table = document.getElementById('archive');
+  if (!table) return;
+  var heads = table.querySelectorAll('th');
+  heads.forEach(function (th, idx) {
+    th.addEventListener('click', function () {
+      var dir = th.classList.contains('asc') ? -1 : 1;
+      heads.forEach(function (h) { h.classList.remove('asc', 'desc'); });
+      th.classList.add(dir === 1 ? 'asc' : 'desc');
+      var rows = Array.prototype.slice.call(table.tBodies[0].rows);
+      rows.sort(function (a, b) {
+        var x = a.cells[idx].textContent.trim(), y = b.cells[idx].textContent.trim();
+        if (th.dataset.sort === 'num') {
+          x = x === '·' ? -1 : parseFloat(x.replace(/,/g, '')); y = y === '·' ? -1 : parseFloat(y.replace(/,/g, ''));
+          return (x - y) * dir;
+        }
+        return x.localeCompare(y) * dir;
+      });
+      rows.forEach(function (r) { table.tBodies[0].appendChild(r); });
+    });
+  });
+})();
+</script>
 {% endblock %}

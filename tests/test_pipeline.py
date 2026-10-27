@@ -160,11 +160,18 @@ class RuMod(unittest.TestCase):
         self.assertIn("Krasnodar krai", e.locations)
         self.assertIn("Crimea", e.locations)
 
+    def test_midday_summary_claimed_ukrainian_losses(self):
+        e = next(e for e in self.evs if e.category == "losses_claimed")
+        self.assertEqual(e.actor, "Russia (MoD)")
+        rows = {b["label"]: b["delta"] for b in e.breakdown}
+        self.assertEqual(rows, {"personnel": 555, "tanks": 1, "armoured fighting vehicles": 3, "vehicles": 23,
+                                "artillery systems": 4, "electronic warfare stations": 2})
+
     def test_strike_and_capture_claims(self):
         strike = next(e for e in self.evs if e.category == "air_attack")
         self.assertIn("Shahed/Geran-2 strike UAV", [w["name"] for w in strike.weapons])
-        cap = next(e for e in self.evs if e.category == "front_line")
-        self.assertEqual(cap.locations, ["Новониколаевка"])
+        caps = [e for e in self.evs if e.category == "front_line"]
+        self.assertEqual(caps[0].locations, ["Новониколаевка"])
 
 
 class DeepState(unittest.TestCase):
@@ -224,11 +231,16 @@ class EndToEnd(unittest.TestCase):
             self.assertTrue((data / "2026-10-26.json").exists())
             self.assertTrue((data / "2026-10-25.json").exists())
             index = (site / "index.html").read_text(encoding="utf-8")
-            self.assertIn("280 launched · 257 intercepted", index)
+            self.assertIn("Strike UAVs launched", index)
+            self.assertIn(">280<", index)
             self.assertIn("Sumy oblast: Безсалівка", index)
+            self.assertIn('<details class="cat" id="air_attack">', index)
+            self.assertIn('class="spark"', index)
+            self.assertIn("Reported by Russia", index)
+            self.assertIn(">555<", index)
             self.assertTrue((data / "raw" / "kpszsu" / "2026-10-27.jsonl").exists())
             day26 = (site / "2026-10-26.html").read_text(encoding="utf-8")
-            self.assertIn("105 launched · 90 intercepted · 15 impacts · 9 impact locations", day26)
+            self.assertIn(">105<", day26)
             self.assertIn("Field adaptations", day26)
             self.assertTrue((site / "archive.html").exists())
             self.assertTrue((site / "events.csv").exists())

@@ -1,18 +1,41 @@
 {% extends "base.html" %}
 {% block main %}
 <h1>{{ day.date|longdate }} <span class="tz">Kyiv date · {{ day.n }} entries</span></h1>
+
+{% if strip %}
+<nav class="strip" aria-label="Last {{ strip|length }} days, bar height is strike UAVs launched">
+{% for b in strip %}{% if b.has_page %}<a class="bar{% if b.current %} current{% endif %}" href="{{ b.date }}.html" title="{{ b.date }}{% if b.value %} · {{ b.value }} UAVs launched{% endif %}"><span style="height:{{ [b.pct, 6]|max }}%"></span></a>{% else %}<span class="bar empty" title="{{ b.date }} · no entries"><span></span></span>{% endif %}{% endfor %}
+</nav>
+{% endif %}
 <p class="daynav">
   {% if prev %}<a href="{{ prev }}.html">&larr; {{ prev }}</a>{% endif %}
   {% if next %}<a href="{{ next }}.html">{{ next }} &rarr;</a>{% endif %}
 </p>
-{% if day.headline %}
-<section class="headline"><dl>
-{% for h in day.headline %}<div><dt>{{ h.label }}</dt><dd>{{ h.value }}</dd></div>
-{% endfor %}</dl></section>
-{% endif %}
+
+<section class="returns">
+<table>
+<thead><tr><th>Returns</th><th>Reported by Ukraine</th><th>Reported by Russia</th><th class="spark-h">14 days</th></tr></thead>
+<tbody>
+{% for g in sheet %}
+<tr class="group"><th colspan="4">{{ g.label }}</th></tr>
+{% for r in g.rows %}
+<tr>
+  <td class="lab">{{ r.label }}</td>
+  {% for cell in [r.ua, r.ru] %}
+  <td class="val">{% if cell %}<a href="{{ cell.url }}" rel="noopener">{{ cell.value|fmt }}</a><small>{{ cell.source }}</small>{% else %}<span class="blank" aria-label="not reported">·</span>{% endif %}</td>
+  {% endfor %}
+  <td class="spark-cell">{{ r.spark|safe }}</td>
+</tr>
+{% endfor %}
+{% endfor %}
+</tbody>
+</table>
+<p class="legend">One row per figure, the same rows every day. A dot means the side did not publish that figure. DeepState is independent and is shown in the Ukrainian column with its own label. The line is the last 14 days of the column shown.</p>
+</section>
+
 {% for group in day.groups %}
-<section class="cat" id="{{ group.key }}">
-<h2>{{ group.label }} <span class="n">{{ group.events|length }}</span></h2>
+<details class="cat" id="{{ group.key }}">
+<summary><span class="cat-label">{{ group.label }}</span><span class="n">{{ group.events|length }} · {{ group.sources|join(' · ') }}</span></summary>
 <ol class="ledger">
 {% for e in group.events %}
 <li class="entry {{ e.extraction }}">
@@ -24,11 +47,11 @@
   {% if e.extraction != 'structured' %}<p class="quote-main" lang="{{ e.lang }}">{{ e.quote }}</p>{% endif %}
   {% if e.detail and e.extraction == 'structured' %}<p class="detail">{{ e.detail }}</p>{% endif %}
   {% if e.weapons %}<ul class="items">{% for w in e.weapons %}<li>{{ w.name }}{% if w.launched is defined %} · launched {{ w.launched }}{% endif %}{% if w.intercepted is defined %} · intercepted {{ w.intercepted }}{% endif %}{% if w.impacts is defined %} · impacts {{ w.impacts }}{% endif %}{% if w.count is defined %} × {{ w.count }}{% endif %}</li>{% endfor %}</ul>{% endif %}
-  {% if e.counts %}<ul class="counts">{% for k, v in e.counts.items() %}<li>{{ k|countlabel }} <b>{{ v }}</b></li>{% endfor %}</ul>{% endif %}
-  {% if e.breakdown %}<table class="breakdown">{% for b in e.breakdown %}<tr><td>{{ b.label }}</td>{% if b.count is defined %}<td class="num">{{ "{:,}".format(b.count) }}</td>{% endif %}{% if b.delta is defined %}<td class="num">+{{ "{:,}".format(b.delta) }}</td>{% endif %}</tr>{% endfor %}</table>{% endif %}
+  {% if e.counts %}<ul class="counts">{% for k, v in e.counts.items() %}<li>{{ k|countlabel }} <b>{{ v|fmt }}</b></li>{% endfor %}</ul>{% endif %}
+  {% if e.breakdown %}<table class="breakdown">{% for b in e.breakdown %}<tr><td>{{ b.label }}</td>{% if b.count is defined %}<td class="num">{{ b.count|fmt }}</td>{% endif %}{% if b.delta is defined %}<td class="num">+{{ b.delta|fmt }}</td>{% endif %}</tr>{% endfor %}</table>{% endif %}
   {% if e.locations and not e.breakdown %}<p class="loc">{{ e.locations|join(' · ') }}</p>{% endif %}
   <p class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %} · <a href="{{ r.url }}" rel="noopener">{{ r.name }}</a>{% endfor %}</p>
-  {% if e.extraction == 'structured' or e.detail or e.also_reported_by %}
+  {% if e.extraction == 'structured' or (e.detail and e.extraction != 'structured') or e.also_reported_by %}
   <details><summary>Source text</summary>
     {% if e.extraction == 'structured' %}<blockquote lang="{{ e.lang }}">{{ e.quote }}</blockquote>{% endif %}
     {% if e.detail and e.extraction != 'structured' %}<blockquote>{{ e.detail }}</blockquote>{% endif %}
@@ -38,7 +61,7 @@
 </li>
 {% endfor %}
 </ol>
-</section>
+</details>
 {% endfor %}
 {% if not day.groups %}<p class="empty">No entries for this date.</p>{% endif %}
 {% endblock %}
