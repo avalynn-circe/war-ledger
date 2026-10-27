@@ -29,6 +29,7 @@ SIDE_LABELS = {
     "ua_official": "Ukrainian official",
     "ru_official": "Russian official",
     "osint": "OSINT",
+    "monitoring": "unconfirmed",
     "media": "Media",
 }
 

@@ -40,7 +40,7 @@
   {% if e.counts %}<ul class="counts">{% for k, v in e.counts.items() %}<li>{{ k|countlabel }} <b>{{ v|fmt }}</b></li>{% endfor %}</ul>{% endif %}
   {% if e.breakdown %}<table class="breakdown">{% for b in e.breakdown %}<tr><td>{{ b.label }}</td>{% if b.count is defined %}<td class="num">{{ b.count|fmt }}</td>{% endif %}{% if b.delta is defined %}<td class="num">+{{ b.delta|fmt }}</td>{% endif %}</tr>{% endfor %}</table>{% endif %}
   {% if e.locations and not e.breakdown %}<p class="loc">{{ e.locations|join(' · ') }}</p>{% endif %}
-  <p class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %} · <a href="{{ r.url }}" rel="noopener">{{ r.name }}</a>{% endfor %}</p>
+  <p class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %} · <a href="{{ r.url }}" rel="noopener">{{ r.name }}</a>{% endfor %}</p>
   {% if e.extraction == 'structured' or (e.detail and e.extraction != 'structured') or e.also_reported_by %}
   <details><summary>Source text</summary>
     {% if e.extraction == 'structured' %}<blockquote lang="{{ e.lang }}">{{ e.quote }}</blockquote>{% endif %}

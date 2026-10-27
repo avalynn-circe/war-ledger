@@ -1,5 +1,21 @@
 <div class="row day-divider" data-day="{{ date }}"><span></span><span class="cat"></span><span id="{{ date }}">{{ long }}</span><span class="src"></span></div>
 {% for e in rows %}
+{% if e.card %}
+<div class="row card" data-cat="{{ e.category }}">
+  <span class="time">{{ e.clock }}</span>
+  <span class="cat">{{ e.category|catlabel }}</span>
+  <span class="entry">
+    <details class="report">
+      <summary><b>{{ e.title }}</b>{% if e.action %} <span class="muted">· {{ e.action }}</span>{% endif %}{% if e.summary %}<span class="sub">{{ e.summary }}</span>{% endif %}</summary>
+      {% if e.counts_list %}<div class="report-grid">{% for c in e.counts_list %}<div><b>{{ c.v }}</b><span>{{ c.label }}</span></div>{% endfor %}</div>{% endif %}
+      {% if e.losses %}<p class="report-h">Russian losses in the past 24 hours, as claimed</p><div class="report-grid">{% for b in e.losses %}<div><b>+{{ b.delta|fmt }}</b><span>{{ b.label }}</span></div>{% endfor %}</div>{% endif %}
+      {% if e.shelled %}<p class="report-h">Settlements shelled</p>{% for g in e.shelled %}<p class="sub">{{ g }}</p>{% endfor %}{% endif %}
+      {% if e.air %}<p class="sub">{{ e.air }}</p>{% endif %}
+    </details>
+  </span>
+  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
+</div>
+{% else %}
 <div class="row" data-cat="{{ e.category }}">
   <span class="time">{{ e.clock }}</span>
   <span class="cat">{{ e.category|catlabel }}</span>
@@ -10,6 +26,7 @@
     {% if e.detail %}<span class="sub">{{ e.detail }}</span>{% endif %}
     {% if e.locations %}<span class="sub muted">{{ e.locations|join(' · ') }}</span>{% endif %}
   </span>
-  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
+  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
 </div>
+{% endif %}
 {% endfor %}

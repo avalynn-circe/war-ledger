@@ -41,7 +41,8 @@ COUNT_LABELS = {
     "intercepted_claimed": "UAVs intercepted, as claimed",
     "concentration_areas_struck": "concentration areas struck, as claimed",
 }
-SHORT_SOURCE = {"kpszsu": "Air Force", "generalstaff": "General Staff", "mod_russia": "MoD", "deepstate": "DeepState"}
+SHORT_SOURCE = {"kpszsu": "Air Force", "generalstaff": "General Staff", "mod_russia": "MoD", "deepstate": "DeepState", "astra": "ASTRA",
+                "oryx_russia": "Oryx", "oryx_ukraine": "Oryx", "gov_belgorod": "Governor", "gov_bryansk": "Governor", "gov_kursk": "Governor", "gov_rostov": "Governor"}
 
 STRIP_DAYS = 30
 SPARK_DAYS = 14
@@ -104,8 +105,32 @@ def _places(evs: list[dict]) -> tuple[int | None, dict | None]:
 
 # ---------------------------------------------------------------- the returns sheet
 
-def returns(events: list[dict]) -> list[dict]:
+def _oryx_cell(events: list[dict], prev: list[dict], target: str):
+    today = [e for e in _structured(events, f"oryx_{target.lower()}", "losses_claimed") if "total" in e["counts"]]
+    if not today:
+        return None, None
+    total = today[0]["counts"]["total"]
+    before = [e for e in _structured(prev or [], f"oryx_{target.lower()}", "losses_claimed") if "total" in e["counts"]]
+    if before:
+        return f"{total:,} (+{total - before[0]['counts']['total']:,})", today[0]
+    return f"{total:,}", today[0]
+
+
+def _governor_cells(events: list[dict]):
+    gov = [e for e in events if e["source_id"].startswith("gov_") and e["counts"]]
+    if not gov:
+        return (None, None), (None, None)
+    killed = sum(e["counts"].get("killed", 0) for e in gov)
+    injured = sum(e["counts"].get("injured", 0) for e in gov)
+    shot = sum(e["counts"].get("uav_shot_down", 0) for e in gov)
+    casualties = (f"{killed} killed · {injured} injured", gov[0]) if (killed or injured) else (None, None)
+    drones = (shot, gov[0]) if shot else (None, None)
+    return casualties, drones
+
+
+def returns(events: list[dict], prev: list[dict] | None = None) -> list[dict]:
     """The fixed rows of the daily returns sheet, grouped, with a cell per side."""
+    casualties, gov_drones = _governor_cells(events)
     af = _structured(events, "kpszsu", "air_attack")
     gs_day = [e for e in _structured(events, "generalstaff", "front_activity") if (e.get("action") or "").startswith("past 24")]
     gs_loss = _structured(events, "generalstaff", "losses_claimed")
@@ -131,6 +156,8 @@ def returns(events: list[dict]) -> list[dict]:
         ]),
         ("Air war on Russia", [
             ("intercepted_over_russia", "UAVs intercepted over Russia", (None, None), _sum_counts(mod_air, "intercepted_claimed")),
+            ("gov_drones", "UAVs shot down, per regional governors", (None, None), gov_drones),
+            ("gov_casualties", "Killed and injured, per regional governors", (None, None), casualties),
         ]),
         ("Front, past 24 hours", [
             ("clashes", "Combat clashes", _max_counts(gs_day, "clashes"), (None, None)),
@@ -148,6 +175,7 @@ def returns(events: list[dict]) -> list[dict]:
             ("loss_artillery", "Artillery systems", _delta(gs_loss, "artillery systems"), _delta(mod_loss, "artillery systems")),
             ("loss_uav", "UAVs", _delta(gs_loss, "UAVs"), _delta(mod_loss, "UAVs")),
             ("loss_vehicles", "Vehicles", _delta(gs_loss, "vehicles and fuel tankers"), _delta(mod_loss, "vehicles")),
+            ("oryx", "Equipment, visually confirmed (Oryx), cumulative", _oryx_cell(events, prev, "Russia"), _oryx_cell(events, prev, "Ukraine")),
         ]),
     ]
     out = []
@@ -232,10 +260,36 @@ def wire_line(e: dict) -> str:
 KYIV = ZoneInfo("Europe/Kyiv")
 
 
+def _report_card(parts: list[dict]) -> dict:
+    """One wire row for the General Staff operational report: its activity
+    counts, the day's claimed losses, shelled settlements and air strikes."""
+    fa = next((e for e in parts if e["category"] == "front_activity"), None)
+    loss = next((e for e in parts if e["category"] == "losses_claimed"), None)
+    base = fa or loss
+    card = dict(base)
+    card.update({
+        "card": True, "category": "front_activity",
+        "title": "General Staff operational report",
+        "summary": wire_line(fa) if fa else "",
+        "counts_list": [{"label": COUNT_LABELS.get(k, k.replace("_", " ")), "v": _fmt(v)} for k, v in (fa or {}).get("counts", {}).items()],
+        "losses": (loss or {}).get("breakdown", []),
+        "shelled": (fa or {}).get("locations", []),
+        "air": (fa or {}).get("detail"),
+        "also_reported_by": [r for e in parts for r in e["also_reported_by"]],
+    })
+    return card
+
+
 def wire(events: list[dict]) -> list[dict]:
     """A day's entries newest first, by the source post's own timestamp."""
     rows = []
+    by_report: dict[str, list[dict]] = {}
     for e in events:
+        if e["source_id"] == "generalstaff" and e["category"] in ("front_activity", "losses_claimed") and e["extraction"] == "structured":
+            by_report.setdefault(e["source_url"], []).append(e)
+    merged = [_report_card(parts) for parts in by_report.values()]
+    skip = {e["id"] for parts in by_report.values() for e in parts}
+    for e in [x for x in events if x["id"] not in skip] + merged:
         r = dict(e)
         r["line"] = wire_line(e) if e["extraction"] == "structured" else ""
         pub = e.get("published")
@@ -281,7 +335,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
     base_ctx = {"sources": sources, "generated_at": generated}
 
     dates = sorted(days, reverse=True)
-    sheets = {d: _flat(returns(days[d])) for d in dates}
+    sheets = {d: _flat(returns(days[d], days[dates[i + 1]] if i + 1 < len(dates) else None)) for i, d in enumerate(dates)}
     latest = dates[0] if dates else date.today().isoformat()
 
     def series(key: str, end: str, n: int, side: str = "ua") -> list[int | None]:
@@ -300,7 +354,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
     day_tpl = env.get_template("day.html")
     for i, d in enumerate(dates):
         evs = days[d]
-        sheet = returns(evs)
+        sheet = returns(evs, days[dates[i + 1]] if i + 1 < len(dates) else None)
         for g in sheet:
             for r in g["rows"]:
                 side = "ua" if r["ua"] and isinstance(r["ua"]["value"], int) else ("ru" if r["ru"] and isinstance(r["ru"]["value"], int) else None)

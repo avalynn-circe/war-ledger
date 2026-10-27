@@ -79,3 +79,68 @@ sources:
     extractor: news
     verified: false
     enabled: false
+
+  # Russian regional governors: attacks on their regions, casualties, drones shot down.
+  - id: gov_belgorod
+    name: Governor of Belgorod oblast
+    side: ru_official
+    kind: telegram
+    url: https://t.me/s/vvgladkov
+    lang: ru
+    extractor: governor
+    region: Belgorod oblast
+
+  - id: gov_bryansk
+    name: Governor of Bryansk oblast
+    side: ru_official
+    kind: telegram
+    url: https://t.me/s/avbogomaz
+    lang: ru
+    extractor: governor
+    region: Bryansk oblast
+
+  - id: gov_kursk
+    name: Governor of Kursk oblast
+    side: ru_official
+    kind: telegram
+    url: https://t.me/s/hinshtein
+    lang: ru
+    extractor: governor
+    region: Kursk oblast
+
+  - id: gov_rostov
+    name: Governor of Rostov oblast
+    side: ru_official
+    kind: telegram
+    url: https://t.me/s/Yuri_Slusar
+    lang: ru
+    extractor: governor
+    region: Rostov oblast
+
+  # Independent monitoring, shown with an "unconfirmed" chip.
+  - id: astra
+    name: ASTRA
+    side: monitoring
+    kind: telegram
+    url: https://t.me/s/astrapress
+    lang: ru
+    extractor: monitoring
+
+  # Oryx: visually confirmed equipment losses, cumulative.
+  - id: oryx_russia
+    name: Oryx (Russian equipment losses)
+    side: osint
+    kind: html
+    url: https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html
+    lang: en
+    extractor: oryx
+    target: Russia
+
+  - id: oryx_ukraine
+    name: Oryx (Ukrainian equipment losses)
+    side: osint
+    kind: html
+    url: https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html
+    lang: en
+    extractor: oryx
+    target: Ukraine

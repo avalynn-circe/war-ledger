@@ -5,7 +5,8 @@ import sys
 import tempfile
 import unittest
 
-from pipeline.extract import airforce, deepstate, generalstaff, news, rumod
+from pipeline.extract import airforce, deepstate, generalstaff, governor, monitoring, news, oryx, rumod
+from pipeline.sources import oryx as oryx_pages
 from pipeline.fold import fold
 from pipeline.sources import rss, telegram
 
@@ -20,6 +21,9 @@ SRC = {
     "kyivindependent": {"id": "kyivindependent", "name": "The Kyiv Independent", "side": "media", "kind": "rss", "lang": "en"},
     "militarnyi": {"id": "militarnyi", "name": "Militarnyi", "side": "media", "kind": "rss", "lang": "en"},
     "ukrinform": {"id": "ukrinform", "name": "Ukrinform", "side": "media", "kind": "rss", "lang": "en"},
+    "gov_belgorod": {"id": "gov_belgorod", "name": "Governor of Belgorod oblast", "side": "ru_official", "kind": "telegram", "lang": "ru", "region": "Belgorod oblast"},
+    "astra": {"id": "astra", "name": "ASTRA", "side": "monitoring", "kind": "telegram", "lang": "ru"},
+    "oryx_russia": {"id": "oryx_russia", "name": "Oryx (Russian equipment losses)", "side": "osint", "kind": "html", "lang": "en", "target": "Russia", "url": "https://example.test/oryx"},
 }
 
 
@@ -185,6 +189,46 @@ class DeepState(unittest.TestCase):
         self.assertEqual(by[("2026-10-26", "liberated")], ["Кіндратівкою"])
 
 
+class GeneralStaffStrikes(unittest.TestCase):
+    def test_strike_notice(self):
+        evs = [e for p in posts("generalstaff") for e in generalstaff.extract(p, SRC["generalstaff"])]
+        e = next(e for e in evs if e.category == "strikes_in_russia")
+        self.assertEqual(e.actor, "Ukraine (General Staff)")
+        self.assertEqual(e.locations, ["Samara oblast"])
+        self.assertIn("Новокуйбишевський НПЗ", e.quote)
+
+
+class Governor(unittest.TestCase):
+    def test_attack_post_only(self):
+        evs = [e for p in posts("gov_belgorod") for e in governor.extract(p, SRC["gov_belgorod"])]
+        self.assertEqual(len(evs), 1)
+        e = evs[0]
+        self.assertEqual(e.counts, {"killed": 1, "injured": 2, "uav_shot_down": 10})
+        self.assertEqual(e.locations, ["Belgorod oblast"])
+        self.assertEqual(e.category, "strikes_in_russia")
+
+
+class Monitoring(unittest.TestCase):
+    def test_direction_by_place(self):
+        evs = [e for p in posts("astra") for e in monitoring.extract(p, SRC["astra"])]
+        self.assertEqual([e.category for e in evs], ["strikes_in_russia", "air_attack"])
+        self.assertEqual(evs[0].locations, ["Ryazan oblast"])
+        self.assertEqual(evs[0].source_side, "monitoring")
+        self.assertIn("Guided aerial bomb (KAB/FAB)", [w["name"] for w in evs[1].weapons])
+
+
+class Oryx(unittest.TestCase):
+    def test_totals_and_categories(self):
+        units = oryx_pages.parse((FIX / "oryx_russia.html").read_text(encoding="utf-8"), SRC["oryx_russia"])
+        self.assertEqual(len(units), 1)
+        e = oryx.extract(units[0], SRC["oryx_russia"])[0]
+        self.assertEqual(e.counts["total"], 23456)
+        self.assertEqual(e.counts["destroyed"], 17000)
+        self.assertEqual(e.breakdown[0], {"label": "Tanks", "count": 4100})
+        self.assertEqual(len(e.breakdown), 4)
+        self.assertEqual(e.target, "Russia")
+
+
 class News(unittest.TestCase):
     def test_classification(self):
         got = {i.title: news.classify(i.title, i.summary) for i in items("militarnyi")}
@@ -246,6 +290,11 @@ class EndToEnd(unittest.TestCase):
             self.assertIn('data-days=', wire_page)
             self.assertIn('id="wire-more"', wire_page)
             self.assertIn('data-day="2026-10-27"', wire_page)
+            self.assertIn('class="row card"', wire_page)
+            self.assertIn("General Staff operational report", wire_page)
+            self.assertIn('class="side monitoring">unconfirmed<', wire_page)
+            self.assertIn("Oryx", index)
+            self.assertIn("1 killed · 2 injured", index)
             self.assertTrue((site / "wire-data" / "2026-10-26.html").exists())
             self.assertFalse((site / "wire-2026-10-26.html").exists())
             self.assertTrue((site / "ledger.js").exists())

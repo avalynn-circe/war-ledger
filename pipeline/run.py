@@ -16,10 +16,11 @@ from datetime import date, datetime, timedelta
 import yaml
 
 from . import render, store
-from .extract import airforce, deepstate, generalstaff, news, rumod
+from .extract import airforce, deepstate, generalstaff, governor, monitoring, news, oryx, rumod
 from .extract.common import Event, kyiv_date
 from .fetch import Fetcher
 from .fold import fold
+from .sources import oryx as oryx_pages
 from .sources import rss, telegram
 
 log = logging.getLogger("inventory")
@@ -30,6 +31,9 @@ EXTRACTORS = {
     "rumod": rumod.extract,
     "deepstate": deepstate.extract,
     "news": news.extract,
+    "governor": governor.extract,
+    "monitoring": monitoring.extract,
+    "oryx": oryx.extract,
 }
 
 
@@ -100,6 +104,8 @@ def load_raw(raw_dir: pathlib.Path, sources: list[dict], since: str) -> list[tup
 def parse_units(source: dict, body: str, fetcher: Fetcher, status: dict[str, str]) -> list:
     if source["kind"] == "telegram":
         return telegram.parse(body)
+    if source["kind"] == "html":
+        return oryx_pages.parse(body, source)
     units = rss.parse(body)
     if not units:
         # The URL may be an HTML page that advertises its feed in <link rel="alternate">.

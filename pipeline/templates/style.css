@@ -139,3 +139,17 @@ nav a[aria-current="page"] { color: var(--fg); font-weight: 600; }
   .wire .row .src { flex-direction: row; flex-wrap: wrap; gap: 4px 10px; }
   .wire .row.head .cat, .wire .row.head .src { display: none; }
 }
+
+/* unconfirmed tier and the report card on the wire */
+.side.monitoring { border-color: #c2410c; color: #c2410c; text-transform: uppercase; letter-spacing: .04em; }
+.wire .row.card { background: var(--tag); border: 1px solid var(--line); border-radius: 8px; padding: 12px 12px; margin: 6px 0; }
+.wire .row.card .entry { font-family: var(--sans); }
+details.report > summary { cursor: pointer; list-style: none; display: flex; flex-direction: column; gap: 3px; }
+details.report > summary::-webkit-details-marker { display: none; }
+details.report > summary::after { content: "Open report"; font-size: .72rem; color: var(--accent); font-family: var(--mono); }
+details.report[open] > summary::after { content: "Close report"; }
+.report-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 6px; margin: 10px 0 4px; }
+.report-grid div { display: flex; flex-direction: column; background: var(--bg); border-radius: 6px; padding: 6px 8px; }
+.report-grid b { font-family: var(--mono); font-size: 1.05rem; line-height: 1.1; }
+.report-grid span { font-size: .72rem; color: var(--muted); }
+.report-h { margin: 12px 0 2px; font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }

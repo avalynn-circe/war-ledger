@@ -10,7 +10,7 @@ from datetime import date
 
 from ..sources.telegram import Post
 from .common import Event, first_sentence, kyiv_date, source_fields, to_int
-from .lexicon import find_places
+from .lexicon import find_places, find_weapons
 
 LOSS_LINE = re.compile(
     r"^\s*(.+?)\s*[‒–—\-]\s*(?:близько\s+)?(\d[\d\s\u00a0]*?)\s*\(\s*\+?\s*(\d[\d\s\u00a0]*?)\s*\)",
@@ -247,9 +247,38 @@ def _operational(post: Post, source: dict) -> list[Event]:
     ]
 
 
+STRIKE_VERB = re.compile(r"уразил\w*|уражен\w*|ураження|підтверджено\s+ураження", re.I)
+STRIKE_OBJECT = re.compile(r"нпз|нафтопереробн|нафтобаз|нафтов|склад|завод|аеродром|підприємств|термінал|арсенал|пункт\s+управління|нафтоперекачув", re.I)
+
+
+def _strike_notice(post: Post, source: dict) -> list[Event]:
+    text = post.text
+    low = text.lower()
+    if "зіткнен" in low or not STRIKE_VERB.search(text) or not STRIKE_OBJECT.search(text):
+        return []
+    places = [name for name, side in find_places(text) if side in ("ru", "sea")]
+    return [
+        Event(
+            date=kyiv_date(post.dt),
+            category="strikes_in_russia",
+            actor="Ukraine (General Staff)",
+            target="Russia",
+            action="strike, as claimed",
+            weapons=[{"name": n} for n in find_weapons(text)],
+            locations=places[:6],
+            quote=first_sentence(text),
+            lang="uk",
+            extraction="rules",
+            source_url=post.url,
+            **source_fields(source),
+        )
+    ]
+
+
 def extract(post: Post, source: dict) -> list[Event]:
     low = post.text.lower()
     events: list[Event] = []
+    events += _strike_notice(post, source)
     if "втрати" in low and "особового складу" in low:
         events += _losses(post, source)
     if "зіткнен" in low:

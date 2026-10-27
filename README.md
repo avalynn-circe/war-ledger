@@ -26,6 +26,12 @@ sources.yaml  ->  fetch  ->  parse  ->  extract  ->  fold  ->  data/YYYY-MM-DD.j
    - `rumod`: Russian MoD interception claims by region, strike claims and
      claimed captures.
    - `deepstate`: DeepState map updates (occupied, advanced near, liberated).
+   - `governor`: Russian regional governors. Attacks on the region with the
+     killed, injured and drones-shot-down counts they state.
+   - `monitoring`: independent channels such as ASTRA. Direction comes from
+     the first place named; entries carry an "unconfirmed" chip.
+   - `oryx`: the Oryx loss pages. Cumulative totals per category; the returns
+     sheet shows the change since the previous day.
    - `news`: a keyword classifier for media feeds. It assigns one of ten
      categories, picks out weapon and place names, and keeps the headline.
      Items that match no category are dropped.
@@ -97,6 +103,9 @@ The workflow token cannot do that itself.
 | The Kyiv Independent | Media | RSS | rules |
 | Ukrinform | Media | RSS | rules |
 | Defense Express | Media | RSS | rules (disabled until the feed URL is confirmed) |
+| Governors of Belgorod, Bryansk, Kursk and Rostov oblasts | Russian official, regional | Telegram | rules with counts |
+| ASTRA | Independent monitoring, shown as unconfirmed | Telegram | rules |
+| Oryx, Russian and Ukrainian equipment losses | OSINT, visually confirmed | HTML | structured |
 
 Feeds marked `verified: false` in `sources.yaml` were added from documentation
 and have not yet been fetched live. The first live run reports each one as
