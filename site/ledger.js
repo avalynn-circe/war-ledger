@@ -4,42 +4,53 @@
    2. The calendar box says TODAY when the page's date is today in Kyiv.
    3. The wire loads earlier days as you scroll. */
 (function () {
-  var KEY = 'ledger-hidden';
-  var hidden = {};
-  try { hidden = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { hidden = {}; }
+  var KEYS = { cat: 'ledger-hidden', src: 'ledger-hidden-src' };
+  var hidden = { cat: {}, src: {} };
+  try { hidden.cat = JSON.parse(localStorage.getItem(KEYS.cat) || '{}') || {}; } catch (e) { hidden.cat = {}; }
+  try { hidden.src = JSON.parse(localStorage.getItem(KEYS.src) || '{}') || {}; } catch (e) { hidden.src = {}; }
 
+  function isOff(el) {
+    var c = el.getAttribute('data-cat'), s = el.getAttribute('data-src');
+    return (c && hidden.cat[c]) || (s && hidden.src[s]) ? true : false;
+  }
   function applyToggles() {
-    var chips = document.querySelectorAll('#toggles .chip[data-cat]');
-    var items = document.querySelectorAll('main [data-cat]');
+    var items = document.querySelectorAll('main [data-cat], main [data-src]');
+    Array.prototype.forEach.call(items, function (el) { el.hidden = isOff(el); });
+    // A category section with every entry hidden by source hides too.
+    Array.prototype.forEach.call(document.querySelectorAll('main details.cat'), function (d) {
+      if (d.hidden) return;
+      var entries = d.querySelectorAll('li.entry');
+      var visible = 0;
+      Array.prototype.forEach.call(entries, function (li) { if (!li.hidden) visible++; });
+      if (entries.length && !visible) d.hidden = true;
+    });
     var shown = 0;
-    Array.prototype.forEach.call(items, function (el) {
-      var off = !!hidden[el.getAttribute('data-cat')];
-      el.hidden = off;
-      if (!off) shown++;
-    });
-    Array.prototype.forEach.call(chips, function (c) {
-      c.setAttribute('aria-pressed', hidden[c.getAttribute('data-cat')] ? 'false' : 'true');
-    });
+    Array.prototype.forEach.call(document.querySelectorAll('main .wire .row[data-cat], main li.entry'), function (el) { if (!el.hidden && !el.closest('[hidden]')) shown++; });
     var count = document.getElementById('shown-count');
     if (count) count.textContent = shown;
-    try { localStorage.setItem(KEY, JSON.stringify(hidden)); } catch (e) {}
+    ['cat', 'src'].forEach(function (kind) {
+      Array.prototype.forEach.call(document.querySelectorAll('.toggles .chip[data-' + kind + ']'), function (c) {
+        c.setAttribute('aria-pressed', hidden[kind][c.getAttribute('data-' + kind)] ? 'false' : 'true');
+      });
+      try { localStorage.setItem(KEYS[kind], JSON.stringify(hidden[kind])); } catch (e) {}
+    });
   }
 
-  var toggles = document.getElementById('toggles');
-  if (toggles) {
-    toggles.addEventListener('click', function (ev) {
+  Array.prototype.forEach.call(document.querySelectorAll('.toggles'), function (bar) {
+    var kind = bar.id === 'src-toggles' ? 'src' : 'cat';
+    bar.addEventListener('click', function (ev) {
       var b = ev.target.closest('button');
       if (!b) return;
-      if (b.hasAttribute('data-all')) { hidden = {}; }
+      if (b.hasAttribute('data-all')) { hidden[kind] = {}; }
       else if (b.hasAttribute('data-none')) {
-        Array.prototype.forEach.call(toggles.querySelectorAll('.chip[data-cat]'), function (c) { hidden[c.getAttribute('data-cat')] = true; });
-      } else if (b.hasAttribute('data-cat')) {
-        var k = b.getAttribute('data-cat');
-        if (hidden[k]) delete hidden[k]; else hidden[k] = true;
+        Array.prototype.forEach.call(bar.querySelectorAll('.chip[data-' + kind + ']'), function (c) { hidden[kind][c.getAttribute('data-' + kind)] = true; });
+      } else if (b.hasAttribute('data-' + kind)) {
+        var k = b.getAttribute('data-' + kind);
+        if (hidden[kind][k]) delete hidden[kind][k]; else hidden[kind][k] = true;
       }
       applyToggles();
     });
-  }
+  });
 
   function kyivToday() {
     try {

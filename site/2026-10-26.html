@@ -20,7 +20,14 @@
 </header>
 
 <section class="toggles" id="toggles" aria-label="Categories shown on every page">
+<span class="tog-label">Categories</span>
 <button type="button" class="chip" data-cat="air_attack" aria-pressed="true">Air attacks on Ukraine <span class="n">2</span></button><button type="button" class="chip" data-cat="strikes_in_russia" aria-pressed="true">Strikes in Russia and occupied territory <span class="n">5</span></button><button type="button" class="chip" data-cat="front_line" aria-pressed="true">Front line changes <span class="n">2</span></button><button type="button" class="chip" data-cat="front_activity" aria-pressed="true">Front activity <span class="n">2</span></button><button type="button" class="chip" data-cat="losses_claimed" aria-pressed="true">Claimed losses <span class="n">3</span></button><button type="button" class="chip" data-cat="air_defense" aria-pressed="true">Air defence <span class="n">0</span></button><button type="button" class="chip" data-cat="field_adaptation" aria-pressed="true">Field adaptations <span class="n">0</span></button><button type="button" class="chip" data-cat="weapons_deliveries" aria-pressed="true">Weapons and deliveries <span class="n">0</span></button><button type="button" class="chip" data-cat="naval" aria-pressed="true">Naval <span class="n">0</span></button><button type="button" class="chip" data-cat="infrastructure" aria-pressed="true">Infrastructure <span class="n">2</span></button>
+<button type="button" class="chip ctl" data-all="1">ALL</button>
+<button type="button" class="chip ctl" data-none="1">NONE</button>
+</section>
+<section class="toggles sources" id="src-toggles" aria-label="Sources shown on every page">
+<span class="tog-label">Sources</span>
+<button type="button" class="chip ua_official" data-src="kpszsu" aria-pressed="true">Air Force UA <span class="n">0</span></button><button type="button" class="chip ua_official" data-src="generalstaff" aria-pressed="true">General Staff UA <span class="n">6</span></button><button type="button" class="chip ru_official" data-src="mod_russia" aria-pressed="true">MoD Russia <span class="n">2</span></button><button type="button" class="chip osint" data-src="deepstate" aria-pressed="true">DeepState <span class="n">1</span></button><button type="button" class="chip media" data-src="militarnyi" aria-pressed="true">Militarnyi <span class="n">0</span></button><button type="button" class="chip media" data-src="kyivindependent" aria-pressed="true">Kyiv Independent <span class="n">3</span></button><button type="button" class="chip media" data-src="ukrinform" aria-pressed="true">Ukrinform <span class="n">3</span></button><button type="button" class="chip ru_official" data-src="gov_belgorod" aria-pressed="true">Gov. Belgorod <span class="n">0</span></button><button type="button" class="chip ru_official" data-src="gov_bryansk" aria-pressed="true">Gov. Bryansk <span class="n">0</span></button><button type="button" class="chip ru_official" data-src="gov_kursk" aria-pressed="true">Gov. Kursk <span class="n">0</span></button><button type="button" class="chip ru_official" data-src="gov_rostov" aria-pressed="true">Gov. Rostov <span class="n">1</span></button><button type="button" class="chip monitoring" data-src="astra" aria-pressed="true">ASTRA <span class="n">0</span></button><button type="button" class="chip osint" data-src="oryx_russia" aria-pressed="true">Oryx RU losses <span class="n">0</span></button><button type="button" class="chip osint" data-src="oryx_ukraine" aria-pressed="true">Oryx UA losses <span class="n">0</span></button>
 <button type="button" class="chip ctl" data-all="1">ALL</button>
 <button type="button" class="chip ctl" data-none="1">NONE</button>
 </section>
@@ -104,7 +111,7 @@
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
-  <td class="val num"><a href="https://t.me/mod_russia/68563" rel="noopener">37</a><small>MoD</small></td>
+  <td class="val num"><span class="figure" data-src="mod_russia"><a href="https://t.me/mod_russia/68563" rel="noopener">37</a><small>MoD</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="spark-cell"></td>
 </tr>
@@ -135,7 +142,7 @@
 <tr>
   <td class="lab">Combat clashes</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">177</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">177</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -145,7 +152,7 @@
 <tr>
   <td class="lab">Guided aerial bombs</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">224</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">224</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -155,7 +162,7 @@
 <tr>
   <td class="lab">Kamikaze drones used</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">9,296</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">9,296</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -165,7 +172,7 @@
 <tr>
   <td class="lab">Shellings</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">2,451</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">2,451</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -175,7 +182,7 @@
 <tr>
   <td class="lab">Settlements shelled</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">12</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">12</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -187,7 +194,7 @@
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
-  <td class="val num"><a href="https://t.me/mod_russia/68568" rel="noopener">1</a><small>MoD</small></td>
+  <td class="val num"><span class="figure" data-src="mod_russia"><a href="https://t.me/mod_russia/68568" rel="noopener">1</a><small>MoD</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="spark-cell"></td>
 </tr>
@@ -208,7 +215,7 @@
 <tr>
   <td class="lab">Personnel</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">1,990</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">1,990</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -218,7 +225,7 @@
 <tr>
   <td class="lab">Tanks</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">1</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">1</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -228,7 +235,7 @@
 <tr>
   <td class="lab">Armoured fighting vehicles</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">4</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">4</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -238,7 +245,7 @@
 <tr>
   <td class="lab">Artillery systems</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">18</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">18</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -248,7 +255,7 @@
 <tr>
   <td class="lab">UAVs</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">1,656</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">1,656</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -258,7 +265,7 @@
 <tr>
   <td class="lab">Vehicles</td>
   
-  <td class="val num"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">322</a><small>General Staff</small></td>
+  <td class="val num"><span class="figure" data-src="generalstaff"><a href="https://t.me/GeneralStaffZSU/42689" rel="noopener">322</a><small>General Staff</small></span><span class="blank off" aria-label="source hidden">·</span></td>
   
   <td class="val"><span class="blank" aria-label="not reported">·</span></td>
   
@@ -286,7 +293,7 @@
 <summary><span class="cat-label">Air attacks on Ukraine</span><span class="n">2 · The Kyiv Independent · Ukrinform</span></summary>
 <ol class="ledger">
 
-<li class="entry rules">
+<li class="entry rules" data-src="kyivindependent">
   <div class="line">
     <span class="time">22:16</span>
     <span class="who">Russia &rarr; Ukraine</span>
@@ -308,7 +315,7 @@
   
 </li>
 
-<li class="entry rules">
+<li class="entry rules" data-src="ukrinform">
   <div class="line">
     <span class="time">22:33</span>
     <span class="who">Russia &rarr; Ukraine</span>
@@ -337,7 +344,7 @@
 <summary><span class="cat-label">Strikes in Russia and occupied territory</span><span class="n">5 · Ministry of Defence of Russia · General Staff of the Armed Forces of Ukraine · Governor of Rostov oblast</span></summary>
 <ol class="ledger">
 
-<li class="entry structured">
+<li class="entry structured" data-src="mod_russia">
   <div class="line">
     
     <span class="who">Ukraine &rarr; Russia</span>
@@ -359,7 +366,7 @@
   
 </li>
 
-<li class="entry rules">
+<li class="entry rules" data-src="generalstaff">
   <div class="line">
     
     <span class="who">Ukraine (General Staff) &rarr; Russia</span>
@@ -375,7 +382,7 @@
   
 </li>
 
-<li class="entry rules">
+<li class="entry rules" data-src="generalstaff">
   <div class="line">
     
     <span class="who">Ukraine (General Staff) &rarr; Russia</span>
@@ -391,7 +398,7 @@
   
 </li>
 
-<li class="entry rules">
+<li class="entry rules" data-src="generalstaff">
   <div class="line">
     
     <span class="who">Ukraine (General Staff) &rarr; Russia</span>
@@ -407,7 +414,7 @@
   
 </li>
 
-<li class="entry rules">
+<li class="entry rules" data-src="gov_rostov">
   <div class="line">
     <span class="time">15:38</span>
     <span class="who">Ukraine &rarr; Russia</span>
@@ -430,7 +437,7 @@
 <summary><span class="cat-label">Front line changes</span><span class="n">2 · DeepState · Ministry of Defence of Russia</span></summary>
 <ol class="ledger">
 
-<li class="entry structured">
+<li class="entry structured" data-src="deepstate">
   <div class="line">
     
     <span class="who">Russia &rarr; Ukraine</span>
@@ -452,7 +459,7 @@
   
 </li>
 
-<li class="entry structured">
+<li class="entry structured" data-src="mod_russia">
   <div class="line">
     
     <span class="who">Russia &rarr; Ukraine</span>
@@ -481,7 +488,7 @@
 <summary><span class="cat-label">Front activity</span><span class="n">2 · General Staff of the Armed Forces of Ukraine</span></summary>
 <ol class="ledger">
 
-<li class="entry structured">
+<li class="entry structured" data-src="generalstaff">
   <div class="line">
     <span class="time">08:00</span>
     <span class="who">Russia &rarr; Ukraine</span>
@@ -503,7 +510,7 @@
   
 </li>
 
-<li class="entry structured">
+<li class="entry structured" data-src="generalstaff">
   <div class="line">
     <span class="time">22:00</span>
     <span class="who">Russia &rarr; Ukraine</span>
@@ -532,7 +539,7 @@
 <summary><span class="cat-label">Claimed losses</span><span class="n">3 · General Staff of the Armed Forces of Ukraine · The Kyiv Independent</span></summary>
 <ol class="ledger">
 
-<li class="entry structured">
+<li class="entry structured" data-src="generalstaff">
   <div class="line">
     
     <span class="who">Ukraine (General Staff) &rarr; Russia</span>
@@ -554,7 +561,7 @@
   
 </li>
 
-<li class="entry rules">
+<li class="entry rules" data-src="kyivindependent">
   <div class="line">
     <span class="time">20:42</span>
     
@@ -576,7 +583,7 @@
   
 </li>
 
-<li class="entry rules">
+<li class="entry rules" data-src="kyivindependent">
   <div class="line">
     <span class="time">21:01</span>
     
@@ -605,7 +612,7 @@
 <summary><span class="cat-label">Infrastructure</span><span class="n">2 · Ukrinform</span></summary>
 <ol class="ledger">
 
-<li class="entry rules">
+<li class="entry rules" data-src="ukrinform">
   <div class="line">
     <span class="time">21:13</span>
     
@@ -627,7 +634,7 @@
   
 </li>
 
-<li class="entry rules">
+<li class="entry rules" data-src="ukrinform">
   <div class="line">
     <span class="time">23:28</span>
     
@@ -688,7 +695,7 @@
     <tr><td><a href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html" rel="noopener">Oryx (Ukrainian equipment losses)</a></td><td>OSINT</td><td>html</td></tr>
   
   </table>
-  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-10-27 20:55 UTC.</p>
+  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-10-27 21:06 UTC.</p>
 </footer>
 <script src="ledger.js"></script>
 </body>
