@@ -19,7 +19,7 @@ from datetime import date
 
 from ..sources.telegram import Post
 from .common import KYIV, Event, first_sentence, kyiv_date, source_fields
-from .lexicon import translit_place, translit_weapon_name
+from .lexicon import find_places, translit_place, translit_weapon_name
 
 UK_MONTHS = {
     "січня": 1, "лютого": 2, "березня": 3, "квітня": 4, "травня": 5, "червня": 6,
@@ -34,7 +34,10 @@ QUOTED = re.compile(r"[«\"“]([^»\"”]+)[»\"”]")
 BARE_NAME = re.compile(
     r"(Іскандер-М(?:/С-400)?|Іскандер-К|Іскандер|Калібр|Х-\d+(?:/Х-\d+)?|Кинджал|Циркон|Онікс|Орєшнік|С-300|С-400)"
 )
-SHAHED = "Shahed/Gerbera-type strike UAV"
+SHAHED = "Shahed/Gerbera-type UAVs (incl. decoys)"
+JET = re.compile(r"\((\d+)\s+із\s+них\s*[-–—]\s*реактивн\w*\)")
+MAIN_DIRECTION = re.compile(r"[Оо]сновний\s+напрямок\s+удару\s*[-–—]\s*([^.\n!]+)")
+DEBRIS = re.compile(r"падіння[^.]*?на\s+(\d+)\s+локац")
 
 
 def _named(chunk: str) -> str | None:
@@ -114,6 +117,9 @@ def extract(post: Post, source: dict) -> list[Event]:
         w = weapons.setdefault(name, {"name": name})
         w[key] = w.get(key, 0) + n
 
+    jets = JET.findall(launched_p)
+    if jets:
+        counts["jet_powered_shahed"] = int(jets[0])
     launched_clean = re.sub(r"\([^)]*\)", "", launched_p)
     lp = _after(launched_clean, "атакував")
     total = None
@@ -138,21 +144,27 @@ def extract(post: Post, source: dict) -> list[Event]:
         weapons[lead_kind] = {"name": lead_kind}
 
     if down_p:
-        dp = _after(down_p, "збито")
+        jets = JET.findall(down_p)
+        if jets:
+            counts["jet_powered_shahed_intercepted"] = int(jets[0])
+        dp = re.sub(r"\([^)]*\)", "", _after(down_p, "збито"))
         dp_main = re.split(r"локаційно\s+втрачен", dp)[0]
+        total = None
         intercepted = 0
         for n, kind in chunks(dp_main):
-            if kind and not kind.startswith("__"):
+            if kind == "aerial targets":
+                total = n
+            elif kind and not kind.startswith("__"):
                 add(kind, "intercepted", n)
                 intercepted += n
-        counts["intercepted"] = intercepted
+        counts["intercepted"] = total if total is not None else intercepted
         m = re.search(r"локаційно\s+втрачен\w*\s+(\d+)", down_p)
         if m:
             counts["lost_from_radar"] = int(m.group(1))
 
     if hit_p:
-        debris = re.search(r"падіння\s+уламків\s+на\s+(\d+)\s+локац", hit_p)
-        hp = re.split(r"падіння\s+уламків", _after(hit_p, "влучання"))[0]
+        debris = DEBRIS.search(hit_p)
+        hp = re.split(r"падіння", _after(hit_p, "влучання"))[0]
         impacts = 0
         for n, kind in chunks(hp):
             if kind == "__locations__":
@@ -160,7 +172,8 @@ def extract(post: Post, source: dict) -> list[Event]:
             elif kind and not kind.startswith("__"):
                 add(kind, "impacts", n)
                 impacts += n
-        counts["impacts"] = impacts
+        if impacts:
+            counts["impacts"] = impacts
         if debris:
             counts["debris_locations"] = int(debris.group(1))
 
@@ -182,6 +195,12 @@ def extract(post: Post, source: dict) -> list[Event]:
             if place and place not in locations:
                 locations.append(place)
 
+    detail = None
+    m = MAIN_DIRECTION.search(text)
+    if m:
+        places = find_places(m.group(1))
+        detail = "Main direction of the strike: " + (", ".join(n for n, _ in places) if places else m.group(1).strip())
+
     return [
         Event(
             date=day,
@@ -190,6 +209,7 @@ def extract(post: Post, source: dict) -> list[Event]:
             actor="Russia",
             target="Ukraine",
             action="air attack",
+            detail=detail,
             weapons=list(weapons.values()),
             counts=counts,
             locations=locations,

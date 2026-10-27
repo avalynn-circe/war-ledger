@@ -71,18 +71,23 @@ class AirForce(unittest.TestCase):
 
 
     def test_headline_format_2026(self):
-        """Posts that open with a ЗБИТО/ПОДАВЛЕНО headline and name missiles without a count."""
+        """The real 27 October 2026 post: headline line, missiles named without a count,
+        a stated total of targets, impact locations without per-weapon counts."""
         e = self.e2
         self.assertEqual(e.date, "2026-10-27")
+        self.assertEqual(e.time, "09:00")
         self.assertEqual(e.counts["launched"], 280)
-        self.assertEqual(e.counts["shahed_of_which"], 160)
+        self.assertEqual(e.counts["jet_powered_shahed"], 69)
         self.assertEqual(e.counts["intercepted"], 257)
-        self.assertEqual(e.counts["impacts"], 28)
-        self.assertEqual(e.counts["impact_locations"], 16)
+        self.assertEqual(e.counts["jet_powered_shahed_intercepted"], 56)
+        self.assertEqual(e.counts["impact_locations"], 25)
+        self.assertEqual(e.counts["debris_locations"], 16)
+        self.assertNotIn("impacts", e.counts)
         w = {x["name"]: x for x in e.weapons}
-        self.assertEqual(w[airforce.SHAHED], {"name": airforce.SHAHED, "launched": 280, "intercepted": 255, "impacts": 25})
-        self.assertEqual(w["Iskander-M/S-400 ballistic missile"], {"name": "Iskander-M/S-400 ballistic missile", "intercepted": 2, "impacts": 3})
-        self.assertEqual(e.locations[-2:], ["Donetsk (occupied)", "Hvardiiske (Crimea)"])
+        self.assertEqual(w[airforce.SHAHED], {"name": airforce.SHAHED, "launched": 280, "intercepted": 255})
+        self.assertEqual(w["Iskander-M/S-400 ballistic missile"], {"name": "Iskander-M/S-400 ballistic missile", "intercepted": 2})
+        self.assertEqual(e.locations, ["Oryol", "Millerovo", "Kursk", "Shatalovo", "Primorsko-Akhtarsk", "Donetsk (occupied)", "Hvardiiske (Crimea)"])
+        self.assertEqual(e.detail, "Main direction of the strike: Kyiv")
 
 
 class GeneralStaff(unittest.TestCase):
@@ -98,15 +103,30 @@ class GeneralStaff(unittest.TestCase):
         self.assertEqual(len(e.breakdown), 14)
         self.assertEqual(e.date, "2026-10-26")
 
-    def test_operational_number_words(self):
+    def test_operational_real_2026(self):
+        """The real 27 October 2026 morning report."""
         e = next(e for e in self.evs if e.counts.get("clashes") == 196)
         self.assertEqual(e.counts["missile_strikes"], 1)
-        self.assertEqual(e.counts["air_strikes"], 48)
-        self.assertEqual(e.counts["missiles_used"], 2)
-        self.assertEqual(e.counts["guided_bombs"], 112)
+        self.assertEqual(e.counts["air_strikes"], 72)
+        self.assertEqual(e.counts["guided_bombs"], 247)
         self.assertEqual(e.counts["kamikaze_drones"], 9679)
         self.assertEqual(e.counts["shellings"], 2518)
-        self.assertEqual(e.date, "2026-10-27")
+        self.assertEqual(e.counts["mlrs_shellings"], 12)
+        self.assertEqual(e.counts["concentration_areas_struck"], 3)
+        self.assertEqual(e.counts["settlements_shelled"], 25)
+        self.assertEqual(e.action, "past 24 hours to 08:00, as reported")
+        self.assertEqual(len(e.locations), 2)
+        self.assertTrue(e.locations[0].startswith("Sumy oblast: Безсалівка, Кореньок"))
+        self.assertTrue(e.locations[1].startswith("Chernihiv oblast: Гута-Студенецька"))
+        self.assertEqual(e.detail, "Air strikes on: Кореньок")
+
+    def test_daily_losses_sentence(self):
+        e = next(e for e in self.evs if e.category == "losses_claimed" and e.date == "2026-10-27")
+        rows = {b["label"]: b["delta"] for b in e.breakdown}
+        self.assertEqual(rows, {
+            "personnel": 1400, "artillery systems": 21, "multiple rocket launchers": 2, "air defence systems": 1,
+            "ground robotic systems": 7, "UAVs": 1794, "vehicles and fuel tankers": 232, "special equipment": 1,
+        })
 
     def test_operational(self):
         e = next(e for e in self.evs if e.counts.get("clashes") == 180)
@@ -204,7 +224,8 @@ class EndToEnd(unittest.TestCase):
             self.assertTrue((data / "2026-10-26.json").exists())
             self.assertTrue((data / "2026-10-25.json").exists())
             index = (site / "index.html").read_text(encoding="utf-8")
-            self.assertIn("280 launched · 257 intercepted · 28 impacts", index)
+            self.assertIn("280 launched · 257 intercepted", index)
+            self.assertIn("Sumy oblast: Безсалівка", index)
             self.assertTrue((data / "raw" / "kpszsu" / "2026-10-27.jsonl").exists())
             day26 = (site / "2026-10-26.html").read_text(encoding="utf-8")
             self.assertIn("105 launched · 90 intercepted · 15 impacts", day26)

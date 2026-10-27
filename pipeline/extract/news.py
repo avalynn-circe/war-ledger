@@ -41,7 +41,9 @@ RULES: dict[str, list[str]] = {
         r"\badvanc(?:e|ed|es|ing)\b|gains? ground|pushe[sd] (?:back|forward)",
         r"deepstate|\bisw\b|front ?line|line of contact",
         r"pokrovsk|kupiansk|kostiantynivka|huliaipole|siversk|\blyman\b|vovchansk|toretsk|myrnohrad|dobropillia|chasiv yar|zaporizhzhia direction|donetsk direction",
-        r"combat engagements|combat clashes",
+    ],
+    "front_activity": [
+        r"combat engagements|combat clashes|clashes on the front|war update",
     ],
     "air_defense": [
         r"patriot|iris-?t|nasams|samp/?t|gepard|skynex|hawk",
@@ -114,7 +116,7 @@ GATES = {
 # Tie-break order when categories score equal.
 PRIORITY = [
     "field_adaptation", "weapons_deliveries", "air_defense", "naval", "infrastructure",
-    "front_line", "strikes_in_russia", "air_attack", "losses_claimed",
+    "front_activity", "front_line", "strikes_in_russia", "air_attack", "losses_claimed",
 ]
 DIRECTION = {
     "air_attack": ("Russia", "Ukraine"),

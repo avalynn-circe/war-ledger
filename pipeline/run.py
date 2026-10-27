@@ -11,7 +11,7 @@ import logging
 import pathlib
 import sys
 from collections import defaultdict
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
 import yaml
 
@@ -40,7 +40,9 @@ def load_sources(path: pathlib.Path) -> list[dict]:
 
 def archive_raw(raw_dir: pathlib.Path, source: dict, units: list) -> None:
     """Keep the source text of every post or item, one JSON line each, per Kyiv
-    date, so extractors can be improved and re-run without refetching."""
+    date. A post seen again with changed text replaces its earlier record, so
+    an edited tally is kept in its latest form. Extractors are re-run over
+    this archive on every run, so a parser fix applies to past days too."""
     out = raw_dir / source["id"]
     out.mkdir(parents=True, exist_ok=True)
     by_day: dict[str, list[dict]] = defaultdict(list)
@@ -53,16 +55,41 @@ def archive_raw(raw_dir: pathlib.Path, source: dict, units: list) -> None:
         by_day[kyiv_date(u.dt)].append(rec)
     for day, recs in by_day.items():
         path = out / f"{day}.jsonl"
-        seen: set[str] = set()
+        kept: dict[str, dict] = {}
         if path.exists():
             for line in path.read_text(encoding="utf-8").splitlines():
                 if line.strip():
-                    seen.add(json.loads(line)["id"])
-        with path.open("a", encoding="utf-8") as fh:
-            for rec in recs:
-                if rec["id"] not in seen:
-                    fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
-                    seen.add(rec["id"])
+                    rec = json.loads(line)
+                    kept[rec["id"]] = rec
+        for rec in recs:
+            kept[rec["id"]] = rec
+        path.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in kept.values()), encoding="utf-8")
+
+
+def load_raw(raw_dir: pathlib.Path, sources: list[dict], since: str) -> list[tuple[dict, object]]:
+    """Return (source, unit) pairs for every archived record dated on or after `since`."""
+    by_id = {s["id"]: s for s in sources}
+    out: list[tuple[dict, object]] = []
+    if not raw_dir.exists():
+        return out
+    for sdir in sorted(raw_dir.iterdir()):
+        source = by_id.get(sdir.name)
+        if source is None:
+            continue
+        for path in sorted(sdir.glob("????-??-??.jsonl")):
+            if path.stem < since:
+                continue
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if not line.strip():
+                    continue
+                rec = json.loads(line)
+                dt = datetime.fromisoformat(rec["dt"])
+                if "text" in rec:
+                    unit: object = telegram.Post(rec["id"], rec["url"], dt, rec["text"])
+                else:
+                    unit = rss.Item(rec["id"], rec["url"], dt, rec["title"], rec["summary"])
+                out.append((source, unit))
+    return out
 
 
 def parse_units(source: dict, body: str, fetcher: Fetcher, status: dict[str, str]) -> list:
@@ -113,28 +140,47 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--max-age-days", type=int, default=10, help="ignore entries dated earlier than this many days ago")
     ap.add_argument("--no-render", action="store_true")
     ap.add_argument("--no-raw", action="store_true", help="do not archive source text under <data>/raw/")
+    ap.add_argument("--rebuild-only", action="store_true", help="skip fetching; re-extract <data>/raw/ and render")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
     sources = load_sources(pathlib.Path(args.sources))
     data_dir = pathlib.Path(args.data)
-    events, status = collect(sources, Fetcher(args.offline), None if args.no_raw else data_dir / "raw")
-    for sid, line in status.items():
-        log.info("%-16s %s", sid, line)
-    if all(v.startswith(("fetch failed", "parse failed")) for k, v in status.items() if not k.endswith("(feed)")):
-        log.error("every source failed")
-        return 1
+    events: list[Event] = []
+    if args.rebuild_only:
+        args.no_raw = False
+    else:
+        events, status = collect(sources, Fetcher(args.offline), None if args.no_raw else data_dir / "raw")
+        for sid, line in status.items():
+            log.info("%-16s %s", sid, line)
+        if all(v.startswith(("fetch failed", "parse failed")) for k, v in status.items() if not k.endswith("(feed)")):
+            log.error("every source failed")
+            return 1
 
     cutoff = (date.today() - timedelta(days=args.max_age_days)).isoformat()
-    events = [e for e in fold(events) if e.date >= cutoff]
-
     by_day: dict[str, list[Event]] = defaultdict(list)
-    for e in events:
-        by_day[e.date].append(e)
-    for day, evs in sorted(by_day.items()):
-        merged = store.merge_day(data_dir, day, evs)
-        log.info("%s: %d new, %d stored", day, len(evs), len(merged))
+    if args.no_raw:
+        for e in fold(events):
+            if e.date >= cutoff:
+                by_day[e.date].append(e)
+        for day, evs in sorted(by_day.items()):
+            merged = store.merge_day(data_dir, day, evs)
+            log.info("%s: %d new, %d stored", day, len(evs), len(merged))
+    else:
+        # Re-extract every archived post since the cutoff, so parser fixes
+        # reach past days and dropped rules no longer leave stale entries.
+        pairs = load_raw(data_dir / "raw", sources, cutoff)
+        raw_days = {kyiv_date(u.dt) for _, u in pairs}
+        extracted = [e for src, u in pairs for e in EXTRACTORS[src["extractor"]](u, src)]
+        for e in fold(extracted):
+            if e.date >= cutoff:
+                by_day[e.date].append(e)
+        for day in sorted(raw_days | set(by_day)):
+            if day < cutoff:
+                continue
+            rows = store.write_day(data_dir, day, by_day.get(day, []))
+            log.info("%s: %d entries", day, len(rows))
 
     days = store.load_all(data_dir)
     store.write_index(data_dir, days)

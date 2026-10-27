@@ -66,7 +66,7 @@ PLACES: list[tuple[str, str, str]] = [
     ("Luhansk oblast", r"luhansk|луганськ|луганск", "ua"),
     ("Kherson", r"kherson|херсон", "ua"),
     ("Mykolaiv", r"mykolaiv|миколаїв|николаев", "ua"),
-    ("Sumy", r"\bsumy\b|\bсум(?:и|ська|щин)", "ua"),
+    ("Sumy", r"\bsumy\b|\bсум(?:и|ськ|щин)", "ua"),
     ("Chernihiv", r"chernihiv|черніг", "ua"),
     ("Poltava", r"poltava|полтав", "ua"),
     ("Cherkasy", r"cherkasy|черкас", "ua"),

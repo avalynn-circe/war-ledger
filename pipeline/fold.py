@@ -2,9 +2,10 @@
 
 Two passes:
 1. Identical headlines on the same day and category keep the first copy and
-   list the others under also_reported_by.
+   list the others under also_reported_by. For rules-based entries the same
+   source's near-identical posts (first 100 characters) collapse too.
 2. A rules-based entry whose numbers match a structured entry of the same day
-   and category (two or more shared numbers) is folded into that entry.
+   and category (two shared numbers, or one of 100 or more) is folded into it.
 """
 from __future__ import annotations
 
@@ -53,6 +54,9 @@ def fold(events: list[Event]) -> list[Event]:
     seen: dict[tuple, Event] = {}
     for e in events:
         key = (e.date, e.category, _norm(e.quote))
+        if e.extraction != "structured":
+            # The same outlet often posts a short and a long version of one item.
+            key = (e.date, e.category, e.source_id, _norm(e.quote)[:100])
         if key in seen:
             seen[key].also_reported_by.append({"name": e.source_name, "url": e.source_url})
             continue
@@ -72,7 +76,8 @@ def fold(events: list[Event]) -> list[Event]:
         nums = _numbers_in_text(f"{e.quote} {e.detail or ''}")
         host = None
         for s in structured.get((e.date, e.category), []):
-            if len(nums & _numbers_in_structure(s)) >= 2:
+            shared = nums & _numbers_in_structure(s)
+            if len(shared) >= 2 or any(n >= 100 for n in shared):
                 host = s
                 break
         if host is not None:

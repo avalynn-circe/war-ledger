@@ -37,6 +37,7 @@ def merge_day(data_dir: pathlib.Path, day: str, events: list[Event]) -> list[dic
             # Structured figures can grow during the day (the Air Force updates its tally).
             if d["extraction"] == "structured":
                 old["counts"], old["weapons"], old["breakdown"] = d["counts"], d["weapons"], d["breakdown"]
+                old["locations"] = d["locations"] or old.get("locations", [])
                 old["time"] = d["time"] or old.get("time")
         else:
             existing[d["id"]] = d
@@ -58,3 +59,12 @@ def load_all(data_dir: pathlib.Path) -> dict[str, list[dict]]:
 def write_index(data_dir: pathlib.Path, days: dict[str, list[dict]]) -> None:
     index = [{"date": d, "entries": len(evs)} for d, evs in sorted(days.items(), reverse=True)]
     (data_dir / "index.json").write_text(json.dumps(index, indent=1), encoding="utf-8")
+
+
+def write_day(data_dir: pathlib.Path, day: str, events: list[Event]) -> list[dict]:
+    """Replace a day file with entries re-extracted from the raw archive."""
+    data_dir.mkdir(parents=True, exist_ok=True)
+    rows = sorted((e.to_dict() for e in events), key=_sort_key)
+    payload = {"date": day, "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "events": rows}
+    _path(data_dir, day).write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    return rows

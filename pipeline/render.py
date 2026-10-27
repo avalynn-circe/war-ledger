@@ -31,6 +31,9 @@ COUNT_LABELS = {
     "mlrs_shellings": "of which MLRS",
     "intercepted_claimed": "UAVs intercepted, as claimed",
     "concentration_areas_struck": "concentration areas struck, as claimed",
+    "settlements_shelled": "settlements shelled",
+    "jet_powered_shahed": "of which jet-powered",
+    "jet_powered_shahed_intercepted": "jet-powered intercepted",
 }
 
 
@@ -51,7 +54,8 @@ def headline(events: list[dict]) -> list[dict]:
         intercepted = sum(e["counts"].get("intercepted", 0) for e in air)
         impacts = sum(e["counts"].get("impacts", 0) for e in air)
         rows.append({"label": "Air attack on Ukraine (Air Force)", "value": f"{launched} launched · {intercepted} intercepted · {impacts} impacts"})
-    clashes = sum(e["counts"].get("clashes", 0) for e in events if e["category"] == "front_activity")
+    full_day = [e for e in events if e["category"] == "front_activity" and (e.get("action") or "").startswith("past 24")]
+    clashes = max((e["counts"].get("clashes", 0) for e in full_day), default=0)
     if clashes:
         rows.append({"label": "Combat clashes (General Staff)", "value": str(clashes)})
     ru = sum(e["counts"].get("intercepted_claimed", 0) for e in events if e["category"] == "strikes_in_russia")
