@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="The Ukraine War Ledger. A daily record of Russia's war on Ukraine: strikes, weapons, interceptions, front line changes, losses and field adaptations, as published by each source.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html">The Ukraine War Ledger</a>
+  <nav>
+    <a href="index.html">Latest</a>
+    <a href="archive.html">Archive</a>
+    <a href="events.json">JSON</a>
+    <a href="events.csv">CSV</a>
+  </nav>
+</header>
+<main>
+{% block main %}{% endblock %}
+</main>
+<footer>
+  <h2>Sources</h2>
+  <table>
+  {% for s in sources %}
+    <tr><td><a href="{{ s.url }}" rel="noopener">{{ s.name }}</a></td><td>{{ s.side|side }}</td><td>{{ s.kind }}</td></tr>
+  {% endfor %}
+  </table>
+  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated {{ generated_at }} UTC.</p>
+</footer>
+</body>
+</html>

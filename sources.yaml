@@ -1,0 +1,81 @@
+# Source registry.
+#
+# Each entry names a page the pipeline fetches and the extractor that turns it
+# into inventory entries. The pipeline keeps going when one source fails.
+#
+#   kind       telegram  public channel preview at https://t.me/s/<channel>
+#              rss       RSS or Atom feed
+#   side       ua_official | ru_official | osint | media
+#   extractor  airforce | generalstaff | rumod | deepstate | news
+#   enabled    set false to skip a source without deleting it
+#   verified   false marks a feed URL that has not yet been confirmed live
+
+sources:
+  - id: kpszsu
+    name: Air Force of Ukraine
+    side: ua_official
+    kind: telegram
+    url: https://t.me/s/kpszsu
+    lang: uk
+    extractor: airforce
+
+  - id: generalstaff
+    name: General Staff of the Armed Forces of Ukraine
+    side: ua_official
+    kind: telegram
+    url: https://t.me/s/GeneralStaffZSU
+    lang: uk
+    extractor: generalstaff
+
+  - id: mod_russia
+    name: Ministry of Defence of Russia
+    side: ru_official
+    kind: telegram
+    url: https://t.me/s/mod_russia
+    lang: ru
+    extractor: rumod
+
+  - id: deepstate
+    name: DeepState
+    side: osint
+    kind: telegram
+    url: https://t.me/s/DeepStateUA
+    lang: uk
+    extractor: deepstate
+
+  - id: militarnyi
+    name: Militarnyi
+    side: media
+    kind: rss
+    url: https://mil.in.ua/en/feed/
+    lang: en
+    extractor: news
+    verified: false
+
+  - id: kyivindependent
+    name: The Kyiv Independent
+    side: media
+    kind: rss
+    url: https://kyivindependent.com/news-archive/rss/
+    lang: en
+    extractor: news
+    verified: false
+
+  - id: ukrinform
+    name: Ukrinform
+    side: media
+    kind: rss
+    url: https://www.ukrinform.net/rss/block-lastnews
+    lang: en
+    extractor: news
+    verified: false
+
+  - id: defence_express
+    name: Defense Express
+    side: media
+    kind: rss
+    url: https://en.defence-ua.com/rss/
+    lang: en
+    extractor: news
+    verified: false
+    enabled: false

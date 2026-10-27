@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block main %}
+<h1>{{ day.date|longdate }} <span class="tz">Kyiv date · {{ day.n }} entries</span></h1>
+<p class="daynav">
+  {% if prev %}<a href="{{ prev }}.html">&larr; {{ prev }}</a>{% endif %}
+  {% if next %}<a href="{{ next }}.html">{{ next }} &rarr;</a>{% endif %}
+</p>
+{% if day.headline %}
+<section class="headline"><dl>
+{% for h in day.headline %}<div><dt>{{ h.label }}</dt><dd>{{ h.value }}</dd></div>
+{% endfor %}</dl></section>
+{% endif %}
+{% for group in day.groups %}
+<section class="cat" id="{{ group.key }}">
+<h2>{{ group.label }} <span class="n">{{ group.events|length }}</span></h2>
+<ol class="ledger">
+{% for e in group.events %}
+<li class="entry {{ e.extraction }}">
+  <div class="line">
+    {% if e.time %}<span class="time">{{ e.time }}</span>{% endif %}
+    {% if e.actor %}<span class="who">{{ e.actor }}{% if e.target %} &rarr; {{ e.target }}{% endif %}</span>{% endif %}
+    {% if e.action %}<span class="act">{{ e.action }}</span>{% endif %}
+  </div>
+  {% if e.extraction != 'structured' %}<p class="quote-main" lang="{{ e.lang }}">{{ e.quote }}</p>{% endif %}
+  {% if e.weapons %}<ul class="items">{% for w in e.weapons %}<li>{{ w.name }}{% if w.launched is defined %} · launched {{ w.launched }}{% endif %}{% if w.intercepted is defined %} · intercepted {{ w.intercepted }}{% endif %}{% if w.impacts is defined %} · impacts {{ w.impacts }}{% endif %}{% if w.count is defined %} × {{ w.count }}{% endif %}</li>{% endfor %}</ul>{% endif %}
+  {% if e.counts %}<ul class="counts">{% for k, v in e.counts.items() %}<li>{{ k|countlabel }} <b>{{ v }}</b></li>{% endfor %}</ul>{% endif %}
+  {% if e.breakdown %}<table class="breakdown">{% for b in e.breakdown %}<tr><td>{{ b.label }}</td><td class="num">{{ "{:,}".format(b.count) }}</td>{% if b.delta is defined %}<td class="num">+{{ "{:,}".format(b.delta) }}</td>{% endif %}</tr>{% endfor %}</table>{% endif %}
+  {% if e.locations and not e.breakdown %}<p class="loc">{{ e.locations|join(' · ') }}</p>{% endif %}
+  <p class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %} · <a href="{{ r.url }}" rel="noopener">{{ r.name }}</a>{% endfor %}</p>
+  {% if e.extraction == 'structured' or e.detail or e.also_reported_by %}
+  <details><summary>Source text</summary>
+    {% if e.extraction == 'structured' %}<blockquote lang="{{ e.lang }}">{{ e.quote }}</blockquote>{% endif %}
+    {% if e.detail %}<blockquote>{{ e.detail }}</blockquote>{% endif %}
+    {% for r in e.also_reported_by if r.quote %}<blockquote>{{ r.quote }} <span class="src">{{ r.name }}</span></blockquote>{% endfor %}
+  </details>
+  {% endif %}
+</li>
+{% endfor %}
+</ol>
+</section>
+{% endfor %}
+{% if not day.groups %}<p class="empty">No entries for this date.</p>{% endif %}
+{% endblock %}

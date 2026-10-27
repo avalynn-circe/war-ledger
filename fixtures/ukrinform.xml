@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+ <title>Ukrinform</title><link>https://www.ukrinform.net/</link><description>Fixture feed</description>
+  <item>
+   <title>Ukraine's Air Force downs 90 of 101 enemy UAVs overnight, 4 Iskander missiles hit targets</title>
+   <link>https://www.ukrinform.net/fixture-air-force</link>
+   <guid>https://www.ukrinform.net/fixture-air-force</guid>
+   <pubDate>Mon, 26 Oct 2026 07:35:00 +0000</pubDate>
+   <description><![CDATA[Air defences shot down 90 drones.]]></description>
+  </item>
+  <item>
+   <title>Russian troops install anti-drone mesh tunnels on routes to Chasiv Yar</title>
+   <link>https://www.ukrinform.net/fixture-mesh</link>
+   <guid>https://www.ukrinform.net/fixture-mesh</guid>
+   <pubDate>Mon, 26 Oct 2026 06:40:00 +0000</pubDate>
+   <description><![CDATA[Footage shows the structures.]]></description>
+  </item>
+  <item>
+   <title>Enemy loses 1,000 troops, 2 tanks in past day - General Staff</title>
+   <link>https://www.ukrinform.net/fixture-losses</link>
+   <guid>https://www.ukrinform.net/fixture-losses</guid>
+   <pubDate>Mon, 26 Oct 2026 05:10:00 +0000</pubDate>
+   <description><![CDATA[Total losses since February 24, 2022 are listed.]]></description>
+  </item>
+  <item>
+   <title>Weather forecast for October 27: rain in the west</title>
+   <link>https://www.ukrinform.net/fixture-weather</link>
+   <guid>https://www.ukrinform.net/fixture-weather</guid>
+   <pubDate>Mon, 26 Oct 2026 04:00:00 +0000</pubDate>
+   <description><![CDATA[Temperatures fall.]]></description>
+  </item>
+</channel></rss>

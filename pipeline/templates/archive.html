@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block main %}
+<h1>Archive <span class="tz">{{ days|length }} days</span></h1>
+<table class="archive">
+<tr><th>Date</th><th>Entries</th><th>Figures</th></tr>
+{% for d in days %}
+<tr><td><a href="{{ d.date }}.html">{{ d.date }}</a></td><td class="num">{{ d.n }}</td><td>{% for h in d.headline %}<div><span class="act">{{ h.label }}:</span> {{ h.value }}</div>{% endfor %}</td></tr>
+{% endfor %}
+</table>
+{% if not days %}<p class="empty">No days collected yet.</p>{% endif %}
+{% endblock %}
