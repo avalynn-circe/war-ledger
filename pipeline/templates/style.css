@@ -69,7 +69,7 @@ table.archive td, table.archive th { text-align: left; vertical-align: top; padd
 .returns td { padding: 5px 8px; border-bottom: 1px dashed var(--line); vertical-align: baseline; }
 .returns td.lab { width: 32%; }
 .returns td.val { width: 26%; font-family: var(--mono); font-variant-numeric: tabular-nums; }
-.returns td.val.num { white-space: nowrap; }
+.returns td.val.num { white-space: nowrap; text-align: left; }
 .returns td.val a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--line); }
 .returns td.val small { display: block; font-family: var(--sans); font-size: .7rem; color: var(--muted); }
 .returns .blank { color: var(--line); }
@@ -82,8 +82,8 @@ table.archive td, table.archive th { text-align: left; vertical-align: top; padd
 details.cat { margin-top: 10px; border-top: 1px solid var(--line); }
 details.cat > summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: baseline; padding: 12px 0; font-size: 1.05rem; font-weight: 600; }
 details.cat > summary::-webkit-details-marker { display: none; }
-details.cat > summary::before { content: "+"; display: inline-block; width: 1.2em; color: var(--muted); font-weight: 400; }
-details.cat[open] > summary::before { content: "–"; }
+details.cat > summary .cat-label::before { content: "+"; display: inline-block; width: 1.2em; color: var(--muted); font-weight: 400; }
+details.cat[open] > summary .cat-label::before { content: "–"; }
 details.cat > summary .cat-label { flex: 1; }
 details.cat > summary .n { font-weight: 400; font-size: .82rem; text-align: right; }
 details.cat > ol.ledger { padding-left: 1.2em; }
