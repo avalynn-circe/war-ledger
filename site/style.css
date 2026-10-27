@@ -36,6 +36,7 @@ ul.items li, ul.counts li { background: var(--tag); padding: 2px 8px; border-rad
 table.breakdown { border-collapse: collapse; margin: 8px 0; font-size: .85rem; font-family: var(--mono); }
 table.breakdown td { padding: 2px 14px 2px 0; border-bottom: 1px solid var(--line); }
 td.num { text-align: right; font-family: var(--mono); }
+.detail { margin: 4px 0; font-size: .9rem; }
 .loc { margin: 4px 0; font-size: .85rem; color: var(--muted); }
 .src { margin: 4px 0 0; font-size: .8rem; color: var(--muted); }
 .side { border: 1px solid var(--line); padding: 0 5px; border-radius: 3px; font-size: .72rem; margin-left: 6px; }
