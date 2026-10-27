@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-27T09:17:26+00:00",
+ "generated_at": "2026-10-27T09:26:52+00:00",
  "events": [
   {
    "date": "2026-10-26",
@@ -73,7 +73,14 @@
     "intercepted_claimed": 37
    },
    "breakdown": [],
-   "locations": [],
+   "locations": [
+    "Belgorod oblast",
+    "Bryansk oblast",
+    "Kursk oblast",
+    "Oryol oblast",
+    "Moscow oblast",
+    "Black Sea"
+   ],
    "lang": "ru",
    "extraction": "structured",
    "also_reported_by": [],
@@ -129,28 +136,6 @@
   },
   {
    "date": "2026-10-26",
-   "category": "front_line",
-   "source_id": "kyivindependent",
-   "source_name": "The Kyiv Independent",
-   "source_side": "media",
-   "source_url": "https://kyivindependent.com/how-ukraines-annual-radio-dictation-brings-a-nation-together-one-word-at-a-time/",
-   "quote": "How Ukraine's annual radio dictation brings a nation together, one word at a time",
-   "time": "21:33",
-   "actor": null,
-   "target": null,
-   "action": null,
-   "detail": "As it turns out, dictation exercises are not just for schoolchildren.",
-   "weapons": [],
-   "counts": {},
-   "breakdown": [],
-   "locations": [],
-   "lang": "en",
-   "extraction": "rules",
-   "also_reported_by": [],
-   "id": "51312d6af081"
-  },
-  {
-   "date": "2026-10-26",
    "category": "front_activity",
    "source_id": "generalstaff",
    "source_name": "General Staff of the Armed Forces of Ukraine",
@@ -160,16 +145,22 @@
    "time": "08:00",
    "actor": "Russia",
    "target": "Ukraine",
-   "action": "past 24 hours, as reported",
-   "detail": null,
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": "Air strikes on: Sumy oblast: Іволжанське, Гнилиця, Пустогород, Лужки",
    "weapons": [],
    "counts": {
     "clashes": 177,
+    "guided_bombs": 224,
+    "air_strikes": 64,
     "kamikaze_drones": 9296,
-    "shellings": 2451
+    "shellings": 2451,
+    "settlements_shelled": 12
    },
    "breakdown": [],
-   "locations": [],
+   "locations": [
+    "Мала Корчаківка, Товстодубове, Сопич, Кореньок, Лужки, Студенок, Писарівка, Потапівка, Нова Січ",
+    "Chernihiv oblast: Клюси, Камінь, Миколаївка"
+   ],
    "lang": "uk",
    "extraction": "structured",
    "also_reported_by": [],
@@ -186,7 +177,7 @@
    "time": "22:00",
    "actor": "Russia",
    "target": "Ukraine",
-   "action": "past 24 hours, as reported",
+   "action": "since 00:00, as of 22:00",
    "detail": null,
    "weapons": [],
    "counts": {
@@ -202,6 +193,69 @@
    "extraction": "structured",
    "also_reported_by": [],
    "id": "a3a036d9c13b"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42689",
+   "quote": "втрати російських загарбників склали 1990 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 1990
+    },
+    {
+     "label": "tanks",
+     "delta": 1
+    },
+    {
+     "label": "armoured fighting vehicles",
+     "delta": 4
+    },
+    {
+     "label": "artillery systems",
+     "delta": 18
+    },
+    {
+     "label": "multiple rocket launchers",
+     "delta": 2
+    },
+    {
+     "label": "air defence systems",
+     "delta": 1
+    },
+    {
+     "label": "ground robotic systems",
+     "delta": 1
+    },
+    {
+     "label": "UAVs",
+     "delta": 1656
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 322
+    },
+    {
+     "label": "special equipment",
+     "delta": 2
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "id": "78cda16aa9ef"
   },
   {
    "date": "2026-10-26",

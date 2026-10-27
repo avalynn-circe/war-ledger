@@ -1,6 +1,6 @@
 {
  "date": "2026-10-24",
- "generated_at": "2026-10-27T09:17:26+00:00",
+ "generated_at": "2026-10-27T09:26:52+00:00",
  "events": [
   {
    "date": "2026-10-24",
@@ -13,7 +13,7 @@
    "time": "22:00",
    "actor": "Russia",
    "target": "Ukraine",
-   "action": "past 24 hours, as reported",
+   "action": "since 00:00, as of 22:00",
    "detail": null,
    "weapons": [],
    "counts": {

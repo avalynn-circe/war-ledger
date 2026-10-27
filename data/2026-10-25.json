@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-27T09:17:26+00:00",
+ "generated_at": "2026-10-27T09:26:52+00:00",
  "events": [
   {
    "date": "2026-10-25",
@@ -38,18 +38,23 @@
    "time": "08:00",
    "actor": "Russia",
    "target": "Ukraine",
-   "action": "past 24 hours, as reported",
-   "detail": null,
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": "Air strikes on: Свеса, Паліївка, Писарівка",
    "weapons": [],
    "counts": {
     "clashes": 193,
     "guided_bombs": 281,
     "air_strikes": 83,
     "kamikaze_drones": 10010,
-    "shellings": 3276
+    "shellings": 3276,
+    "mlrs_shellings": 24,
+    "settlements_shelled": 30
    },
    "breakdown": [],
-   "locations": [],
+   "locations": [
+    "Sumy oblast: Павлівка, Кореньок, Сопич, Нескучне, Безсалівка, Кучерівка, Лужки, Мала Корчаківка, Тополя, Нова Січ, Храпівщина, Ободи, Яструбщина, Баранівка, Мала Слобідка, Миропілля, Хотінь, Волфине, Іскрисківщина, Фотовиж, Потапівка, Гірки, Стара Гута, Уланове, Кіндратівка, Запсілля",
+    "Chernihiv oblast: Михальчина-Слобода, Буда-Вороб'ївська, Хрінівка, Клюси"
+   ],
    "lang": "uk",
    "extraction": "structured",
    "also_reported_by": [],
@@ -66,7 +71,7 @@
    "time": "22:00",
    "actor": "Russia",
    "target": "Ukraine",
-   "action": "past 24 hours, as reported",
+   "action": "since 00:00, as of 22:00",
    "detail": null,
    "weapons": [],
    "counts": {
@@ -82,6 +87,61 @@
    "extraction": "structured",
    "also_reported_by": [],
    "id": "9f6d269415f4"
+  },
+  {
+   "date": "2026-10-25",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42683",
+   "quote": "втрати російських загарбників склали 1850 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 1850
+    },
+    {
+     "label": "tanks",
+     "delta": 3
+    },
+    {
+     "label": "artillery systems",
+     "delta": 49
+    },
+    {
+     "label": "air defence systems",
+     "delta": 3
+    },
+    {
+     "label": "ground robotic systems",
+     "delta": 6
+    },
+    {
+     "label": "UAVs",
+     "delta": 1738
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 417
+    },
+    {
+     "label": "special equipment",
+     "delta": 4
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "id": "a625aff9b87c"
   }
  ]
 }
