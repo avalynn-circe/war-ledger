@@ -22,16 +22,16 @@
 <section class="toggles" id="toggles" aria-label="Categories shown on every page">
 <span class="tog-label">Categories</span>
 {% for c in cats %}<button type="button" class="chip" data-cat="{{ c.key }}" aria-pressed="true">{{ c.label }} <span class="n">{{ c.n }}</span></button>{% endfor %}
-<button type="button" class="chip ctl" data-all="1">ALL</button>
-<button type="button" class="chip ctl" data-none="1">NONE</button>
+<button type="button" class="chip ctl" data-all="1">SELECT ALL</button>
+<button type="button" class="chip ctl" data-none="1">CLEAR ALL</button>
 </section>
 <details class="src-disclosure" id="src-disclosure" open>
 <summary class="tog-summary"><span class="tog-label">Sources</span><span class="tog-state" id="src-state"></span></summary>
 <section class="toggles sources" id="src-toggles" aria-label="Sources shown on every page">
 <span class="tog-label wide-only">Sources</span>
 {% for s in srcs %}<button type="button" class="chip {{ s.side }}" data-src="{{ s.id }}" aria-pressed="true">{{ s.chip }} <span class="n">{{ s.n }}</span></button>{% endfor %}
-<button type="button" class="chip ctl" data-all="1">ALL</button>
-<button type="button" class="chip ctl" data-none="1">NONE</button>
+<button type="button" class="chip ctl" data-all="1">SELECT ALL</button>
+<button type="button" class="chip ctl" data-none="1">CLEAR ALL</button>
 </section>
 </details>
 {% endif %}
