@@ -28,6 +28,13 @@
     Array.prototype.forEach.call(document.querySelectorAll('main .wire .row[data-cat], main li.entry'), function (el) { if (!el.hidden && !el.closest('[hidden]')) shown++; });
     var count = document.getElementById('shown-count');
     if (count) count.textContent = shown;
+    var state = document.getElementById('src-state');
+    if (state) {
+      var srcChips = document.querySelectorAll('#src-toggles .chip[data-src]');
+      var off = 0;
+      Array.prototype.forEach.call(srcChips, function (c) { if (hidden.src[c.getAttribute('data-src')]) off++; });
+      state.textContent = off ? (srcChips.length - off) + ' of ' + srcChips.length + ' on' : 'all on';
+    }
     ['cat', 'src'].forEach(function (kind) {
       Array.prototype.forEach.call(document.querySelectorAll('.toggles .chip[data-' + kind + ']'), function (c) {
         c.setAttribute('aria-pressed', hidden[kind][c.getAttribute('data-' + kind)] ? 'false' : 'true');
@@ -51,6 +58,17 @@
       applyToggles();
     });
   });
+
+  /* On phones the source row starts collapsed; the reader's choice is kept. */
+  var disclosure = document.getElementById('src-disclosure');
+  if (disclosure && window.matchMedia && window.matchMedia('(max-width: 600px)').matches) {
+    var want = null;
+    try { want = localStorage.getItem('ledger-src-open'); } catch (e) { want = null; }
+    disclosure.open = want === '1';
+    disclosure.addEventListener('toggle', function () {
+      try { localStorage.setItem('ledger-src-open', disclosure.open ? '1' : '0'); } catch (e) {}
+    });
+  }
 
   function kyivToday() {
     try {
