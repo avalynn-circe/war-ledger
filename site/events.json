@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27 21:18",
+ "generated_at": "2026-10-27 21:53",
  "days": [
   {
    "date": "2026-10-27",
@@ -848,6 +848,31 @@
     },
     {
      "date": "2026-10-27",
+     "category": "front_line",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4178777-war-update-178-clashes-on-front-line-pokrovsk-sector-remains-hottest.html",
+     "quote": "War update: 178 clashes on front line, Pokrovsk sector remains hottest",
+     "time": "23:17",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "A total of 178 combat clashes between the Ukrainian Defense Forces and Russian troops were recorded on October 26, with Russian forces launching 24 attacks in the Pokrovsk sector.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Pokrovsk"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-27T21:17:00+00:00",
+     "id": "a1ccae2a3451"
+    },
+    {
+     "date": "2026-10-27",
      "category": "front_activity",
      "source_id": "generalstaff",
      "source_name": "General Staff of the Armed Forces of Ukraine",
@@ -1093,7 +1118,7 @@
      "lang": "en",
      "extraction": "structured",
      "also_reported_by": [],
-     "published": "2026-10-27T21:18:09.853538+00:00",
+     "published": "2026-10-27T21:53:16.929962+00:00",
      "id": "c3f2304c2cb1"
     },
     {
@@ -1215,7 +1240,7 @@
      "lang": "en",
      "extraction": "structured",
      "also_reported_by": [],
-     "published": "2026-10-27T21:18:10.398840+00:00",
+     "published": "2026-10-27T21:53:17.546401+00:00",
      "id": "7a361d4976d4"
     },
     {
