@@ -228,7 +228,7 @@ class EndToEnd(unittest.TestCase):
             self.assertIn("Sumy oblast: Безсалівка", index)
             self.assertTrue((data / "raw" / "kpszsu" / "2026-10-27.jsonl").exists())
             day26 = (site / "2026-10-26.html").read_text(encoding="utf-8")
-            self.assertIn("105 launched · 90 intercepted · 15 impacts", day26)
+            self.assertIn("105 launched · 90 intercepted · 15 impacts · 9 impact locations", day26)
             self.assertIn("Field adaptations", day26)
             self.assertTrue((site / "archive.html").exists())
             self.assertTrue((site / "events.csv").exists())

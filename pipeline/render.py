@@ -53,7 +53,13 @@ def headline(events: list[dict]) -> list[dict]:
         launched = sum(e["counts"].get("launched", 0) for e in air)
         intercepted = sum(e["counts"].get("intercepted", 0) for e in air)
         impacts = sum(e["counts"].get("impacts", 0) for e in air)
-        rows.append({"label": "Air attack on Ukraine (Air Force)", "value": f"{launched} launched · {intercepted} intercepted · {impacts} impacts"})
+        places = sum(e["counts"].get("impact_locations", 0) for e in air)
+        value = f"{launched} launched · {intercepted} intercepted"
+        if impacts:
+            value += f" · {impacts} impacts"
+        if places:
+            value += f" · {places} impact locations"
+        rows.append({"label": "Air attack on Ukraine (Air Force)", "value": value})
     full_day = [e for e in events if e["category"] == "front_activity" and (e.get("action") or "").startswith("past 24")]
     clashes = max((e["counts"].get("clashes", 0) for e in full_day), default=0)
     if clashes:

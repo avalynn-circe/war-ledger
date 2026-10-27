@@ -22,6 +22,7 @@
     {% if e.action %}<span class="act">{{ e.action }}</span>{% endif %}
   </div>
   {% if e.extraction != 'structured' %}<p class="quote-main" lang="{{ e.lang }}">{{ e.quote }}</p>{% endif %}
+  {% if e.detail and e.extraction == 'structured' %}<p class="detail">{{ e.detail }}</p>{% endif %}
   {% if e.weapons %}<ul class="items">{% for w in e.weapons %}<li>{{ w.name }}{% if w.launched is defined %} · launched {{ w.launched }}{% endif %}{% if w.intercepted is defined %} · intercepted {{ w.intercepted }}{% endif %}{% if w.impacts is defined %} · impacts {{ w.impacts }}{% endif %}{% if w.count is defined %} × {{ w.count }}{% endif %}</li>{% endfor %}</ul>{% endif %}
   {% if e.counts %}<ul class="counts">{% for k, v in e.counts.items() %}<li>{{ k|countlabel }} <b>{{ v }}</b></li>{% endfor %}</ul>{% endif %}
   {% if e.breakdown %}<table class="breakdown">{% for b in e.breakdown %}<tr><td>{{ b.label }}</td>{% if b.count is defined %}<td class="num">{{ "{:,}".format(b.count) }}</td>{% endif %}{% if b.delta is defined %}<td class="num">+{{ "{:,}".format(b.delta) }}</td>{% endif %}</tr>{% endfor %}</table>{% endif %}
@@ -30,7 +31,7 @@
   {% if e.extraction == 'structured' or e.detail or e.also_reported_by %}
   <details><summary>Source text</summary>
     {% if e.extraction == 'structured' %}<blockquote lang="{{ e.lang }}">{{ e.quote }}</blockquote>{% endif %}
-    {% if e.detail %}<blockquote>{{ e.detail }}</blockquote>{% endif %}
+    {% if e.detail and e.extraction != 'structured' %}<blockquote>{{ e.detail }}</blockquote>{% endif %}
     {% for r in e.also_reported_by if r.quote %}<blockquote>{{ r.quote }} <span class="src">{{ r.name }}</span></blockquote>{% endfor %}
   </details>
   {% endif %}
