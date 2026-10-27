@@ -111,6 +111,7 @@ body.wire .brand { letter-spacing: .02em; }
 .chip .n { opacity: .7; font-size: .72rem; }
 .chip.ctl { color: var(--accent); }
 .wire .row { display: grid; grid-template-columns: 56px 190px minmax(0, 1fr) 200px; gap: 0 16px; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: .88rem; }
+.wire .row[hidden] { display: none; }
 .wire .row.head { font-size: .7rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); border-bottom: 1px solid var(--fg); }
 .wire .time { color: var(--muted); }
 .wire .cat { font-family: var(--sans); font-size: .78rem; color: var(--muted); }
@@ -119,4 +120,9 @@ body.wire .brand { letter-spacing: .02em; }
 .wire .src { font-family: var(--sans); font-size: .78rem; display: flex; flex-direction: column; gap: 2px; align-items: flex-start; }
 .wire .src .side { margin-left: 0; }
 .wire .src .also { font-size: .72rem; }
-@media (max-width: 720px) { .wire .row { grid-template-columns: 56px minmax(0, 1fr); } .wire .row .cat, .wire .row .src { grid-column: 2; } .wire .row.head .cat, .wire .row.head .src { display: none; } }
+@media (max-width: 720px) {
+  .wire .row { grid-template-columns: 56px minmax(0, 1fr); gap: 4px 12px; }
+  .wire .row .cat, .wire .row .entry, .wire .row .src { grid-column: 2; }
+  .wire .row .src { flex-direction: row; flex-wrap: wrap; gap: 4px 10px; }
+  .wire .row.head .cat, .wire .row.head .src { display: none; }
+}
