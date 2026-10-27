@@ -1,6 +1,6 @@
 {
  "date": "2026-10-24",
- "generated_at": "2026-10-27T20:38:51+00:00",
+ "generated_at": "2026-10-27T20:46:45+00:00",
  "events": [
   {
    "date": "2026-10-24",
@@ -28,6 +28,7 @@
    "lang": "uk",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-24T19:02:29+00:00",
    "id": "cd8fc5985bcf"
   }
  ]

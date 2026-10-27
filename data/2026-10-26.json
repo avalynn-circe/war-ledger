@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-27T20:38:51+00:00",
+ "generated_at": "2026-10-27T20:46:45+00:00",
  "events": [
   {
    "date": "2026-10-26",
@@ -24,6 +24,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-26T20:16:41+00:00",
    "id": "4dc5cea6890f"
   },
   {
@@ -53,6 +54,7 @@
      "url": "https://www.ukrinform.net/rubric-ato/4178404-russian-strike-on-kharkiv-kills-and-injures-civilians.html"
     }
    ],
+   "published": "2026-10-26T20:33:00+00:00",
    "id": "c3c5e188ef66"
   },
   {
@@ -84,6 +86,7 @@
    "lang": "ru",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-26T17:15:20+00:00",
    "id": "2122fe1b12b5"
   },
   {
@@ -108,6 +111,7 @@
    "lang": "uk",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-26T16:51:01+00:00",
    "id": "0422a3031c82"
   },
   {
@@ -132,6 +136,7 @@
    "lang": "ru",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-26T18:45:01+00:00",
    "id": "2c81e84b1c57"
   },
   {
@@ -164,6 +169,7 @@
    "lang": "uk",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-26T06:00:27+00:00",
    "id": "3aebbd70820a"
   },
   {
@@ -192,6 +198,7 @@
    "lang": "uk",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-26T20:03:01+00:00",
    "id": "a3a036d9c13b"
   },
   {
@@ -255,6 +262,7 @@
    "lang": "uk",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-26T06:00:27+00:00",
    "id": "78cda16aa9ef"
   },
   {
@@ -279,6 +287,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-26T18:42:57+00:00",
    "id": "e06722f30443"
   },
   {
@@ -303,6 +312,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-26T19:01:03+00:00",
    "id": "bf795cbfc790"
   },
   {
@@ -325,6 +335,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-26T19:13:00+00:00",
    "id": "cf48e07e90ee"
   },
   {
@@ -349,6 +360,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-26T21:28:00+00:00",
    "id": "cce7239326c1"
   }
  ]

@@ -53,34 +53,29 @@
     if (band) band.textContent = 'TODAY';
   }
 
-  /* Wire: lazy history. The page lists the earlier days in data-days; each is
-     fetched on demand and its rows appended under a date divider. */
+  /* Wire: the page holds the newest day; earlier days are fetched as
+     fragments (wire-data/<date>.html) while the reader scrolls. */
   var wire = document.querySelector('.wire[data-days]');
   if (wire && 'IntersectionObserver' in window && window.location.protocol !== 'file:') {
     var days = [];
     try { days = JSON.parse(wire.getAttribute('data-days')) || []; } catch (e) { days = []; }
     var sentinel = document.getElementById('wire-more');
     var loading = false;
+    function inView(el) { var r = el.getBoundingClientRect(); return r.top < window.innerHeight + 600; }
     function loadNext() {
-      if (loading || !days.length) { if (!days.length && sentinel) sentinel.textContent = 'Start of the ledger.'; return; }
+      if (loading) return;
+      if (!days.length) { if (sentinel) sentinel.textContent = 'Start of the ledger.'; return; }
       loading = true;
       var d = days.shift();
       if (sentinel) sentinel.textContent = 'Loading ' + d + '…';
-      fetch('wire-' + d + '.html', { credentials: 'same-origin' }).then(function (r) { return r.ok ? r.text() : ''; }).then(function (html) {
+      fetch('wire-data/' + d + '.html', { credentials: 'same-origin' }).then(function (r) { return r.ok ? r.text() : ''; }).then(function (html) {
         var doc = new DOMParser().parseFromString(html, 'text/html');
-        var rows = doc.querySelectorAll('.wire .row[data-cat]');
-        var divider = document.createElement('div');
-        divider.className = 'row day-divider';
-        divider.innerHTML = '<span></span><span class="cat"></span><span><a href="wire-' + d + '.html">' + (doc.querySelector('.cal-date') ? doc.querySelector('.cal-date').textContent : d) + '</a></span><span class="src"></span>';
-        wire.insertBefore(divider, sentinel);
+        var rows = doc.querySelectorAll('.row');
         Array.prototype.forEach.call(rows, function (r) { wire.insertBefore(document.importNode(r, true), sentinel); });
-        if (!rows.length) {
-          var none = document.createElement('div'); none.className = 'row'; none.innerHTML = '<span></span><span class="cat"></span><span class="muted">No entries.</span><span class="src"></span>';
-          wire.insertBefore(none, sentinel);
-        }
         loading = false;
         applyToggles();
         if (sentinel) sentinel.textContent = days.length ? 'Scroll for ' + days[0] : 'Start of the ledger.';
+        if (sentinel && inView(sentinel)) loadNext();
       }).catch(function () { loading = false; if (sentinel) sentinel.textContent = 'Could not load ' + d + '.'; });
     }
     var io = new IntersectionObserver(function (entries) {

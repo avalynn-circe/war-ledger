@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-27T20:38:51+00:00",
+ "generated_at": "2026-10-27T20:46:45+00:00",
  "events": [
   {
    "date": "2026-10-27",
@@ -53,6 +53,7 @@
      "quote": "Air defenses neutralize two ballistic missiles, 255 drones in overnight Russian attack on Ukraine"
     }
    ],
+   "published": "2026-10-27T07:08:41+00:00",
    "id": "97ca80952f7e"
   },
   {
@@ -80,6 +81,7 @@
      "url": "https://t.me/mod_russia/68576"
     }
    ],
+   "published": "2026-10-27T05:06:57+00:00",
    "id": "abb59224ad56"
   },
   {
@@ -102,6 +104,7 @@
    "lang": "ru",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T15:39:23+00:00",
    "id": "1c622ac1d554"
   },
   {
@@ -124,6 +127,7 @@
    "lang": "ru",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T18:31:32+00:00",
    "id": "474cd69ce322"
   },
   {
@@ -148,6 +152,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T05:24:00+00:00",
    "id": "90cf74f10ac4"
   },
   {
@@ -172,6 +177,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T05:44:00+00:00",
    "id": "ce37241dc569"
   },
   {
@@ -196,6 +202,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T06:56:00+00:00",
    "id": "69c8b93af0be"
   },
   {
@@ -220,6 +227,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T08:35:00+00:00",
    "id": "befbce6cb892"
   },
   {
@@ -249,6 +257,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T09:11:00+00:00",
    "id": "19b40500d260"
   },
   {
@@ -273,6 +282,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T13:00:00+00:00",
    "id": "4cfe5b90b365"
   },
   {
@@ -295,6 +305,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T13:19:08+00:00",
    "id": "806adca53ad2"
   },
   {
@@ -319,6 +330,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T13:58:00+00:00",
    "id": "3528654781c0"
   },
   {
@@ -343,6 +355,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T14:01:08+00:00",
    "id": "c44a6a29835c"
   },
   {
@@ -368,6 +381,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T15:45:45+00:00",
    "id": "558fe552c70a"
   },
   {
@@ -390,6 +404,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T16:29:00+00:00",
    "id": "ec77d7d932f5"
   },
   {
@@ -412,6 +427,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T17:14:00+00:00",
    "id": "f2f25b294dcf"
   },
   {
@@ -441,6 +457,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T18:43:40+00:00",
    "id": "fa60657a10fc"
   },
   {
@@ -469,6 +486,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T19:42:00+00:00",
    "id": "f7599fb70e39"
   },
   {
@@ -508,6 +526,7 @@
    "lang": "ru",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-27T05:52:37+00:00",
    "id": "b0de695bbaac"
   },
   {
@@ -540,6 +559,7 @@
    "lang": "ru",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-27T17:58:41+00:00",
    "id": "b6436202aa2f"
   },
   {
@@ -564,6 +584,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T00:32:47+00:00",
    "id": "9fadc649467b"
   },
   {
@@ -589,6 +610,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T14:34:00+00:00",
    "id": "e41203c86941"
   },
   {
@@ -614,6 +636,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T07:18:00+00:00",
    "id": "cd769297e8ee"
   },
   {
@@ -638,6 +661,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T18:05:12+00:00",
    "id": "2f62c8fb926e"
   },
   {
@@ -664,6 +688,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T19:20:00+00:00",
    "id": "0e7f9305eac1"
   },
   {
@@ -699,6 +724,7 @@
    "lang": "uk",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-27T06:02:01+00:00",
    "id": "3720cc8666ae"
   },
   {
@@ -728,6 +754,7 @@
    "lang": "uk",
    "extraction": "structured",
    "also_reported_by": [],
+   "published": "2026-10-27T20:01:48+00:00",
    "id": "943b30ea59a8"
   },
   {
@@ -789,6 +816,7 @@
      "quote": "Russia loses another 1,400 troops in war against Ukraine in past 24 hours"
     }
    ],
+   "published": "2026-10-27T06:02:01+00:00",
    "id": "847e7af4a1b6"
   },
   {
@@ -811,6 +839,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T07:29:15+00:00",
    "id": "e62dc5b520b3"
   },
   {
@@ -833,6 +862,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T11:25:09+00:00",
    "id": "7559790a719d"
   },
   {
@@ -865,6 +895,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T09:47:00+00:00",
    "id": "701caf69fd01"
   },
   {
@@ -887,6 +918,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T11:20:00+00:00",
    "id": "45a60da135ad"
   },
   {
@@ -911,6 +943,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T07:05:00+00:00",
    "id": "cb306085fc0f"
   },
   {
@@ -935,6 +968,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T08:47:00+00:00",
    "id": "d07e525d70f6"
   },
   {
@@ -959,6 +993,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
+   "published": "2026-10-27T14:39:36+00:00",
    "id": "d97561669c5e"
   }
  ]
