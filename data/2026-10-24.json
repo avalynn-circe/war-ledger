@@ -1,7 +1,32 @@
 {
  "date": "2026-10-24",
- "generated_at": "2026-10-27T20:46:45+00:00",
+ "generated_at": "2026-10-27T20:55:16+00:00",
  "events": [
+  {
+   "date": "2026-10-24",
+   "category": "strikes_in_russia",
+   "source_id": "gov_belgorod",
+   "source_name": "Governor of Belgorod oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/vvgladkov/21324",
+   "quote": "Находясь проездом в Москве, вместе с семьей заехали в Российскую детскую клиническую больницу, чтобы проведать детей, раненых во время атак со стороны ВСУ, которых разрешили посетить врачи.",
+   "time": "16:07",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-24T13:07:07+00:00",
+   "id": "e263448626e3"
+  },
   {
    "date": "2026-10-24",
    "category": "front_activity",

@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-27T20:46:45+00:00",
+ "generated_at": "2026-10-27T20:55:16+00:00",
  "events": [
   {
    "date": "2026-10-26",
@@ -88,6 +88,112 @@
    "also_reported_by": [],
    "published": "2026-10-26T17:15:20+00:00",
    "id": "2122fe1b12b5"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "strikes_in_russia",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42692",
+   "quote": "⚡️⚡️ Удар по заводу «Енергія» в Єльці.",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Iskander-M ballistic missile"
+    },
+    {
+     "name": "Guided aerial bomb (KAB/FAB)"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Lipetsk oblast",
+    "Oryol oblast",
+    "Samara oblast",
+    "Tver oblast"
+   ],
+   "lang": "uk",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-26T11:13:58+00:00",
+   "id": "97d504bcb03b"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "strikes_in_russia",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42693",
+   "quote": "Результати тижня: Дякуємо підрозділам Сил оборони України!",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-26T12:33:13+00:00",
+   "id": "0cf965f3a9a5"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "strikes_in_russia",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42694",
+   "quote": "⚡️⚡️ Уражено вузол зв'язку, пункт управління, майстерню БпЛА та склади МТЗ противника 25 жовтня та в ніч на 26 жовтня підрозділами Сил оборони України уражено: ⚡️ Вузол зв'язку підрозділу армії рф у районі Мелітополя Запорізької області.",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-26T15:05:07+00:00",
+   "id": "fd09c2fdf67d"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "strikes_in_russia",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7699",
+   "quote": "Сегодня на оперативном совещании с членами Правительства и главами муниципалитетов обсудили текущие вопросы.",
+   "time": "15:38",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-26T13:38:46+00:00",
+   "id": "2512ed942522"
   },
   {
    "date": "2026-10-26",

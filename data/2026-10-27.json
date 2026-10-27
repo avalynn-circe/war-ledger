@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-27T20:46:45+00:00",
+ "generated_at": "2026-10-27T20:55:16+00:00",
  "events": [
   {
    "date": "2026-10-27",
@@ -361,6 +361,31 @@
   {
    "date": "2026-10-27",
    "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129501",
+   "quote": "Умер художник-постановщик сериала «Ликвидация» Александр Кондратов, обвиненный в «госизмене».",
+   "time": "17:30",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-27T15:30:00+00:00",
+   "id": "b115adf44d3e"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "air_attack",
    "source_id": "kyivindependent",
    "source_name": "The Kyiv Independent",
    "source_side": "media",
@@ -429,6 +454,36 @@
    "also_reported_by": [],
    "published": "2026-10-27T17:14:00+00:00",
    "id": "f2f25b294dcf"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129512",
+   "quote": "«Нова пошта» уже сбивала российские беспилотники в рамках проекта частной ПВО, — «Интерфакс-Украина» Украинская компания «Нова пошта» реализовала проект частной противовоздушной обороны (ПВО) и уже сбивала российские ударные беспилотники, заявил совладелец группы компаний Nova Вячеслав Климов на Киевском международном…",
+   "time": "20:15",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Geran-2 strike UAV"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv",
+    "Odesa"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-27T18:15:18+00:00",
+   "id": "f0b23b234369"
   },
   {
    "date": "2026-10-27",
@@ -565,6 +620,29 @@
   {
    "date": "2026-10-27",
    "category": "strikes_in_russia",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42703",
+   "quote": "Уражено склади боєприпасів і МТЗ та живу силу противника 26 жовтня та в ніч на 27 жовтня підрозділами Сил оборони України уражено: Склади боєприпасів армії рф у районі населеного пункту Дякове Луганської області та в районі Огороднього на Донеччині.",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-27T13:44:26+00:00",
+   "id": "c4dac4ec9864"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "strikes_in_russia",
    "source_id": "kyivindependent",
    "source_name": "The Kyiv Independent",
    "source_side": "media",
@@ -612,6 +690,81 @@
    "also_reported_by": [],
    "published": "2026-10-27T14:34:00+00:00",
    "id": "e41203c86941"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129502",
+   "quote": "Собянин сообщил об уничтожении шести БПЛА, летевших на Москву UPD.",
+   "time": "17:45",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Moscow"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-27T15:45:21+00:00",
+   "id": "963f10f9a878"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129508",
+   "quote": "В аннексированном Севастополе остановились троллейбусы, пропало электричество и связь после атаки БПЛА на ключевой узел энергомоста, связывающего полуостров с Россией В Севастополе после «удара по энергоинфраструктуре за пределами нашего региона» социальные…",
+   "time": "19:33",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-27T17:33:33+00:00",
+   "id": "b65e49341fe7"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129513",
+   "quote": "В белгородском Шебекино один человек пострадал при атаке дрона, взорвавшегося во дворе жилого дома, — Оперштаб",
+   "time": "20:25",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-27T18:25:46+00:00",
+   "id": "0ecddac8a6cb"
   },
   {
    "date": "2026-10-27",
@@ -818,6 +971,250 @@
    ],
    "published": "2026-10-27T06:02:01+00:00",
    "id": "847e7af4a1b6"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24236, of which: destroyed: 19201, damaged: 1001, abandoned: 1192, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24236,
+    "destroyed": 19201,
+    "damaged": 1001,
+    "abandoned": 1192,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4451
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2427
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6493
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 756
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 440
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 740
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 620
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1066
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 643
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 71
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 30
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 448
+    },
+    {
+     "label": "Radars",
+     "count": 133
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 205
+    },
+    {
+     "label": "Helicopters",
+     "count": 185
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 40
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4738
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-10-27T20:55:15.801923+00:00",
+   "id": "c3f2304c2cb1"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12294, of which: destroyed: 9689, damaged: 715, abandoned: 692, captured: 1198",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12294,
+    "destroyed": 9689,
+    "damaged": 715,
+    "abandoned": 692,
+    "captured": 1198
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1472
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 565
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1627
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1468
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1015
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2192
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 104
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 302
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 305
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 997
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 135
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 150
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1402
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-10-27T20:55:16.356810+00:00",
+   "id": "7a361d4976d4"
   },
   {
    "date": "2026-10-27",

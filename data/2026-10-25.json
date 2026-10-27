@@ -1,7 +1,57 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-27T20:46:45+00:00",
+ "generated_at": "2026-10-27T20:55:16+00:00",
  "events": [
+  {
+   "date": "2026-10-25",
+   "category": "strikes_in_russia",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42686",
+   "quote": "⚡️⚡️ Уражено РЛС, КСП та зосередження живої сили противника 24 жовтня та в ніч на 25 жовтня підрозділами Сил оборони України уражено: ⚡️ Радіолокаційні станції армії рф у районах населених пунктів Гостищево та Курганне Бєлгородської області рф.",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast"
+   ],
+   "lang": "uk",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-25T09:00:52+00:00",
+   "id": "cf8bc4f64f4d"
+  },
+  {
+   "date": "2026-10-25",
+   "category": "strikes_in_russia",
+   "source_id": "gov_bryansk",
+   "source_name": "Governor of Bryansk oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/avbogomaz/19827",
+   "quote": "Хацунь: память, которая не дает забыть.",
+   "time": "09:16",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Bryansk oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-25T07:16:32+00:00",
+   "id": "89467190ef1f"
+  },
   {
    "date": "2026-10-25",
    "category": "front_line",
