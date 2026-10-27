@@ -1,6 +1,7 @@
-# Twice a day: collect from every source in sources.yaml, merge the day's
-# entries into data/, render site/, commit both, and publish site/ to
-# GitHub Pages.
+# Every two hours: collect from every source in sources.yaml, archive the
+# source text, rebuild data/ and site/, commit both, and publish site/ to
+# GitHub Pages. Telegram previews only show the last twenty posts of a
+# channel, so a long gap between runs would lose posts on busy channels.
 #
 # One-time setup in the repository: Settings > Pages > Source: "GitHub Actions".
 # The workflow token is not allowed to enable Pages itself.
@@ -10,8 +11,7 @@ name: The Ukraine War Ledger
 
 on:
   schedule:
-    - cron: '20 7 * * *'    # after the morning Air Force report (09:00 Kyiv)
-    - cron: '20 19 * * *'
+    - cron: '20 */2 * * *'
   workflow_dispatch:
   push:
     branches: [main]

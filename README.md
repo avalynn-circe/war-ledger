@@ -79,7 +79,7 @@ python -m pipeline.run                           # live fetch
 python -m http.server -d site 8000               # view at http://localhost:8000
 ```
 
-`.github/workflows/inventory.yml` runs the live collection twice a day, commits
+`.github/workflows/inventory.yml` runs the live collection every two hours, commits
 `data/` and `site/`, and deploys `site/` to GitHub Pages. One manual step:
 in the repository settings, under Pages, set the source to "GitHub Actions".
 The workflow token cannot do that itself.
