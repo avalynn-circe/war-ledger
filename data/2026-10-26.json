@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-27T09:08:58+00:00",
+ "generated_at": "2026-10-27T09:17:26+00:00",
  "events": [
   {
    "date": "2026-10-26",
@@ -25,6 +25,35 @@
    "extraction": "rules",
    "also_reported_by": [],
    "id": "4dc5cea6890f"
+  },
+  {
+   "date": "2026-10-26",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4178421-russian-strike-on-kharkiv-kills-and-injures-civilians.html",
+   "quote": "Russian strike on Kharkiv kills and injures civilians",
+   "time": "22:33",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Russian invaders launched strikes on the Novobavarskyi district of Kharkiv this evening, killing two people and wounding four others.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kharkiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4178404-russian-strike-on-kharkiv-kills-and-injures-civilians.html"
+    }
+   ],
+   "id": "c3c5e188ef66"
   },
   {
    "date": "2026-10-26",
@@ -162,6 +191,8 @@
    "weapons": [],
    "counts": {
     "clashes": 185,
+    "guided_bombs": 155,
+    "air_strikes": 48,
     "kamikaze_drones": 6385,
     "shellings": 2007
    },

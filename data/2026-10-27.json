@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-27T09:08:58+00:00",
+ "generated_at": "2026-10-27T09:17:26+00:00",
  "events": [
   {
    "date": "2026-10-27",
@@ -18,12 +18,21 @@
    "weapons": [
     {
      "name": "Shahed/Gerbera-type strike UAV",
-     "launched": 280
+     "launched": 280,
+     "intercepted": 255
+    },
+    {
+     "name": "Iskander-M/S-400 ballistic missile",
+     "intercepted": 2
+    },
+    {
+     "name": "aerial targets",
+     "intercepted": 257
     }
    ],
    "counts": {
     "launched": 280,
-    "intercepted": 0,
+    "intercepted": 514,
     "impact_locations": 16,
     "impacts": 0
    },
@@ -138,6 +147,54 @@
    "source_id": "ukrinform",
    "source_name": "Ukrinform",
    "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4178448-zelensky-after-russian-strike-on-kyiv-delays-in-air-defense-support-ukraine-enable-terrorism.html",
+   "quote": "Zelensky after Russian strike on Kyiv: Delays in air defense support Ukraine enable terrorism",
+   "time": "07:44",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Amid the constant threat of Russian airstrikes, artificial delays in the delivery of air defense systems to protect Ukraine only serve to fuel terror.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "id": "ce37241dc569"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4178468-russian-attack-on-kyiv-kills-one-person-and-injures-14.html",
+   "quote": "Russian attack on Kyiv kills one person and injures 14",
+   "time": "08:56",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Since the evening of October 26, one person has been killed and 14 others wounded as a result of enemy attacks on the capital.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "id": "69c8b93af0be"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
    "source_url": "https://www.ukrinform.net/rubric-ato/4178499-air-defenses-neutralize-two-ballistic-missiles-255-drones-in-overnight-russian-attack-on-ukraine.html",
    "quote": "Air defenses neutralize two ballistic missiles, 255 drones in overnight Russian attack on Ukraine",
    "time": "09:51",
@@ -153,6 +210,59 @@
    "extraction": "rules",
    "also_reported_by": [],
    "id": "aa397db25fea"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4178518-three-killed-eight-injured-in-russian-attacks-on-kharkiv-region-over-past-day.html",
+   "quote": "Three killed, eight injured in Russian attacks on Kharkiv Region over past day",
+   "time": "10:35",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Three people were killed and eight others injured in Russian attacks on Kharkiv and 12 other settlements in the Kharkiv region over the past day.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kharkiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "id": "befbce6cb892"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4178535-zelensky-on-overnight-attack-russia-targeted-energy-logistics-and-urban-infrastructure-almost-everywhere.html",
+   "quote": "Zelensky on overnight attack: Russia targeted energy, logistics, and urban infrastructure almost everywhere",
+   "time": "11:11",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "President Volodymyr Zelensky, commenting on a new Russian attack involving ballistic missiles, said that artificial and prolonged delays in deliveries of interceptors for Patriot and NASAMS air defense systems directly help Russia achieve the objectives of its terrorist campaign.",
+   "weapons": [
+    {
+     "name": "Patriot"
+    },
+    {
+     "name": "NASAMS"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "id": "19b40500d260"
   },
   {
    "date": "2026-10-27",
@@ -177,6 +287,30 @@
    "extraction": "structured",
    "also_reported_by": [],
    "id": "b0de695bbaac"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "strikes_in_russia",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-ammunition-depot-in-occupied-luhansk-oblast/",
+   "quote": "Ukraine reportedly strikes Russian ammunition depot in occupied Luhansk Oblast",
+   "time": "02:32",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Ukraine used strike drones in an attack that took several hours near the city of Khrustalnyi, according to Ukrainian monitoring channel Exilenova Plus.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Luhansk oblast"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "id": "9fadc649467b"
   },
   {
    "date": "2026-10-27",
@@ -267,6 +401,9 @@
    "weapons": [],
    "counts": {
     "clashes": 196,
+    "guided_bombs": 247,
+    "air_strikes": 72,
+    "missile_strikes": 1,
     "kamikaze_drones": 9679,
     "shellings": 2518
    },

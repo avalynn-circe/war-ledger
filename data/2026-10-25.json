@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-27T09:08:58+00:00",
+ "generated_at": "2026-10-27T09:17:26+00:00",
  "events": [
   {
    "date": "2026-10-25",
@@ -43,6 +43,8 @@
    "weapons": [],
    "counts": {
     "clashes": 193,
+    "guided_bombs": 281,
+    "air_strikes": 83,
     "kamikaze_drones": 10010,
     "shellings": 3276
    },
@@ -69,6 +71,8 @@
    "weapons": [],
    "counts": {
     "clashes": 157,
+    "guided_bombs": 142,
+    "air_strikes": 42,
     "kamikaze_drones": 4834,
     "shellings": 1758
    },
