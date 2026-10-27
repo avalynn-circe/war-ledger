@@ -209,7 +209,7 @@ class Fold(unittest.TestCase):
         air = [e for e in out if e.category == "air_attack" and e.date == "2026-10-26"]
         self.assertEqual(len(air), 1)
         self.assertEqual({r["name"] for r in air[0].also_reported_by}, {"The Kyiv Independent", "Ukrinform"})
-        losses = [e for e in out if e.category == "losses_claimed"]
+        losses = [e for e in out if e.category == "losses_claimed" and e.date == "2026-10-26"]
         self.assertEqual(len(losses), 1)
         self.assertEqual([r["name"] for r in losses[0].also_reported_by], ["Ukrinform"])
 

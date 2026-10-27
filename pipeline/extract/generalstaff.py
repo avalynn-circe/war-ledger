@@ -13,7 +13,7 @@ from .common import Event, first_sentence, kyiv_date, source_fields, to_int
 from .lexicon import find_places
 
 LOSS_LINE = re.compile(
-    r"^\s*(.+?)\s*[‒–—\-]\s*(?:близько\s+)?(\d[\d\s ]*?)\s*\(\s*\+?\s*(\d[\d\s ]*?)\s*\)",
+    r"^\s*(.+?)\s*[‒–—\-]\s*(?:близько\s+)?(\d[\d\s\u00a0]*?)\s*\(\s*\+?\s*(\d[\d\s\u00a0]*?)\s*\)",
     re.M,
 )
 PERIOD = re.compile(r"з\s+(\d{2}\.\d{2}\.\d{2,4})\s+по\s+(\d{2}\.\d{2}\.\d{2,4})")
@@ -60,17 +60,17 @@ LABELS = [
 ]
 
 OP_PATTERNS = {
-    "clashes": r"(\d[\d\s ]*)\s+бойов\w+\s+зіткнен",
-    "missiles_used": r"застосував\w*\s+(\d[\d\s ]*)\s+ракет",
-    "guided_bombs": r"(\d[\d\s ]*)\s+(?:керован\w+\s+авіа\w*\s*бомб\w*|КАБ\w*)",
-    "air_strikes": r"(\d[\d\s ]*)\s+авіаційн\w+\s+удар",
-    "missile_strikes": r"(\d[\d\s ]*)\s+ракетн\w+\s+удар",
-    "kamikaze_drones": r"(\d[\d\s ]*)\s+дрон\w*-камікадзе",
-    "shellings": r"(\d[\d\s ]*)\s+обстріл",
-    "mlrs_shellings": r"(\d[\d\s ]*)\s*[‒–—\-]\s*(?:із|з)\s+реактивн",
-    "concentration_areas_struck": r"(\d[\d\s ]*)\s+район\w*\s+зосередження",
+    "clashes": r"(\d[\d\s\u00a0]*)\s+бойов\w+\s+зіткнен",
+    "missiles_used": r"застосував\w*\s+(\d[\d\s\u00a0]*)\s+ракет",
+    "guided_bombs": r"(\d[\d\s\u00a0]*)\s+(?:керован\w+\s+авіа\w*\s*бомб\w*|КАБ\w*)",
+    "air_strikes": r"(\d[\d\s\u00a0]*)\s+авіаційн\w+\s+удар",
+    "missile_strikes": r"(\d[\d\s\u00a0]*)\s+ракетн\w+\s+удар",
+    "kamikaze_drones": r"(\d[\d\s\u00a0]*)\s+дрон\w*-камікадзе",
+    "shellings": r"(\d[\d\s\u00a0]*)\s+обстріл",
+    "mlrs_shellings": r"(\d[\d\s\u00a0]*)\s*[‒–—\-]\s*(?:із|з)\s+(?:застосуванням\s+)?(?:РСЗВ|реактивн)",
+    "concentration_areas_struck": r"(\d[\d\s\u00a0]*)\s+район\w*\s+(?:зосередження|скупчення)",
 }
-STRIKES = re.compile(r"(\d[\d\s ]*)\s+ракетн\w+(?:\s+удар\w*)?\s+та\s+(\d[\d\s ]*)\s+авіаційн\w+\s+удар")
+STRIKES = re.compile(r"(\d[\d\s\u00a0]*)\s+ракетн\w+(?:\s+удар\w*)?\s+та\s+(\d[\d\s\u00a0]*)\s+авіаційн\w+\s+удар")
 
 
 def _label(uk: str) -> str:
