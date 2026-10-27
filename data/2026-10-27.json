@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-27T09:40:15+00:00",
+ "generated_at": "2026-10-27T09:49:29+00:00",
  "events": [
   {
    "date": "2026-10-27",
@@ -412,6 +412,38 @@
    "extraction": "rules",
    "also_reported_by": [],
    "id": "e62dc5b520b3"
+  },
+  {
+   "date": "2026-10-27",
+   "category": "field_adaptation",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4178551-educational-facility-in-chernihiv-region-attacked-with-fiberoptic-fpv-drones.html",
+   "quote": "Educational facility in Chernihiv Region attacked with fiber-optic FPV drones",
+   "time": "11:47",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Russian forces attacked an educational facility with fiber-optic FPV drones in the Novhorod-Siverskyi community of the Chernihiv region.",
+   "weapons": [
+    {
+     "name": "FPV drone"
+    },
+    {
+     "name": "Fibre-optic drone"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Chernihiv",
+    "Siversk"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "id": "701caf69fd01"
   },
   {
    "date": "2026-10-27",
