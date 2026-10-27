@@ -34,7 +34,7 @@ def items(name):
 class TelegramParse(unittest.TestCase):
     def test_posts_and_dates(self):
         ps = posts("kpszsu")
-        self.assertEqual(len(ps), 2)
+        self.assertEqual(len(ps), 3)
         self.assertEqual(ps[1].url, "https://t.me/kpszsu/35012")
         self.assertEqual(ps[1].dt.isoformat(), "2026-10-26T07:12:00+00:00")
         self.assertIn("\n", ps[1].text)
@@ -43,8 +43,8 @@ class TelegramParse(unittest.TestCase):
 class AirForce(unittest.TestCase):
     def setUp(self):
         evs = [e for p in posts("kpszsu") for e in airforce.extract(p, SRC["kpszsu"])]
-        self.assertEqual(len(evs), 1, "the daily summary post must not produce an entry")
-        self.e = evs[0]
+        self.assertEqual(len(evs), 2, "the daily summary post must not produce an entry")
+        self.e, self.e2 = evs
 
     def test_counts(self):
         c = self.e.counts
@@ -70,6 +70,21 @@ class AirForce(unittest.TestCase):
         self.assertEqual(self.e.extraction, "structured")
 
 
+    def test_headline_format_2026(self):
+        """Posts that open with a ЗБИТО/ПОДАВЛЕНО headline and name missiles without a count."""
+        e = self.e2
+        self.assertEqual(e.date, "2026-10-27")
+        self.assertEqual(e.counts["launched"], 280)
+        self.assertEqual(e.counts["shahed_of_which"], 160)
+        self.assertEqual(e.counts["intercepted"], 257)
+        self.assertEqual(e.counts["impacts"], 28)
+        self.assertEqual(e.counts["impact_locations"], 16)
+        w = {x["name"]: x for x in e.weapons}
+        self.assertEqual(w[airforce.SHAHED], {"name": airforce.SHAHED, "launched": 280, "intercepted": 255, "impacts": 25})
+        self.assertEqual(w["Iskander-M/S-400 ballistic missile"], {"name": "Iskander-M/S-400 ballistic missile", "intercepted": 2, "impacts": 3})
+        self.assertEqual(e.locations[-2:], ["Donetsk (occupied)", "Hvardiiske (Crimea)"])
+
+
 class GeneralStaff(unittest.TestCase):
     def setUp(self):
         self.evs = [e for p in posts("generalstaff") for e in generalstaff.extract(p, SRC["generalstaff"])]
@@ -83,9 +98,18 @@ class GeneralStaff(unittest.TestCase):
         self.assertEqual(len(e.breakdown), 14)
         self.assertEqual(e.date, "2026-10-26")
 
+    def test_operational_number_words(self):
+        e = next(e for e in self.evs if e.counts.get("clashes") == 196)
+        self.assertEqual(e.counts["missile_strikes"], 1)
+        self.assertEqual(e.counts["air_strikes"], 48)
+        self.assertEqual(e.counts["missiles_used"], 2)
+        self.assertEqual(e.counts["guided_bombs"], 112)
+        self.assertEqual(e.counts["kamikaze_drones"], 9679)
+        self.assertEqual(e.counts["shellings"], 2518)
+        self.assertEqual(e.date, "2026-10-27")
+
     def test_operational(self):
-        e = next(e for e in self.evs if e.category == "front_activity")
-        self.assertEqual(e.counts["clashes"], 180)
+        e = next(e for e in self.evs if e.counts.get("clashes") == 180)
         self.assertEqual(e.counts["missile_strikes"], 2)
         self.assertEqual(e.counts["air_strikes"], 55)
         self.assertEqual(e.counts["guided_bombs"], 112)
@@ -107,6 +131,14 @@ class RuMod(unittest.TestCase):
         self.assertEqual(e.breakdown[0], {"label": "Bryansk oblast", "count": 23})
         self.assertIn("Black Sea", e.locations)
         self.assertIn("overnight", e.action)
+
+    def test_region_list_without_counts(self):
+        e = next(e for e in self.evs if e.counts.get("intercepted_claimed") == 222)
+        self.assertEqual(e.breakdown, [])
+        self.assertEqual(len(e.locations), 13)
+        self.assertEqual(e.locations[0], "Novgorod oblast")
+        self.assertIn("Krasnodar krai", e.locations)
+        self.assertIn("Crimea", e.locations)
 
     def test_strike_and_capture_claims(self):
         strike = next(e for e in self.evs if e.category == "air_attack")
@@ -154,7 +186,7 @@ class Fold(unittest.TestCase):
         for name in ("kyivindependent", "ukrinform"):
             evs += [e for i in items(name) for e in news.extract(i, SRC[name])]
         out = fold(evs)
-        air = [e for e in out if e.category == "air_attack"]
+        air = [e for e in out if e.category == "air_attack" and e.date == "2026-10-26"]
         self.assertEqual(len(air), 1)
         self.assertEqual({r["name"] for r in air[0].also_reported_by}, {"The Kyiv Independent", "Ukrinform"})
         losses = [e for e in out if e.category == "losses_claimed"]
@@ -172,16 +204,19 @@ class EndToEnd(unittest.TestCase):
             self.assertTrue((data / "2026-10-26.json").exists())
             self.assertTrue((data / "2026-10-25.json").exists())
             index = (site / "index.html").read_text(encoding="utf-8")
-            self.assertIn("105 launched · 90 intercepted · 15 impacts", index)
-            self.assertIn("Field adaptations", index)
+            self.assertIn("280 launched · 257 intercepted · 28 impacts", index)
+            self.assertTrue((data / "raw" / "kpszsu" / "2026-10-27.jsonl").exists())
+            day26 = (site / "2026-10-26.html").read_text(encoding="utf-8")
+            self.assertIn("105 launched · 90 intercepted · 15 impacts", day26)
+            self.assertIn("Field adaptations", day26)
             self.assertTrue((site / "archive.html").exists())
             self.assertTrue((site / "events.csv").exists())
             days = json.loads((site / "events.json").read_text(encoding="utf-8"))["days"]
-            self.assertEqual(days[0]["date"], "2026-10-26")
+            self.assertEqual(days[0]["date"], "2026-10-27")
             # Running twice must not duplicate entries.
             n = len(days[0]["events"])
             subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, check=True)
-            again = json.loads((data / "2026-10-26.json").read_text(encoding="utf-8"))["events"]
+            again = json.loads((data / "2026-10-27.json").read_text(encoding="utf-8"))["events"]
             self.assertEqual(len(again), n)
 
 

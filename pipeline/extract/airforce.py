@@ -25,13 +25,20 @@ UK_MONTHS = {
     "січня": 1, "лютого": 2, "березня": 3, "квітня": 4, "травня": 5, "червня": 6,
     "липня": 7, "серпня": 8, "вересня": 9, "жовтня": 10, "листопада": 11, "грудня": 12,
 }
-NUM_CHUNK = re.compile(r"(\d+)(?:-[а-яіїє]{1,3})?\s+([^0-9]*)")
+# A count is a number that does not continue a name such as "С-400" or "Х-101";
+# the words after it run up to the next standalone number.
+NUM_CHUNK = re.compile(r"(?<![\w/-])(\d+)(?:-[а-яіїє]{1,3})?\s+((?:(?<=[\w/-])\d|[^\d])*)")
+FIRST_COUNT = re.compile(r"(?<![\w/-])\d")
 QUOTED = re.compile(r"[«\"“]([^»\"”]+)[»\"”]")
+# Names the Air Force writes without quotation marks, e.g. "Іскандер-М/С-400".
+BARE_NAME = re.compile(
+    r"(Іскандер-М(?:/С-400)?|Іскандер-К|Іскандер|Калібр|Х-\d+(?:/Х-\d+)?|Кинджал|Циркон|Онікс|Орєшнік|С-300|С-400)"
+)
 SHAHED = "Shahed/Gerbera-type strike UAV"
 
 
 def _named(chunk: str) -> str | None:
-    names = QUOTED.findall(chunk)
+    names = QUOTED.findall(chunk) or BARE_NAME.findall(chunk)
     return translit_weapon_name(names[0]) if names else None
 
 
@@ -65,6 +72,8 @@ def classify_chunk(chunk: str) -> str | None:
         return SHAHED
     if "ракет" in c:
         return f"{name} missile" if name else "missile"
+    if "ціл" in c:
+        return "aerial targets"
     return None
 
 
@@ -85,7 +94,10 @@ def extract(post: Post, source: dict) -> list[Event]:
 
     paras = [p.strip() for p in text.split("\n") if p.strip()]
     launched_p = next((p for p in paras if "атакував" in p.lower()), "")
-    down_p = next((p for p in paras if "збито" in p.lower()), "")
+    # Newer posts open with a headline such as "ЗБИТО/ПОДАВЛЕНО 257 ВОРОЖИХ ЦІЛЕЙ";
+    # prefer the tally paragraph that names weapon types.
+    down_candidates = [p for p in paras if "збито" in p.lower()]
+    down_p = next((p for p in down_candidates if re.search(r"бпла|ракет|дрон", p.lower())), down_candidates[0] if down_candidates else "")
     hit_p = next((p for p in paras if "влучання" in p.lower()), "")
 
     weapons: dict[str, dict] = {}
@@ -115,6 +127,15 @@ def extract(post: Post, source: dict) -> list[Event]:
             add(kind, "launched", n)
             launched_sum += n
     counts["launched"] = total if total is not None else launched_sum
+    # A weapon named before the first number ("атакував балістичними ракетами
+    # Іскандер-М/С-400 ... та 280 ударними БпЛА") was launched in an unstated number.
+    first = FIRST_COUNT.search(lp)
+    lead = lp[: first.start()] if first else lp
+    lead_kind = classify_chunk(lead)
+    if lead_kind and not lead_kind.startswith("__") and not any(
+        k == lead_kind or k.endswith(lead_kind) or lead_kind.endswith(k) for k in weapons
+    ):
+        weapons[lead_kind] = {"name": lead_kind}
 
     if down_p:
         dp = _after(down_p, "збито")

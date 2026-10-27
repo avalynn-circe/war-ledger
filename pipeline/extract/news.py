@@ -19,13 +19,15 @@ RULES: dict[str, list[str]] = {
         r"shot down|downs?\b|intercept",
         r"overnight attack|air[- ]raid",
         r"russia (?:launche[sd]|fire[sd]|attack(?:s|ed)|strikes|struck|hits?|pounds?)",
+        r"russian (?:attack|strike|shelling|bombardment)s?\b",
+        r"air defen[cs]es? (?:shot|shoot|neutrali|down|intercept|destroy)",
         r"ballistic missile|cruise missile",
         r"air force (?:says|reports)",
     ],
     "strikes_in_russia": [
         r"refinery|oil depot|oil terminal|ammunition depot|arsenal",
-        r"ukrainian drones? (?:hit|strike|struck|attack|target)",
-        r"ukraine (?:strikes|hits|struck|attacked|targets)",
+        r"ukrainian drones? (?:\w+ly )?(?:hit|strike|struck|attack|target)",
+        r"ukraine (?:\w+ly )?(?:strikes|hits|struck|attacked|targets)",
         r"drones? (?:over|hit|struck|attack\w*|target\w*) .*(?:bryansk|belgorod|kursk|moscow|crimea|rostov|voronezh|ryazan|saratov|samara|tatarstan|novorossiysk|tuapse)",
         r"russian (?:defen[cs]e|air) ministry (?:says|claims|reports)",
         r"russia (?:says|claims) .*(?:drones|uavs)",
@@ -39,7 +41,7 @@ RULES: dict[str, list[str]] = {
         r"\badvanc(?:e|ed|es|ing)\b|gains? ground|pushe[sd] (?:back|forward)",
         r"deepstate|\bisw\b|front ?line|line of contact",
         r"pokrovsk|kupiansk|kostiantynivka|huliaipole|siversk|\blyman\b|vovchansk|toretsk|myrnohrad|dobropillia|chasiv yar|zaporizhzhia direction|donetsk direction",
-        r"\bvillage\b|settlement",
+        r"combat engagements|combat clashes",
     ],
     "air_defense": [
         r"patriot|iris-?t|nasams|samp/?t|gepard|skynex|hawk",
@@ -68,7 +70,7 @@ RULES: dict[str, list[str]] = {
         r"\bbatch\b|first (?:units|systems)",
         r"f-?16|mirage|gripen|atacms|taurus|storm shadow|himars|abrams|leopard|bradley|caesar|archer|\bpzh\b",
         r"ramstein|\bpurl\b|\bnato\b .*(?:weapons|systems)",
-        r"ammunition|artillery (?:shells|rounds)|155 ?mm",
+        r"ammunition (?:supply|supplies|deliver\w*|package|production|shipment|plant)|artillery (?:shells|rounds)|155 ?mm",
     ],
     "naval": [
         r"black sea|sea of azov",
@@ -105,7 +107,7 @@ GATES = {
         r"weapon|missile|drone|ammunition|shells?|aircraft|jet|fighter|tank|vehicle|air defen|system|package|aid|rounds|artillery|howitzer",
         re.I,
     ),
-    "losses_claimed": re.compile(r"troops|soldiers|personnel|tanks?|artillery|vehicles|equipment|aircraft|general staff|oryx", re.I),
+    "losses_claimed": re.compile(r"\d.*(?:troops|soldiers|personnel|tanks?|artillery|vehicles|equipment|aircraft|general staff|oryx)|(?:general staff|oryx).*\d", re.I),
     "infrastructure": re.compile(r"attack|strike|struck|hit|drone|missile|shell|damage|destroy|outage|blackout|without", re.I),
 }
 
@@ -134,6 +136,10 @@ def classify(title: str, summary: str) -> str | None:
                 score += 1
         gate = GATES.get(cat)
         if score and gate and not gate.search(title + " " + summary):
+            score = 0
+        # The headline must carry at least one cue; a summary-only match is
+        # too often a passing mention.
+        if score and cat not in title_hit:
             score = 0
         if score:
             scores[cat] = score

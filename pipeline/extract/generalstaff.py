@@ -12,10 +12,28 @@ from ..sources.telegram import Post
 from .common import Event, first_sentence, kyiv_date, source_fields, to_int
 
 LOSS_LINE = re.compile(
-    r"^\s*(.+?)\s+[‒–—\-]\s+(?:близько\s+)?(\d[\d\s ]*?)\s*\(\s*\+?\s*(\d[\d\s ]*?)\s*\)",
+    r"^\s*(.+?)\s*[‒–—\-]\s*(?:близько\s+)?(\d[\d\s ]*?)\s*\(\s*\+?\s*(\d[\d\s ]*?)\s*\)",
     re.M,
 )
 PERIOD = re.compile(r"з\s+(\d{2}\.\d{2}\.\d{2,4})\s+по\s+(\d{2}\.\d{2}\.\d{2,4})")
+
+# The operational report writes small numbers as words: "одного ракетного та
+# 48 авіаційних ударів, застосувавши дві ракети".
+NUMBER_WORDS = {
+    1: r"одн(?:ого|у|ієї|ин|а|е)", 2: r"дв(?:а|і|ох)", 3: r"тр(?:и|ьох)", 4: r"чотир(?:и|ьох)",
+    5: r"п'ят(?:ь|и)", 6: r"шіст(?:ь|и)", 7: r"с(?:і|е)м(?:и|ь)?", 8: r"вісім|восьми", 9: r"дев'ят(?:ь|и)",
+    10: r"десят(?:ь|и)", 11: r"одинадцят(?:ь|и)", 12: r"дванадцят(?:ь|и)", 13: r"тринадцят(?:ь|и)",
+    14: r"чотирнадцят(?:ь|и)", 15: r"п'ятнадцят(?:ь|и)", 16: r"шістнадцят(?:ь|и)", 17: r"сімнадцят(?:ь|и)",
+    18: r"вісімнадцят(?:ь|и)", 19: r"дев'ятнадцят(?:ь|и)", 20: r"двадцят(?:ь|и)",
+}
+_NUMBER_WORDS = [(re.compile(rf"\b(?:{pat})\b", re.I), str(n)) for n, pat in sorted(NUMBER_WORDS.items(), reverse=True)]
+
+
+def words_to_digits(text: str) -> str:
+    for rx, digit in _NUMBER_WORDS:
+        text = rx.sub(digit, text)
+    return text
+
 
 LABELS = [
     ("особового складу", "personnel"),
@@ -42,8 +60,10 @@ LABELS = [
 
 OP_PATTERNS = {
     "clashes": r"(\d[\d\s ]*)\s+бойов\w+\s+зіткнен",
-    "missiles_used": r"застосувавши\s+(\d[\d\s ]*)\s+ракет",
-    "guided_bombs": r"скинувши\s+(\d[\d\s ]*)\s+керован\w+\s+авіабомб",
+    "missiles_used": r"застосував\w*\s+(\d[\d\s ]*)\s+ракет",
+    "guided_bombs": r"(\d[\d\s ]*)\s+(?:керован\w+\s+авіа\w*\s*бомб\w*|КАБ\w*)",
+    "air_strikes": r"(\d[\d\s ]*)\s+авіаційн\w+\s+удар",
+    "missile_strikes": r"(\d[\d\s ]*)\s+ракетн\w+\s+удар",
     "kamikaze_drones": r"(\d[\d\s ]*)\s+дрон\w*-камікадзе",
     "shellings": r"(\d[\d\s ]*)\s+обстріл",
     "mlrs_shellings": r"(\d[\d\s ]*)\s*[‒–—\-]\s*(?:із|з)\s+реактивн",
@@ -99,7 +119,7 @@ def _losses(post: Post, source: dict) -> list[Event]:
 
 
 def _operational(post: Post, source: dict) -> list[Event]:
-    text = post.text
+    text = words_to_digits(post.text)
     counts: dict = {}
     for key, pat in OP_PATTERNS.items():
         m = re.search(pat, text)
@@ -132,7 +152,7 @@ def _operational(post: Post, source: dict) -> list[Event]:
 
 def extract(post: Post, source: dict) -> list[Event]:
     low = post.text.lower()
-    if "бойові втрати противника" in low or "втрати противника" in low:
+    if "втрати" in low and "особового складу" in low:
         return _losses(post, source)
     if "бойових зіткнень" in low or "бойових зіткнення" in low:
         return _operational(post, source)

@@ -34,8 +34,10 @@ sources.yaml  ->  fetch  ->  parse  ->  extract  ->  fold  ->  data/YYYY-MM-DD.j
    story that repeats the Air Force figures) is attached to that entry as
    "also reported by".
 5. **Store.** `pipeline/store.py` writes one JSON file per Kyiv date and
-   merges by entry id, so a second run in the same day updates rather than
-   duplicates.
+   merges by entry id, so a second run in the same day updates the entry
+   without duplicating it. The source text of every post and feed item is
+   kept under `data/raw/<source>/<date>.jsonl`, so an extractor can be
+   improved and re-run against past days without refetching.
 6. **Render.** `pipeline/render.py` writes `site/`: one page per day,
    `index.html` for the latest day, `archive.html`, `events.json`, `events.csv`.
 
@@ -53,8 +55,9 @@ python -m http.server -d site 8000               # view at http://localhost:8000
 ```
 
 `.github/workflows/inventory.yml` runs the live collection twice a day, commits
-`data/` and `site/`, and deploys `site/` to GitHub Pages. Enable Pages with
-source "GitHub Actions" in the repository settings once.
+`data/` and `site/`, and deploys `site/` to GitHub Pages. One manual step:
+in the repository settings, under Pages, set the source to "GitHub Actions".
+The workflow token cannot do that itself.
 
 ## Sources
 

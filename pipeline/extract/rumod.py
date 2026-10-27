@@ -14,6 +14,7 @@ INTERCEPT = re.compile(
     re.I,
 )
 REGION = re.compile(r"(\d+)\s*[–—-]\s*над\s+(?:территори\w+|акватори\w+)\s+([^,;.\n]+)")
+REGION_LIST = re.compile(r"над\s+(?:территори\w+|акватори\w+)\s+(.+?)(?:\.|$)", re.S)
 WINDOW = re.compile(r"с\s+(\d{1,2}[:.]\d{2})\s+(?:мск\s+)?до\s+(\d{1,2}[:.]\d{2})")
 CAPTURED = re.compile(
     r"освобо\w+\s+населенн\w+\s+пункт\w*\s+([А-ЯЁ][^\s,.;]+(?:\s(?![А-ЯЁ][^\s,.;]+\s+област)[А-ЯЁ][^\s,.;]+)?)"
@@ -35,6 +36,14 @@ def extract(post: Post, source: dict) -> list[Event]:
     m = INTERCEPT.search(text)
     if m:
         regions = [(translit_region(r), int(n)) for n, r in REGION.findall(text)]
+        locations = [r for r, _ in regions]
+        if not regions:
+            lm = REGION_LIST.search(text)
+            if lm:
+                for part in re.split(r",\s*|\s+и\s+|\s+а\s+также\s+", lm.group(1)):
+                    name = translit_region(part)
+                    if name and name not in locations:
+                        locations.append(name)
         window = "overnight" if "прошедшей ночи" in text.lower() else None
         w = WINDOW.search(text)
         if w:
@@ -47,7 +56,7 @@ def extract(post: Post, source: dict) -> list[Event]:
                 action="UAVs intercepted, as claimed" + (f" ({window})" if window else ""),
                 counts={"intercepted_claimed": int(m.group(1))},
                 breakdown=[{"label": r, "count": n} for r, n in regions],
-                locations=[r for r, _ in regions],
+                locations=locations,
                 extraction="structured",
                 **common,
             )

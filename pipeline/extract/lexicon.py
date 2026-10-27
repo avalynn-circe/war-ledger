@@ -195,8 +195,14 @@ _PLACE_SUFFIX = re.compile(
 )
 
 
+_PLACE_PREFIX = re.compile(
+    r"^(?:ТОТ\s+|тимчасово\s+окупован\w+\s+)?(?:(?:АР\s+)?Крим\w*\s*[–—-]\s*)?(?:ТОТ\s+)?", re.I
+)
+
+
 def translit_place(raw: str) -> str | None:
     s = _PLACE_SUFFIX.sub("", raw.strip(" .;")).strip()
+    s = _PLACE_PREFIX.sub("", s).strip()
     s = re.sub(r"^(м\.|с\.|смт)\s*", "", s, flags=re.I)
     if not s:
         return None

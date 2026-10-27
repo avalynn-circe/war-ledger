@@ -6,6 +6,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import pathlib
 import sys
@@ -16,7 +17,7 @@ import yaml
 
 from . import render, store
 from .extract import airforce, deepstate, generalstaff, news, rumod
-from .extract.common import Event
+from .extract.common import Event, kyiv_date
 from .fetch import Fetcher
 from .fold import fold
 from .sources import rss, telegram
@@ -37,7 +38,50 @@ def load_sources(path: pathlib.Path) -> list[dict]:
     return [s for s in data["sources"] if s.get("enabled", True)]
 
 
-def collect(sources: list[dict], fetcher: Fetcher) -> tuple[list[Event], dict[str, str]]:
+def archive_raw(raw_dir: pathlib.Path, source: dict, units: list) -> None:
+    """Keep the source text of every post or item, one JSON line each, per Kyiv
+    date, so extractors can be improved and re-run without refetching."""
+    out = raw_dir / source["id"]
+    out.mkdir(parents=True, exist_ok=True)
+    by_day: dict[str, list[dict]] = defaultdict(list)
+    for u in units:
+        rec = {"id": u.id, "url": u.url, "dt": u.dt.isoformat()}
+        if hasattr(u, "text"):
+            rec["text"] = u.text
+        else:
+            rec["title"], rec["summary"] = u.title, u.summary
+        by_day[kyiv_date(u.dt)].append(rec)
+    for day, recs in by_day.items():
+        path = out / f"{day}.jsonl"
+        seen: set[str] = set()
+        if path.exists():
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if line.strip():
+                    seen.add(json.loads(line)["id"])
+        with path.open("a", encoding="utf-8") as fh:
+            for rec in recs:
+                if rec["id"] not in seen:
+                    fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                    seen.add(rec["id"])
+
+
+def parse_units(source: dict, body: str, fetcher: Fetcher, status: dict[str, str]) -> list:
+    if source["kind"] == "telegram":
+        return telegram.parse(body)
+    units = rss.parse(body)
+    if not units:
+        # The URL may be an HTML page that advertises its feed in <link rel="alternate">.
+        alt = rss.discover(body, source["url"])
+        if alt and alt != source["url"]:
+            log.info("%s: no entries at %s, trying advertised feed %s", source["id"], source["url"], alt)
+            alt_body = fetcher.get({**source, "url": alt})
+            if alt_body:
+                units = rss.parse(alt_body)
+                status[source["id"] + " (feed)"] = alt
+    return units
+
+
+def collect(sources: list[dict], fetcher: Fetcher, raw_dir: pathlib.Path | None = None) -> tuple[list[Event], dict[str, str]]:
     events: list[Event] = []
     status: dict[str, str] = {}
     for s in sources:
@@ -46,7 +90,9 @@ def collect(sources: list[dict], fetcher: Fetcher) -> tuple[list[Event], dict[st
             status[s["id"]] = "fetch failed"
             continue
         try:
-            units = telegram.parse(body) if s["kind"] == "telegram" else rss.parse(body)
+            units = parse_units(s, body, fetcher, status)
+            if raw_dir is not None:
+                archive_raw(raw_dir, s, units)
             extract = EXTRACTORS[s["extractor"]]
             found = [e for u in units for e in extract(u, s)]
         except Exception as exc:  # one bad source must not stop the run
@@ -66,22 +112,23 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--site", default="site", help="output directory for the rendered site")
     ap.add_argument("--max-age-days", type=int, default=10, help="ignore entries dated earlier than this many days ago")
     ap.add_argument("--no-render", action="store_true")
+    ap.add_argument("--no-raw", action="store_true", help="do not archive source text under <data>/raw/")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
     sources = load_sources(pathlib.Path(args.sources))
-    events, status = collect(sources, Fetcher(args.offline))
+    data_dir = pathlib.Path(args.data)
+    events, status = collect(sources, Fetcher(args.offline), None if args.no_raw else data_dir / "raw")
     for sid, line in status.items():
         log.info("%-16s %s", sid, line)
-    if all(v.startswith(("fetch failed", "parse failed")) for v in status.values()):
+    if all(v.startswith(("fetch failed", "parse failed")) for k, v in status.items() if not k.endswith("(feed)")):
         log.error("every source failed")
         return 1
 
     cutoff = (date.today() - timedelta(days=args.max_age_days)).isoformat()
     events = [e for e in fold(events) if e.date >= cutoff]
 
-    data_dir = pathlib.Path(args.data)
     by_day: dict[str, list[Event]] = defaultdict(list)
     for e in events:
         by_day[e.date].append(e)

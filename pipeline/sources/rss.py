@@ -5,6 +5,7 @@ import calendar
 import html
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from urllib.parse import urljoin
 
 import feedparser
 from bs4 import BeautifulSoup
@@ -47,3 +48,15 @@ def parse(xml: str) -> list[Item]:
             )
         )
     return items
+
+
+def discover(html_body: str, base_url: str) -> str | None:
+    """Return the feed URL an HTML page advertises, if any."""
+    soup = BeautifulSoup(html_body or "", "lxml")
+    for link in soup.find_all("link", rel=lambda r: r and "alternate" in r):
+        kind = (link.get("type") or "").lower()
+        if "rss" in kind or "atom" in kind:
+            href = link.get("href")
+            if href:
+                return urljoin(base_url, href)
+    return None
