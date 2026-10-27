@@ -11,28 +11,33 @@
 <header class="top">
   <a class="brand" href="index.html">The Ukraine War Ledger</a>
   <nav>
-    <a href="index.html">Latest</a>
+    <a href="index.html" aria-current="page">Daily</a>
     <a href="wire.html">Wire</a>
     <a href="archive.html">Archive</a>
     <a href="events.json">JSON</a>
     <a href="events.csv">CSV</a>
   </nav>
 </header>
+
+<section class="toggles" id="toggles" aria-label="Categories shown on every page">
+<button type="button" class="chip" data-cat="air_attack" aria-pressed="true">Air attacks on Ukraine <span class="n">0</span></button><button type="button" class="chip" data-cat="strikes_in_russia" aria-pressed="true">Strikes in Russia and occupied territory <span class="n">0</span></button><button type="button" class="chip" data-cat="front_line" aria-pressed="true">Front line changes <span class="n">1</span></button><button type="button" class="chip" data-cat="front_activity" aria-pressed="true">Front activity <span class="n">0</span></button><button type="button" class="chip" data-cat="losses_claimed" aria-pressed="true">Claimed losses <span class="n">0</span></button><button type="button" class="chip" data-cat="air_defense" aria-pressed="true">Air defence <span class="n">0</span></button><button type="button" class="chip" data-cat="field_adaptation" aria-pressed="true">Field adaptations <span class="n">0</span></button><button type="button" class="chip" data-cat="weapons_deliveries" aria-pressed="true">Weapons and deliveries <span class="n">0</span></button><button type="button" class="chip" data-cat="naval" aria-pressed="true">Naval <span class="n">0</span></button><button type="button" class="chip" data-cat="infrastructure" aria-pressed="true">Infrastructure <span class="n">0</span></button>
+<button type="button" class="chip ctl" data-all="1">ALL</button>
+<button type="button" class="chip ctl" data-none="1">NONE</button>
+</section>
+
+
+<nav class="cal" aria-label="Day">
+  <a class="cal-arrow" href="2026-10-21.html" aria-label="Previous day, 2026-10-21">&larr;</a>
+  <div class="cal-box" data-date="2026-10-22">
+    <div class="cal-band"><span class="cal-weekday">THURSDAY</span></div>
+    <div class="cal-date">22 October 2026</div>
+  </div>
+  <a class="cal-arrow" href="2026-10-23.html" aria-label="Next day, 2026-10-23">&rarr;</a>
+</nav>
+
 <main>
 
-<h1>22 October 2026 <span class="tz">Kyiv date · 1 entries</span></h1>
-
-
-<nav class="strip" aria-label="Last 30 days, bar height is strike UAVs launched">
-<span class="bar empty" title="2026-09-28 · no entries"><span></span></span><span class="bar empty" title="2026-09-29 · no entries"><span></span></span><span class="bar empty" title="2026-09-30 · no entries"><span></span></span><span class="bar empty" title="2026-10-01 · no entries"><span></span></span><span class="bar empty" title="2026-10-02 · no entries"><span></span></span><span class="bar empty" title="2026-10-03 · no entries"><span></span></span><span class="bar empty" title="2026-10-04 · no entries"><span></span></span><span class="bar empty" title="2026-10-05 · no entries"><span></span></span><span class="bar empty" title="2026-10-06 · no entries"><span></span></span><span class="bar empty" title="2026-10-07 · no entries"><span></span></span><span class="bar empty" title="2026-10-08 · no entries"><span></span></span><span class="bar empty" title="2026-10-09 · no entries"><span></span></span><span class="bar empty" title="2026-10-10 · no entries"><span></span></span><span class="bar empty" title="2026-10-11 · no entries"><span></span></span><span class="bar empty" title="2026-10-12 · no entries"><span></span></span><span class="bar empty" title="2026-10-13 · no entries"><span></span></span><span class="bar empty" title="2026-10-14 · no entries"><span></span></span><span class="bar empty" title="2026-10-15 · no entries"><span></span></span><span class="bar empty" title="2026-10-16 · no entries"><span></span></span><span class="bar empty" title="2026-10-17 · no entries"><span></span></span><span class="bar empty" title="2026-10-18 · no entries"><span></span></span><span class="bar empty" title="2026-10-19 · no entries"><span></span></span><span class="bar empty" title="2026-10-20 · no entries"><span></span></span><a class="bar" href="2026-10-21.html" title="2026-10-21"><span style="height:6%"></span></a><a class="bar current" href="2026-10-22.html" title="2026-10-22"><span style="height:6%"></span></a><a class="bar" href="2026-10-23.html" title="2026-10-23"><span style="height:6%"></span></a><a class="bar" href="2026-10-24.html" title="2026-10-24"><span style="height:6%"></span></a><a class="bar" href="2026-10-25.html" title="2026-10-25"><span style="height:6%"></span></a><a class="bar" href="2026-10-26.html" title="2026-10-26"><span style="height:6%"></span></a><a class="bar" href="2026-10-27.html" title="2026-10-27 · 280 UAVs launched"><span style="height:100%"></span></a>
-</nav>
-<p class="strip-dates"><span>2026-09-28</span><span>2026-10-27</span></p>
-
-<p class="daynav">
-  <a href="2026-10-21.html">&larr; 2026-10-21</a>
-  <a href="2026-10-23.html">2026-10-23 &rarr;</a>
-  <a href="wire-2026-10-22.html">Wire</a>
-</p>
+<p class="wire-meta">1 entries · <a href="wire-2026-10-22.html">wire for this day</a></p>
 
 <section class="returns">
 <table>
@@ -247,7 +252,7 @@
 </section>
 
 
-<details class="cat" id="front_line">
+<details class="cat" id="front_line" data-cat="front_line">
 <summary><span class="cat-label">Front line changes</span><span class="n">1 · DeepState</span></summary>
 <ol class="ledger">
 
@@ -298,7 +303,8 @@
     <tr><td><a href="https://www.ukrinform.net/rss/block-lastnews" rel="noopener">Ukrinform</a></td><td>Media</td><td>rss</td></tr>
   
   </table>
-  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-10-27 20:22 UTC.</p>
+  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-10-27 20:37 UTC.</p>
 </footer>
+<script src="ledger.js"></script>
 </body>
 </html>

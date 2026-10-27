@@ -11,29 +11,34 @@
 <header class="top">
   <a class="brand" href="index.html">The Ukraine War Ledger</a>
   <nav>
-    <a href="index.html">Latest</a>
-    <a href="wire.html">Wire</a>
+    <a href="index.html">Daily</a>
+    <a href="wire.html" aria-current="page">Wire</a>
     <a href="archive.html">Archive</a>
     <a href="events.json">JSON</a>
     <a href="events.csv">CSV</a>
   </nav>
 </header>
-<main>
 
-<h1 class="wire-title">23 October 2026 <span class="tz">Kyiv time · <span id="wire-count">1</span> lines</span></h1>
-<p class="daynav">
-  <a href="wire-2026-10-22.html">&larr; 2026-10-22</a>
-  <a href="wire-2026-10-24.html">2026-10-24 &rarr;</a>
-  <a href="2026-10-23.html">Day page</a>
-</p>
-
-<section class="toggles" aria-label="Category toggles" id="toggles">
-<button type="button" class="chip" data-cat="front_line" aria-pressed="true">Front line changes <span class="n">1</span></button>
+<section class="toggles" id="toggles" aria-label="Categories shown on every page">
+<button type="button" class="chip" data-cat="air_attack" aria-pressed="true">Air attacks on Ukraine <span class="n">0</span></button><button type="button" class="chip" data-cat="strikes_in_russia" aria-pressed="true">Strikes in Russia and occupied territory <span class="n">0</span></button><button type="button" class="chip" data-cat="front_line" aria-pressed="true">Front line changes <span class="n">1</span></button><button type="button" class="chip" data-cat="front_activity" aria-pressed="true">Front activity <span class="n">0</span></button><button type="button" class="chip" data-cat="losses_claimed" aria-pressed="true">Claimed losses <span class="n">0</span></button><button type="button" class="chip" data-cat="air_defense" aria-pressed="true">Air defence <span class="n">0</span></button><button type="button" class="chip" data-cat="field_adaptation" aria-pressed="true">Field adaptations <span class="n">0</span></button><button type="button" class="chip" data-cat="weapons_deliveries" aria-pressed="true">Weapons and deliveries <span class="n">0</span></button><button type="button" class="chip" data-cat="naval" aria-pressed="true">Naval <span class="n">0</span></button><button type="button" class="chip" data-cat="infrastructure" aria-pressed="true">Infrastructure <span class="n">0</span></button>
 <button type="button" class="chip ctl" data-all="1">ALL</button>
 <button type="button" class="chip ctl" data-none="1">NONE</button>
 </section>
 
-<section class="wire" aria-label="Wire">
+
+<nav class="cal" aria-label="Day">
+  <a class="cal-arrow" href="wire-2026-10-22.html" aria-label="Previous day, 2026-10-22">&larr;</a>
+  <div class="cal-box" data-date="2026-10-23">
+    <div class="cal-band"><span class="cal-weekday">FRIDAY</span></div>
+    <div class="cal-date">23 October 2026</div>
+  </div>
+  <a class="cal-arrow" href="wire-2026-10-24.html" aria-label="Next day, 2026-10-24">&rarr;</a>
+</nav>
+
+<main>
+
+<p class="wire-meta">Kyiv time · <span id="shown-count">1</span> lines shown</p>
+<section class="wire" aria-label="Wire" data-days='["2026-10-22", "2026-10-21"]'>
 <div class="row head"><span>Time</span><span class="cat">Category</span><span>Entry</span><span class="src">Source</span></div>
 
 <div class="row" data-cat="front_line">
@@ -49,29 +54,9 @@
   <span class="src"><a href="https://t.me/DeepStateUA/23924" rel="noopener">DeepState</a><span class="side">OSINT</span></span>
 </div>
 
+<div class="row more" id="wire-more">Scroll for 2026-10-22</div>
 </section>
-<p class="legend">Every entry of the day in the order it was published. Entries without a published time sort last. Toggles are remembered in this browser.</p>
-<script>
-(function () {
-  var KEY = 'ledger-wire-hidden';
-  var hidden = {};
-  try { hidden = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { hidden = {}; }
-  var chips = Array.prototype.slice.call(document.querySelectorAll('#toggles .chip[data-cat]'));
-  var rows = Array.prototype.slice.call(document.querySelectorAll('.wire .row[data-cat]'));
-  function apply() {
-    var n = 0;
-    rows.forEach(function (r) { var off = !!hidden[r.getAttribute('data-cat')]; r.hidden = off; if (!off) n++; });
-    chips.forEach(function (c) { c.setAttribute('aria-pressed', hidden[c.getAttribute('data-cat')] ? 'false' : 'true'); });
-    var count = document.getElementById('wire-count'); if (count) count.textContent = n;
-    try { localStorage.setItem(KEY, JSON.stringify(hidden)); } catch (e) {}
-  }
-  chips.forEach(function (c) { c.addEventListener('click', function () { var k = c.getAttribute('data-cat'); if (hidden[k]) delete hidden[k]; else hidden[k] = true; apply(); }); });
-  var all = document.querySelector('#toggles [data-all]'), none = document.querySelector('#toggles [data-none]');
-  if (all) all.addEventListener('click', function () { hidden = {}; apply(); });
-  if (none) none.addEventListener('click', function () { chips.forEach(function (c) { hidden[c.getAttribute('data-cat')] = true; }); apply(); });
-  apply();
-})();
-</script>
+<p class="legend">Every entry in the order it was published, newest day first. Earlier days load as you scroll. Entries without a published time sort last within their day.</p>
 
 </main>
 <footer>
@@ -93,7 +78,8 @@
     <tr><td><a href="https://www.ukrinform.net/rss/block-lastnews" rel="noopener">Ukrinform</a></td><td>Media</td><td>rss</td></tr>
   
   </table>
-  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-10-27 20:22 UTC.</p>
+  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-10-27 20:37 UTC.</p>
 </footer>
+<script src="ledger.js"></script>
 </body>
 </html>
