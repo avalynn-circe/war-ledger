@@ -2,7 +2,8 @@
 # entries into data/, render site/, commit both, and publish site/ to
 # GitHub Pages.
 #
-# One-time setup in the repository: Settings > Pages > Source: "GitHub Actions".
+# The configure-pages step enables GitHub Pages on first run. If that step
+# fails, set Settings > Pages > Source to "GitHub Actions" by hand once.
 # GitHub runs scheduled workflows from the default branch only.
 
 name: The Ukraine War Ledger
@@ -62,6 +63,11 @@ jobs:
             git commit -m "inventory: collection $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+
+      - name: Enable GitHub Pages for this repository if it is not yet enabled
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload site as the Pages artifact
         uses: actions/upload-pages-artifact@v5
