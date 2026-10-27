@@ -1,0 +1,15 @@
+<div class="row day-divider" data-day="{{ date }}"><span></span><span class="cat"></span><span id="{{ date }}">{{ long }}</span><span class="src"></span></div>
+{% for e in rows %}
+<div class="row" data-cat="{{ e.category }}">
+  <span class="time">{{ e.clock }}</span>
+  <span class="cat">{{ e.category|catlabel }}</span>
+  <span class="entry">
+    {% if e.extraction == 'structured' %}<span><b>{{ e.actor }}{% if e.target %} → {{ e.target }}{% endif %}</b>{% if e.line %} · {{ e.line }}{% endif %}{% if not e.line and e.action %} · {{ e.action }}{% endif %}</span>
+    {% else %}<span lang="{{ e.lang }}">{{ e.quote }}</span>{% endif %}
+    {% if e.breakdown %}<span class="sub">{% for b in e.breakdown %}{{ b.label }} {% if b.delta is defined %}+{{ b.delta|fmt }}{% else %}{{ b.count|fmt }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}
+    {% if e.detail %}<span class="sub">{{ e.detail }}</span>{% endif %}
+    {% if e.locations %}<span class="sub muted">{{ e.locations|join(' · ') }}</span>{% endif %}
+  </span>
+  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
+</div>
+{% endfor %}

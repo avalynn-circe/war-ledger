@@ -11,6 +11,7 @@ import json
 import pathlib
 import shutil
 from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -228,13 +229,24 @@ def wire_line(e: dict) -> str:
     return " · ".join(f"{_fmt(e['counts'][k])} {COUNT_LABELS.get(k, k)}" for k in WIRE_KEYS if k in e["counts"])
 
 
+KYIV = ZoneInfo("Europe/Kyiv")
+
+
 def wire(events: list[dict]) -> list[dict]:
+    """A day's entries newest first, by the source post's own timestamp."""
     rows = []
     for e in events:
         r = dict(e)
         r["line"] = wire_line(e) if e["extraction"] == "structured" else ""
+        pub = e.get("published")
+        if pub:
+            r["clock"] = datetime.fromisoformat(pub).astimezone(KYIV).strftime("%H:%M")
+            r["sort"] = pub
+        else:
+            r["clock"] = e.get("time") or "––:––"
+            r["sort"] = ""
         rows.append(r)
-    return sorted(rows, key=lambda r: (r.get("time") is None, r.get("time") or "", r["source_name"]))
+    return sorted(rows, key=lambda r: (r["sort"], r["clock"]), reverse=True)
 
 
 def _longdate(d: str) -> str:
@@ -306,24 +318,28 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
         (site_dir / f"{d}.html").write_text(html, encoding="utf-8")
         if i == 0:
             (site_dir / "index.html").write_text(html, encoding="utf-8")
-    wire_tpl = env.get_template("wire.html")
-    for i, d in enumerate(dates):
-        evs = days[d]
-        cats = _cats(evs)
-        html = wire_tpl.render(
-            title=f"Wire · {_longdate(d)} · The Ukraine War Ledger",
+    frag_tpl = env.get_template("wire_rows.html")
+    frag_dir = site_dir / "wire-data"
+    frag_dir.mkdir(exist_ok=True)
+    for stale in site_dir.glob("wire-????-??-??.html"):
+        stale.unlink()
+    fragments = {d: frag_tpl.render(date=d, long=_longdate(d), rows=wire(days[d])) for d in dates}
+    for d, html in fragments.items():
+        (frag_dir / f"{d}.html").write_text(html, encoding="utf-8")
+    first = dates[0] if dates else None
+    (site_dir / "wire.html").write_text(
+        env.get_template("wire.html").render(
+            title="Wire · The Ukraine War Ledger",
             nav="wire",
             body_class="wire",
-            day={"date": d},
-            wire=wire(evs),
-            earlier=dates[i + 1:],
-            cats=cats,
-            cal=_cal(d, dates, i, "wire-"),
+            first_rows=fragments[first] if first else "",
+            first_count=len(days[first]) if first else 0,
+            earlier=dates[1:],
+            cats=_cats(days[first]) if first else _cats([]),
             **base_ctx,
-        )
-        (site_dir / f"wire-{d}.html").write_text(html, encoding="utf-8")
-        if i == 0:
-            (site_dir / "wire.html").write_text(html, encoding="utf-8")
+        ),
+        encoding="utf-8",
+    )
 
     if not dates:
         (site_dir / "index.html").write_text(

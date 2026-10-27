@@ -38,6 +38,11 @@ def load_sources(path: pathlib.Path) -> list[dict]:
     return [s for s in data["sources"] if s.get("enabled", True)]
 
 
+def stamp(event: Event, unit) -> Event:
+    event.published = unit.dt.isoformat()
+    return event
+
+
 def archive_raw(raw_dir: pathlib.Path, source: dict, units: list) -> None:
     """Keep the source text of every post or item, one JSON line each, per Kyiv
     date. A post seen again with changed text replaces its earlier record, so
@@ -121,7 +126,7 @@ def collect(sources: list[dict], fetcher: Fetcher, raw_dir: pathlib.Path | None 
             if raw_dir is not None:
                 archive_raw(raw_dir, s, units)
             extract = EXTRACTORS[s["extractor"]]
-            found = [e for u in units for e in extract(u, s)]
+            found = [stamp(e, u) for u in units for e in extract(u, s)]
         except Exception as exc:  # one bad source must not stop the run
             log.exception("%s: parse failed", s["id"])
             status[s["id"]] = f"parse failed: {exc}"
@@ -172,7 +177,7 @@ def main(argv: list[str] | None = None) -> int:
         # reach past days and dropped rules no longer leave stale entries.
         pairs = load_raw(data_dir / "raw", sources, cutoff)
         raw_days = {kyiv_date(u.dt) for _, u in pairs}
-        extracted = [e for src, u in pairs for e in EXTRACTORS[src["extractor"]](u, src)]
+        extracted = [stamp(e, u) for src, u in pairs for e in EXTRACTORS[src["extractor"]](u, src)]
         for e in fold(extracted):
             if e.date >= cutoff:
                 by_day[e.date].append(e)

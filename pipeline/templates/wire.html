@@ -1,23 +1,10 @@
 {% extends "base.html" %}
 {% block main %}
-<p class="wire-meta">Kyiv time · <span id="shown-count">{{ wire|length }}</span> lines shown</p>
+<p class="wire-meta">Newest first · Kyiv time · <span id="shown-count">{{ first_count }}</span> lines shown</p>
 <section class="wire" aria-label="Wire" data-days='{{ earlier|tojson }}'>
 <div class="row head"><span>Time</span><span class="cat">Category</span><span>Entry</span><span class="src">Source</span></div>
-{% for e in wire %}
-<div class="row" data-cat="{{ e.category }}">
-  <span class="time">{{ e.time or '––:––' }}</span>
-  <span class="cat">{{ e.category|catlabel }}</span>
-  <span class="entry">
-    {% if e.extraction == 'structured' %}<span><b>{{ e.actor }}{% if e.target %} → {{ e.target }}{% endif %}</b>{% if e.line %} · {{ e.line }}{% endif %}{% if not e.line and e.action %} · {{ e.action }}{% endif %}</span>
-    {% else %}<span lang="{{ e.lang }}">{{ e.quote }}</span>{% endif %}
-    {% if e.breakdown %}<span class="sub">{% for b in e.breakdown %}{{ b.label }} {% if b.delta is defined %}+{{ b.delta|fmt }}{% else %}{{ b.count|fmt }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}
-    {% if e.detail %}<span class="sub">{{ e.detail }}</span>{% endif %}
-    {% if e.locations %}<span class="sub muted">{{ e.locations|join(' · ') }}</span>{% endif %}
-  </span>
-  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
-</div>
-{% endfor %}
+{{ first_rows|safe }}
 <div class="row more" id="wire-more">{% if earlier %}Scroll for {{ earlier[0] }}{% else %}Start of the ledger.{% endif %}</div>
 </section>
-<p class="legend">Every entry in the order it was published, newest day first. Earlier days load as you scroll. Entries without a published time sort last within their day.</p>
+<p class="legend">Every entry in the order its source published it, newest first. Earlier days load as you scroll.</p>
 {% endblock %}
