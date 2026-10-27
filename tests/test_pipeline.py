@@ -229,6 +229,43 @@ class Oryx(unittest.TestCase):
         self.assertEqual(e.target, "Russia")
 
 
+class Translation(unittest.TestCase):
+    class _Block:
+        def __init__(self, text): self.type, self.text = "text", text
+
+    class _Resp:
+        def __init__(self, text): self.stop_reason, self.content = "end_turn", [Translation._Block(text)]
+
+    class _Fake:
+        def __init__(self): self.calls = 0; self.beta = self; self.messages = self
+        def create(self, **kw):
+            self.calls += 1
+            chunk = json.loads(kw["messages"][0]["content"])
+            return Translation._Resp(json.dumps([f"EN<{c}>" for c in chunk]))
+
+    def test_cache_and_apply(self):
+        from pipeline import translate
+        from pipeline.extract.common import Event
+        with tempfile.TemporaryDirectory() as tmp:
+            path = pathlib.Path(tmp, "translations.json")
+            fake = self._Fake()
+            tr = translate.Translator(path, fake)
+            e = Event(date="2026-10-27", category="air_attack", source_id="astra", source_name="ASTRA", source_side="monitoring",
+                      source_url="u", quote="В Рязани горит НПЗ.", detail=None, locations=["Ryazan oblast", "Кореньок"])
+            plain = Event(date="2026-10-27", category="air_attack", source_id="x", source_name="x", source_side="media", source_url="v", quote="Plain English")
+            self.assertEqual(tr.apply([e, plain]), 1)
+            self.assertEqual(e.quote_en, "EN<В Рязани горит НПЗ.>")
+            self.assertEqual(e.locations_en, ["Ryazan oblast", "EN<Кореньок>"])
+            self.assertIsNone(plain.quote_en)
+            self.assertEqual(fake.calls, 1)
+            tr.save()
+            # A second translator with no client still applies the cache.
+            tr2 = translate.Translator(path, None)
+            e2 = Event(date="2026-10-27", category="air_attack", source_id="astra", source_name="ASTRA", source_side="monitoring", source_url="u", quote="В Рязани горит НПЗ.")
+            self.assertEqual(tr2.apply([e2]), 1)
+            self.assertEqual(e2.quote_en, "EN<В Рязани горит НПЗ.>")
+
+
 class News(unittest.TestCase):
     def test_classification(self):
         got = {i.title: news.classify(i.title, i.summary) for i in items("militarnyi")}
@@ -274,7 +311,8 @@ class EndToEnd(unittest.TestCase):
             self.assertEqual(proc.returncode, 0, proc.stderr)
             self.assertTrue((data / "2026-10-26.json").exists())
             self.assertTrue((data / "2026-10-25.json").exists())
-            index = (site / "index.html").read_text(encoding="utf-8")
+            self.assertTrue((site / "index.html").exists())
+            index = (site / "2026-10-27.html").read_text(encoding="utf-8")
             self.assertIn("Strike UAVs launched", index)
             self.assertIn(">280<", index)
             self.assertIn("Sumy oblast: Безсалівка", index)
@@ -289,10 +327,10 @@ class EndToEnd(unittest.TestCase):
             self.assertIn('class="spark"', index)
             self.assertIn("Reported by Russia", index)
             self.assertIn(">555<", index)
-            wire_page = (site / "wire.html").read_text(encoding="utf-8")
+            self.assertTrue((site / "wire.html").exists())
+            wire_page = (site / "wire-data" / "2026-10-27.html").read_text(encoding="utf-8")
             self.assertIn('data-cat="air_attack"', wire_page)
-            self.assertIn('data-days=', wire_page)
-            self.assertIn('id="wire-more"', wire_page)
+            self.assertIn('data-days=', (site / "wire.html").read_text(encoding="utf-8"))
             self.assertIn('data-day="2026-10-27"', wire_page)
             self.assertIn('class="row card" data-cat="front_activity" data-src="generalstaff"', wire_page)
             self.assertIn("General Staff operational report", wire_page)
@@ -312,9 +350,9 @@ class EndToEnd(unittest.TestCase):
             self.assertTrue((site / "archive.html").exists())
             self.assertTrue((site / "events.csv").exists())
             days = json.loads((site / "events.json").read_text(encoding="utf-8"))["days"]
-            self.assertEqual(days[0]["date"], "2026-10-27")
+            self.assertIn("2026-10-27", [d["date"] for d in days])
             # Running twice must not duplicate entries.
-            n = len(days[0]["events"])
+            n = len(next(d for d in days if d["date"] == "2026-10-27")["events"])
             subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, check=True)
             again = json.loads((data / "2026-10-27.json").read_text(encoding="utf-8"))["events"]
             self.assertEqual(len(again), n)

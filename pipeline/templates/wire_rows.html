@@ -9,8 +9,8 @@
       <summary><b>{{ e.title }}</b>{% if e.action %} <span class="muted">· {{ e.action }}</span>{% endif %}{% if e.summary %}<span class="sub">{{ e.summary }}</span>{% endif %}</summary>
       {% if e.counts_list %}<div class="report-grid">{% for c in e.counts_list %}<div><b>{{ c.v }}</b><span>{{ c.label }}</span></div>{% endfor %}</div>{% endif %}
       {% if e.losses %}<p class="report-h">Russian losses in the past 24 hours, as claimed</p><div class="report-grid">{% for b in e.losses %}<div><b>+{{ b.delta|fmt }}</b><span>{{ b.label }}</span></div>{% endfor %}</div>{% endif %}
-      {% if e.shelled %}<p class="report-h">Settlements shelled</p>{% for g in e.shelled %}<p class="sub">{{ g }}</p>{% endfor %}{% endif %}
-      {% if e.air %}<p class="sub">{{ e.air }}</p>{% endif %}
+      {% if e.shelled %}<p class="report-h">Settlements shelled</p>{% for g in (e.shelled_en or e.shelled) %}<p class="sub">{{ g }}</p>{% endfor %}{% endif %}
+      {% if e.air %}<p class="sub">{{ e.air_en or e.air }}</p>{% endif %}
     </details>
   </span>
   <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
@@ -21,10 +21,11 @@
   <span class="cat">{{ e.category|catlabel }}</span>
   <span class="entry">
     {% if e.extraction == 'structured' %}<span><b>{{ e.actor }}{% if e.target %} → {{ e.target }}{% endif %}</b>{% if e.line %} · {{ e.line }}{% endif %}{% if not e.line and e.action %} · {{ e.action }}{% endif %}</span>
+    {% elif e.quote_en %}<span>{{ e.quote_en }}</span><details class="orig"><summary>original</summary><span lang="{{ e.lang }}">{{ e.quote }}</span></details>
     {% else %}<span lang="{{ e.lang }}">{{ e.quote }}</span>{% endif %}
     {% if e.breakdown %}<span class="sub">{% for b in e.breakdown %}{{ b.label }} {% if b.delta is defined %}+{{ b.delta|fmt }}{% else %}{{ b.count|fmt }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}
-    {% if e.detail %}<span class="sub">{{ e.detail }}</span>{% endif %}
-    {% if e.locations %}<span class="sub muted">{{ e.locations|join(' · ') }}</span>{% endif %}
+    {% if e.detail %}<span class="sub">{{ e.detail_en or e.detail }}</span>{% endif %}
+    {% if e.locations %}<span class="sub muted">{{ (e.locations_en or e.locations)|join(' · ') }}</span>{% endif %}
   </span>
   <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
 </div>

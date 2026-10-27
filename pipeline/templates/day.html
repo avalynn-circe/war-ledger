@@ -34,17 +34,17 @@
     {% if e.actor %}<span class="who">{{ e.actor }}{% if e.target %} &rarr; {{ e.target }}{% endif %}</span>{% endif %}
     {% if e.action %}<span class="act">{{ e.action }}</span>{% endif %}
   </div>
-  {% if e.extraction != 'structured' %}<p class="quote-main" lang="{{ e.lang }}">{{ e.quote }}</p>{% endif %}
-  {% if e.detail and e.extraction == 'structured' %}<p class="detail">{{ e.detail }}</p>{% endif %}
+  {% if e.extraction != 'structured' %}<p class="quote-main"{% if not e.quote_en %} lang="{{ e.lang }}"{% endif %}>{{ e.quote_en or e.quote }}</p>{% endif %}
+  {% if e.detail and e.extraction == 'structured' %}<p class="detail">{{ e.detail_en or e.detail }}</p>{% endif %}
   {% if e.weapons %}<ul class="items">{% for w in e.weapons %}<li>{{ w.name }}{% if w.launched is defined %} · launched {{ w.launched }}{% endif %}{% if w.intercepted is defined %} · intercepted {{ w.intercepted }}{% endif %}{% if w.impacts is defined %} · impacts {{ w.impacts }}{% endif %}{% if w.count is defined %} × {{ w.count }}{% endif %}</li>{% endfor %}</ul>{% endif %}
   {% if e.counts %}<ul class="counts">{% for k, v in e.counts.items() %}<li>{{ k|countlabel }} <b>{{ v|fmt }}</b></li>{% endfor %}</ul>{% endif %}
   {% if e.breakdown %}<table class="breakdown">{% for b in e.breakdown %}<tr><td>{{ b.label }}</td>{% if b.count is defined %}<td class="num">{{ b.count|fmt }}</td>{% endif %}{% if b.delta is defined %}<td class="num">+{{ b.delta|fmt }}</td>{% endif %}</tr>{% endfor %}</table>{% endif %}
-  {% if e.locations and not e.breakdown %}<p class="loc">{{ e.locations|join(' · ') }}</p>{% endif %}
+  {% if e.locations and not e.breakdown %}<p class="loc">{{ (e.locations_en or e.locations)|join(' · ') }}</p>{% endif %}
   <p class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %} · <a href="{{ r.url }}" rel="noopener">{{ r.name }}</a>{% endfor %}</p>
-  {% if e.extraction == 'structured' or (e.detail and e.extraction != 'structured') or e.also_reported_by %}
+  {% if e.extraction == 'structured' or e.quote_en or (e.detail and e.extraction != 'structured') or e.also_reported_by %}
   <details><summary>Source text</summary>
-    {% if e.extraction == 'structured' %}<blockquote lang="{{ e.lang }}">{{ e.quote }}</blockquote>{% endif %}
-    {% if e.detail and e.extraction != 'structured' %}<blockquote>{{ e.detail }}</blockquote>{% endif %}
+    {% if e.extraction == 'structured' or e.quote_en %}<blockquote lang="{{ e.lang }}">{{ e.quote }}</blockquote>{% endif %}
+    {% if e.detail and e.extraction != 'structured' %}<blockquote>{{ e.detail_en or e.detail }}</blockquote>{% endif %}
     {% for r in e.also_reported_by if r.quote %}<blockquote>{{ r.quote }} <span class="src">{{ r.name }}</span></blockquote>{% endfor %}
   </details>
   {% endif %}

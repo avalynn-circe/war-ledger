@@ -138,6 +138,14 @@ extractor module in `pipeline/extract/` and a line in `EXTRACTORS` in
 }
 ```
 
+## Translation
+
+With an `ANTHROPIC_API_KEY` secret set on the repository, the pipeline
+translates Cyrillic excerpts (quotes, details and settlement names) into
+English once and keeps them in `data/translations.json`. Pages show the
+English with the original a click away. Without the key the originals are
+shown, and any cached translations still apply.
+
 ## Limits
 
 - Figures are each source's claims. The site does not reconcile Ukrainian and

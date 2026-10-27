@@ -51,6 +51,10 @@ jobs:
 
       - name: Collect from every source and render the site
         run: python -m pipeline.run --data data --site site
+        env:
+          # Optional. With it, Cyrillic excerpts are translated once and cached
+          # in data/translations.json; without it the originals are shown.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit the day's data and site
         run: |

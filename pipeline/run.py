@@ -15,7 +15,7 @@ from datetime import date, datetime, timedelta
 
 import yaml
 
-from . import render, store
+from . import render, store, translate
 from .extract import airforce, deepstate, generalstaff, governor, monitoring, news, oryx, rumod
 from .extract.common import Event, kyiv_date
 from .fetch import Fetcher
@@ -152,6 +152,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--no-render", action="store_true")
     ap.add_argument("--no-raw", action="store_true", help="do not archive source text under <data>/raw/")
     ap.add_argument("--rebuild-only", action="store_true", help="skip fetching; re-extract <data>/raw/ and render")
+    ap.add_argument("--no-translate", action="store_true", help="do not translate Cyrillic excerpts (cached translations still apply)")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -184,7 +185,11 @@ def main(argv: list[str] | None = None) -> int:
         pairs = load_raw(data_dir / "raw", sources, cutoff)
         raw_days = {kyiv_date(u.dt) for _, u in pairs}
         extracted = [stamp(e, u) for src, u in pairs for e in EXTRACTORS[src["extractor"]](u, src)]
-        for e in fold(extracted):
+        folded = fold(extracted)
+        translator = translate.Translator(data_dir / "translations.json", None if args.no_translate else translate.make_client())
+        log.info("translations applied to %d entries", translator.apply(folded))
+        translator.save()
+        for e in folded:
             if e.date >= cutoff:
                 by_day[e.date].append(e)
         for day in sorted(raw_days | set(by_day)):

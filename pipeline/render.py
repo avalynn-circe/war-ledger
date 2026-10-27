@@ -274,7 +274,9 @@ def _report_card(parts: list[dict]) -> dict:
         "counts_list": [{"label": COUNT_LABELS.get(k, k.replace("_", " ")), "v": _fmt(v)} for k, v in (fa or {}).get("counts", {}).items()],
         "losses": (loss or {}).get("breakdown", []),
         "shelled": (fa or {}).get("locations", []),
+        "shelled_en": (fa or {}).get("locations_en"),
         "air": (fa or {}).get("detail"),
+        "air_en": (fa or {}).get("detail_en"),
         "also_reported_by": [r for e in parts for r in e["also_reported_by"]],
     })
     return card

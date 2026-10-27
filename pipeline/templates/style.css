@@ -167,3 +167,9 @@ details.report[open] > summary::after { content: "Close report"; }
 .report-grid b { font-family: var(--mono); font-size: 1.05rem; line-height: 1.1; }
 .report-grid span { font-size: .72rem; color: var(--muted); }
 .report-h { margin: 12px 0 2px; font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+
+/* original text behind a translation */
+details.orig { display: inline-block; font-size: .78rem; color: var(--muted); }
+details.orig > summary { cursor: pointer; list-style: none; color: var(--accent); font-family: var(--mono); }
+details.orig > summary::-webkit-details-marker { display: none; }
+details.orig[open] > summary { margin-bottom: 2px; }

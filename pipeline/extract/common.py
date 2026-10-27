@@ -56,6 +56,9 @@ class Event:
     extraction: str = "rules"  # "structured" or "rules"
     also_reported_by: list[dict] = field(default_factory=list)
     published: str | None = None  # the source post's own timestamp, ISO 8601 UTC
+    quote_en: str | None = None
+    detail_en: str | None = None
+    locations_en: list[str] | None = None
     id: str = ""
 
     def __post_init__(self) -> None:
