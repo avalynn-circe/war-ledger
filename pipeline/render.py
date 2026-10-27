@@ -60,7 +60,7 @@ def _structured(events: list[dict], source: str, category: str | None = None) ->
 def _cell(value, event: dict | None, note: str | None = None) -> dict | None:
     if value is None or event is None:
         return None
-    return {"value": value, "source": note or SHORT_SOURCE.get(event["source_id"], event["source_name"]), "url": event["source_url"]}
+    return {"value": value, "source": note or SHORT_SOURCE.get(event["source_id"], event["source_name"]), "url": event["source_url"], "id": event["source_id"]}
 
 
 def _sum_counts(evs: list[dict], key: str) -> tuple[int | None, dict | None]:
@@ -315,6 +315,21 @@ def _cal(d: str, dates: list[str], i: int, prefix: str) -> dict:
     }
 
 
+CHIP_NAME = {
+    "kpszsu": "Air Force UA", "generalstaff": "General Staff UA", "mod_russia": "MoD Russia", "deepstate": "DeepState",
+    "militarnyi": "Militarnyi", "kyivindependent": "Kyiv Independent", "ukrinform": "Ukrinform", "defence_express": "Defense Express",
+    "gov_belgorod": "Gov. Belgorod", "gov_bryansk": "Gov. Bryansk", "gov_kursk": "Gov. Kursk", "gov_rostov": "Gov. Rostov",
+    "astra": "ASTRA", "oryx_russia": "Oryx RU losses", "oryx_ukraine": "Oryx UA losses",
+}
+
+
+def _srcs(evs: list[dict], sources: list[dict]) -> list[dict]:
+    return [
+        {"id": src["id"], "chip": CHIP_NAME.get(src["id"], src["name"]), "side": src["side"], "n": sum(1 for e in evs if e["source_id"] == src["id"])}
+        for src in sources
+    ]
+
+
 def _cats(evs: list[dict]) -> list[dict]:
     return [{"key": k, "label": label, "n": sum(1 for e in evs if e["category"] == k)} for k, label in CATEGORIES]
 
@@ -366,6 +381,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
             sheet=sheet,
             strip=strip_for(d),
             cats=_cats(evs),
+            srcs=_srcs(evs, sources),
             cal=_cal(d, dates, i, ""),
             **base_ctx,
         )
@@ -390,6 +406,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
             first_count=len(days[first]) if first else 0,
             earlier=dates[1:],
             cats=_cats(days[first]) if first else _cats([]),
+            srcs=_srcs(days[first] if first else [], sources),
             **base_ctx,
         ),
         encoding="utf-8",
@@ -397,7 +414,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
 
     if not dates:
         (site_dir / "index.html").write_text(
-            day_tpl.render(title="The Ukraine War Ledger", nav="day", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), strip=[], cats=_cats([]), cal=_cal(latest, [latest], 0, ""), **base_ctx),
+            day_tpl.render(title="The Ukraine War Ledger", nav="day", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), strip=[], cats=_cats([]), srcs=_srcs([], sources), cal=_cal(latest, [latest], 0, ""), **base_ctx),
             encoding="utf-8",
         )
 

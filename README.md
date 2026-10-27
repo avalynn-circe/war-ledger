@@ -67,8 +67,9 @@ Three layers, top to bottom.
 The **wire** (`wire.html`) is one continuous feed, newest first, ordered by
 each source post's own timestamp: time, category, entry, source. The page
 holds the newest day and fetches earlier days from `wire-data/` as the
-reader scrolls. The category toggles in the header apply to the wire and the
-day pages alike, and the choice is remembered in the browser.
+reader scrolls. Two toggle rows in the header, categories and sources, apply to the
+wire and the day pages alike; an entry shows only when both its category and
+its source are on, and the choice is remembered in the browser.
 
 The archive page is a table of days with the returns-sheet figures as
 columns. Click a heading to sort.

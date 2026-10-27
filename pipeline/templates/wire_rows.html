@@ -1,7 +1,7 @@
 <div class="row day-divider" data-day="{{ date }}"><span></span><span class="cat"></span><span id="{{ date }}">{{ long }}</span><span class="src"></span></div>
 {% for e in rows %}
 {% if e.card %}
-<div class="row card" data-cat="{{ e.category }}">
+<div class="row card" data-cat="{{ e.category }}" data-src="{{ e.source_id }}">
   <span class="time">{{ e.clock }}</span>
   <span class="cat">{{ e.category|catlabel }}</span>
   <span class="entry">
@@ -16,7 +16,7 @@
   <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
 </div>
 {% else %}
-<div class="row" data-cat="{{ e.category }}">
+<div class="row" data-cat="{{ e.category }}" data-src="{{ e.source_id }}">
   <span class="time">{{ e.clock }}</span>
   <span class="cat">{{ e.category|catlabel }}</span>
   <span class="entry">

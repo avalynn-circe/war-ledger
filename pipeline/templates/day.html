@@ -12,7 +12,7 @@
 <tr>
   <td class="lab">{{ r.label }}</td>
   {% for cell in [r.ua, r.ru] %}
-  <td class="val{% if cell and cell.value is number %} num{% endif %}">{% if cell %}<a href="{{ cell.url }}" rel="noopener">{{ cell.value|fmt }}</a><small>{{ cell.source }}</small>{% else %}<span class="blank" aria-label="not reported">·</span>{% endif %}</td>
+  <td class="val{% if cell and cell.value is number %} num{% endif %}">{% if cell %}<span class="figure" data-src="{{ cell.id }}"><a href="{{ cell.url }}" rel="noopener">{{ cell.value|fmt }}</a><small>{{ cell.source }}</small></span><span class="blank off" aria-label="source hidden">·</span>{% else %}<span class="blank" aria-label="not reported">·</span>{% endif %}</td>
   {% endfor %}
   <td class="spark-cell">{{ r.spark|safe }}</td>
 </tr>
@@ -28,7 +28,7 @@
 <summary><span class="cat-label">{{ group.label }}</span><span class="n">{{ group.events|length }} · {{ group.sources|join(' · ') }}</span></summary>
 <ol class="ledger">
 {% for e in group.events %}
-<li class="entry {{ e.extraction }}">
+<li class="entry {{ e.extraction }}" data-src="{{ e.source_id }}">
   <div class="line">
     {% if e.time %}<span class="time">{{ e.time }}</span>{% endif %}
     {% if e.actor %}<span class="who">{{ e.actor }}{% if e.target %} &rarr; {{ e.target }}{% endif %}</span>{% endif %}
