@@ -281,6 +281,7 @@ class EndToEnd(unittest.TestCase):
             self.assertIn('<details class="cat" id="air_attack" data-cat="air_attack">', index)
             self.assertIn('id="toggles"', index)
             self.assertIn('id="src-toggles"', index)
+            self.assertIn('<details class="src-disclosure" id="src-disclosure" open>', index)
             self.assertIn('data-src="kpszsu"', index)
             self.assertIn('class="figure" data-src="kpszsu"', index)
             self.assertIn('class="cal-box" data-date="2026-10-27"', index)
