@@ -17,15 +17,15 @@
     var items = document.querySelectorAll('main [data-cat], main [data-src]');
     Array.prototype.forEach.call(items, function (el) { el.hidden = isOff(el); });
     // A category section with every entry hidden by source hides too.
-    Array.prototype.forEach.call(document.querySelectorAll('main details.cat'), function (d) {
+    Array.prototype.forEach.call(document.querySelectorAll('main .cat'), function (d) {
       if (d.hidden) return;
-      var entries = d.querySelectorAll('li.entry');
+      var entries = d.querySelectorAll('li.entry, details.hl');
       var visible = 0;
       Array.prototype.forEach.call(entries, function (li) { if (!li.hidden) visible++; });
       if (entries.length && !visible) d.hidden = true;
     });
     var shown = 0;
-    Array.prototype.forEach.call(document.querySelectorAll('main .wire .row[data-cat], main li.entry'), function (el) { if (!el.hidden && !el.closest('[hidden]')) shown++; });
+    Array.prototype.forEach.call(document.querySelectorAll('main .wire .row[data-cat], main li.entry, main details.hl'), function (el) { if (!el.hidden && !el.closest('[hidden]')) shown++; });
     var count = document.getElementById('shown-count');
     if (count) count.textContent = shown;
     var state = document.getElementById('src-state');
