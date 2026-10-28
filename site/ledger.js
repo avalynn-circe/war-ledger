@@ -28,13 +28,14 @@
     Array.prototype.forEach.call(document.querySelectorAll('main .wire .row[data-cat], main li.entry, main details.hl'), function (el) { if (!el.hidden && !el.closest('[hidden]')) shown++; });
     var count = document.getElementById('shown-count');
     if (count) count.textContent = shown;
-    var state = document.getElementById('src-state');
-    if (state) {
-      var srcChips = document.querySelectorAll('#src-toggles .chip[data-src]');
+    [['cat-state', '#toggles .chip[data-cat]', 'cat'], ['src-state', '#src-toggles .chip[data-src]', 'src']].forEach(function (spec) {
+      var state = document.getElementById(spec[0]);
+      if (!state) return;
+      var all = document.querySelectorAll(spec[1]);
       var off = 0;
-      Array.prototype.forEach.call(srcChips, function (c) { if (hidden.src[c.getAttribute('data-src')]) off++; });
-      state.textContent = off ? (srcChips.length - off) + ' of ' + srcChips.length + ' on' : 'all on';
-    }
+      Array.prototype.forEach.call(all, function (c) { if (hidden[spec[2]][c.getAttribute('data-' + spec[2])]) off++; });
+      state.textContent = off ? (all.length - off) + ' of ' + all.length + ' on' : 'all on';
+    });
     ['cat', 'src'].forEach(function (kind) {
       Array.prototype.forEach.call(document.querySelectorAll('.toggles .chip[data-' + kind + ']'), function (c) {
         c.setAttribute('aria-pressed', hidden[kind][c.getAttribute('data-' + kind)] ? 'false' : 'true');
@@ -59,14 +60,17 @@
     });
   });
 
-  /* On phones the source row starts collapsed; the reader's choice is kept. */
-  var disclosure = document.getElementById('src-disclosure');
-  if (disclosure && window.matchMedia && window.matchMedia('(max-width: 600px)').matches) {
-    var want = null;
-    try { want = localStorage.getItem('ledger-src-open'); } catch (e) { want = null; }
-    disclosure.open = want === '1';
-    disclosure.addEventListener('toggle', function () {
-      try { localStorage.setItem('ledger-src-open', disclosure.open ? '1' : '0'); } catch (e) {}
+  /* On phones both toggle rows start collapsed; the reader's choice is kept per row. */
+  if (window.matchMedia && window.matchMedia('(max-width: 600px)').matches) {
+    ['cat-disclosure', 'src-disclosure'].forEach(function (id) {
+      var d = document.getElementById(id);
+      if (!d) return;
+      var want = null;
+      try { want = localStorage.getItem('ledger-open-' + id); } catch (e) { want = null; }
+      d.open = want === '1';
+      d.addEventListener('toggle', function () {
+        try { localStorage.setItem('ledger-open-' + id, d.open ? '1' : '0'); } catch (e) {}
+      });
     });
   }
 
