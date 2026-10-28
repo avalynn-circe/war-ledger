@@ -238,8 +238,9 @@ def _date_range(end: str, n: int) -> list[str]:
 
 def group(events: list[dict]) -> list[dict]:
     out = []
+    rows = headline_rows(events)
     for key, label in CATEGORIES:
-        evs = [e for e in events if e["category"] == key]
+        evs = [e for e in rows if e["category"] == key]
         if evs:
             sources = []
             for e in evs:
@@ -310,6 +311,87 @@ def _longdate(d: str) -> str:
     return f"{dt.day} {dt:%B %Y}"
 
 
+FACT_ROWS = [
+    # (sheet key, side, label)
+    ("uav_launched", "ua", "Strike UAVs launched at Ukraine"),
+    ("intercepted", "ua", "Targets intercepted"),
+    ("impact_locations", "ua", "Impact locations"),
+    ("intercepted_over_russia", "ru", "UAVs intercepted over Russia, claimed"),
+    ("clashes", "ua", "Combat clashes"),
+    ("guided_bombs", "ua", "Guided aerial bombs"),
+    ("kamikaze_drones", "ua", "Kamikaze drones used"),
+    ("loss_personnel", "ua", "Russian personnel losses, claimed"),
+]
+
+
+def facts(flat: dict[str, dict], spark_for) -> list[dict]:
+    """The day's figures as tiles, from the returns sheet."""
+    out = []
+    launched = _numeric(flat["uav_launched"]["ua"])
+    for key, side, label in FACT_ROWS:
+        cell = flat[key][side]
+        value = cell["value"] if cell else None
+        tile = {
+            "key": key, "label": label, "value": _fmt(value) if value is not None else None,
+            "source": cell["source"] if cell else "", "url": cell["url"] if cell else "", "src": cell["id"] if cell else None,
+            "bar": None, "bar_note": "", "second": "", "spark": spark_for(key, side) if cell else "",
+        }
+        if key == "intercepted" and launched and isinstance(value, int):
+            tile["bar"] = min(100, round(100 * value / launched))
+            tile["bar_note"] = f"{tile['bar']}% of launched"
+        if key == "loss_personnel":
+            if isinstance(value, int):
+                tile["value"] = f"+{value:,}"
+            other = flat[key]["ru"]
+            if other:
+                tile["second"] = f"Ukrainian +{other['value']:,}, claimed by {other['source']}"
+        out.append(tile)
+    return out
+
+
+def _split_group(text: str) -> dict:
+    oblast, _, names = text.partition(": ")
+    if not names:
+        return {"oblast": "", "names": [t.strip() for t in text.split(",") if t.strip()]}
+    return {"oblast": oblast, "names": [t.strip() for t in names.split(",") if t.strip()]}
+
+
+def where(events: list[dict]) -> list[dict]:
+    """Place cards: launch directions and target, settlements shelled, regions over Russia."""
+    cards = []
+    af = _structured(events, "kpszsu", "air_attack")
+    if af and (af[0]["locations"] or af[0].get("detail")):
+        detail = af[0].get("detail") or ""
+        target = detail.split(": ", 1)[1] if ": " in detail else "not stated"
+        cards.append({"kind": "arrow", "label": "Overnight attack: launch directions and main target", "places": af[0]["locations"], "target": target, "source": "Air Force of Ukraine", "src": "kpszsu"})
+    gs = [e for e in _structured(events, "generalstaff", "front_activity") if e["locations"]]
+    if gs:
+        groups = [_split_group(g) for g in (gs[0].get("locations_en") or gs[0]["locations"])]
+        air = gs[0].get("detail_en") or gs[0].get("detail")
+        cards.append({"kind": "groups", "label": "Settlements shelled, past 24 hours", "groups": groups, "note": air, "source": "General Staff of the Armed Forces of Ukraine", "src": "generalstaff"})
+    mod = [e for e in _structured(events, "mod_russia", "strikes_in_russia") if e["locations"]]
+    if mod:
+        regions = []
+        for e in mod:
+            for r in e["locations"]:
+                if r not in regions:
+                    regions.append(r)
+        cards.append({"kind": "list", "label": "UAVs intercepted over Russia: regions named", "places": regions, "source": "Ministry of Defence of Russia, as claimed", "src": "mod_russia"})
+    return cards
+
+
+def headline_rows(events: list[dict]) -> list[dict]:
+    rows = []
+    for e in events:
+        r = dict(e)
+        r["line"] = wire_line(e) if e["extraction"] == "structured" else ""
+        pub = e.get("published")
+        r["clock"] = datetime.fromisoformat(pub).astimezone(KYIV).strftime("%H:%M") if pub else (e.get("time") or "––:––")
+        r["short"] = CHIP_NAME.get(e["source_id"], e["source_name"])
+        rows.append(r)
+    return rows
+
+
 def _cal(d: str, dates: list[str], i: int, prefix: str) -> dict:
     return {
         "date": d, "long": _longdate(d), "weekday": date.fromisoformat(d).strftime("%A").upper(),
@@ -376,12 +458,14 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
             for r in g["rows"]:
                 side = "ua" if r["ua"] and isinstance(r["ua"]["value"], int) else ("ru" if r["ru"] and isinstance(r["ru"]["value"], int) else None)
                 r["spark"] = sparkline(series(r["key"], d, SPARK_DAYS, side)) if side else ""
+        flat = _flat(sheet)
         html = day_tpl.render(
             title=f"{_longdate(d)} · The Ukraine War Ledger",
             nav="day",
             day={"date": d, "groups": group(evs), "n": len(evs)},
             sheet=sheet,
-            strip=strip_for(d),
+            facts=facts(flat, lambda key, side: sparkline(series(key, d, SPARK_DAYS, side))),
+            where=where(evs),
             cats=_cats(evs),
             srcs=_srcs(evs, sources),
             cal=_cal(d, dates, i, ""),
@@ -416,7 +500,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
 
     if not dates:
         (site_dir / "index.html").write_text(
-            day_tpl.render(title="The Ukraine War Ledger", nav="day", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), strip=[], cats=_cats([]), srcs=_srcs([], sources), cal=_cal(latest, [latest], 0, ""), **base_ctx),
+            day_tpl.render(title="The Ukraine War Ledger", nav="day", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), facts=facts(_flat(returns([])), lambda k, s: ""), where=[], cats=_cats([]), srcs=_srcs([], sources), cal=_cal(latest, [latest], 0, ""), **base_ctx),
             encoding="utf-8",
         )
 

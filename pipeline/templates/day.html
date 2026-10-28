@@ -2,6 +2,67 @@
 {% block main %}
 <p class="wire-meta">{{ day.n }} entries</p>
 
+<section class="facts" aria-label="The day's figures">
+{% for f in facts %}
+<article class="tile{% if f.value is none %} empty{% endif %}" {% if f.src %}data-src="{{ f.src }}"{% endif %}>
+  <span class="tile-label">{{ f.label }}</span>
+  <span class="tile-value">{% if f.value is not none %}<a href="{{ f.url }}" rel="noopener">{{ f.value }}</a>{% else %}·{% endif %}</span>
+  {% if f.bar is not none %}<div class="bar"><div style="width:{{ f.bar }}%"></div></div><span class="tile-note">{{ f.bar_note }}</span>{% endif %}
+  {% if f.second %}<span class="tile-note">{{ f.second }}</span>{% endif %}
+  <span class="tile-foot"><span class="tile-src">{{ f.source }}</span>{{ f.spark|safe }}</span>
+</article>
+{% endfor %}
+</section>
+
+{% if where %}
+<section class="where" aria-label="Where">
+{% for w in where %}
+<article class="card" {% if w.src %}data-src="{{ w.src }}"{% endif %}>
+  <span class="tile-label">{{ w.label }}</span>
+  {% if w.kind == 'arrow' %}
+  <div class="chips">{% for d in w.places %}<span class="chip-s">{{ d }}</span>{% endfor %}<span class="arrow">&rarr;</span><span class="chip-s target">{{ w.target }}</span></div>
+  {% elif w.kind == 'groups' %}
+  {% for g in w.groups %}<div class="group"><span class="group-h">{{ g.oblast }} <span class="n">{{ g.names|length }}</span></span><div class="chips">{% for n in g.names %}<span class="chip-s">{{ n }}</span>{% endfor %}</div></div>{% endfor %}
+  {% else %}
+  <div class="chips">{% for d in w.places %}<span class="chip-s">{{ d }}</span>{% endfor %}</div>
+  {% endif %}
+  {% if w.note %}<span class="tile-note">{{ w.note }}</span>{% endif %}
+  <span class="tile-src">{{ w.source }}</span>
+</article>
+{% endfor %}
+</section>
+{% endif %}
+
+<section class="headlines" aria-label="Entries by category">
+{% for group in day.groups %}
+<div class="cat" id="{{ group.key }}" data-cat="{{ group.key }}">
+  <h2>{{ group.label }} <span class="n">{{ group.events|length }}</span></h2>
+  {% for e in group.events %}
+  <details class="hl {{ e.extraction }}" data-src="{{ e.source_id }}">
+    <summary>
+      <span class="time">{{ e.clock }}</span>
+      <span class="text"{% if not e.quote_en and e.extraction != 'structured' %} lang="{{ e.lang }}"{% endif %}>{% if e.extraction == 'structured' %}<b>{{ e.actor }}{% if e.target %} &rarr; {{ e.target }}{% endif %}</b>{% if e.line %} · {{ e.line }}{% elif e.action %} · {{ e.action }}{% endif %}{% else %}{{ e.quote_en or e.quote }}{% endif %}</span>
+      <span class="side {{ e.source_side }}">{{ e.short }}</span>
+    </summary>
+    <div class="hl-body">
+      {% if e.action and e.extraction == 'structured' %}<p class="sub">{{ e.action }}</p>{% endif %}
+      {% if e.detail %}<p>{{ e.detail_en or e.detail }}</p>{% endif %}
+      {% if e.weapons %}<ul class="items">{% for w in e.weapons %}<li>{{ w.name }}{% if w.launched is defined %} · launched {{ w.launched }}{% endif %}{% if w.intercepted is defined %} · intercepted {{ w.intercepted }}{% endif %}{% if w.impacts is defined %} · impacts {{ w.impacts }}{% endif %}</li>{% endfor %}</ul>{% endif %}
+      {% if e.counts %}<ul class="counts">{% for k, v in e.counts.items() %}<li>{{ k|countlabel }} <b>{{ v|fmt }}</b></li>{% endfor %}</ul>{% endif %}
+      {% if e.breakdown %}<table class="breakdown">{% for b in e.breakdown %}<tr><td>{{ b.label }}</td>{% if b.count is defined %}<td class="num">{{ b.count|fmt }}</td>{% endif %}{% if b.delta is defined %}<td class="num">+{{ b.delta|fmt }}</td>{% endif %}</tr>{% endfor %}</table>{% endif %}
+      {% if e.locations %}<p class="loc">{{ (e.locations_en or e.locations)|join(' · ') }}</p>{% endif %}
+      {% if e.quote_en or e.extraction == 'structured' %}<blockquote lang="{{ e.lang }}">{{ e.quote }}</blockquote>{% endif %}
+      <p class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a>{% for r in e.also_reported_by %} · <a href="{{ r.url }}" rel="noopener">{{ r.name }}</a>{% endfor %}</p>
+    </div>
+  </details>
+  {% endfor %}
+</div>
+{% endfor %}
+{% if not day.groups %}<p class="empty">No entries for this date.</p>{% endif %}
+</section>
+
+<details class="returns-full">
+<summary>Full returns sheet</summary>
 <section class="returns">
 <table>
 <thead><tr><th>Returns</th><th>Reported by Ukraine</th><th>Reported by Russia</th><th class="spark-h">14 days</th></tr></thead>
@@ -22,36 +83,5 @@
 </table>
 <p class="legend">One row per figure, the same rows every day. A dot means the side did not publish that figure. DeepState is independent and is shown in the Ukrainian column with its own label. The line is the last 14 days of the column shown.</p>
 </section>
-
-{% for group in day.groups %}
-<details class="cat" id="{{ group.key }}" data-cat="{{ group.key }}">
-<summary><span class="cat-label">{{ group.label }}</span><span class="n">{{ group.events|length }} · {{ group.sources|join(' · ') }}</span></summary>
-<ol class="ledger">
-{% for e in group.events %}
-<li class="entry {{ e.extraction }}" data-src="{{ e.source_id }}">
-  <div class="line">
-    {% if e.time %}<span class="time">{{ e.time }}</span>{% endif %}
-    {% if e.actor %}<span class="who">{{ e.actor }}{% if e.target %} &rarr; {{ e.target }}{% endif %}</span>{% endif %}
-    {% if e.action %}<span class="act">{{ e.action }}</span>{% endif %}
-  </div>
-  {% if e.extraction != 'structured' %}<p class="quote-main"{% if not e.quote_en %} lang="{{ e.lang }}"{% endif %}>{{ e.quote_en or e.quote }}</p>{% endif %}
-  {% if e.detail and e.extraction == 'structured' %}<p class="detail">{{ e.detail_en or e.detail }}</p>{% endif %}
-  {% if e.weapons %}<ul class="items">{% for w in e.weapons %}<li>{{ w.name }}{% if w.launched is defined %} · launched {{ w.launched }}{% endif %}{% if w.intercepted is defined %} · intercepted {{ w.intercepted }}{% endif %}{% if w.impacts is defined %} · impacts {{ w.impacts }}{% endif %}{% if w.count is defined %} × {{ w.count }}{% endif %}</li>{% endfor %}</ul>{% endif %}
-  {% if e.counts %}<ul class="counts">{% for k, v in e.counts.items() %}<li>{{ k|countlabel }} <b>{{ v|fmt }}</b></li>{% endfor %}</ul>{% endif %}
-  {% if e.breakdown %}<table class="breakdown">{% for b in e.breakdown %}<tr><td>{{ b.label }}</td>{% if b.count is defined %}<td class="num">{{ b.count|fmt }}</td>{% endif %}{% if b.delta is defined %}<td class="num">+{{ b.delta|fmt }}</td>{% endif %}</tr>{% endfor %}</table>{% endif %}
-  {% if e.locations and not e.breakdown %}<p class="loc">{{ (e.locations_en or e.locations)|join(' · ') }}</p>{% endif %}
-  <p class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %} · <a href="{{ r.url }}" rel="noopener">{{ r.name }}</a>{% endfor %}</p>
-  {% if e.extraction == 'structured' or e.quote_en or (e.detail and e.extraction != 'structured') or e.also_reported_by %}
-  <details><summary>Source text</summary>
-    {% if e.extraction == 'structured' or e.quote_en %}<blockquote lang="{{ e.lang }}">{{ e.quote }}</blockquote>{% endif %}
-    {% if e.detail and e.extraction != 'structured' %}<blockquote>{{ e.detail_en or e.detail }}</blockquote>{% endif %}
-    {% for r in e.also_reported_by if r.quote %}<blockquote>{{ r.quote }} <span class="src">{{ r.name }}</span></blockquote>{% endfor %}
-  </details>
-  {% endif %}
-</li>
-{% endfor %}
-</ol>
 </details>
-{% endfor %}
-{% if not day.groups %}<p class="empty">No entries for this date.</p>{% endif %}
 {% endblock %}

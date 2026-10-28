@@ -49,20 +49,20 @@ sources.yaml  ->  fetch  ->  parse  ->  extract  ->  fold  ->  data/YYYY-MM-DD.j
 
 ## The day page
 
-Three layers, top to bottom.
+Figures first, then places, then headlines.
 
-1. **Day strip.** Thirty small bars, one per day, height by strike UAVs
-   launched that night. Click a bar to open that day.
-2. **Returns sheet.** The same rows every day in the same order, with one
-   column for figures reported by Ukraine and one for figures reported by
-   Russia: the air war on Ukraine, the air war on Russia, front activity, and
-   the enemy losses each side claims for the past 24 hours. The source sits
-   under each figure. A dot marks a figure that side did not publish that
-   day. Each row carries a line for the last 14 days. DeepState is
-   independent and appears in the Ukrainian column under its own label.
-3. **Entries by category.** Ten sections, closed by default. Each opens to
-   every entry of the day with its counts, places, source link and source
-   text.
+1. **Fact tiles.** Eight figures as large numbers, each naming its source,
+   with a 14-day line: UAVs launched and intercepted (with the intercepted
+   share as a bar), impact locations, UAVs Russia claims over its territory,
+   clashes, guided bombs, kamikaze drones, and claimed personnel losses from
+   each side. A tile with nothing reported shows a dot.
+2. **Where.** Launch directions with an arrow to the main target, settlements
+   shelled as chips grouped by oblast, and the regions Russia names for its
+   interceptions.
+3. **Headlines by category.** One line per entry: time, text, source. Open a
+   line for its detail, counts, places, original text and link.
+4. **Full returns sheet.** The complete two-column sheet, the same rows every
+   day, behind a disclosure at the bottom.
 
 The **wire** (`wire.html`) is one continuous feed, newest first, ordered by
 each source post's own timestamp: time, category, entry, source. The page
