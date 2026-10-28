@@ -1,9 +1,72 @@
 {
- "generated_at": "2026-10-27 22:07",
+ "generated_at": "2026-10-28 01:26",
  "days": [
   {
    "date": "2026-10-28",
    "events": [
+    {
+     "date": "2026-10-28",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129524",
+     "quote": "Четыре человека, в том числе ребенок, пострадали в результате атаки ВС РФ в Харькове, — ОВА 32-летняя и 65-летняя женщины, 56-летний мужчина и 4-летний мальчик пострадали в результате «прилета» БПЛА в Основянском районе.",
+     "time": "01:51",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-27T23:51:45+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "48f753d2451c"
+    },
+    {
+     "date": "2026-10-28",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129534",
+     "quote": "Канадский волонтер Джесси Адамс, который спасал животных в Украине, погиб от удара российского дрона, —Animal Rescue Kharkiv «25 октября Джесси эвакуировал животных из Краматорска.",
+     "time": "03:14",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "FPV drone"
+      },
+      {
+       "name": "Reconnaissance UAV (Orlan/Zala/Supercam)"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-28T01:14:33+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "87cb8f17a515"
+    },
     {
      "date": "2026-10-28",
      "category": "losses_claimed",
@@ -122,7 +185,12 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [],
+     "also_reported_by": [
+      {
+       "name": "Oryx (Russian equipment losses)",
+       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
+      }
+     ],
      "published": "2026-10-27T22:07:06.379932+00:00",
      "quote_en": null,
      "detail_en": null,
@@ -247,12 +315,45 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [],
+     "also_reported_by": [
+      {
+       "name": "Oryx (Ukrainian equipment losses)",
+       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+      }
+     ],
      "published": "2026-10-27T22:07:07.013223+00:00",
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
      "id": "7a361d4976d4"
+    },
+    {
+     "date": "2026-10-28",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-vidbudova/4178603-pm-koretskyi-orders-faster-repairs-to-kyivs-southern-bridge.html",
+     "quote": "PM Koretskyi orders faster repairs to Kyiv’s Southern Bridge",
+     "time": "02:27",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The Cabinet of Ministers has instructed the Ministry for Recovery, Infrastructure and Transport to speed up repairs to Kyiv’s Southern Bridge, which was damaged in a Russian missile attack overnight on October 27.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-28T00:27:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "2a691b59ef78"
     }
    ]
   },
