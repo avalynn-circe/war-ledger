@@ -14,6 +14,21 @@
 {% endfor %}
 </section>
 
+{% if map_svg %}
+<section class="map-card" aria-label="Map">
+  <span class="tile-label">Where, approximately</span>
+  {{ map_svg|safe }}
+  <ul class="map-legend">
+    <li><span class="sw target"></span>Main direction of the overnight attack</li>
+    <li><span class="sw launch"></span>Launch directions</li>
+    <li><span class="sw shelled"></span>Oblasts with settlements shelled, with the count</li>
+    <li><span class="sw claimed"></span>Regions where Russia claims interceptions</li>
+    <li><span class="sw other"></span>Other places named in entries</li>
+  </ul>
+  <span class="tile-note">Pins mark an oblast, region or city in general terms; outlines are deliberately coarse. Hover a pin for what was reported there.</span>
+</section>
+{% endif %}
+
 {% if where %}
 <section class="where" aria-label="Where">
 {% for w in where %}

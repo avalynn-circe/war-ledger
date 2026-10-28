@@ -15,6 +15,7 @@ from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from . import geo
 from .extract.common import CATEGORIES, CATEGORY_LABELS, SIDE_LABELS
 
 TEMPLATES = pathlib.Path(__file__).parent / "templates"
@@ -465,7 +466,8 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
             day={"date": d, "groups": group(evs), "n": len(evs)},
             sheet=sheet,
             facts=facts(flat, lambda key, side: sparkline(series(key, d, SPARK_DAYS, side))),
-            where=where(evs),
+            map_svg=geo.render_map(evs),
+            where=[w for w in where(evs) if w["kind"] == "groups"],
             cats=_cats(evs),
             srcs=_srcs(evs, sources),
             cal=_cal(d, dates, i, ""),
@@ -500,7 +502,7 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
 
     if not dates:
         (site_dir / "index.html").write_text(
-            day_tpl.render(title="The Ukraine War Ledger", nav="day", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), facts=facts(_flat(returns([])), lambda k, s: ""), where=[], cats=_cats([]), srcs=_srcs([], sources), cal=_cal(latest, [latest], 0, ""), **base_ctx),
+            day_tpl.render(title="The Ukraine War Ledger", nav="day", day={"date": latest, "groups": [], "n": 0}, sheet=returns([]), facts=facts(_flat(returns([])), lambda k, s: ""), map_svg=None, where=[], cats=_cats([]), srcs=_srcs([], sources), cal=_cal(latest, [latest], 0, ""), **base_ctx),
             encoding="utf-8",
         )
 

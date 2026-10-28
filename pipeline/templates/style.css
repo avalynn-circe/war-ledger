@@ -213,3 +213,29 @@ details.returns-full { margin-top: 28px; border-top: 1px solid var(--line); }
 details.returns-full > summary { cursor: pointer; padding: 12px 0; font-weight: 600; font-size: .95rem; }
 @media (max-width: 900px) { .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .tile-value { font-size: 1.5rem; } .hl-body { padding-left: 0; } details.hl > summary { flex-wrap: wrap; } details.hl > summary .text { flex: 1 1 70%; } }
+
+/* disclaimer */
+.notice { max-width: 980px; margin: 0 auto; padding: 8px 16px; font-size: .8rem; color: var(--muted); border-bottom: 1px solid var(--line); }
+.notice b { color: var(--fg); }
+
+/* schematic map */
+.map-card { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin: 0 0 12px; display: flex; flex-direction: column; gap: 6px; background: var(--bg); }
+.map { width: 100%; height: auto; display: block; margin: 4px 0; }
+.map .sea { fill: var(--tag); }
+.map .land { fill: var(--bg); stroke: var(--line); stroke-width: 1; }
+.map .ua { fill: var(--bg); stroke: var(--muted); stroke-width: 1.4; }
+.map .route { stroke: var(--fg); stroke-width: .8; stroke-dasharray: 3 3; opacity: .55; }
+.map .pin circle { stroke: var(--bg); stroke-width: 1.2; }
+.map .pin.target circle { fill: var(--fg); }
+.map .pin.launch circle { fill: var(--bg); stroke: var(--fg); stroke-width: 1.8; }
+.map .pin.shelled circle { fill: #c2410c; }
+.map .pin.claimed circle { fill: var(--accent); }
+.map .pin.other circle { fill: var(--muted); opacity: .8; }
+.map text { font-family: var(--mono); font-size: 10px; fill: var(--fg); paint-order: stroke; stroke: var(--bg); stroke-width: 3px; stroke-linejoin: round; }
+.map-legend { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .74rem; color: var(--muted); }
+.map-legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+.map-legend .sw.target { background: var(--fg); }
+.map-legend .sw.launch { background: var(--bg); border: 2px solid var(--fg); width: 8px; height: 8px; }
+.map-legend .sw.shelled { background: #c2410c; }
+.map-legend .sw.claimed { background: var(--accent); }
+.map-legend .sw.other { background: var(--muted); }

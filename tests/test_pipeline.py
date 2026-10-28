@@ -266,6 +266,24 @@ class Translation(unittest.TestCase):
             self.assertEqual(e2.quote_en, "EN<В Рязани горит НПЗ.>")
 
 
+class Map(unittest.TestCase):
+    def test_pins_and_outline(self):
+        from pipeline import geo
+        self.assertIsNotNone(geo.project(50.45, 30.52))
+        self.assertIsNone(geo.project(59.93, 30.3))
+        events = [
+            {"source_id": "kpszsu", "category": "air_attack", "extraction": "structured", "locations": ["Kursk", "Millerovo"], "detail": "Main direction of the strike: Kyiv", "quote": "", "source_name": "AF"},
+            {"source_id": "generalstaff", "category": "front_activity", "extraction": "structured", "locations": ["Sumy oblast: A, B, C"], "detail": None, "quote": "", "source_name": "GS"},
+            {"source_id": "ukrinform", "category": "infrastructure", "extraction": "rules", "locations": ["Kharkiv"], "detail": None, "quote": "Power out in Kharkiv", "source_name": "Ukrinform"},
+        ]
+        svg = geo.render_map(events)
+        self.assertIn('class="pin target"', svg)
+        self.assertEqual(svg.count('class="route"'), 2)
+        self.assertIn("Sumy · 3", svg)
+        self.assertIn('class="pin other"', svg)
+        self.assertIn('class="ua"', svg)
+
+
 class News(unittest.TestCase):
     def test_classification(self):
         got = {i.title: news.classify(i.title, i.summary) for i in items("militarnyi")}
@@ -321,6 +339,9 @@ class EndToEnd(unittest.TestCase):
             self.assertIn('class="tile"', index)
             self.assertIn("% of launched", index)
             self.assertIn('<details class="returns-full">', index)
+            self.assertIn('<svg class="map"', index)
+            self.assertIn("main direction of the overnight attack", index)
+            self.assertIn("Work in progress.", index)
             self.assertIn('id="toggles"', index)
             self.assertIn('id="src-toggles"', index)
             self.assertIn('<details class="src-disclosure" id="src-disclosure" open>', index)

@@ -56,9 +56,12 @@ Figures first, then places, then headlines.
    share as a bar), impact locations, UAVs Russia claims over its territory,
    clashes, guided bombs, kamikaze drones, and claimed personnel losses from
    each side. A tile with nothing reported shows a dot.
-2. **Where.** Launch directions with an arrow to the main target, settlements
-   shelled as chips grouped by oblast, and the regions Russia names for its
-   interceptions.
+2. **Where.** A schematic map with pins at approximate oblast, region and
+   city positions: the main direction of the overnight attack with dashed
+   lines from each launch direction, oblasts with settlements shelled and
+   their count, regions where Russia claims interceptions, and other places
+   named in entries. Outlines are Natural Earth at 1:110m, too coarse for
+   towns or roads. Below it, the shelled settlements by name.
 3. **Headlines by category.** One line per entry: time, text, source. Open a
    line for its detail, counts, places, original text and link.
 4. **Full returns sheet.** The complete two-column sheet, the same rows every
@@ -145,6 +148,11 @@ translates Cyrillic excerpts (quotes, details and settlement names) into
 English once and keeps them in `data/translations.json`. Pages show the
 English with the original a click away. Without the key the originals are
 shown, and any cached translations still apply.
+
+## Credits
+
+Country outlines on the map are from Natural Earth (public domain), via the
+`world-atlas` package at 1:110m.
 
 ## Limits
 
