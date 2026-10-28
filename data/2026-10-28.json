@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "generated_at": "2026-10-28T19:40:18+00:00",
+ "generated_at": "2026-10-28T22:39:24+00:00",
  "events": [
   {
    "date": "2026-10-28",
@@ -398,6 +398,34 @@
   },
   {
    "date": "2026-10-28",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179173-russian-strike-damages-veterinary-center-in-chernihiv-killing-dog-and-injuring-three-women.html",
+   "quote": "Russian strike damages veterinary center in Chernihiv, killing dog and injuring three women",
+   "time": "22:33",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A Russian strike on Chernihiv damaged a municipal veterinary and sterilization center, killing one dog and injuring another dog and three cats.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Chernihiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-28T20:33:01+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "62f91763379a"
+  },
+  {
+   "date": "2026-10-28",
    "category": "strikes_in_russia",
    "source_id": "mod_russia",
    "source_name": "Ministry of Defence of Russia",
@@ -749,6 +777,99 @@
   },
   {
    "date": "2026-10-28",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129603",
+   "quote": "Путин призвал государства усилить контроль над соцсетями Государственные органы должны иметь возможность влиять на работу соцсетей ради безопасности, заявил Владимир Путин на саммите «Россия — Африка» в Москве.",
+   "time": "21:42",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Moscow"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-28T19:42:18+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "edf2d6880793"
+  },
+  {
+   "date": "2026-10-28",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129605",
+   "quote": "Сбито 20 беспилотников, летевших на Москву, — мэр Сергей Собянин",
+   "time": "22:00",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Moscow"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/129608"
+    }
+   ],
+   "published": "2026-10-28T20:00:51+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c93a3655eeba"
+  },
+  {
+   "date": "2026-10-28",
+   "category": "front_line",
+   "source_id": "deepstate",
+   "source_name": "DeepState",
+   "source_side": "osint",
+   "source_url": "https://t.me/DeepStateUA/23936",
+   "quote": "🔄 Мапу оновлено ⚔️ Ворог просунувся поблизу Воздвижівки та Лугівського.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "advanced near",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Воздвижівки",
+    "Лугівського"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-10-28T21:30:01+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Воздвижівки",
+    "Лугівського"
+   ],
+   "id": "02c1745e4e8f"
+  },
+  {
+   "date": "2026-10-28",
    "category": "front_line",
    "source_id": "mod_russia",
    "source_name": "Ministry of Defence of Russia",
@@ -897,6 +1018,34 @@
   },
   {
    "date": "2026-10-28",
+   "category": "front_line",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179181-war-update-181-combat-clashes-on-front-line-pokrovsk-axis-sees-fiercest-fighting.html",
+   "quote": "War update: 181 combat clashes on front line, Pokrovsk axis sees fiercest fighting",
+   "time": "23:20",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "A total of 181 combat engagements between Ukraine’s Defense Forces and Russian troops were reported on the front line on October 28, including 38 on the Pokrovsk axis.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Pokrovsk"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-28T21:20:30+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "8c5c69ae3518"
+  },
+  {
+   "date": "2026-10-28",
    "category": "front_activity",
    "source_id": "generalstaff",
    "source_name": "General Staff of the Armed Forces of Ukraine",
@@ -935,6 +1084,38 @@
     "Chernihiv oblast: Хрінівка"
    ],
    "id": "373725386464"
+  },
+  {
+   "date": "2026-10-28",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42723",
+   "quote": "Оперативна інформація станом на 22:00 28.10.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 181 бойове зіткнення.",
+   "time": "22:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "since 00:00, as of 22:00",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "clashes": 181,
+    "guided_bombs": 188,
+    "air_strikes": 55,
+    "kamikaze_drones": 5249,
+    "shellings": 1731
+   },
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-10-28T20:00:20+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "bddccaa027f6"
   },
   {
    "date": "2026-10-28",
