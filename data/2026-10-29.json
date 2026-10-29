@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T19:41:26+00:00",
+ "generated_at": "2026-10-29T23:58:22+00:00",
  "events": [
   {
    "date": "2026-10-29",
@@ -473,6 +473,94 @@
    "detail_en": null,
    "locations_en": null,
    "id": "3421156c71d4"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "air_attack",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/ukraine-war-latest-russias-mass-murder-deadly-russian-strikes-on-dnipro-chernihiv-kremenchuk/",
+   "quote": "Ukraine war latest: 'Russia's mass murder' — Deadly Russian strikes on Dnipro, Chernihiv, Kremenchuk",
+   "time": "21:42",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Key developments on Oct.",
+   "weapons": [
+    {
+     "name": "Neptune cruise missile"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Dnipro",
+    "Chernihiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T19:42:55+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c99ddcb62e88"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179537-zelensky-intelligence-reports-russia-preparing-new-ballistic-missile-strikes.html",
+   "quote": "Zelensky: Intelligence reports Russia preparing new ballistic missile strikes",
+   "time": "22:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Ukrainian intelligence has information indicating that Russia is preparing new ballistic missile strikes against Ukraine.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T20:00:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "08b825d7727b"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179544-zelensky-russian-strikes-killed-19-people-in-dnipro-chernihiv-kremenchuk.html",
+   "quote": "Zelensky: Russian strikes killed 19 people in Dnipro, Chernihiv, Kremenchuk",
+   "time": "22:23",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Ukrainian President Volodymyr Zelensky has said that Russian strikes on October 29 killed 19 people in Dnipro, Kremenchuk and Chernihiv.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Dnipro",
+    "Chernihiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T20:23:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "724f83e13659"
   },
   {
    "date": "2026-10-29",
@@ -1029,6 +1117,38 @@
     "Мала Корчаківка, Лужки, Писарівка, Нова Січ, Уланове, Яструбине, Бачівськ, Кучерівка, Бунячине, Миропілля"
    ],
    "id": "ba2ea98aa6cf"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42731",
+   "quote": "Оперативна інформація станом на 22:00 29.10.2026 щодо російського вторгнення.",
+   "time": "22:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "since 00:00, as of 22:00",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "clashes": 191,
+    "guided_bombs": 170,
+    "air_strikes": 51,
+    "kamikaze_drones": 6174,
+    "shellings": 1768
+   },
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-10-29T20:02:01+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "fb4841db221b"
   },
   {
    "date": "2026-10-29",

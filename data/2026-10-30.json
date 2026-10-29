@@ -1,0 +1,422 @@
+{
+ "date": "2026-10-30",
+ "generated_at": "2026-10-29T23:58:22+00:00",
+ "events": [
+  {
+   "date": "2026-10-30",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129718",
+   "quote": "Из кошельков Binance переместили криптоактивы в миллиарды долларов.",
+   "time": "00:14",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T22:14:03+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "aca6f9c75524"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129721",
+   "quote": "В Москве закрыли все аэропорты на фоне атаки БПЛА Росавиация сообщила, что в аэропортах Домодедово, Внуково, Жуковский (Раменское) и Шереметьево введены временные ограничения на прием и выпуск воздушных судов.",
+   "time": "01:17",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Moscow",
+    "Yaroslavl oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T23:17:33+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "167472cda2b2"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24236, of which: destroyed: 19201, damaged: 1001, abandoned: 1192, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24236,
+    "destroyed": 19201,
+    "damaged": 1001,
+    "abandoned": 1192,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4451
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2427
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6493
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 756
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 440
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 740
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 620
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1066
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 643
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 71
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 30
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 448
+    },
+    {
+     "label": "Radars",
+     "count": 133
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 205
+    },
+    {
+     "label": "Helicopters",
+     "count": 185
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 40
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4738
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-10-29T23:58:20.771398+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c3f2304c2cb1"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12294, of which: destroyed: 9689, damaged: 715, abandoned: 692, captured: 1198",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12294,
+    "destroyed": 9689,
+    "damaged": 715,
+    "abandoned": 692,
+    "captured": 1198
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1472
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 565
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1627
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1468
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1015
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2192
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 104
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 302
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 305
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 997
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 135
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 150
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1402
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-10-29T23:58:21.423297+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7a361d4976d4"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "losses_claimed",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179308-russia-suffers-record-battlefield-losses-in-october-general-staff.html",
+   "quote": "Russia suffers record battlefield losses in October – General Staff",
+   "time": "00:35",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "As of October 29, Russian forces have suffered 49,040 personnel losses in combat this month, the highest monthly figure since Russia launched its full-scale invasion of Ukraine.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T22:35:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "73c192be0fe1"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "naval",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/seven-russian-tankers-shipping-diesel-to-us-identified-located-media-reports/",
+   "quote": "Seven Russian tankers shipping diesel to US identified, located",
+   "time": "00:08",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "A live tracker map developed by Greenpeace, an international environmental organization, shows Russian tankers currently moving across the Atlantic Ocean, with one vessel approaching the U.S.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T22:08:58+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "1e6af16226b1"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "infrastructure",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/russian-night-attacks-kill-1-in-kyiv-leave-350-000-in-dnipro-without-power/",
+   "quote": "Russian night attacks kill 1 in Kyiv, leave 350,000 in Dnipro without power",
+   "time": "01:36",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "In Kyiv, multiple Russian ballistic missiles struck just after 10 p.m.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv",
+    "Dnipro"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T23:36:48+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "9c450927d958"
+  },
+  {
+   "date": "2026-10-30",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179321-sbu-detains-driver-suspected-of-directing-russian-attacks-on-kyiv-regions-thermal-power-plants.html",
+   "quote": "SBU detains driver suspected of directing Russian attacks on Kyiv' regions thermal power plants",
+   "time": "01:46",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "The Security Service of Ukraine (SBU) counterintelligence officers have detained a logistics company driver in the Kyiv region suspected of helping direct Russian strikes on local energy facilities at the direction of Russia's Federal Security Service (FSB).",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T23:46:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "e1ed32feed68"
+  }
+ ]
+}
