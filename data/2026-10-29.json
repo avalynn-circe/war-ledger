@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T05:54:23+00:00",
+ "generated_at": "2026-10-29T13:10:00+00:00",
  "events": [
   {
    "date": "2026-10-29",
@@ -55,6 +55,182 @@
    "detail_en": null,
    "locations_en": null,
    "id": "c3c444722225"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "air_attack",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/breaking-russia-strikes-train-at-dnipro-station-with-jet-powered-drone-at-least-13-dead/",
+   "quote": "Breaking: Russia strikes platform at Dnipro station with jet-powered drone, at least 13 dead",
+   "time": "12:01",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Despite the air raid alert and announcements of a heightened threat, people remained on the platform, Ukrainian railways added.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Dnipro"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T10:01:12+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f2ef3299d5aa"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179356-russian-drone-attack-on-central-chernihiv-kills-two-teenage-girls-injures-11.html",
+   "quote": "Russian drone attack on central Chernihiv kills two teenage girls, injures 11",
+   "time": "14:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Two people were killed and 11 others injured in a drone attack on central Chernihiv.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Chernihiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T12:00:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "209ffadcbb78"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179371-death-toll-from-russian-attack-on-kremenchuk-rises-to-three-15-injured.html",
+   "quote": "Death toll from Russian attack on Kremenchuk rises to three, 15 injured",
+   "time": "14:18",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A Russian drone struck a high-rise residential building in Kremenchuk, Poltava region, killing three people and injuring 15 others.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Poltava"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T12:18:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "e2828519bd71"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129671",
+   "quote": "Один человек погиб, еще 10 пострадали в результате российских атак в Запорожье и области, — ОВА 4 человека пострадали в результате российского удара FPV-дроном по муниципальному автобусу в Запорожье, сообщили утром в Запорожской ОВА.",
+   "time": "14:38",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "FPV drone"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T12:38:03+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "2e7f39db8896"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129673",
+   "quote": "ВС РФ ударили по Кременчугу, погибли два человека, — власти Российская армия нанесла удар по Кременчугу Полтавской области Украины.",
+   "time": "14:44",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Poltava"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T12:44:01+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "59f50da10a09"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "strikes_in_russia",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42729",
+   "quote": "Удар по \"шахедній інфраструктурі\" рф: уражено склад БпЛА, дронопорт і пальне\" 28 жовтня та в ніч на 29 жовтня Сили оборони України уразили в районі Навлі (Брянська область рф) три об'єкти інфраструктури ударних БпЛА армії рф.",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Geran-2 strike UAV"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Bryansk oblast"
+   ],
+   "lang": "uk",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T10:09:07+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "d0e367381915"
   },
   {
    "date": "2026-10-29",
@@ -168,7 +344,12 @@
    ],
    "lang": "ru",
    "extraction": "rules",
-   "also_reported_by": [],
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/129664"
+    }
+   ],
    "published": "2026-10-29T04:56:22+00:00",
    "quote_en": null,
    "detail_en": null,
@@ -205,6 +386,32 @@
   },
   {
    "date": "2026-10-29",
+   "category": "strikes_in_russia",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/russias-fuel-shortages-ease-as-ukraine-faces-trump-pressure-to-halt-refinery-strikes/",
+   "quote": "Russia's fuel shortages ease as Ukraine faces Trump pressure to halt refinery strikes",
+   "time": "13:23",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Free fuel sales resumed in 15 Russian regions in October, Russian state-aligned newspaper Izvestia reported on Oct.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T11:23:32+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "2b46a7ba5de2"
+  },
+  {
+   "date": "2026-10-29",
    "category": "front_line",
    "source_id": "deepstate",
    "source_name": "DeepState",
@@ -232,6 +439,146 @@
     "Майського"
    ],
    "id": "c7f9e2629b9b"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "front_line",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179253-defense-forces-repel-42-attacks-in-pokrovsk-sector-as-189-clashes-reported-along-front-line-in-past-24-hours.html",
+   "quote": "Defense forces repel 42 attacks in Pokrovsk sector as 189 clashes reported along front line in past 24 hours",
+   "time": "09:58",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Over the past 24 hours, on October 28, 189 combat engagements between the Ukrainian Defense Forces and Russian invaders were recorded on the front lines, with the enemy exerting the most pressure in the Pokrovsk direction.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Pokrovsk"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T07:58:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "863d2151d08b"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42725",
+   "quote": "Оперативна інформація станом на 08:00 29.10.2026 щодо російського вторгнення Слава Україні!",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": "Air strikes on: Sumy oblast: Вільна Слобода, Храпівщина, Микільське, Яструбине",
+   "weapons": [],
+   "counts": {
+    "clashes": 189,
+    "guided_bombs": 257,
+    "air_strikes": 79,
+    "kamikaze_drones": 9135,
+    "shellings": 2439,
+    "concentration_areas_struck": 2,
+    "settlements_shelled": 10
+   },
+   "breakdown": [],
+   "locations": [
+    "Мала Корчаківка, Лужки, Писарівка, Нова Січ, Уланове, Яструбине, Бачівськ, Кучерівка, Бунячине, Миропілля"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-10-29T06:01:34+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Мала Корчаківка, Лужки, Писарівка, Нова Січ, Уланове, Яструбине, Бачівськ, Кучерівка, Бунячине, Миропілля"
+   ],
+   "id": "ba2ea98aa6cf"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42725",
+   "quote": "втрати російських загарбників склали 1560 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 1560
+    },
+    {
+     "label": "tanks",
+     "delta": 1
+    },
+    {
+     "label": "armoured fighting vehicles",
+     "delta": 5
+    },
+    {
+     "label": "artillery systems",
+     "delta": 25
+    },
+    {
+     "label": "multiple rocket launchers",
+     "delta": 4
+    },
+    {
+     "label": "ground robotic systems",
+     "delta": 4
+    },
+    {
+     "label": "UAVs",
+     "delta": 1614
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 272
+    },
+    {
+     "label": "special equipment",
+     "delta": 1
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-584-910-troops-in-ukraine-since-feb-24-2022/",
+     "quote": "General Staff: Russia has lost 1,584,910 troops in Ukraine since Feb. 24, 2022"
+    },
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4179222-russia-loses-another-1560-troops-in-war-against-ukraine-in-past-24-hours.html",
+     "quote": "Russia loses another 1,560 troops in war against Ukraine in past 24 hours"
+    }
+   ],
+   "published": "2026-10-29T06:01:34+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "93686e7cfdab"
   },
   {
    "date": "2026-10-29",
@@ -521,6 +868,58 @@
   },
   {
    "date": "2026-10-29",
+   "category": "weapons_deliveries",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179314-no-ceasefire-violations-in-oleshky-humanitarian-aid-delivery-planned-for-friday-lubinets.html",
+   "quote": "No ceasefire violations in Oleshky, humanitarian aid delivery planned for Friday – Lubinets",
+   "time": "12:12",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Ukrainian Human Rights Commissioner Dmytro Lubinets has announced that a humanitarian shipment is being prepared for residents of Oleshky.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T10:12:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "8285a97f0650"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "weapons_deliveries",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179333-poland-to-transfer-two-more-mig29-fighter-jets-to-ukraine.html",
+   "quote": "Poland to transfer two more MiG-29 fighter jets to Ukraine",
+   "time": "13:12",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Poland will soon transfer two more MiG-29 fighter jets to Ukraine as part of a new military aid package worth around EUR 50 million.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T11:12:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "a96707c64508"
+  },
+  {
+   "date": "2026-10-29",
    "category": "naval",
    "source_id": "kyivindependent",
    "source_name": "The Kyiv Independent",
@@ -547,6 +946,34 @@
    "detail_en": null,
    "locations_en": null,
    "id": "62eb9c24cd76"
+  },
+  {
+   "date": "2026-10-29",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4179323-russian-attack-on-dnipro-railway-station-kills-at-least-13.html",
+   "quote": "Russian attack on Dnipro railway station kills at least 13, injures 13",
+   "time": "12:27",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Russian forces have attacked the railway station in Dnipro, killing at least 13 people.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Dnipro"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-29T10:27:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f5b19970963f"
   }
  ]
 }
