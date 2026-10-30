@@ -1,9 +1,109 @@
 {
- "generated_at": "2026-10-29 23:58",
+ "generated_at": "2026-10-30 05:55",
  "days": [
   {
    "date": "2026-10-30",
    "events": [
+    {
+     "date": "2026-10-30",
+     "category": "air_attack",
+     "source_id": "kpszsu",
+     "source_name": "Air Force of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/kpszsu/91428",
+     "quote": "⚡️ ЗБИТО/ПОДАВЛЕНО 99 ВОРОЖИХ ЦІЛЕЙ ➖➖➖➖➖➖➖➖➖➖ У ніч на 30 жовтня (з 18:00 29 жовтня) противник атакував балістичними ракетами Іскандер-М/С-400/KN-23 із Воронезької, Курської, Брянської обл., рф, чотирма керованими авіаційними ракетами Х-59/69 з Бєлгородської обл., рф, та 113 ударними БпЛА типу Shahed (83 із них - реа…",
+     "time": "07:30",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "air attack",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Shahed/Gerbera-type UAVs (incl. decoys)",
+       "launched": 113
+      },
+      {
+       "name": "Iskander-M/S-400 ballistic missile"
+      }
+     ],
+     "counts": {
+      "jet_powered_shahed": 83,
+      "launched": 113,
+      "intercepted": 99,
+      "impact_locations": 17,
+      "debris_locations": 5
+     },
+     "breakdown": [],
+     "locations": [
+      "Oryol",
+      "Kursk",
+      "Shatalovo",
+      "Donetsk (occupied)",
+      "Hvardiiske (Crimea)"
+     ],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-10-30T05:31:55+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "9fa9bef8037c"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "air_attack",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68640",
+     "quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесен массированный удар высокоточным оружием наземного базирования и беспилотными летательными аппаратами, в результате которого поражены ▫️ предприятия военно-промышленного комплекса Украины, задействованные в производстве и хранении БПЛА большой и средней…",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "strike, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T05:02:55+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "0cbeac6e236a"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129736",
+     "quote": "Дрон атаковал Запорожскую АЭС, погиб сотрудник станции Захваченная Россией Запорожская АЭС подверглась атаке БПЛА.",
+     "time": "07:26",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T05:26:02+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "2ed937fe9701"
+    },
     {
      "date": "2026-10-30",
      "category": "strikes_in_russia",
@@ -60,6 +160,98 @@
      "detail_en": null,
      "locations_en": null,
      "id": "167472cda2b2"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129724",
+     "quote": "Предположительно атаковано предприятие «Консервсушпрод» в Стародубе Брянской области, которое производит консервы для российской армии На присланных читателями ASTRA фото и видео видно пылающее здание.",
+     "time": "02:15",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Bryansk oblast",
+      "Tatarstan"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T00:15:19+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "ee0feea09f94"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "strikes_in_russia",
+     "source_id": "gov_rostov",
+     "source_name": "Governor of Rostov oblast",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/Yuri_Slusar/7759",
+     "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область около 50 БПЛА уничтожены в 4 районах области: Верхнедонском, Миллеровском, Шолоховском и Чертковском.",
+     "time": "06:16",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "attack on the region, as reported by the governor",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "uav_shot_down": 50
+     },
+     "breakdown": [],
+     "locations": [
+      "Rostov oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T04:16:13+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "2ee25a8424fc"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129731",
+     "quote": "В Новокуйбышевске Самарской области горит НПЗ, который производит реактивное топливо для нужд ВС РФ.",
+     "time": "06:35",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Samara oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [
+      {
+       "name": "ASTRA",
+       "url": "https://t.me/astrapress/129735"
+      }
+     ],
+     "published": "2026-10-30T04:35:45+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "42050114e90a"
     },
     {
      "date": "2026-10-30",
@@ -304,7 +496,12 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [],
+     "also_reported_by": [
+      {
+       "name": "Oryx (Ukrainian equipment losses)",
+       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+      }
+     ],
      "published": "2026-10-29T23:58:21.423297+00:00",
      "quote_en": null,
      "detail_en": null,
@@ -336,6 +533,32 @@
      "detail_en": null,
      "locations_en": null,
      "id": "73c192be0fe1"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "losses_claimed",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179449-intelligence-data-how-many-su34-fighterbombers-has-russia-lost-and-how-many-remain-in-service.html",
+     "quote": "Intelligence data: How many Su-34 fighter-bombers has Russia lost, and how many remain in service?",
+     "time": "04:29",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Since the start of the full-scale war, 43 Russian Su-34 fighter-bombers have been destroyed, and another seven enemy aircraft of this type have been damaged.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T02:29:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "19cb393de64b"
     },
     {
      "date": "2026-10-30",
@@ -419,6 +642,62 @@
      "detail_en": null,
      "locations_en": null,
      "id": "e1ed32feed68"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "infrastructure",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/drone-attack-reportedly-kills-worker-at-russian-occupied-zaporizhzhia-nuclear-power-plant/",
+     "quote": "Drone attack reportedly kills worker at Russian-occupied Zaporizhzhia Nuclear Power Plant",
+     "time": "04:34",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The plant has repeatedly faced threats to nuclear safety, including drone attacks, disruptions to external power supplies, and incidents affecting plant workers.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T02:34:32+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "de50d5639162"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179579-russian-attacks-leave-over-350000-without-power-in-dnipro-and-surrounding-area.html",
+     "quote": "Russian attacks leave over 350,000 without power in Dnipro and surrounding area",
+     "time": "06:20",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "More than 350,000 consumers in Dnipro and surrounding settlements have been left without electricity following Russian attacks.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Dnipro"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T04:20:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "97325a5d5639"
     }
    ]
   },
