@@ -1,6 +1,317 @@
 {
- "generated_at": "2026-10-30 19:27",
+ "generated_at": "2026-10-30 23:52",
  "days": [
+  {
+   "date": "2026-10-31",
+   "events": [
+    {
+     "date": "2026-10-31",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179581-ssu-detains-suspect-accused-of-guiding-russian-strikes-on-defense-plants-and-military-units-in-khmelnytskyi-region.html",
+     "quote": "SSU detains suspect accused of guiding Russian strikes on defense plants and military units in Khmelnytskyi region",
+     "time": "00:39",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Counterintelligence officers of the Security Service of Ukraine (SSU) have detained a man in the Khmelnytskyi region who is suspected of providing Russia’s Federal Security Service (FSB) with the coordinates of defense and civilian facilities for a new series of missile and drone attacks on the western region.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Khmelnytskyi"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T22:39:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7d3199331bad"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24236, of which: destroyed: 19201, damaged: 1001, abandoned: 1192, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24236,
+      "destroyed": 19201,
+      "damaged": 1001,
+      "abandoned": 1192,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4451
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2427
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6493
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 756
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 440
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 740
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 620
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1066
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 643
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 30
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 448
+      },
+      {
+       "label": "Radars",
+       "count": 133
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 205
+      },
+      {
+       "label": "Helicopters",
+       "count": 185
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 40
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4738
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-10-30T23:52:10.316965+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "c3f2304c2cb1"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12294, of which: destroyed: 9689, damaged: 715, abandoned: 692, captured: 1198",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12294,
+      "destroyed": 9689,
+      "damaged": 715,
+      "abandoned": 692,
+      "captured": 1198
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1472
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 565
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1627
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1468
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1015
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2192
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 104
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 302
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 305
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 997
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 135
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 150
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1402
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-10-30T23:52:11.071890+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7a361d4976d4"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "infrastructure",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/russian-attack-hits-kyiv-energy-facility-leaving-parts-of-four-districts-without-power/",
+     "quote": "Russian attack hits Kyiv energy facility, leaving parts of the city without power and water",
+     "time": "00:21",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Kyiv Independent staff in the capital reported explosions and widespread fluctuations in power, with some buildings and streetlights temporarily losing electricity.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T22:21:44+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "c9bcee0689d1"
+    }
+   ]
+  },
   {
    "date": "2026-10-30",
    "events": [
@@ -517,6 +828,92 @@
      "detail_en": null,
      "locations_en": null,
      "id": "70b57046ca3d"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179903-zelensky-russia-fired-17-ballistic-missiles-overnight-took-no-steps-toward-deescalation-in-energy-sector.html",
+     "quote": "Zelensky: Russia fired 17 ballistic missiles overnight, took no steps toward de-escalation in energy sector",
+     "time": "21:33",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Ukrainian President Volodymyr Zelensky has said that Russia fired 17 ballistic missiles at Ukraine in a single night, with energy infrastructure remaining the main target of the attacks.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T19:33:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "541832cbb259"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179919-russian-drone-strikes-house-in-sumy-region-woman-injured.html",
+     "quote": "Russian drone strikes house in Sumy region, woman injured",
+     "time": "23:30",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces attacked a private home with an FPV drone in the Stetskivka district of the Sumy region, injuring a woman.",
+     "weapons": [
+      {
+       "name": "FPV drone"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Sumy"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T21:30:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "989cc89ff807"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129807",
+     "quote": "В Киеве начались перебои в системе водоснабжения в результате российских ударов БПЛА по критической инфраструктуре, — мэр По данным мэра, удары российскими беспилотниками по объектам критической инфраструктуры привели к отключению электроэнергии.",
+     "time": "23:43",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T21:43:52+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "80b9813e55d6"
     },
     {
      "date": "2026-10-30",
@@ -1042,6 +1439,35 @@
     },
     {
      "date": "2026-10-30",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129804",
+     "quote": "Осужденный за взятку с вымогательством на 13 лет строгого режима бывший вице-премьер Башкортостана Алан Марзаев подписал контракт и отправился на войну с Украиной Об этом сообщается в его соцсетях, к посту прикреплены фотографии Марзаева в военной форме и с оружием.",
+     "time": "22:10",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Bashkortostan",
+      "Tatarstan"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T20:10:13+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "33a81781f8f8"
+    },
+    {
+     "date": "2026-10-30",
      "category": "front_line",
      "source_id": "deepstate",
      "source_name": "DeepState",
@@ -1196,6 +1622,39 @@
       "Chernihiv oblast: Гута-Студенецька, Камінь, Блешня, Логи"
      ],
      "id": "358a3f1c8c4a"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "front_activity",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42739",
+     "quote": "Оперативна інформація станом на 22:00 30.10.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 168 бойових зіткнень.",
+     "time": "22:00",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "since 00:00, as of 22:00",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "clashes": 168,
+      "guided_bombs": 172,
+      "air_strikes": 48,
+      "kamikaze_drones": 4506,
+      "shellings": 1535,
+      "missile_strikes": 2
+     },
+     "breakdown": [],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-10-30T20:01:24+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "3cce6eeb614f"
     },
     {
      "date": "2026-10-30",
@@ -1611,6 +2070,36 @@
     },
     {
      "date": "2026-10-30",
+     "category": "air_defense",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179909-us-approves-potential-21b-sale-of-500-patriot-missiles-to-ukraine.html",
+     "quote": "US approves potential $2.1B sale of 500 Patriot missiles to Ukraine",
+     "time": "22:27",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The U.S.",
+     "weapons": [
+      {
+       "name": "Patriot"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T20:27:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "3f4dc2561fb7"
+    },
+    {
+     "date": "2026-10-30",
      "category": "weapons_deliveries",
      "source_id": "ukrinform",
      "source_name": "Ukrinform",
@@ -1690,6 +2179,36 @@
      "detail_en": null,
      "locations_en": null,
      "id": "5c6b72a06720"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "weapons_deliveries",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
+     "quote": "US approves $2.1 billion Patriot missile sale to Ukraine as NATO commander dismisses delivery concerns",
+     "time": "23:24",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The approval represents a step toward a possible sale rather than a completed purchase, and a timeline was not mentioned.",
+     "weapons": [
+      {
+       "name": "Patriot"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T21:24:53+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "abca7152e0d1"
     },
     {
      "date": "2026-10-30",
@@ -2022,6 +2541,34 @@
      "detail_en": null,
      "locations_en": null,
      "id": "2023ee59d9fe"
+    },
+    {
+     "date": "2026-10-30",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179921-russian-attack-knocks-out-power-at-critical-infrastructure-facilities-in-kyiv-disrupts-water-supply.html",
+     "quote": "Russian attack knocks out power at critical infrastructure facilities in Kyiv, disrupts water supply",
+     "time": "23:54",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Several critical infrastructure facilities in Kyiv have been left without power following a Russian air attack, causing disruptions to the city's water supply.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-30T21:54:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "bc8e51d36dc6"
     }
    ]
   },
