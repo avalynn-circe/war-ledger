@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-31T05:51:31+00:00",
+ "generated_at": "2026-10-31T12:40:33+00:00",
  "events": [
   {
    "date": "2026-10-30",
@@ -1874,12 +1874,12 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
-   "quote": "US approves $2.1 billion Patriot missile sale to Ukraine as NATO commander dismisses delivery concerns",
+   "quote": "US approves $2.1 billion Patriot missile sale to Ukraine as Zelensky warns of years-long wait for deliveries",
    "time": "23:24",
    "actor": null,
    "target": null,
    "action": null,
-   "detail": "The approval represents a step toward a possible sale rather than a completed purchase, and a timeline was not mentioned.",
+   "detail": "T\"We are asking our American partners to find a solution for the time when there is a real danger and a real need to use PAC-3 interceptors,\" President Volodymyr Zelensky said.",
    "weapons": [
     {
      "name": "Patriot"
@@ -1895,7 +1895,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "abca7152e0d1"
+   "id": "709a74ef05d7"
   },
   {
    "date": "2026-10-30",

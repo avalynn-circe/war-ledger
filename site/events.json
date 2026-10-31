@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31 05:51",
+ "generated_at": "2026-10-31 12:40",
  "days": [
   {
    "date": "2026-10-31",
@@ -144,12 +144,202 @@
     },
     {
      "date": "2026-10-31",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179957-air-defenses-down-105-out-of-134-russian-drones-launched-at-ukraine-overnight.html",
+     "quote": "Air defenses down 105 out of 134 Russian drones launched at Ukraine overnight",
+     "time": "08:45",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Ukraine’s air defense forces neutralized 105 out of the 134 drones launched by Russian invading forces against Ukraine since the evening of October 30.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T06:45:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "8193166e1507"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129844",
+     "quote": "Часть Киева осталась без света после российской атаки на ТЭЦ ВС РФ атаковали объект энергетики в Киеве, в результате чего без электричества остались части Оболонского, Дарницкого, Деснянского и Подольского районов, заявили в ДТЭК.",
+     "time": "12:09",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T10:09:42+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "dd1728ee458f"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "air_attack",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/russian-attacks-kill-5-injure-at-least-46-as-ukraine-faces-difficult-energy-situation/",
+     "quote": "Russian attacks kill 5, injure at least 46 as Ukraine faces 'difficult' energy situation",
+     "time": "13:07",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Ukrainian forces downed 105 out of the 134 drones, including jet-powered attack drones, launched by Russia overnight, the Air Force reported.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T11:07:46+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "802f801b265a"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180002-energy-equipment-seriously-damaged-in-russian-attacks-in-dnipropetrovsk-region.html",
+     "quote": "Energy equipment seriously damaged in Russian attacks in Dnipropetrovsk region",
+     "time": "13:10",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Energy equipment was seriously damaged in overnight Russian attacks in the Dnipropetrovsk region, leaving parts of Dnipro and Kamianske without electricity.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Dnipropetrovsk oblast",
+      "Dnipro"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T11:10:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "4ea2e2dfa501"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "strikes_in_russia",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68663",
+     "quote": "⚡️ В течение прошедшей ночи дежурными силами ПВО перехвачены и уничтожены 433 украинских беспилотных летательных аппарата самолетного типа над территориями Белгородской, Брянской, Курской, Калужской, Тульской, Орловской, Липецкой, Воронежской, Смоленской, Тамбовской, Волгоградской, Ростовской, Пензенской, Самарской, С…",
+     "time": null,
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "UAVs intercepted, as claimed (overnight)",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "intercepted_claimed": 433
+     },
+     "breakdown": [],
+     "locations": [
+      "Belgorod oblast",
+      "Bryansk oblast",
+      "Kursk oblast",
+      "Kaluga oblast",
+      "Tula oblast",
+      "Oryol oblast",
+      "Lipetsk oblast",
+      "Voronezh oblast",
+      "Smolensk oblast",
+      "Tambov oblast",
+      "Volgograd oblast",
+      "Rostov oblast",
+      "Penza oblast",
+      "Samara oblast",
+      "Saratov oblast",
+      "Orenburg oblast",
+      "Ulyanovsk oblast",
+      "Tatarstan",
+      "Bashkortostan"
+     ],
+     "lang": "ru",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-10-31T05:53:05+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "b9da6404b5ab"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "strikes_in_russia",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42744",
+     "quote": "Удар по виробництву ракетного палива В ніч на 31 жовтня підрозділи Сил оборони України уразили підприємство російського ВПК «Комбінат «Каменський» у Каменську-Шахтинському Ростовської області рф.",
+     "time": null,
+     "actor": "Ukraine (General Staff)",
+     "target": "Russia",
+     "action": "strike, as claimed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Neptune cruise missile"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Rostov oblast",
+      "Tver oblast"
+     ],
+     "lang": "uk",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T10:47:59+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "15e29006b18c"
+    },
+    {
+     "date": "2026-10-31",
      "category": "strikes_in_russia",
      "source_id": "gov_rostov",
      "source_name": "Governor of Rostov oblast",
      "source_side": "ru_official",
      "source_url": "https://t.me/Yuri_Slusar/7783",
-     "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область уничтожено более 90 БПЛА в городе Камненске-Шахтинском и четырех районах области: Верхнедонском, Миллеровском, Чертковском, Каменском.",
+     "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область уничтожено более 90 БПЛА в городе Каменске-Шахтинском и четырех районах области: Верхнедонском, Миллеровском, Чертковском, Каменском.",
      "time": "07:11",
      "actor": "Ukraine",
      "target": "Russia",
@@ -168,7 +358,292 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "51cb3cbb4316"
+     "id": "b6c7a9faf3e9"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129838",
+     "quote": "Собянин заявил о двух сбитых БПЛА, летевших в сторону Москвы В столичных аэропортах Шереметьево, Домодедово и Внуково введены ограничения.",
+     "time": "10:38",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Moscow"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [
+      {
+       "name": "ASTRA",
+       "url": "https://t.me/astrapress/129843"
+      }
+     ],
+     "published": "2026-10-31T08:38:14+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "28049511abba"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129840",
+     "quote": "Россия выпустила по Украине 134 БПЛА этой ночью, — Воздушные силы Украины По данным украинских военных, из них сбиты либо подавлены 105 БПЛА.",
+     "time": "11:02",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Tatarstan"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T09:02:37+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "9e8ad8814652"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "strikes_in_russia",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179994-explosions-reported-in-russias-ufa-oil-refinery-unit-on-fire-media.html",
+     "quote": "Explosions reported in Russia's Ufa, oil refinery unit on fire – media",
+     "time": "12:27",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": null,
+     "detail": "Residents of Ufa, the capital of Russia's Bashkortostan Republic, reported explosions and columns of smoke rising over an industrial area in the northern part of the city in the early hours of Saturday.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Bashkortostan"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T10:27:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "9bd01447a736"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129849",
+     "quote": "Число сбитых на подлете к Москве БПЛА выросло до 11, — Собянин Подписчики ASTRA сообщали о взрывах в районе Нахабино Московской области — на фото.",
+     "time": "12:54",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Moscow"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T10:54:39+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "fec9a6a046f2"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "front_line",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179959-war-update-173-clashes-on-front-line-over-past-day-fiercest-fighting-in-pokrovsk-kostiantynivka-sectors.html",
+     "quote": "War update: 173 clashes on front line over past day, fiercest fighting in Pokrovsk, Kostiantynivka sectors",
+     "time": "09:10",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "A total of 173 combat engagements between Ukraine’s Defense Forces and Russian invading forces were recorded along the front line on October 30.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Pokrovsk",
+      "Kostiantynivka"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T07:10:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "755747be3663"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "front_line",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4179966-russian-forces-using-mercenaries-form-africa-and-asia-in-assaults-on-huliaipole-front-military.html",
+     "quote": "Russian forces using mercenaries form Africa and Asia in assaults on Huliaipole front – military",
+     "time": "10:00",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Russian forces are deploying recruited mercenaries from African and Asian countries in assaults on the Huliaipole sector of the front line.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Huliaipole"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T08:00:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "eb9d9f3e2521"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "front_activity",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42741",
+     "quote": "Оперативна інформація станом на 08:00 31.10.2026 щодо російського вторгнення Слава Україні!",
+     "time": "08:00",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "past 24 hours to 08:00, as reported",
+     "detail": "Air strikes on: Сінне, Осоївка, Марченки",
+     "weapons": [],
+     "counts": {
+      "clashes": 173,
+      "guided_bombs": 255,
+      "air_strikes": 75,
+      "missile_strikes": 3,
+      "kamikaze_drones": 9189,
+      "shellings": 3104,
+      "mlrs_shellings": 15,
+      "settlements_shelled": 35
+     },
+     "breakdown": [],
+     "locations": [
+      "Sumy oblast: Гаврилова Слобода, Товстодубове, Бачівськ, Сопич, Кореньок, Уланове, Бруски, Шалигине, Вовнівка, Козаче, Безсалівка, Іскрівщина, Волфине, Павлівка, Тополя, Малушине, Мала Корчаківка, Яструбине, Рогізне, Кіндратівка, Хотінь, Нова Січ, Писарівка, Юнаківка, Коровне, Лужки, Харапівщина, Велика Рибиця, Миропілля, Нескучне",
+      "Chernihiv oblast: Хрінівка, Гута-Студенецька, Березовий Гай, Костобобрів, Михальчина Слобода"
+     ],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-10-31T06:02:27+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Sumy oblast: Гаврилова Слобода, Товстодубове, Бачівськ, Сопич, Кореньок, Уланове, Бруски, Шалигине, Вовнівка, Козаче, Безсалівка, Іскрівщина, Волфине, Павлівка, Тополя, Малушине, Мала Корчаківка, Яструбине, Рогізне, Кіндратівка, Хотінь, Нова Січ, Писарівка, Юнаківка, Коровне, Лужки, Харапівщина, Велика Рибиця, Миропілля, Нескучне",
+      "Chernihiv oblast: Хрінівка, Гута-Студенецька, Березовий Гай, Костобобрів, Михальчина Слобода"
+     ],
+     "id": "fbe13e536af6"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "losses_claimed",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42741",
+     "quote": "втрати російських загарбників склали 1670 осіб",
+     "time": null,
+     "actor": "Ukraine (General Staff)",
+     "target": "Russia",
+     "action": "Russian losses in the past 24 hours, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [
+      {
+       "label": "personnel",
+       "delta": 1670
+      },
+      {
+       "label": "armoured fighting vehicles",
+       "delta": 3
+      },
+      {
+       "label": "artillery systems",
+       "delta": 19
+      },
+      {
+       "label": "multiple rocket launchers",
+       "delta": 1
+      },
+      {
+       "label": "air defence systems",
+       "delta": 2
+      },
+      {
+       "label": "ground robotic systems",
+       "delta": 6
+      },
+      {
+       "label": "UAVs",
+       "delta": 1663
+      },
+      {
+       "label": "vehicles and fuel tankers",
+       "delta": 206
+      }
+     ],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [
+      {
+       "name": "The Kyiv Independent",
+       "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-588-180-troops-in-ukraine-since-feb-24-2022/",
+       "quote": "General Staff: Russia has lost 1,588,180 troops in Ukraine since Feb. 24, 2022"
+      },
+      {
+       "name": "Ukrinform",
+       "url": "https://www.ukrinform.net/rubric-ato/4179949-russias-war-casualty-toll-in-ukraine-up-by-1670-over-past-day.html",
+       "quote": "Russia’s war casualty toll in Ukraine up by 1,670 over past day"
+      }
+     ],
+     "published": "2026-10-31T06:02:27+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "deee3f5d16a0"
     },
     {
      "date": "2026-10-31",
@@ -418,7 +893,12 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [],
+     "also_reported_by": [
+      {
+       "name": "Oryx (Ukrainian equipment losses)",
+       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+      }
+     ],
      "published": "2026-10-30T23:52:11.071890+00:00",
      "quote_en": null,
      "detail_en": null,
@@ -538,6 +1018,35 @@
      "detail_en": null,
      "locations_en": null,
      "id": "01375e7a341a"
+    },
+    {
+     "date": "2026-10-31",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-society/4179997-zelensky-nearly-300000-households-left-without-power-after-russian-strikes-on-dnipropetrovsk-kyiv-regions.html",
+     "quote": "Zelensky: Nearly 300,000 households left without power after Russian strikes on Dnipropetrovsk, Kyiv regions",
+     "time": "12:46",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Russian strikes on energy facilities on October 30 caused serious power supply problems in several regions.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Dnipropetrovsk oblast",
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-10-31T10:46:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "d6f708ef1052"
     }
    ]
   },
@@ -2416,12 +2925,12 @@
      "source_name": "The Kyiv Independent",
      "source_side": "media",
      "source_url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
-     "quote": "US approves $2.1 billion Patriot missile sale to Ukraine as NATO commander dismisses delivery concerns",
+     "quote": "US approves $2.1 billion Patriot missile sale to Ukraine as Zelensky warns of years-long wait for deliveries",
      "time": "23:24",
      "actor": null,
      "target": null,
      "action": null,
-     "detail": "The approval represents a step toward a possible sale rather than a completed purchase, and a timeline was not mentioned.",
+     "detail": "T\"We are asking our American partners to find a solution for the time when there is a real danger and a real need to use PAC-3 interceptors,\" President Volodymyr Zelensky said.",
      "weapons": [
       {
        "name": "Patriot"
@@ -2437,7 +2946,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "abca7152e0d1"
+     "id": "709a74ef05d7"
     },
     {
      "date": "2026-10-30",
