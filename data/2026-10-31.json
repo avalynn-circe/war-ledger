@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-10-31T18:36:41+00:00",
+ "generated_at": "2026-10-31T23:26:21+00:00",
  "events": [
   {
    "date": "2026-10-31",
@@ -32,7 +32,13 @@
    "locations": [],
    "lang": "uk",
    "extraction": "structured",
-   "also_reported_by": [],
+   "also_reported_by": [
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4180121-air-defense-neutralizes-122-russian-drones-two-banderol-missiles-on-saturday.html",
+     "quote": "Air defense neutralizes 122 Russian drones, two Banderol missiles on Saturday"
+    }
+   ],
    "published": "2026-10-31T18:04:01+00:00",
    "quote_en": null,
    "detail_en": null,
@@ -90,6 +96,36 @@
    "detail_en": null,
    "locations_en": null,
    "id": "82baef1ffb8f"
+  },
+  {
+   "date": "2026-10-31",
+   "category": "air_attack",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/68675",
+   "quote": "📆 Главное за день ❗️ В приоритете – жизнь людей: жители населенного пункта Алешки, которые при эвакуации в ходе гуманитарной миссии изъявили желание убыть в Украину, из аэропорта Анапа вылетели в аэропорт Гомель Республики Беларусь.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Geran-2 strike UAV"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-31T19:00:44+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "355a00062466"
   },
   {
    "date": "2026-10-31",
@@ -403,6 +439,34 @@
    "detail_en": null,
    "locations_en": null,
    "id": "c11be7554fad"
+  },
+  {
+   "date": "2026-10-31",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129878",
+   "quote": "12-летняя девочка ранена в результате российского удара по Киеву, — КГВА «В Оболонском районе обломки упали на территории торгового центра, — сообщили в Киевской городской военной администрации, уточнив позже, что в результате пострадал ребенок: \"В результате вражеской атаки пострадала 12-летняя девочка.",
+   "time": "21:01",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-31T19:01:01+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "1936c683eab4"
   },
   {
    "date": "2026-10-31",
@@ -835,6 +899,67 @@
   },
   {
    "date": "2026-10-31",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129877",
+   "quote": "122 из 168 российских БПЛА сбили войска ПВО в Украине, — Воздушные силы ВСУ «В течение дня 31 октября (с 06:30 до 19:30) противник атаковал Украину 168 ударными БПЛА (51 из них — реактивные), \"Гербера\" и дронами других типов, а также S8000 \"Бандероль\"/\"Дань-Т\".",
+   "time": "20:47",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Geran-2 strike UAV"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Tatarstan",
+    "Pavlohrad"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-31T18:47:45+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "57b4a6077d15"
+  },
+  {
+   "date": "2026-10-31",
+   "category": "strikes_in_russia",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-society/4180119-sbu-releases-exclusive-video-of-ukrainians-returning-from-oleshky.html",
+   "quote": "SBU releases exclusive video of Ukrainians returning from Oleshky",
+   "time": "21:24",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "The Security Service of Ukraine (SBU) has released exclusive footage of Ukrainians returning from the temporarily occupied city of Oleshky in the Kherson region.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kherson"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-31T19:24:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7a5c571c9cd7"
+  },
+  {
+   "date": "2026-10-31",
    "category": "front_line",
    "source_id": "deepstate",
    "source_name": "DeepState",
@@ -960,6 +1085,38 @@
     "Chernihiv oblast: Хрінівка, Гута-Студенецька, Березовий Гай, Костобобрів, Михальчина Слобода"
    ],
    "id": "fbe13e536af6"
+  },
+  {
+   "date": "2026-10-31",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42745",
+   "quote": "Оперативна інформація станом на 22:00 31.10.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 245 бойових зіткнень.",
+   "time": "22:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "since 00:00, as of 22:00",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "clashes": 245,
+    "guided_bombs": 159,
+    "air_strikes": 53,
+    "kamikaze_drones": 4517,
+    "shellings": 1927
+   },
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-10-31T20:00:51+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "9064988ca9e8"
   },
   {
    "date": "2026-10-31",
@@ -1376,6 +1533,90 @@
    "detail_en": null,
    "locations_en": null,
    "id": "1b3d4070121b"
+  },
+  {
+   "date": "2026-10-31",
+   "category": "weapons_deliveries",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4180116-ukraine-hopes-european-partners-will-help-fund-purchase-of-500-patriot-missiles-zelensky.html",
+   "quote": "Ukraine hopes European partners will help fund purchase of 500 Patriot missiles – Zelensky",
+   "time": "20:37",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Ukrainian President Volodymyr Zelensky has said Ukraine hopes to secure partners' help in financing the purchase of 500 missiles for Patriot air defense systems.",
+   "weapons": [
+    {
+     "name": "Patriot"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-31T18:37:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7281cd804296"
+  },
+  {
+   "date": "2026-10-31",
+   "category": "weapons_deliveries",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-economy/4180117-zelensky-energy-equipment-deliveries-from-turkey-expected-next-week.html",
+   "quote": "Zelensky: Energy equipment deliveries from Turkey expected next week",
+   "time": "21:00",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Following talks with Turkish President Recep Tayyip Erdogan, President Volodymyr Zelensky said Ukraine expects another shipment of generators and other energy equipment from Turkey as early as next week.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-31T19:00:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "4bb60425f96d"
+  },
+  {
+   "date": "2026-10-31",
+   "category": "naval",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/zelensky-arrives-in-istanbul-for-important-talks-with-turkeys-erdogan/",
+   "quote": "Erdogan calls Black Sea ship attacks unacceptable after 'substantive' Zelensky talks",
+   "time": "14:42",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "\"We're working to strengthen the protection of our people, our bilateral partnership with Turkey, and real diplomatic prospects.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Black Sea"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-31T12:42:12+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "b9531c40e162"
   },
   {
    "date": "2026-10-31",
