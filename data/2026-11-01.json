@@ -1,7 +1,394 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-10-31T23:26:21+00:00",
+ "generated_at": "2026-11-01T06:15:03+00:00",
  "events": [
+  {
+   "date": "2026-11-01",
+   "category": "air_attack",
+   "source_id": "kpszsu",
+   "source_name": "Air Force of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/kpszsu/92012",
+   "quote": "⚡️ ЗБИТО/ПОДАВЛЕНО 371 ВОРОЖИЙ БПЛА ➖➖➖➖➖➖➖➖➖➖ У ніч на 1 листопада (з 18:00 31 жовтня) противник атакував 433 ударними БпЛА типу Shahed (64 із них - реактивні), Гербера, дронами-імітаторами типу “Пародія” із напрямків: Орел, Курськ, Шаталово, Брянськ, Міллерово - рф, ТОТ Донецьк.",
+   "time": "07:30",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "air attack",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Gerbera-type UAVs (incl. decoys)",
+     "launched": 433,
+     "intercepted": 371
+    }
+   ],
+   "counts": {
+    "jet_powered_shahed": 64,
+    "launched": 433,
+    "intercepted": 371,
+    "impact_locations": 16,
+    "debris_locations": 14
+   },
+   "breakdown": [],
+   "locations": [
+    "Oryol",
+    "Kursk",
+    "Shatalovo",
+    "Bryansk",
+    "Millerovo",
+    "Donetsk (occupied)"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-01T05:30:22+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "3618c50ca270"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "air_attack",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/68678",
+   "quote": "❗️ В течение ночи Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам логистической инфраструктуры, используемым в интересах ВСУ и морским судам, задействованным для перевозки грузов военного назначения.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-01T05:20:27+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "a195ef73254e"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4180155-russian-strike-destroys-kramatorsk-city-executive-committee-building.html",
+   "quote": "Russian strike destroys Kramatorsk city executive committee building",
+   "time": "06:25",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A Russian airstrike has destroyed the building of the city executive committee in Kramatorsk, Donetsk region.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kramatorsk",
+    "Donetsk oblast"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-01T04:25:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "31cfb7ec5117"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "strikes_in_russia",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/68679",
+   "quote": "⚡️ В течение прошедшей ночи (с 20.00 мск 31 октября до 8.00 мск 1 ноября) дежурными силами ПВО перехвачены и уничтожены 235 украинских беспилотных летательных аппаратов самолетного типа над территориями Белгородской, Брянской, Воронежской, Калужской, Курской, Липецкой, Нижегородской, Орловской, Пензенской, Ростовской,…",
+   "time": null,
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "UAVs intercepted, as claimed (overnight)",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "intercepted_claimed": 235
+   },
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast",
+    "Bryansk oblast",
+    "Voronezh oblast",
+    "Kaluga oblast",
+    "Kursk oblast",
+    "Lipetsk oblast",
+    "Nizhny Novgorod oblast",
+    "Oryol oblast",
+    "Penza oblast",
+    "Rostov oblast",
+    "Ryazan oblast",
+    "Saratov oblast",
+    "Smolensk oblast",
+    "Tambov oblast",
+    "Tver oblast",
+    "Tula oblast",
+    "Moscow oblast"
+   ],
+   "lang": "ru",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-01T05:27:24+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "bd71e8ac63e6"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "strikes_in_russia",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4180019-sbus-alpha-unit-sets-record-neutralizing-3198-russian-troops-in-one-week.html",
+   "quote": "SBU's Alpha unit sets record, neutralizing 3,198 Russian troops in one week",
+   "time": "02:46",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Operators of the Alpha Special Operations Center of the Security Service of Ukraine (SBU) neutralized 3,198 Russian troops in one week.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-01T00:46:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "a3f2e2e5a7ab"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129888",
+   "quote": "В Кстово Нижегородской области сообщают о взрывах.",
+   "time": "04:41",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Nizhny Novgorod oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/129892"
+    }
+   ],
+   "published": "2026-11-01T02:41:17+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "3b3420f365e9"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "strikes_in_russia",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
+   "quote": "Russian oil refinery in Kstovo ablaze after reported overnight drone strike",
+   "time": "05:25",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Ukraine has targeted the facility a number of times, including a confirmed strike on Aug.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-01T03:25:48+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "5bbb2b7438d4"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "strikes_in_russia",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7788",
+   "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область уничтожено более 20 БПЛА в городе Таганроге и шести районах области: Верхнедонском, Миллеровском, Чертковском, Каменском, Шолоховском, Мясниковском.",
+   "time": "05:56",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-01T03:56:04+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "6df232726f5d"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129895",
+   "quote": "«Значительные повреждения» получило «промышленное предприятие» в Нижегородской области, — власти Губернатор Нижегородской области Глеб Никитин подтвердил атаку на «промышленное предприятие» в Кстовском районе.",
+   "time": "07:48",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Nizhny Novgorod oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-01T05:48:01+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "40f5b816a0da"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42747",
+   "quote": "Оперативна інформація станом на 08:00 01.11.2026 щодо російського вторгнення Слава Україні!",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": "Air strikes on: Sumy oblast: Кияниця, Іволжанське, Писарівка",
+   "weapons": [],
+   "counts": {
+    "clashes": 264,
+    "guided_bombs": 230,
+    "air_strikes": 74,
+    "kamikaze_drones": 6505,
+    "shellings": 2533,
+    "settlements_shelled": 10
+   },
+   "breakdown": [],
+   "locations": [
+    "Мала Корчаківка, Запсілля, Юнаківка, Писарівка, Корчаківка, Мала Січ, Катеринівка, Павлівка, Хотінь, Водолаги"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-01T06:00:25+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Мала Корчаківка, Запсілля, Юнаківка, Писарівка, Корчаківка, Мала Січ, Катеринівка, Павлівка, Хотінь, Водолаги"
+   ],
+   "id": "386ce9a1c7de"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42747",
+   "quote": "втрати російських загарбників склали 2100 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 2100
+    },
+    {
+     "label": "tanks",
+     "delta": 1
+    },
+    {
+     "label": "armoured fighting vehicles",
+     "delta": 2
+    },
+    {
+     "label": "artillery systems",
+     "delta": 16
+    },
+    {
+     "label": "multiple rocket launchers",
+     "delta": 2
+    },
+    {
+     "label": "ground robotic systems",
+     "delta": 9
+    },
+    {
+     "label": "UAVs",
+     "delta": 944
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 259
+    },
+    {
+     "label": "special equipment",
+     "delta": 1
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-01T06:00:25+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "dd702f91781d"
+  },
   {
    "date": "2026-11-01",
    "category": "losses_claimed",
@@ -120,7 +507,12 @@
    "locations": [],
    "lang": "en",
    "extraction": "structured",
-   "also_reported_by": [],
+   "also_reported_by": [
+    {
+     "name": "Oryx (Russian equipment losses)",
+     "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
+    }
+   ],
    "published": "2026-10-31T23:26:20.084022+00:00",
    "quote_en": null,
    "detail_en": null,
@@ -245,12 +637,43 @@
    "locations": [],
    "lang": "en",
    "extraction": "structured",
-   "also_reported_by": [],
+   "also_reported_by": [
+    {
+     "name": "Oryx (Ukrainian equipment losses)",
+     "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+    }
+   ],
    "published": "2026-10-31T23:26:20.617682+00:00",
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
    "id": "7a361d4976d4"
+  },
+  {
+   "date": "2026-11-01",
+   "category": "weapons_deliveries",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-crime/4179951-heroin-and-cocaine-not-produced-in-ukraine-police.html",
+   "quote": "Heroin and cocaine not produced in Ukraine – police",
+   "time": "01:35",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Heroin and cocaine are not manufactured in Ukraine, the National Police of Ukraine has said.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-10-31T23:35:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "54eae6bfe890"
   }
  ]
 }
