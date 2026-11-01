@@ -1,9 +1,52 @@
 {
- "generated_at": "2026-11-01 13:31",
+ "generated_at": "2026-11-01 18:58",
  "days": [
   {
    "date": "2026-11-01",
    "events": [
+    {
+     "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "kpszsu",
+     "source_name": "Air Force of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/kpszsu/92135",
+     "quote": "❗️ Протягом дня 1 листопада (із 06.30 по 19.00) противник атакував Україну 326 ударними БпЛА (55 із них — реактивні), Гербера та дронами інших типів, а також 6-ма S8000 Бандероль/Дань-Т.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "air attack",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Shahed/Gerbera-type UAVs (incl. decoys)",
+       "launched": 326,
+       "intercepted": 274
+      }
+     ],
+     "counts": {
+      "jet_powered_shahed": 55,
+      "launched": 326,
+      "jet_powered_shahed_intercepted": 46,
+      "intercepted": 274
+     },
+     "breakdown": [],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [
+      {
+       "name": "Ukrinform",
+       "url": "https://www.ukrinform.net/rubric-ato/4180314-ukraines-air-defenses-down-274-russian-drones-six-banderols-on-sunday.html",
+       "quote": "Ukraine’s air defenses down 274 Russian drones, six Banderols on Sunday"
+      }
+     ],
+     "published": "2026-11-01T17:16:49+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "1572b3095637"
+    },
     {
      "date": "2026-11-01",
      "category": "air_attack",
@@ -80,6 +123,32 @@
      "detail_en": null,
      "locations_en": null,
      "id": "a195ef73254e"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68696",
+     "quote": "❗️Сегодня днем Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным для перевозки грузов военного назначения.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "strike, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T13:56:49+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "023a4fd3d0ad"
     },
     {
      "date": "2026-11-01",
@@ -308,6 +377,62 @@
     },
     {
      "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129936",
+     "quote": "В Житомирской области в результате ударов по энергоинфраструктуре обесточены более 650 населенных пунктов, — глава ОВА Виталий Бунечко",
+     "time": "16:33",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zhytomyr"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T14:33:08+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "b03c01bc712b"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180293-two-killed-three-injured-in-russian-attack-on-vinnytsia-region.html",
+     "quote": "Two killed, three injured in Russian attack on Vinnytsia region",
+     "time": "18:25",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces have attacked the Koziatyn community, Vinnytsia region, killing two people.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Vinnytsia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T16:25:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "99bcc866d731"
+    },
+    {
+     "date": "2026-11-01",
      "category": "strikes_in_russia",
      "source_id": "mod_russia",
      "source_name": "Ministry of Defence of Russia",
@@ -351,6 +476,44 @@
      "detail_en": null,
      "locations_en": null,
      "id": "bd71e8ac63e6"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "strikes_in_russia",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68700",
+     "quote": "⚡️ В течение дня в период с 8.00 мск до 20.00 мск дежурными силами ПВО уничтожены 47 украинских беспилотных летательных средств над территориями Белгородской, Нижегородской, Курской, Калужской, Тульской, Воронежской, Смоленской, Ростовской областей и Московского региона.",
+     "time": null,
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "UAVs intercepted, as claimed (8:00 to 20:00 MSK)",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "intercepted_claimed": 47
+     },
+     "breakdown": [],
+     "locations": [
+      "Belgorod oblast",
+      "Nizhny Novgorod oblast",
+      "Kursk oblast",
+      "Kaluga oblast",
+      "Tula oblast",
+      "Voronezh oblast",
+      "Smolensk oblast",
+      "Rostov oblast",
+      "Moscow oblast"
+     ],
+     "lang": "ru",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-01T17:50:16+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "d7d57ae10722"
     },
     {
      "date": "2026-11-01",
@@ -551,6 +714,89 @@
     },
     {
      "date": "2026-11-01",
+     "category": "strikes_in_russia",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180275-unmanned-systems-forces-destroy-over-16700-russian-troops-in-october-usf-commander.html",
+     "quote": "Unmanned Systems Forces destroy over 16,700 Russian troops in October – USF commander",
+     "time": "16:10",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": null,
+     "detail": "Units of Ukraine's Unmanned Systems Forces destroyed 16,796 Russian troops in October, a record figure since the start of the full-scale war.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T14:10:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "c65745562c35"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129942",
+     "quote": "Власти Нижегородской области после атаки ВСУ призвали заправлять машины «по потребности, не создавая ажиотаж» Власти Нижегородской области просят «автомобилистов заправляться по потребности, не создавая ажиотаж» после атаки ВСУ по НПЗ — «ЛУКОЙЛ-Нижегороднефтеоргсинтез»…",
+     "time": "18:49",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Nizhny Novgorod oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T16:49:29+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "ca15de8a9b27"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "strikes_in_russia",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/ukraine-war-latest-russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
+     "quote": "Ukraine war latest: Russian oil refinery in Kstovo ablaze after reported overnight drone strike",
+     "time": "18:59",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": null,
+     "detail": "Key developments on Oct.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kramatorsk",
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T16:59:37+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7f2633ec6e9b"
+    },
+    {
+     "date": "2026-11-01",
      "category": "front_line",
      "source_id": "ukrinform",
      "source_name": "Ukrinform",
@@ -576,6 +822,32 @@
      "detail_en": null,
      "locations_en": null,
      "id": "2db8e4086308"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "front_line",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180268-zelensky-ukrainian-forces-liberated-more-territory-in-october-than-russian-invaders-seized.html",
+     "quote": "Zelensky: Ukrainian forces liberated more territory in October than Russian invaders seized",
+     "time": "15:24",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "In October 2026, Ukraine's Defense Forces inflicted record losses on the Russian army since the start of the full-scale war and liberated 96.2 square kilometers of Ukrainian territory – 10.4 square kilometers more than Russian forces managed to capture during the same period.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T13:24:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f11f493e394c"
     },
     {
      "date": "2026-11-01",
@@ -795,17 +1067,137 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [
-      {
-       "name": "Oryx (Russian equipment losses)",
-       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
-      }
-     ],
+     "also_reported_by": [],
      "published": "2026-10-31T23:26:20.084022+00:00",
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
      "id": "c3f2304c2cb1"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24251, of which: destroyed: 19216, damaged: 1001, abandoned: 1192, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24251,
+      "destroyed": 19216,
+      "damaged": 1001,
+      "abandoned": 1192,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4454
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2428
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6495
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 756
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 441
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 740
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 621
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1066
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 645
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 30
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 448
+      },
+      {
+       "label": "Radars",
+       "count": 133
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 208
+      },
+      {
+       "label": "Helicopters",
+       "count": 186
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 40
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4739
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-01T18:58:26.088189+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f09b136b6618"
     },
     {
      "date": "2026-11-01",
@@ -925,17 +1317,137 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [
-      {
-       "name": "Oryx (Ukrainian equipment losses)",
-       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
-      }
-     ],
+     "also_reported_by": [],
      "published": "2026-10-31T23:26:20.617682+00:00",
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
      "id": "7a361d4976d4"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12320, of which: destroyed: 9711, damaged: 718, abandoned: 693, captured: 1198",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12320,
+      "destroyed": 9711,
+      "damaged": 718,
+      "abandoned": 693,
+      "captured": 1198
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1473
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 566
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1628
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1474
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1015
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2202
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 105
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 302
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 306
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1000
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 136
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 150
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1403
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-01T18:58:26.673913+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "1a0b5703e945"
     },
     {
      "date": "2026-11-01",
@@ -1014,6 +1526,35 @@
      "detail_en": null,
      "locations_en": null,
      "id": "dae929610116"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "losses_claimed",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180298-general-staff-ukrainian-troops-evacuated-167-civilians-from-kherson-region-during-ceasefire.html",
+     "quote": "General Staff: Ukrainian troops evacuated 167 civilians from Kherson region during ceasefire",
+     "time": "19:30",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Ukrainian troops evacuated 167 civilians from the right (west) bank of the Dnipro River in the Kherson region while the ceasefire was in effect.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kherson",
+      "Dnipro"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T17:30:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "328c2f2a0db6"
     },
     {
      "date": "2026-11-01",
