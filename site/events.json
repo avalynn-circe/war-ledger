@@ -1,6 +1,261 @@
 {
- "generated_at": "2026-11-01 18:58",
+ "generated_at": "2026-11-01 23:39",
  "days": [
+  {
+   "date": "2026-11-02",
+   "events": [
+    {
+     "date": "2026-11-02",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24251, of which: destroyed: 19216, damaged: 1001, abandoned: 1192, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24251,
+      "destroyed": 19216,
+      "damaged": 1001,
+      "abandoned": 1192,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4454
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2428
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6495
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 756
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 441
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 740
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 621
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1066
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 645
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 30
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 448
+      },
+      {
+       "label": "Radars",
+       "count": 133
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 208
+      },
+      {
+       "label": "Helicopters",
+       "count": 186
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 40
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4739
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-01T23:39:42.631493+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f09b136b6618"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12320, of which: destroyed: 9711, damaged: 718, abandoned: 693, captured: 1198",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12320,
+      "destroyed": 9711,
+      "damaged": 718,
+      "abandoned": 693,
+      "captured": 1198
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1473
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 566
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1628
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1474
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1015
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2202
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 105
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 302
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 306
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1000
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 136
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 150
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1403
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-01T23:39:43.166402+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "1a0b5703e945"
+    }
+   ]
+  },
   {
    "date": "2026-11-01",
    "events": [
@@ -433,6 +688,209 @@
     },
     {
      "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/russian-drone-strike-near-school-dormitory-kills-13-year-old-in-vinnytsia-oblast-injures-more-children/",
+     "quote": "Russian drone strike near school dormitory housing displaced people kills 13-year-old in Vinnytsia Oblast, injures more children",
+     "time": "21:02",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "A Russian drone strike on the grounds of a vocational school dormitory in Vinnytsia Oblast killed two people, including a 13-year-old girl, on Nov.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Vinnytsia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T19:02:26+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "a788ea565a21"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180332-two-people-injured-in-russian-attack-on-zaporizhzhia.html",
+     "quote": "Two people injured in Russian attack on Zaporizhzhia",
+     "time": "21:50",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces attacked Zaporizhzhia with an FPV drone in the evening, injuring two people.",
+     "weapons": [
+      {
+       "name": "FPV drone"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T19:50:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "e8b6c2de60e5"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129948",
+     "quote": "ВС РФ нанесли удар по поселку Васищево Харьковской области, пострадали пять человек: 18-летний парень и женщины в возрасте 48, 67, 33 и 71 лет, — местные власти Зафиксировано попадание в крышу пятиэтажного жилого дома.",
+     "time": "21:58",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T19:58:25+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "a9e9398626a2"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180334-injury-toll-in-russian-strike-on-vinnytsia-region-rises-to-six-two-killed.html",
+     "quote": "Injury toll in Russian strike on Vinnytsia region rises to six, two killed",
+     "time": "22:40",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The number of people injured in a Russian attack on the Koziatyn community in the Vinnytsia region has risen to six, while two people were killed.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Vinnytsia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T20:40:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "68cb2da0b410"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180337-russian-drones-attack-settlement-in-kharkiv-region-five-people-injured.html",
+     "quote": "Russian drones attack settlement in Kharkiv region, five people injured",
+     "time": "23:10",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces carried out drone strikes on the settlement of Vasyshcheve in the Kharkiv region, injuring five people.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T21:10:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "d891408ce43e"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/ukraines-air-raid-alert-system-hacked-air-force-says-as-false-nuclear-chemical-warnings-sound/",
+     "quote": "Ukraine's air raid alert system hacked, Air Force says as false nuclear, chemical warnings sound",
+     "time": "23:29",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Ukraine's air raid alert system was hacked late on Nov.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T21:29:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f3d93fec4095"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/129949",
+     "quote": "В Украине взломано официальное приложение «Воздушная тревога»: пользователям пришли сообщения про радиационную угрозу и уличные бои Воздушные силы Украины и КГГА предупредили, что приложение «Воздушная тревога», вероятно, испытало враждебное вмешательство.",
+     "time": "23:42",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Oreshnik ballistic missile"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv",
+      "Lviv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T21:42:51+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "5026e994ca99"
+    },
+    {
+     "date": "2026-11-01",
      "category": "strikes_in_russia",
      "source_id": "mod_russia",
      "source_name": "Ministry of Defence of Russia",
@@ -798,6 +1256,36 @@
     {
      "date": "2026-11-01",
      "category": "front_line",
+     "source_id": "deepstate",
+     "source_name": "DeepState",
+     "source_side": "osint",
+     "source_url": "https://t.me/DeepStateUA/23957",
+     "quote": "🔄 Мапу оновлено ⚔️ Ворог просунувся поблизу Гоптівки.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "advanced near",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Гоптівки"
+     ],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-01T19:48:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Гоптівки"
+     ],
+     "id": "e96558b589e8"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "front_line",
      "source_id": "ukrinform",
      "source_name": "Ukrinform",
      "source_side": "media",
@@ -885,6 +1373,38 @@
       "Мала Корчаківка, Запсілля, Юнаківка, Писарівка, Корчаківка, Мала Січ, Катеринівка, Павлівка, Хотінь, Водолаги"
      ],
      "id": "386ce9a1c7de"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "front_activity",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42762",
+     "quote": "Оперативна інформація станом на 22:00 01.11.2026 щодо російського вторгнення.",
+     "time": "22:00",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "since 00:00, as of 22:00",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "clashes": 191,
+      "guided_bombs": 181,
+      "air_strikes": 53,
+      "kamikaze_drones": 4724,
+      "shellings": 1744
+     },
+     "breakdown": [],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-01T20:14:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "58dfccb8f704"
     },
     {
      "date": "2026-11-01",
@@ -1747,6 +2267,34 @@
      "detail_en": null,
      "locations_en": null,
      "id": "ae45f4e46eac"
+    },
+    {
+     "date": "2026-11-01",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180324-russian-forces-hit-energy-facility-in-ternopil-region-causing-power-outages.html",
+     "quote": "Russian forces hit energy facility in Ternopil region, causing power outages",
+     "time": "21:05",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "A Russian attack on the Kremenets community in the Ternopil region damaged an energy facility, leaving 12 settlements without electricity.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Ternopil"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-01T19:05:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "74081dad0a0d"
     }
    ]
   },
