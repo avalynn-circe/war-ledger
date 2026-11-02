@@ -1,7 +1,381 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-01T23:39:43+00:00",
+ "generated_at": "2026-11-02T06:16:19+00:00",
  "events": [
+  {
+   "date": "2026-11-02",
+   "category": "air_attack",
+   "source_id": "kpszsu",
+   "source_name": "Air Force of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/kpszsu/92274",
+   "quote": "⚡️ ЗБИТО/ПОДАВЛЕНО 154 ВОРОЖИХ БПЛА ➖➖➖➖➖➖➖➖➖➖ У ніч на 2 листопада (з 18:00 1 листопада) противник атакував 193 ударними БпЛА типу Shahed (75 із них - реактивні), Гербера, дронами-імітаторами типу “Пародія” із напрямків: Орел, Курськ, Брянськ - рф, ТОТ Донецьк, ТОТ АР Крим – Гвардійське.",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "air attack",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Gerbera-type UAVs (incl. decoys)",
+     "launched": 193,
+     "intercepted": 154
+    }
+   ],
+   "counts": {
+    "jet_powered_shahed": 75,
+    "launched": 193,
+    "intercepted": 154,
+    "impact_locations": 26,
+    "debris_locations": 9
+   },
+   "breakdown": [],
+   "locations": [
+    "Oryol",
+    "Kursk",
+    "Bryansk",
+    "Donetsk (occupied)",
+    "Hvardiiske (Crimea)"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4180368-air-defenses-down-154-out-of-193-drones-used-by-russia-to-attack-ukraine-since-evening.html",
+     "quote": "Air defenses down 154 out of 193 drones used by Russia to attack Ukraine since evening"
+    }
+   ],
+   "published": "2026-11-02T05:44:52+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "cdae2e46e526"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "air_attack",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/68705",
+   "quote": "❗️ В течение ночи Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам портовой инфраструктуры, используемым в интересах ВСУ и морским судам, задействованным для перевозки грузов военного назначения.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Neptune cruise missile"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-02T04:52:16+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "d40e08120cc5"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129964",
+   "quote": "МИД Ганы заявил, что Путин запретил вербовать граждан этой страны на войну с Украиной Глава МИД Ганы Сэмюэл Окудзето Аблаква заявил, что Путин и президент Ганы Джон Драмани Махама встречались в Кремле по итогам третьего саммита Россия-Африка.",
+   "time": "05:14",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv",
+    "Moscow"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-02T03:14:43+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "dbd37866f9bc"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "air_attack",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-oil-facility-in-russias-samara-oblast-in-overnight-attack/",
+   "quote": "Ukrainian forces reportedly strike oil facility in Russia's Samara Oblast in overnight attack",
+   "time": "07:18",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Ukrainian monitoring channels reported that Ukrainian drones had struck the Samara Linear Production and Dispatch Station in the city of Prosvet, around 835 kilometers (520 miles) northeast of Ukraine's border.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Samara oblast"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-02T05:18:36+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "041afdbd4642"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "strikes_in_russia",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/68706",
+   "quote": "⚡️ В течение прошедшей ночи дежурными силами ПВО перехвачены и уничтожены 212 украинских беспилотных летательных аппаратов самолетного типа над территориями Брянской, Белгородской, Курской, Калужской, Тульской, Воронежской, Псковской, Орловской, Липецкой, Саратовской, Самарской, Рязанской, Тамбовской, Ростовской облас…",
+   "time": null,
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "UAVs intercepted, as claimed (overnight)",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "intercepted_claimed": 212
+   },
+   "breakdown": [],
+   "locations": [
+    "Bryansk oblast",
+    "Belgorod oblast",
+    "Kursk oblast",
+    "Kaluga oblast",
+    "Tula oblast",
+    "Voronezh oblast",
+    "Pskov oblast",
+    "Oryol oblast",
+    "Lipetsk oblast",
+    "Saratov oblast",
+    "Samara oblast",
+    "Ryazan oblast",
+    "Tambov oblast",
+    "Rostov oblast",
+    "Moscow oblast",
+    "Krasnodar krai",
+    "Crimea",
+    "над акваториями Черного",
+    "Sea of Azov"
+   ],
+   "lang": "ru",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/129965",
+     "quote": "212 украинских БПЛА перехвачены и уничтожены над РФ и аннексированным Крымом, — Минобороны РФ «В течение прошедшей ночи дежурными силами ПВО перехвачены и уничтожены 212 украинских беспилотных летательных аппаратов самолетного типа», — сказано в сообщении министерства обороны РФ."
+    }
+   ],
+   "published": "2026-11-02T05:31:03+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Bryansk oblast",
+    "Belgorod oblast",
+    "Kursk oblast",
+    "Kaluga oblast",
+    "Tula oblast",
+    "Voronezh oblast",
+    "Pskov oblast",
+    "Oryol oblast",
+    "Lipetsk oblast",
+    "Saratov oblast",
+    "Samara oblast",
+    "Ryazan oblast",
+    "Tambov oblast",
+    "Rostov oblast",
+    "Moscow oblast",
+    "Krasnodar krai",
+    "Crimea",
+    "над акваториями Черного",
+    "Sea of Azov"
+   ],
+   "id": "033bb7d89531"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "strikes_in_russia",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7790",
+   "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область уничтожено более 30 БПЛА в городе Каменске-Шахтинском и шести районах области: Каменском, Верхнедонском, Миллеровском, Тарасовском, Чертковском, Шолоховском.",
+   "time": "05:56",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-02T03:56:18+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "5931b8bd132c"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/129966",
+   "quote": "Вероятно, атакована ЛПДС «Самара» возле поселка Просвет: со стороны одного из крупнейших европейских резервуарных парков поднимается черный дым, — OSINT-анализ ASTRA Это крупный критический объект инфраструктуры магистрального трубопроводного транспорта нефти в РФ, расположенный в Самарской области.",
+   "time": "07:38",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Samara oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-02T05:38:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "5efa8ffaf819"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42766",
+   "quote": "Оперативна інформація станом на 08:00 02.11.2026 щодо російського вторгнення Слава Україні!",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": "Air strikes on: Вільна Слобода, Вакалівщина, Іволжанське",
+   "weapons": [],
+   "counts": {
+    "clashes": 205,
+    "guided_bombs": 235,
+    "air_strikes": 71,
+    "kamikaze_drones": 6578,
+    "shellings": 2256,
+    "mlrs_shellings": 26,
+    "settlements_shelled": 25
+   },
+   "breakdown": [],
+   "locations": [
+    "Sumy oblast: Рижівка, Павлівка, Кореньок, Писарівка, Нескучне, Мала Корчаківка, Кіндратівка, Катеринівка, Товстодубове, Волфине, Безсалівка, Мар'їне, Водолаги, Степне, Уланове, Іскрисківщина, Нова Січ, Корчаківка, Храпівщина, Яструбщина, Кучерівка, Вишеньки, Білокопитове, Юнаківка, Олексіївка"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-02T06:03:51+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Sumy oblast: Рижівка, Павлівка, Кореньок, Писарівка, Нескучне, Мала Корчаківка, Кіндратівка, Катеринівка, Товстодубове, Волфине, Безсалівка, Мар'їне, Водолаги, Степне, Уланове, Іскрисківщина, Нова Січ, Корчаківка, Храпівщина, Яструбщина, Кучерівка, Вишеньки, Білокопитове, Юнаківка, Олексіївка"
+   ],
+   "id": "4fbf42c0179b"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42766",
+   "quote": "втрати російських загарбників склали 2500 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 2500
+    },
+    {
+     "label": "tanks",
+     "delta": 1
+    },
+    {
+     "label": "armoured fighting vehicles",
+     "delta": 7
+    },
+    {
+     "label": "artillery systems",
+     "delta": 46
+    },
+    {
+     "label": "multiple rocket launchers",
+     "delta": 2
+    },
+    {
+     "label": "air defence systems",
+     "delta": 1
+    },
+    {
+     "label": "UAVs",
+     "delta": 936
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 1
+    },
+    {
+     "label": "special equipment",
+     "delta": 2
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4180370-russias-war-casualty-toll-in-ukraine-up-by-2500-over-past-day.html",
+     "quote": "Russia's war casualty toll in Ukraine up by 2,500 over past day"
+    }
+   ],
+   "published": "2026-11-02T06:03:51+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "4da8b3e38c87"
+  },
   {
    "date": "2026-11-02",
    "category": "losses_claimed",
@@ -245,12 +619,43 @@
    "locations": [],
    "lang": "en",
    "extraction": "structured",
-   "also_reported_by": [],
+   "also_reported_by": [
+    {
+     "name": "Oryx (Ukrainian equipment losses)",
+     "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+    }
+   ],
    "published": "2026-11-01T23:39:43.166402+00:00",
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
    "id": "1a0b5703e945"
+  },
+  {
+   "date": "2026-11-02",
+   "category": "naval",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4180363-ukrainian-navy-destroys-six-russian-aircraft-ten-multiple-launch-rocket-systems-in-october.html",
+   "quote": "Ukrainian Navy destroys six Russian aircraft, ten multiple launch rocket systems in October",
+   "time": "07:08",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "The Ukrainian Navy destroyed six Russian aircraft and ten multiple launch rocket systems (MLRS) in October.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-02T05:08:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "9f6abe69f858"
   }
  ]
 }
