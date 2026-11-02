@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-11-02T06:16:19+00:00",
+ "generated_at": "2026-11-02T16:09:39+00:00",
  "events": [
   {
    "date": "2026-11-01",
@@ -580,7 +580,7 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/ukraines-air-raid-alert-system-hacked-air-force-says-as-false-nuclear-chemical-warnings-sound/",
-   "quote": "Ukraine's air raid alert system hacked, Air Force says as false nuclear, chemical warnings sound",
+   "quote": "Ukraine's air raid alert system hacked, Russian system targeted hours later",
    "time": "23:29",
    "actor": "Russia",
    "target": "Ukraine",
@@ -597,7 +597,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "f3d93fec4095"
+   "id": "23b6fdb52ede"
   },
   {
    "date": "2026-11-01",
