@@ -1,6 +1,289 @@
 {
- "generated_at": "2026-11-02 16:09",
+ "generated_at": "2026-11-02 23:36",
  "days": [
+  {
+   "date": "2026-11-03",
+   "events": [
+    {
+     "date": "2026-11-03",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-crime/4180444-sbu-detains-former-sailor-in-odesa-suspected-of-directing-russian-attacks.html",
+     "quote": "SBU detains former sailor in Odesa suspected of directing Russian attacks",
+     "time": "01:26",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The Security Service of Ukraine's (SBU) military counterintelligence unit has detained a former merchant ship sailor in Odesa who is suspected of helping Russia direct its strikes.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Odesa"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T23:26:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "3958b49a0bb7"
+    },
+    {
+     "date": "2026-11-03",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24251, of which: destroyed: 19216, damaged: 1001, abandoned: 1192, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24251,
+      "destroyed": 19216,
+      "damaged": 1001,
+      "abandoned": 1192,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4454
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2428
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6495
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 756
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 441
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 740
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 621
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1066
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 645
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 30
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 448
+      },
+      {
+       "label": "Radars",
+       "count": 133
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 208
+      },
+      {
+       "label": "Helicopters",
+       "count": 186
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 40
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4739
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-02T23:36:32.478317+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f09b136b6618"
+    },
+    {
+     "date": "2026-11-03",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12320, of which: destroyed: 9711, damaged: 718, abandoned: 693, captured: 1198",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12320,
+      "destroyed": 9711,
+      "damaged": 718,
+      "abandoned": 693,
+      "captured": 1198
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1473
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 566
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1628
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1474
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1015
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2202
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 105
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 302
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 306
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1000
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 136
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 150
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1403
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-02T23:36:33.065892+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "1a0b5703e945"
+    }
+   ]
+  },
   {
    "date": "2026-11-02",
    "events": [
@@ -83,6 +366,39 @@
      "detail_en": null,
      "locations_en": null,
      "id": "d40e08120cc5"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68720",
+     "quote": "📆 Главное за день 🔥 Давим противника 24 на 7: нанесли удары БПЛА по объектам портовой инфраструктуры, используемым в интересах ВСУ, и морским судам, задействованным для перевозки грузов военного назначения.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "strike, as claimed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Shahed/Geran-2 strike UAV"
+      },
+      {
+       "name": "FPV drone"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T18:32:32+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "89a955636ad3"
     },
     {
      "date": "2026-11-02",
@@ -392,6 +708,322 @@
     },
     {
      "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180616-injury-toll-after-russian-attack-on-chuhuiv-rises-to-seven.html",
+     "quote": "Injury toll after Russian attack on Chuhuiv rises to seven",
+     "time": "18:22",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The number of people injured in Russian strikes on the city of Chuhuiv in the Kharkiv region has risen to seven.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T16:22:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "b15f1e53995a"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130031",
+     "quote": "В Сумской области в результате российского удара по жилому сектору Николаевской общины один человек погиб, еще один ранен, — ГСЧС В результате попадания загорелся частный дом.",
+     "time": "18:31",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Mykolaiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T16:31:29+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "975c83a1c409"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/air-raid-alerts-shut-ukrainian-malls-for-record-one-third-of-opening-hours-in-october/",
+     "quote": "Air raid alerts shut Ukrainian malls for record one-third of opening hours in October",
+     "time": "18:33",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The alerts accounted for 32.5% of their operating time, up 1.7% from September and almost three times the share recorded a year earlier, according to the Ukrainian Council of Shopping Centers (UCSC).",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T16:33:28+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "9ba7c4ed2342"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180619-injury-toll-in-russian-strikes-on-izium-rises-to-27-one-killed.html",
+     "quote": "Injury toll in Russian strikes on Izium rises to 27, one killed",
+     "time": "18:38",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Twenty-seven people were injured in Russian strikes on the city of Izium in the Kharkiv region.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Izium",
+      "Kharkiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T16:38:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "6cd677c3d7ea"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180626-russian-attacks-in-kherson-region-leave-seven-injured-throughout-day.html",
+     "quote": "Russian attacks in Kherson region leave seven injured throughout day",
+     "time": "19:19",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Seven people were injured in Russian attacks in the Kherson region throughout the day.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kherson"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T17:19:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "daa59faba969"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130038",
+     "quote": "18 погибших и 5 раненых в результате российского удара по Камышевахе Запорожской области Об этом сообщил Владимир Зеленский.",
+     "time": "19:23",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Guided aerial bomb (KAB/FAB)"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [
+      {
+       "name": "ASTRA",
+       "url": "https://t.me/astrapress/130041"
+      }
+     ],
+     "published": "2026-11-02T17:23:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7393e75cf27d"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180656-death-toll-from-russian-strike-on-school-in-komyshuvakha-rises-to-24.html",
+     "quote": "Death toll from Russian strike on School in Komyshuvakha rises to 24",
+     "time": "20:42",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The death toll from Russian strikes on an educational institution in Komyshuvakha, Zaporizhzhia region, on November 2 has risen to 24.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T18:42:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "45df1930cf8d"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180666-teenager-injured-in-russian-attack-on-kyiv-region.html",
+     "quote": "Teenager injured in Russian attack on Kyiv region",
+     "time": "21:39",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "A 15-year-old boy was injured in a Russian attack in the Bucha district of Kyiv region.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T19:39:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "0905e2f7359f"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130049",
+     "quote": "Один человек погиб, восемь ранены при ударе ВСУ по рейсовому автобусу «Луганск – Зимогорье» в «ЛНР», — «власти»",
+     "time": "21:46",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Luhansk oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T19:46:15+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "692ce0f2b09d"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130050",
+     "quote": "Командующий Нацгвардией прокомментировал ситуацию в доме под Киевом В частном доме в Петропавловской Борщаговке Киевской области временно размещали мобилизованных военнослужащих перед отправкой в учебный центр.",
+     "time": "22:14",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T20:14:36+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "d253e9a458d4"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180689-death-toll-from-russian-strikes-on-school-in-komyshuvakha-rises-to-24.html",
+     "quote": "Death toll from Russian strikes on school in Komyshuvakha rises to 24",
+     "time": "22:54",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The death toll from Russian strikes on an educational institution in Komyshuvakha, Zaporizhzhia region, on November 2 has risen to 24.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T20:54:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "2e9aa6ac74c0"
+    },
+    {
+     "date": "2026-11-02",
      "category": "strikes_in_russia",
      "source_id": "mod_russia",
      "source_name": "Ministry of Defence of Russia",
@@ -463,6 +1095,41 @@
       "Sea of Azov"
      ],
      "id": "033bb7d89531"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "strikes_in_russia",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68718",
+     "quote": "⚡️ В течение дня, в период с 8.00 до 20.00 мск, дежурными силами ПВО уничтожены 22 украинских беспилотных летательных средства над территориями Белгородской, Брянской, Курской, Орловской, Ростовской областей и Московского региона.",
+     "time": null,
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "UAVs intercepted, as claimed (8:00 to 20:00 MSK)",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "intercepted_claimed": 22
+     },
+     "breakdown": [],
+     "locations": [
+      "Belgorod oblast",
+      "Bryansk oblast",
+      "Kursk oblast",
+      "Oryol oblast",
+      "Rostov oblast",
+      "Moscow oblast"
+     ],
+     "lang": "ru",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-02T17:24:48+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "982a3b08216e"
     },
     {
      "date": "2026-11-02",
@@ -685,6 +1352,34 @@
     },
     {
      "date": "2026-11-02",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130039",
+     "quote": "В Санкт-Петербурге второй раз за месяц сократили выплаты за заключение контракта с Минобороны Единовременная выплата теперь составляет 800 тысяч рублей: 400 тысяч выделяет город, еще 400 тысяч — Минобороны.",
+     "time": "19:55",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "St Petersburg"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T17:55:36+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "018afa8661c1"
+    },
+    {
+     "date": "2026-11-02",
      "category": "front_line",
      "source_id": "deepstate",
      "source_name": "DeepState",
@@ -714,6 +1409,66 @@
       "Гіркого"
      ],
      "id": "1c9e1b3d9d1b"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "front_line",
+     "source_id": "deepstate",
+     "source_name": "DeepState",
+     "source_side": "osint",
+     "source_url": "https://t.me/DeepStateUA/23960",
+     "quote": "🔄 Мапу оновлено ⚔️ Ворог просунувся у Білицькому та поблизу Гришиного.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "advanced near",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Білицькому",
+      "поблизу Гришиного"
+     ],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-02T21:28:25+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Білицькому",
+      "поблизу Гришиного"
+     ],
+     "id": "061695ba3d20"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "front_line",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180692-war-update-191-clashes-on-front-line.html",
+     "quote": "War update: 191 clashes on front line",
+     "time": "23:32",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "There have been 191 combat engagements on the front line, with the Defence Forces repelling nearly 20 enemy assaults in the Kostiantynivka sector.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kostiantynivka"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T21:32:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "15f9077bcf16"
     },
     {
      "date": "2026-11-02",
@@ -752,6 +1507,38 @@
       "Sumy oblast: Рижівка, Павлівка, Кореньок, Писарівка, Нескучне, Мала Корчаківка, Кіндратівка, Катеринівка, Товстодубове, Волфине, Безсалівка, Мар'їне, Водолаги, Степне, Уланове, Іскрисківщина, Нова Січ, Корчаківка, Храпівщина, Яструбщина, Кучерівка, Вишеньки, Білокопитове, Юнаківка, Олексіївка"
      ],
      "id": "4fbf42c0179b"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "front_activity",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42782",
+     "quote": "Оперативна інформація станом на 22:00 02.11.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 191 бойове зіткнення.",
+     "time": "22:00",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "since 00:00, as of 22:00",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "clashes": 191,
+      "guided_bombs": 146,
+      "air_strikes": 44,
+      "kamikaze_drones": 4304,
+      "shellings": 1946
+     },
+     "breakdown": [],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-02T20:03:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "c9b07844bc89"
     },
     {
      "date": "2026-11-02",
@@ -1179,6 +1966,101 @@
      "detail_en": null,
      "locations_en": null,
      "id": "bd4a98e50d14"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "field_adaptation",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/russia-adapts-decoy-drone-for-one-way-attacks-at-ranges-of-up-to-1-200-kilometers-hur-says/",
+     "quote": "Russia adapts decoy drone for one-way attacks at ranges of up to 1,200 kilometers, HUR says",
+     "time": "18:22",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "According to a technical breakdown published by HUR, the new version, called the Gerbera-2, has a range of 1,200 kilometers and carries a 25-kilogram warhead.",
+     "weapons": [
+      {
+       "name": "Shahed/Geran-2 strike UAV"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T16:22:54+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "136376f13e1f"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "field_adaptation",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180620-flash-explains-how-electronic-warfare-shield-created-over-kyiv.html",
+     "quote": "'Flash' explains how electronic warfare shield created over Kyiv",
+     "time": "18:58",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The operation to protect Kyiv from remotely controlled jet-powered Shahed drones using electronic warfare systems forced Russian forces to upgrade their drones and look for alternative solutions.",
+     "weapons": [
+      {
+       "name": "Shahed/Geran-2 strike UAV"
+      },
+      {
+       "name": "Electronic warfare"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T16:58:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "cfde29ceba43"
+    },
+    {
+     "date": "2026-11-02",
+     "category": "weapons_deliveries",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4180695-netherlands-seeks-ways-to-speed-up-delivery-of-patriot-missiles-to-ukraine.html",
+     "quote": "Netherlands seeks ways to speed up delivery of Patriot missiles to Ukraine",
+     "time": "23:55",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Dutch Defence Minister Dilan Yeşilgöz-Zegerius said that the Netherlands and its partners are exploring ways to accelerate the delivery of missiles for Patriot air defence systems to Ukraine.",
+     "weapons": [
+      {
+       "name": "Patriot"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-02T21:55:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "5fcf74c501dc"
     },
     {
      "date": "2026-11-02",
