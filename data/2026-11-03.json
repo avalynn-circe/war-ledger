@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T21:51:42+00:00",
+ "generated_at": "2026-11-04T02:23:47+00:00",
  "events": [
   {
    "date": "2026-11-03",
@@ -983,6 +983,35 @@
    "detail_en": null,
    "locations_en": null,
    "id": "5d2be7d11375"
+  },
+  {
+   "date": "2026-11-03",
+   "category": "front_line",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4181141-war-update-201-clashes-on-front-lines-ukrainian-forces-repel-24-russian-attacks-in-kostiantynivka-sector.html",
+   "quote": "War update: 201 clashes on front lines, Ukrainian forces repel 24 Russian attacks in Kostiantynivka sector",
+   "time": "23:43",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Ukrainian forces engaged in 201 combat clashes with Russian invaders along the front line, with one-fifth of them recorded in the Kostiantynivka and Pokrovsk sectors.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kostiantynivka",
+    "Pokrovsk"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-03T21:43:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "ab25f2ac7d36"
   },
   {
    "date": "2026-11-03",
