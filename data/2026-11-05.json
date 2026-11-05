@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T18:05:26+00:00",
+ "generated_at": "2026-11-05T23:40:59+00:00",
  "events": [
   {
    "date": "2026-11-05",
@@ -53,6 +53,32 @@
    "detail_en": null,
    "locations_en": null,
    "id": "10a0f923c108"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "air_attack",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/68787",
+   "quote": "📆 Главное за день 💬 Президент России Владимир Путин поручил создать отдельную программу обучения для бойцов СВО, не имеющих высшего образования.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-05T18:37:09+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "a45c99105258"
   },
   {
    "date": "2026-11-05",
@@ -470,6 +496,34 @@
    "detail_en": null,
    "locations_en": null,
    "id": "91aa7d0eed61"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130320",
+   "quote": "Два человека пострадали в результате российской атаки на склад в Киевской области, — КОВА «К сожалению, в результате атаки вражеских беспилотников на производственно-складской комплекс в Бучанском районе пострадали два человека.",
+   "time": "20:20",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-05T18:20:15+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "3d56c6ffa947"
   },
   {
    "date": "2026-11-05",
@@ -967,6 +1021,38 @@
     "Chernihiv oblast: населені пункти Уланове, Юнаківка, Храпівщина, Бачівськ, Писарівка, Хотінь, Мар'їне Сумської області, а також Берилівка"
    ],
    "id": "18649f769792"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42821",
+   "quote": "Оперативна інформація станом на 22:00 05.11.2026 щодо російського вторгнення.",
+   "time": "22:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "since 00:00, as of 22:00",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "clashes": 167,
+    "guided_bombs": 161,
+    "air_strikes": 50,
+    "kamikaze_drones": 4873,
+    "shellings": 1677
+   },
+   "breakdown": [],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-05T20:03:24+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7f2035ff4121"
   },
   {
    "date": "2026-11-05",
@@ -1485,6 +1571,60 @@
    "detail_en": null,
    "locations_en": null,
    "id": "6950c4104685"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "infrastructure",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/ukraine-war-latest-kyiv-water-supply-disrupted-after-power-fluctuations-due-to-russian-attacks/",
+   "quote": "Ukraine war latest: Kyiv water supply disrupted after power fluctuations due to Russian attacks",
+   "time": "21:07",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Key developments on Nov.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-05T19:07:39+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "b9ef9cf56963"
+  },
+  {
+   "date": "2026-11-05",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-economy/4181912-russia-attacked-ukraines-energy-infrastructure-78-times-over-past-three-days-dtek.html",
+   "quote": "Russia attacked Ukraine's energy infrastructure 78 times over past three days – DTEK",
+   "time": "21:57",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Russian invaders have carried out 78 strikes on Ukraine's energy infrastructure over the past three days.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-05T19:57:00+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "93f639697dac"
   }
  ]
 }

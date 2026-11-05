@@ -1,0 +1,310 @@
+{
+ "date": "2026-11-06",
+ "generated_at": "2026-11-05T23:40:59+00:00",
+ "events": [
+  {
+   "date": "2026-11-06",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130333",
+   "quote": "ВС РФ атаковали Изюм в Харьковской области КАБами, два человека пострадали, — ГВА «Попадания зафиксированы в центральной и южной частях города.",
+   "time": "01:09",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kharkiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-05T23:09:03+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "10cb902e7dcc"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24251, of which: destroyed: 19216, damaged: 1001, abandoned: 1192, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24251,
+    "destroyed": 19216,
+    "damaged": 1001,
+    "abandoned": 1192,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4454
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2428
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6495
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 756
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 441
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 740
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 621
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1066
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 645
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 71
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 30
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 448
+    },
+    {
+     "label": "Radars",
+     "count": 143
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 208
+    },
+    {
+     "label": "Helicopters",
+     "count": 186
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 40
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4739
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-05T23:40:57.230539+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f09b136b6618"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12320, of which: destroyed: 9711, damaged: 718, abandoned: 693, captured: 1198",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12320,
+    "destroyed": 9711,
+    "damaged": 718,
+    "abandoned": 693,
+    "captured": 1198
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1473
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 566
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1628
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1474
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1015
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2202
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 105
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 302
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 306
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1000
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 136
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 150
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1403
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-05T23:40:57.995792+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "1a0b5703e945"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "weapons_deliveries",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/spain-to-provide-ukraine-490-million-in-military-aid-zelensky-says/",
+   "quote": "Spain to provide Ukraine $490 million in military aid, Zelensky says",
+   "time": "00:21",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Attending the 30th Ibero-American Summit, Zelensky said the funds will help bolster Ukrainian air defenses as Russian strikes pummel Ukrainian transportation and energy infrastructure.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-05T22:21:17+00:00",
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "382035224753"
+  }
+ ]
+}
