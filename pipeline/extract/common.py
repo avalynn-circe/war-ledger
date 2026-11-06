@@ -25,6 +25,17 @@ CATEGORIES = [
 CATEGORY_LABELS = dict(CATEGORIES)
 CATEGORY_ORDER = {key: i for i, (key, _) in enumerate(CATEGORIES)}
 
+# (key, label) in order of reliability, each with a fixed colour in style.css.
+TIERS = [
+    ("operational", "Operational report"),
+    ("state", "State claim"),
+    ("osint", "Verified OSINT"),
+    ("media", "Media"),
+    ("unconfirmed", "Unconfirmed"),
+]
+TIER_LABELS = dict(TIERS)
+SIDE_TO_TIER = {"ua_official": "operational", "ru_official": "state", "osint": "osint", "media": "media", "monitoring": "unconfirmed"}
+
 SIDE_LABELS = {
     "ua_official": "Ukrainian official",
     "ru_official": "Russian official",
@@ -56,6 +67,7 @@ class Event:
     extraction: str = "rules"  # "structured" or "rules"
     also_reported_by: list[dict] = field(default_factory=list)
     published: str | None = None  # the source post's own timestamp, ISO 8601 UTC
+    source_tier: str = "media"
     quote_en: str | None = None
     detail_en: str | None = None
     locations_en: list[str] | None = None
@@ -92,4 +104,5 @@ def source_fields(source: dict) -> dict:
         "source_id": source["id"],
         "source_name": source["name"],
         "source_side": source["side"],
+        "source_tier": source.get("tier") or SIDE_TO_TIER.get(source["side"], "media"),
     }

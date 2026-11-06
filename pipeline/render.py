@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import geo
-from .extract.common import CATEGORIES, CATEGORY_LABELS, SIDE_LABELS
+from .extract.common import CATEGORIES, CATEGORY_LABELS, SIDE_LABELS, SIDE_TO_TIER, TIER_LABELS, TIERS
 
 TEMPLATES = pathlib.Path(__file__).parent / "templates"
 
@@ -61,7 +61,8 @@ def _structured(events: list[dict], source: str, category: str | None = None) ->
 def _cell(value, event: dict | None, note: str | None = None) -> dict | None:
     if value is None or event is None:
         return None
-    return {"value": value, "source": note or SHORT_SOURCE.get(event["source_id"], event["source_name"]), "url": event["source_url"], "id": event["source_id"]}
+    return {"value": value, "source": note or SHORT_SOURCE.get(event["source_id"], event["source_name"]), "url": event["source_url"],
+            "id": event["source_id"], "tier": event.get("source_tier", "media")}
 
 
 def _sum_counts(evs: list[dict], key: str) -> tuple[int | None, dict | None]:
@@ -335,6 +336,7 @@ def facts(flat: dict[str, dict], spark_for) -> list[dict]:
         tile = {
             "key": key, "label": label, "value": _fmt(value) if value is not None else None,
             "source": cell["source"] if cell else "", "url": cell["url"] if cell else "", "src": cell["id"] if cell else None,
+            "tier": cell["tier"] if cell else "",
             "bar": None, "bar_note": "", "second": "", "spark": spark_for(key, side) if cell else "",
         }
         if key == "intercepted" and launched and isinstance(value, int):
@@ -408,9 +410,14 @@ CHIP_NAME = {
 }
 
 
+def _tier(src: dict) -> str:
+    return src.get("tier") or SIDE_TO_TIER.get(src["side"], "media")
+
+
 def _srcs(evs: list[dict], sources: list[dict]) -> list[dict]:
     return [
-        {"id": src["id"], "chip": CHIP_NAME.get(src["id"], src["name"]), "side": src["side"], "n": sum(1 for e in evs if e["source_id"] == src["id"])}
+        {"id": src["id"], "chip": CHIP_NAME.get(src["id"], src["name"]), "side": src["side"], "tier": _tier(src),
+         "n": sum(1 for e in evs if e["source_id"] == src["id"])}
         for src in sources
     ]
 
@@ -428,11 +435,12 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
     env = Environment(loader=FileSystemLoader(str(TEMPLATES)), autoescape=select_autoescape(["html"]))
     env.filters["countlabel"] = lambda k: COUNT_LABELS.get(k, k.replace("_", " "))
     env.filters["side"] = lambda s: SIDE_LABELS.get(s, s)
+    env.filters["tier"] = lambda t: TIER_LABELS.get(t, t)
     env.filters["longdate"] = _longdate
     env.filters["fmt"] = _fmt
     env.filters["catlabel"] = lambda k: CATEGORY_LABELS.get(k, k)
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
-    base_ctx = {"sources": sources, "generated_at": generated}
+    base_ctx = {"sources": [dict(src, tier=_tier(src)) for src in sources], "generated_at": generated, "tiers": TIERS}
 
     dates = sorted(days, reverse=True)
     sheets = {d: _flat(returns(days[d], days[dates[i + 1]] if i + 1 < len(dates) else None)) for i, d in enumerate(dates)}

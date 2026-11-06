@@ -49,7 +49,11 @@
     bar.addEventListener('click', function (ev) {
       var b = ev.target.closest('button');
       if (!b) return;
-      if (b.hasAttribute('data-all')) { hidden[kind] = {}; }
+      if (b.hasAttribute('data-preset')) {
+        var keep = b.getAttribute('data-preset');
+        hidden.src = {};
+        Array.prototype.forEach.call(bar.querySelectorAll('.chip[data-src]'), function (c) { if (c.getAttribute('data-tier') !== keep) hidden.src[c.getAttribute('data-src')] = true; });
+      } else if (b.hasAttribute('data-all')) { hidden[kind] = {}; }
       else if (b.hasAttribute('data-none')) {
         Array.prototype.forEach.call(bar.querySelectorAll('.chip[data-' + kind + ']'), function (c) { hidden[kind][c.getAttribute('data-' + kind)] = true; });
       } else if (b.hasAttribute('data-' + kind)) {

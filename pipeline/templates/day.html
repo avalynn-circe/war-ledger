@@ -4,7 +4,7 @@
 
 <section class="facts" aria-label="The day's figures">
 {% for f in facts %}
-<article class="tile{% if f.value is none %} empty{% endif %}" {% if f.src %}data-src="{{ f.src }}"{% endif %}>
+<article class="tile{% if f.value is none %} empty{% endif %}{% if f.tier %} t-{{ f.tier }}{% endif %}" {% if f.src %}data-src="{{ f.src }}"{% endif %}>
   <span class="tile-label">{{ f.label }}</span>
   <span class="tile-value">{% if f.value is not none %}<a href="{{ f.url }}" rel="noopener">{{ f.value }}</a>{% else %}·{% endif %}</span>
   {% if f.bar is not none %}<div class="bar"><div style="width:{{ f.bar }}%"></div></div><span class="tile-note">{{ f.bar_note }}</span>{% endif %}
@@ -57,7 +57,7 @@
     <summary>
       <span class="time">{{ e.clock }}</span>
       <span class="text"{% if not e.quote_en and e.extraction != 'structured' %} lang="{{ e.lang }}"{% endif %}>{% if e.extraction == 'structured' %}<b>{{ e.actor }}{% if e.target %} &rarr; {{ e.target }}{% endif %}</b>{% if e.line %} · {{ e.line }}{% elif e.action %} · {{ e.action }}{% endif %}{% else %}{{ e.quote_en or e.quote }}{% endif %}</span>
-      <span class="side {{ e.source_side }}">{{ e.short }}</span>
+      <span class="side {{ e.source_tier }}">{{ e.short }}</span>
     </summary>
     <div class="hl-body">
       {% if e.action and e.extraction == 'structured' %}<p class="sub">{{ e.action }}</p>{% endif %}

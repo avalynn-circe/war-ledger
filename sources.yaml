@@ -5,7 +5,13 @@
 #
 #   kind       telegram  public channel preview at https://t.me/s/<channel>
 #              rss       RSS or Atom feed
-#   side       ua_official | ru_official | osint | media
+#   side       ua_official | ru_official | osint | monitoring | media  (who speaks)
+#   tier       operational | state | osint | media | unconfirmed       (how to read it)
+#              operational: a force's own operational report
+#              state: a government's claims about the other side
+#              osint: independent, visually or openly verified
+#              media: edited news reporting
+#              unconfirmed: monitoring channels, not verified
 #   extractor  airforce | generalstaff | rumod | deepstate | news
 #   enabled    set false to skip a source without deleting it
 #   verified   false marks a feed URL that has not yet been confirmed live
@@ -13,6 +19,7 @@
 sources:
   - id: kpszsu
     name: Air Force of Ukraine
+    tier: operational
     side: ua_official
     kind: telegram
     url: https://t.me/s/kpszsu
@@ -21,6 +28,7 @@ sources:
 
   - id: generalstaff
     name: General Staff of the Armed Forces of Ukraine
+    tier: operational
     side: ua_official
     kind: telegram
     url: https://t.me/s/GeneralStaffZSU
@@ -29,6 +37,7 @@ sources:
 
   - id: mod_russia
     name: Ministry of Defence of Russia
+    tier: state
     side: ru_official
     kind: telegram
     url: https://t.me/s/mod_russia
@@ -37,6 +46,7 @@ sources:
 
   - id: deepstate
     name: DeepState
+    tier: osint
     side: osint
     kind: telegram
     url: https://t.me/s/DeepStateUA
@@ -45,6 +55,7 @@ sources:
 
   - id: militarnyi
     name: Militarnyi
+    tier: media
     side: media
     kind: rss
     url: https://mil.in.ua/en/feed/
@@ -54,6 +65,7 @@ sources:
 
   - id: kyivindependent
     name: The Kyiv Independent
+    tier: media
     side: media
     kind: rss
     url: https://kyivindependent.com/news-archive/rss/
@@ -63,6 +75,7 @@ sources:
 
   - id: ukrinform
     name: Ukrinform
+    tier: media
     side: media
     kind: rss
     url: https://www.ukrinform.net/rss/block-lastnews
@@ -72,6 +85,7 @@ sources:
 
   - id: defence_express
     name: Defense Express
+    tier: media
     side: media
     kind: rss
     url: https://en.defence-ua.com/rss/
@@ -83,6 +97,7 @@ sources:
   # Russian regional governors: attacks on their regions, casualties, drones shot down.
   - id: gov_belgorod
     name: Governor of Belgorod oblast
+    tier: state
     side: ru_official
     kind: telegram
     url: https://t.me/s/vvgladkov
@@ -92,6 +107,7 @@ sources:
 
   - id: gov_bryansk
     name: Governor of Bryansk oblast
+    tier: state
     side: ru_official
     kind: telegram
     url: https://t.me/s/avbogomaz
@@ -101,6 +117,7 @@ sources:
 
   - id: gov_kursk
     name: Governor of Kursk oblast
+    tier: state
     side: ru_official
     kind: telegram
     url: https://t.me/s/hinshtein
@@ -110,6 +127,7 @@ sources:
 
   - id: gov_rostov
     name: Governor of Rostov oblast
+    tier: state
     side: ru_official
     kind: telegram
     url: https://t.me/s/Yuri_Slusar
@@ -120,6 +138,7 @@ sources:
   # Independent monitoring, shown with an "unconfirmed" chip.
   - id: astra
     name: ASTRA
+    tier: unconfirmed
     side: monitoring
     kind: telegram
     url: https://t.me/s/astrapress
@@ -129,6 +148,7 @@ sources:
   # Oryx: visually confirmed equipment losses, cumulative.
   - id: oryx_russia
     name: Oryx (Russian equipment losses)
+    tier: osint
     side: osint
     kind: html
     url: https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html
@@ -138,6 +158,7 @@ sources:
 
   - id: oryx_ukraine
     name: Oryx (Ukrainian equipment losses)
+    tier: osint
     side: osint
     kind: html
     url: https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html

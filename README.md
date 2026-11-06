@@ -95,6 +95,22 @@ python -m http.server -d site 8000               # view at http://localhost:8000
 in the repository settings, under Pages, set the source to "GitHub Actions".
 The workflow token cannot do that itself.
 
+## Reliability tiers
+
+Every source carries a tier, shown as a fixed colour and label on each
+figure, headline and wire line, and in the header legend:
+
+| Tier | Meaning | Sources |
+|---|---|---|
+| Operational report | A force's own operational reporting | Air Force of Ukraine, General Staff |
+| State claim | A government's claims about the other side | Russian MoD, regional governors |
+| Verified OSINT | Independent, openly or visually verified | Oryx, DeepState |
+| Media | Edited news reporting | Ukrinform, Kyiv Independent, Militarnyi |
+| Unconfirmed | Monitoring channels, not verified | ASTRA |
+
+The source row has an "Official reports only" preset that keeps the
+operational tier and hides the rest.
+
 ## Sources
 
 | Source | Side | Kind | Extractor |

@@ -19,6 +19,9 @@
   </nav>
 </header>
 <p class="notice"><b>Work in progress.</b> Figures and headlines are collected automatically from the sources listed below and have not been checked. Do not take them as fact. Spotted an error? <a href="https://github.com/avalynn-circe/war-ledger/issues" rel="noopener">Report it</a>.</p>
+<ul class="tiers" aria-label="How to read each source">
+{% for key, label in tiers %}<li><span class="sw {{ key }}"></span>{{ label }}</li>{% endfor %}
+</ul>
 {% if cats %}
 <details class="src-disclosure" id="cat-disclosure" open>
 <summary class="tog-summary"><span class="tog-label">Categories</span><span class="tog-state" id="cat-state"></span></summary>
@@ -33,7 +36,8 @@
 <summary class="tog-summary"><span class="tog-label">Sources</span><span class="tog-state" id="src-state"></span></summary>
 <section class="toggles sources" id="src-toggles" aria-label="Sources shown on every page">
 <span class="tog-label wide-only">Sources</span>
-{% for s in srcs %}<button type="button" class="chip {{ s.side }}" data-src="{{ s.id }}" aria-pressed="true">{{ s.chip }} <span class="n">{{ s.n }}</span></button>{% endfor %}
+{% for s in srcs %}<button type="button" class="chip {{ s.tier }}" data-src="{{ s.id }}" data-tier="{{ s.tier }}" aria-pressed="true">{{ s.chip }} <span class="n">{{ s.n }}</span></button>{% endfor %}
+<button type="button" class="chip ctl" data-preset="operational">OFFICIAL REPORTS ONLY</button>
 <button type="button" class="chip ctl" data-all="1">SELECT ALL</button>
 <button type="button" class="chip ctl" data-none="1">CLEAR ALL</button>
 </section>
@@ -56,7 +60,7 @@
   <h2>Sources</h2>
   <table>
   {% for s in sources %}
-    <tr><td><a href="{{ s.url }}" rel="noopener">{{ s.name }}</a></td><td>{{ s.side|side }}</td><td>{{ s.kind }}</td></tr>
+    <tr><td><a href="{{ s.url }}" rel="noopener">{{ s.name }}</a></td><td><span class="side {{ s.tier }}">{{ s.tier|tier }}</span></td><td>{{ s.kind }}</td></tr>
   {% endfor %}
   </table>
   <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated {{ generated_at }} UTC.</p>

@@ -13,7 +13,7 @@
       {% if e.air %}<p class="sub">{{ e.air_en or e.air }}</p>{% endif %}
     </details>
   </span>
-  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
+  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_tier }}">{{ e.source_tier|tier }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
 </div>
 {% else %}
 <div class="row" data-cat="{{ e.category }}" data-src="{{ e.source_id }}">
@@ -27,7 +27,7 @@
     {% if e.detail %}<span class="sub">{{ e.detail_en or e.detail }}</span>{% endif %}
     {% if e.locations %}<span class="sub muted">{{ (e.locations_en or e.locations)|join(' · ') }}</span>{% endif %}
   </span>
-  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_side }}">{{ e.source_side|side }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
+  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_tier }}">{{ e.source_tier|tier }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
 </div>
 {% endif %}
 {% endfor %}
