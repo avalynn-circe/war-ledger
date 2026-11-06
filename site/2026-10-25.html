@@ -6,6 +6,7 @@
 <title>25 October 2026 · The Ukraine War Ledger</title>
 <meta name="description" content="The Ukraine War Ledger. A daily record of Russia's war on Ukraine: strikes, weapons, interceptions, front line changes, losses and field adaptations, as published by each source.">
 <link rel="stylesheet" href="style.css">
+<link rel="alternate" type="application/rss+xml" title="The Ukraine War Ledger wire" href="feed.xml">
 </head>
 <body>
 <header class="top">
@@ -14,6 +15,8 @@
     <a href="index.html" aria-current="page">Daily</a>
     <a href="wire.html">Wire</a>
     <a href="archive.html">Archive</a>
+    <a href="corrections.html">Corrections</a>
+    <a href="feed.xml">RSS</a>
     <a href="events.json">JSON</a>
     <a href="events.csv">CSV</a>
   </nav>
@@ -27,7 +30,7 @@
 <summary class="tog-summary"><span class="tog-label">Categories</span><span class="tog-state" id="cat-state"></span></summary>
 <section class="toggles" id="toggles" aria-label="Categories shown on every page">
 <span class="tog-label wide-only">Categories</span>
-<button type="button" class="chip" data-cat="air_attack" aria-pressed="true">Air attacks on Ukraine <span class="n">0</span></button><button type="button" class="chip" data-cat="strikes_in_russia" aria-pressed="true">Strikes in Russia and occupied territory <span class="n">2</span></button><button type="button" class="chip" data-cat="front_line" aria-pressed="true">Front line changes <span class="n">1</span></button><button type="button" class="chip" data-cat="front_activity" aria-pressed="true">Front activity <span class="n">2</span></button><button type="button" class="chip" data-cat="losses_claimed" aria-pressed="true">Claimed losses <span class="n">1</span></button><button type="button" class="chip" data-cat="air_defense" aria-pressed="true">Air defence <span class="n">0</span></button><button type="button" class="chip" data-cat="field_adaptation" aria-pressed="true">Field adaptations <span class="n">0</span></button><button type="button" class="chip" data-cat="weapons_deliveries" aria-pressed="true">Weapons and deliveries <span class="n">0</span></button><button type="button" class="chip" data-cat="naval" aria-pressed="true">Naval <span class="n">0</span></button><button type="button" class="chip" data-cat="infrastructure" aria-pressed="true">Infrastructure <span class="n">0</span></button>
+<button type="button" class="chip" data-cat="air_attack" aria-pressed="true">Air attacks on Ukraine <span class="n">0</span></button><button type="button" class="chip" data-cat="civilian_damage" aria-pressed="true">Civilian damage <span class="n">0</span></button><button type="button" class="chip" data-cat="strikes_in_russia" aria-pressed="true">Strikes in Russia and occupied territory <span class="n">2</span></button><button type="button" class="chip" data-cat="front_line" aria-pressed="true">Front line changes <span class="n">1</span></button><button type="button" class="chip" data-cat="front_activity" aria-pressed="true">Front activity <span class="n">2</span></button><button type="button" class="chip" data-cat="losses_claimed" aria-pressed="true">Claimed losses <span class="n">1</span></button><button type="button" class="chip" data-cat="air_defense" aria-pressed="true">Air defence <span class="n">0</span></button><button type="button" class="chip" data-cat="electronic_warfare" aria-pressed="true">Electronic warfare <span class="n">0</span></button><button type="button" class="chip" data-cat="field_adaptation" aria-pressed="true">Field adaptations <span class="n">0</span></button><button type="button" class="chip" data-cat="weapons_deliveries" aria-pressed="true">Weapons and deliveries <span class="n">0</span></button><button type="button" class="chip" data-cat="logistics" aria-pressed="true">Logistics and supply <span class="n">0</span></button><button type="button" class="chip" data-cat="naval" aria-pressed="true">Naval <span class="n">0</span></button><button type="button" class="chip" data-cat="infrastructure" aria-pressed="true">Infrastructure <span class="n">0</span></button>
 <button type="button" class="chip ctl" data-all="1">SELECT ALL</button>
 <button type="button" class="chip ctl" data-none="1">CLEAR ALL</button>
 </section>
@@ -160,7 +163,7 @@
 <div class="cat" id="strikes_in_russia" data-cat="strikes_in_russia">
   <h2>Strikes in Russia and occupied territory <span class="n">2</span></h2>
   
-  <details class="hl rules" data-src="generalstaff">
+  <details class="hl rules" id="cf8bc4f64f4d" data-src="generalstaff">
     <summary>
       <span class="time">11:00</span>
       <span class="text" lang="uk">⚡️⚡️ Уражено РЛС, КСП та зосередження живої сили противника 24 жовтня та в ніч на 25 жовтня підрозділами Сил оборони України уражено: ⚡️ Радіолокаційні станції армії рф у районах населених пунктів Гостищево та Курганне Бєлгородської області рф.</span>
@@ -174,11 +177,12 @@
       
       <p class="loc">Belgorod oblast</p>
       
-      <p class="src"><a href="https://t.me/GeneralStaffZSU/42686" rel="noopener">General Staff of the Armed Forces of Ukraine</a></p>
+      
+      <p class="src"><a href="https://t.me/GeneralStaffZSU/42686" rel="noopener">General Staff of the Armed Forces of Ukraine</a> · <a class="flag" href="https://github.com/avalynn-circe/war-ledger/issues/new?title=Entry+cf8bc4f64f4d%3A+%E2%9A%A1%EF%B8%8F%E2%9A%A1%EF%B8%8F+%D0%A3%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BE+%D0%A0%D0%9B%D0%A1%2C+%D0%9A%D0%A1%D0%9F+%D1%82%D0%B0+%D0%B7%D0%BE%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B6%D0%B8%D0%B2%D0%BE%D1%97+%D1%81%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BD%D0%B8%D0%BA%D0%B0+&amp;body=Entry+id%3A+cf8bc4f64f4d%0ADate%3A+2026-10-25%0ACategory%3A+strikes_in_russia%0ASource%3A+General+Staff+of+the+Armed+Forces+of+Ukraine%0ALink%3A+https%3A%2F%2Ft.me%2FGeneralStaffZSU%2F42686%0A%0AWhat+is+wrong%3A%0A%0A%0AWhat+it+should+say%3A%0A&amp;labels=entry" rel="noopener">Flag this entry</a> <span class="eid">cf8bc4f64f4d</span></p>
     </div>
   </details>
   
-  <details class="hl rules" data-src="gov_bryansk">
+  <details class="hl rules" id="89467190ef1f" data-src="gov_bryansk">
     <summary>
       <span class="time">09:16</span>
       <span class="text" lang="ru">Хацунь: память, которая не дает забыть.</span>
@@ -192,7 +196,8 @@
       
       <p class="loc">Bryansk oblast</p>
       
-      <p class="src"><a href="https://t.me/avbogomaz/19827" rel="noopener">Governor of Bryansk oblast</a></p>
+      
+      <p class="src"><a href="https://t.me/avbogomaz/19827" rel="noopener">Governor of Bryansk oblast</a> · <a class="flag" href="https://github.com/avalynn-circe/war-ledger/issues/new?title=Entry+89467190ef1f%3A+%D0%A5%D0%B0%D1%86%D1%83%D0%BD%D1%8C%3A+%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C%2C+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F+%D0%BD%D0%B5+%D0%B4%D0%B0%D0%B5%D1%82+%D0%B7%D0%B0%D0%B1%D1%8B%D1%82%D1%8C.&amp;body=Entry+id%3A+89467190ef1f%0ADate%3A+2026-10-25%0ACategory%3A+strikes_in_russia%0ASource%3A+Governor+of+Bryansk+oblast%0ALink%3A+https%3A%2F%2Ft.me%2Favbogomaz%2F19827%0A%0AWhat+is+wrong%3A%0A%0A%0AWhat+it+should+say%3A%0A&amp;labels=entry" rel="noopener">Flag this entry</a> <span class="eid">89467190ef1f</span></p>
     </div>
   </details>
   
@@ -201,7 +206,7 @@
 <div class="cat" id="front_line" data-cat="front_line">
   <h2>Front line changes <span class="n">1</span></h2>
   
-  <details class="hl structured" data-src="deepstate">
+  <details class="hl structured" id="35034883cec2" data-src="deepstate">
     <summary>
       <span class="time">23:50</span>
       <span class="text"><b>Russia &rarr; Ukraine</b> · advanced near</span>
@@ -215,7 +220,8 @@
       
       <p class="loc">Костянтинівки · Воздвижівки</p>
       <blockquote lang="uk">🔄 Мапу оновлено ⚔️ Ворог просунувся поблизу Костянтинівки та Воздвижівки.</blockquote>
-      <p class="src"><a href="https://t.me/DeepStateUA/23932" rel="noopener">DeepState</a></p>
+      
+      <p class="src"><a href="https://t.me/DeepStateUA/23932" rel="noopener">DeepState</a> · <a class="flag" href="https://github.com/avalynn-circe/war-ledger/issues/new?title=Entry+35034883cec2%3A+%F0%9F%94%84+%D0%9C%D0%B0%D0%BF%D1%83+%D0%BE%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE+%E2%9A%94%EF%B8%8F+%D0%92%D0%BE%D1%80%D0%BE%D0%B3+%D0%BF%D1%80%D0%BE%D1%81%D1%83%D0%BD%D1%83%D0%B2%D1%81%D1%8F+%D0%BF%D0%BE%D0%B1%D0%BB%D0%B8%D0%B7%D1%83+%D0%9A%D0%BE%D1%81%D1%82%D1%8F%D0%BD%D1%82%D0%B8%D0%BD%D1%96%D0%B2%D0%BA%D0%B8+%D1%82%D0%B0&amp;body=Entry+id%3A+35034883cec2%0ADate%3A+2026-10-25%0ACategory%3A+front_line%0ASource%3A+DeepState%0ALink%3A+https%3A%2F%2Ft.me%2FDeepStateUA%2F23932%0A%0AWhat+is+wrong%3A%0A%0A%0AWhat+it+should+say%3A%0A&amp;labels=entry" rel="noopener">Flag this entry</a> <span class="eid">35034883cec2</span></p>
     </div>
   </details>
   
@@ -224,7 +230,7 @@
 <div class="cat" id="front_activity" data-cat="front_activity">
   <h2>Front activity <span class="n">2</span></h2>
   
-  <details class="hl structured" data-src="generalstaff">
+  <details class="hl structured" id="5c02f4163a3b" data-src="generalstaff">
     <summary>
       <span class="time">08:01</span>
       <span class="text"><b>Russia &rarr; Ukraine</b> · 193 combat clashes · 281 guided aerial bombs dropped · 10,010 kamikaze drones used · 3,276 shellings · 30 settlements shelled</span>
@@ -238,11 +244,12 @@
       
       <p class="loc">Sumy oblast: Павлівка, Кореньок, Сопич, Нескучне, Безсалівка, Кучерівка, Лужки, Мала Корчаківка, Тополя, Нова Січ, Храпівщина, Ободи, Яструбщина, Баранівка, Мала Слобідка, Миропілля, Хотінь, Волфине, Іскрисківщина, Фотовиж, Потапівка, Гірки, Стара Гута, Уланове, Кіндратівка, Запсілля · Chernihiv oblast: Михальчина-Слобода, Буда-Вороб&#39;ївська, Хрінівка, Клюси</p>
       <blockquote lang="uk">Оперативна інформація станом на 08:00 25.10.2026 щодо російського вторгнення Слава Україні!</blockquote>
-      <p class="src"><a href="https://t.me/GeneralStaffZSU/42683" rel="noopener">General Staff of the Armed Forces of Ukraine</a></p>
+      
+      <p class="src"><a href="https://t.me/GeneralStaffZSU/42683" rel="noopener">General Staff of the Armed Forces of Ukraine</a> · <a class="flag" href="https://github.com/avalynn-circe/war-ledger/issues/new?title=Entry+5c02f4163a3b%3A+%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0+%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%8F+%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%BC+%D0%BD%D0%B0+08%3A00+25.10.2026+%D1%89%D0%BE%D0%B4%D0%BE+%D1%80%D0%BE%D1%81%D1%96%D0%B9%D1%81&amp;body=Entry+id%3A+5c02f4163a3b%0ADate%3A+2026-10-25%0ACategory%3A+front_activity%0ASource%3A+General+Staff+of+the+Armed+Forces+of+Ukraine%0ALink%3A+https%3A%2F%2Ft.me%2FGeneralStaffZSU%2F42683%0A%0AWhat+is+wrong%3A%0A%0A%0AWhat+it+should+say%3A%0A&amp;labels=entry" rel="noopener">Flag this entry</a> <span class="eid">5c02f4163a3b</span></p>
     </div>
   </details>
   
-  <details class="hl structured" data-src="generalstaff">
+  <details class="hl structured" id="9f6d269415f4" data-src="generalstaff">
     <summary>
       <span class="time">22:00</span>
       <span class="text"><b>Russia &rarr; Ukraine</b> · 157 combat clashes · 142 guided aerial bombs dropped · 4,834 kamikaze drones used · 1,758 shellings</span>
@@ -256,7 +263,8 @@
       
       
       <blockquote lang="uk">Оперативна інформація станом на 22:00 25.10.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 157 бойових зіткнень.</blockquote>
-      <p class="src"><a href="https://t.me/GeneralStaffZSU/42687" rel="noopener">General Staff of the Armed Forces of Ukraine</a></p>
+      
+      <p class="src"><a href="https://t.me/GeneralStaffZSU/42687" rel="noopener">General Staff of the Armed Forces of Ukraine</a> · <a class="flag" href="https://github.com/avalynn-circe/war-ledger/issues/new?title=Entry+9f6d269415f4%3A+%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0+%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%8F+%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%BC+%D0%BD%D0%B0+22%3A00+25.10.2026+%D1%89%D0%BE%D0%B4%D0%BE+%D1%80%D0%BE%D1%81%D1%96%D0%B9%D1%81&amp;body=Entry+id%3A+9f6d269415f4%0ADate%3A+2026-10-25%0ACategory%3A+front_activity%0ASource%3A+General+Staff+of+the+Armed+Forces+of+Ukraine%0ALink%3A+https%3A%2F%2Ft.me%2FGeneralStaffZSU%2F42687%0A%0AWhat+is+wrong%3A%0A%0A%0AWhat+it+should+say%3A%0A&amp;labels=entry" rel="noopener">Flag this entry</a> <span class="eid">9f6d269415f4</span></p>
     </div>
   </details>
   
@@ -265,7 +273,7 @@
 <div class="cat" id="losses_claimed" data-cat="losses_claimed">
   <h2>Claimed losses <span class="n">1</span></h2>
   
-  <details class="hl structured" data-src="generalstaff">
+  <details class="hl structured" id="a625aff9b87c" data-src="generalstaff">
     <summary>
       <span class="time">08:01</span>
       <span class="text"><b>Ukraine (General Staff) &rarr; Russia</b> · Russian losses in the past 24 hours, as claimed</span>
@@ -279,7 +287,8 @@
       <table class="breakdown"><tr><td>personnel</td><td class="num">+1,850</td></tr><tr><td>tanks</td><td class="num">+3</td></tr><tr><td>artillery systems</td><td class="num">+49</td></tr><tr><td>air defence systems</td><td class="num">+3</td></tr><tr><td>ground robotic systems</td><td class="num">+6</td></tr><tr><td>UAVs</td><td class="num">+1,738</td></tr><tr><td>vehicles and fuel tankers</td><td class="num">+417</td></tr><tr><td>special equipment</td><td class="num">+4</td></tr></table>
       
       <blockquote lang="uk">втрати російських загарбників склали 1850 осіб</blockquote>
-      <p class="src"><a href="https://t.me/GeneralStaffZSU/42683" rel="noopener">General Staff of the Armed Forces of Ukraine</a></p>
+      
+      <p class="src"><a href="https://t.me/GeneralStaffZSU/42683" rel="noopener">General Staff of the Armed Forces of Ukraine</a> · <a class="flag" href="https://github.com/avalynn-circe/war-ledger/issues/new?title=Entry+a625aff9b87c%3A+%D0%B2%D1%82%D1%80%D0%B0%D1%82%D0%B8+%D1%80%D0%BE%D1%81%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D1%85+%D0%B7%D0%B0%D0%B3%D0%B0%D1%80%D0%B1%D0%BD%D0%B8%D0%BA%D1%96%D0%B2+%D1%81%D0%BA%D0%BB%D0%B0%D0%BB%D0%B8+1850+%D0%BE%D1%81%D1%96%D0%B1&amp;body=Entry+id%3A+a625aff9b87c%0ADate%3A+2026-10-25%0ACategory%3A+losses_claimed%0ASource%3A+General+Staff+of+the+Armed+Forces+of+Ukraine%0ALink%3A+https%3A%2F%2Ft.me%2FGeneralStaffZSU%2F42683%0A%0AWhat+is+wrong%3A%0A%0A%0AWhat+it+should+say%3A%0A&amp;labels=entry" rel="noopener">Flag this entry</a> <span class="eid">a625aff9b87c</span></p>
     </div>
   </details>
   
@@ -567,7 +576,7 @@
     <tr><td><a href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html" rel="noopener">Oryx (Ukrainian equipment losses)</a></td><td><span class="side osint">Verified OSINT</span></td><td>html</td></tr>
   
   </table>
-  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-11-06 13:31 UTC.</p>
+  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-11-06 13:35 UTC.</p>
 </footer>
 <script src="ledger.js"></script>
 </body>

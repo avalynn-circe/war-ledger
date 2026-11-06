@@ -6,6 +6,7 @@
 <title>24 October 2026 · The Ukraine War Ledger</title>
 <meta name="description" content="The Ukraine War Ledger. A daily record of Russia's war on Ukraine: strikes, weapons, interceptions, front line changes, losses and field adaptations, as published by each source.">
 <link rel="stylesheet" href="style.css">
+<link rel="alternate" type="application/rss+xml" title="The Ukraine War Ledger wire" href="feed.xml">
 </head>
 <body>
 <header class="top">
@@ -14,6 +15,8 @@
     <a href="index.html" aria-current="page">Daily</a>
     <a href="wire.html">Wire</a>
     <a href="archive.html">Archive</a>
+    <a href="corrections.html">Corrections</a>
+    <a href="feed.xml">RSS</a>
     <a href="events.json">JSON</a>
     <a href="events.csv">CSV</a>
   </nav>
@@ -27,7 +30,7 @@
 <summary class="tog-summary"><span class="tog-label">Categories</span><span class="tog-state" id="cat-state"></span></summary>
 <section class="toggles" id="toggles" aria-label="Categories shown on every page">
 <span class="tog-label wide-only">Categories</span>
-<button type="button" class="chip" data-cat="air_attack" aria-pressed="true">Air attacks on Ukraine <span class="n">0</span></button><button type="button" class="chip" data-cat="strikes_in_russia" aria-pressed="true">Strikes in Russia and occupied territory <span class="n">1</span></button><button type="button" class="chip" data-cat="front_line" aria-pressed="true">Front line changes <span class="n">0</span></button><button type="button" class="chip" data-cat="front_activity" aria-pressed="true">Front activity <span class="n">1</span></button><button type="button" class="chip" data-cat="losses_claimed" aria-pressed="true">Claimed losses <span class="n">0</span></button><button type="button" class="chip" data-cat="air_defense" aria-pressed="true">Air defence <span class="n">0</span></button><button type="button" class="chip" data-cat="field_adaptation" aria-pressed="true">Field adaptations <span class="n">0</span></button><button type="button" class="chip" data-cat="weapons_deliveries" aria-pressed="true">Weapons and deliveries <span class="n">0</span></button><button type="button" class="chip" data-cat="naval" aria-pressed="true">Naval <span class="n">0</span></button><button type="button" class="chip" data-cat="infrastructure" aria-pressed="true">Infrastructure <span class="n">0</span></button>
+<button type="button" class="chip" data-cat="air_attack" aria-pressed="true">Air attacks on Ukraine <span class="n">0</span></button><button type="button" class="chip" data-cat="civilian_damage" aria-pressed="true">Civilian damage <span class="n">0</span></button><button type="button" class="chip" data-cat="strikes_in_russia" aria-pressed="true">Strikes in Russia and occupied territory <span class="n">1</span></button><button type="button" class="chip" data-cat="front_line" aria-pressed="true">Front line changes <span class="n">0</span></button><button type="button" class="chip" data-cat="front_activity" aria-pressed="true">Front activity <span class="n">1</span></button><button type="button" class="chip" data-cat="losses_claimed" aria-pressed="true">Claimed losses <span class="n">0</span></button><button type="button" class="chip" data-cat="air_defense" aria-pressed="true">Air defence <span class="n">0</span></button><button type="button" class="chip" data-cat="electronic_warfare" aria-pressed="true">Electronic warfare <span class="n">0</span></button><button type="button" class="chip" data-cat="field_adaptation" aria-pressed="true">Field adaptations <span class="n">0</span></button><button type="button" class="chip" data-cat="weapons_deliveries" aria-pressed="true">Weapons and deliveries <span class="n">0</span></button><button type="button" class="chip" data-cat="logistics" aria-pressed="true">Logistics and supply <span class="n">0</span></button><button type="button" class="chip" data-cat="naval" aria-pressed="true">Naval <span class="n">0</span></button><button type="button" class="chip" data-cat="infrastructure" aria-pressed="true">Infrastructure <span class="n">0</span></button>
 <button type="button" class="chip ctl" data-all="1">SELECT ALL</button>
 <button type="button" class="chip ctl" data-none="1">CLEAR ALL</button>
 </section>
@@ -147,7 +150,7 @@
 <div class="cat" id="strikes_in_russia" data-cat="strikes_in_russia">
   <h2>Strikes in Russia and occupied territory <span class="n">1</span></h2>
   
-  <details class="hl rules" data-src="gov_belgorod">
+  <details class="hl rules" id="e263448626e3" data-src="gov_belgorod">
     <summary>
       <span class="time">16:07</span>
       <span class="text" lang="ru">Находясь проездом в Москве, вместе с семьей заехали в Российскую детскую клиническую больницу, чтобы проведать детей, раненых во время атак со стороны ВСУ, которых разрешили посетить врачи.</span>
@@ -161,7 +164,8 @@
       
       <p class="loc">Belgorod oblast</p>
       
-      <p class="src"><a href="https://t.me/vvgladkov/21324" rel="noopener">Governor of Belgorod oblast</a></p>
+      
+      <p class="src"><a href="https://t.me/vvgladkov/21324" rel="noopener">Governor of Belgorod oblast</a> · <a class="flag" href="https://github.com/avalynn-circe/war-ledger/issues/new?title=Entry+e263448626e3%3A+%D0%9D%D0%B0%D1%85%D0%BE%D0%B4%D1%8F%D1%81%D1%8C+%D0%BF%D1%80%D0%BE%D0%B5%D0%B7%D0%B4%D0%BE%D0%BC+%D0%B2+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5%2C+%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B5+%D1%81+%D1%81%D0%B5%D0%BC%D1%8C%D0%B5%D0%B9+%D0%B7%D0%B0%D0%B5%D1%85%D0%B0%D0%BB%D0%B8+%D0%B2+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9&amp;body=Entry+id%3A+e263448626e3%0ADate%3A+2026-10-24%0ACategory%3A+strikes_in_russia%0ASource%3A+Governor+of+Belgorod+oblast%0ALink%3A+https%3A%2F%2Ft.me%2Fvvgladkov%2F21324%0A%0AWhat+is+wrong%3A%0A%0A%0AWhat+it+should+say%3A%0A&amp;labels=entry" rel="noopener">Flag this entry</a> <span class="eid">e263448626e3</span></p>
     </div>
   </details>
   
@@ -170,7 +174,7 @@
 <div class="cat" id="front_activity" data-cat="front_activity">
   <h2>Front activity <span class="n">1</span></h2>
   
-  <details class="hl structured" data-src="generalstaff">
+  <details class="hl structured" id="cd8fc5985bcf" data-src="generalstaff">
     <summary>
       <span class="time">22:02</span>
       <span class="text"><b>Russia &rarr; Ukraine</b> · 117 combat clashes · 173 guided aerial bombs dropped · 6,000 kamikaze drones used · 1,899 shellings</span>
@@ -184,7 +188,8 @@
       
       
       <blockquote lang="uk">Оперативна інформація станом на 22:00 24.10.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 117 бойових зіткнень.</blockquote>
-      <p class="src"><a href="https://t.me/GeneralStaffZSU/42680" rel="noopener">General Staff of the Armed Forces of Ukraine</a></p>
+      
+      <p class="src"><a href="https://t.me/GeneralStaffZSU/42680" rel="noopener">General Staff of the Armed Forces of Ukraine</a> · <a class="flag" href="https://github.com/avalynn-circe/war-ledger/issues/new?title=Entry+cd8fc5985bcf%3A+%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0+%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%8F+%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%BC+%D0%BD%D0%B0+22%3A00+24.10.2026+%D1%89%D0%BE%D0%B4%D0%BE+%D1%80%D0%BE%D1%81%D1%96%D0%B9%D1%81&amp;body=Entry+id%3A+cd8fc5985bcf%0ADate%3A+2026-10-24%0ACategory%3A+front_activity%0ASource%3A+General+Staff+of+the+Armed+Forces+of+Ukraine%0ALink%3A+https%3A%2F%2Ft.me%2FGeneralStaffZSU%2F42680%0A%0AWhat+is+wrong%3A%0A%0A%0AWhat+it+should+say%3A%0A&amp;labels=entry" rel="noopener">Flag this entry</a> <span class="eid">cd8fc5985bcf</span></p>
     </div>
   </details>
   
@@ -472,7 +477,7 @@
     <tr><td><a href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html" rel="noopener">Oryx (Ukrainian equipment losses)</a></td><td><span class="side osint">Verified OSINT</span></td><td>html</td></tr>
   
   </table>
-  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-11-06 13:31 UTC.</p>
+  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-11-06 13:35 UTC.</p>
 </footer>
 <script src="ledger.js"></script>
 </body>
