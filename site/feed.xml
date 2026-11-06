@@ -6,7 +6,25 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Fri, 06 Nov 2026 14:34:30 +0000</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 15:57:56 +0000</lastBuildDate>
+
+<item>
+<title>[Media] Russia faces shortage of air defense systems to protect military airfields – Ukrainian Navy</title>
+<link>https://www.ukrinform.net/rubric-ato/4182171-russia-faces-shortage-of-air-defense-systems-to-protect-military-airfields-ukrainian-navy.html</link>
+<guid isPermaLink="false">d775e2d31e95</guid>
+<pubDate>Fri, 06 Nov 2026 15:47:00 +0000</pubDate>
+<category>Air defence</category>
+<description>Ukrinform · Russia is facing a shortage of air defense systems to protect military facilities, including airfields.</description>
+</item>
+
+<item>
+<title>[Media] Five houses damaged, woman injured by falling drone debris in Cherkasy region</title>
+<link>https://www.ukrinform.net/rubric-ato/4182167-five-houses-damaged-woman-injured-by-falling-drone-debris-in-cherkasy-region.html</link>
+<guid isPermaLink="false">6f83741f35d4</guid>
+<pubDate>Fri, 06 Nov 2026 15:20:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · In Korsun-Shevchenkivskyi, Cherkasy region, a drone attack damaged five residential houses and a power line. · Cherkasy</description>
+</item>
 
 <item>
 <title>[Media] Zelensky: Kyiv facing most severe electricity and water supply disruptions following Russian attacks</title>
@@ -330,6 +348,15 @@
 <pubDate>Fri, 06 Nov 2026 01:26:00 +0000</pubDate>
 <category>Front line changes</category>
 <description>Ukrinform · Operators of the 3rd Detachment of the 4th Ranger Regiment of the Special Operations Forces (SOF) captured a Russian serviceman who was disguised in a Ukrainian Armed Forces uniform.</description>
+</item>
+
+<item>
+<title>[Media] Ukraine has not received $16 billion in previously agreed US aid, Zelensky says</title>
+<link>https://kyivindependent.com/ukraine-needs-to-consolidate-bipartisan-support-in-us-following-midterm-elections-zelensky-says/</link>
+<guid isPermaLink="false">f5aac9b023f9</guid>
+<pubDate>Fri, 06 Nov 2026 00:15:35 +0000</pubDate>
+<category>Weapons and deliveries</category>
+<description>The Kyiv Independent · With Democrats set to control the U.S.</description>
 </item>
 
 <item>
@@ -1329,33 +1356,6 @@
 <pubDate>Tue, 03 Nov 2026 18:17:49 +0000</pubDate>
 <category>Air attacks on Ukraine</category>
 <description>Ministry of Defence of Russia</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Путин разрешил ФССП запрашивать в странах СНГ сведения о работе, доходах и счетах российских должников Владимир Путин 2 ноября подписал закон о ратификации соглашения стран СНГ об обмене</title>
-<link>https://t.me/astrapress/130146</link>
-<guid isPermaLink="false">a7ef24a97ba7</guid>
-<pubDate>Tue, 03 Nov 2026 17:28:01 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Tatarstan</description>
-</item>
-
-<item>
-<title>[State claim] Ukraine → Russia · 13 UAVs intercepted, as claimed</title>
-<link>https://t.me/mod_russia/68738</link>
-<guid isPermaLink="false">3ea8219e0df3</guid>
-<pubDate>Tue, 03 Nov 2026 17:15:39 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Ministry of Defence of Russia · Tver oblast, Vladimir oblast, Belgorod oblast, Bryansk oblast, Crimea, Sea of Azov</description>
-</item>
-
-<item>
-<title>[Media] Overnight Russian shelling damages three medical facilities and 17 apartment buildings in Kharkiv</title>
-<link>https://www.ukrinform.net/rubric-ato/4181054-overnight-russian-shelling-damages-three-medical-facilities-and-17-apartment-buildings-in-kharkiv.html</link>
-<guid isPermaLink="false">0599c233d4a5</guid>
-<pubDate>Tue, 03 Nov 2026 16:38:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · As a result of Russia’s nighttime attack on Kharkiv in the Nemyshlianskyi District, three medical facilities and 17 high-rise residential buildings were damaged. · Kharkiv</description>
 </item>
 
 </channel>
