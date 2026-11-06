@@ -1,9 +1,90 @@
 {
- "generated_at": "2026-11-05 23:40",
+ "generated_at": "2026-11-06 06:54",
  "days": [
   {
    "date": "2026-11-06",
    "events": [
+    {
+     "date": "2026-11-06",
+     "category": "air_attack",
+     "source_id": "kpszsu",
+     "source_name": "Air Force of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/kpszsu/93571",
+     "quote": "⚡️ ЗБИТО/ПОДАВЛЕНО 196 ВОРОЖИХ ЦІЛЕЙ ➖➖➖➖➖➖➖➖➖➖ У ніч на 6 листопада (з 18:00 5 листопада) противник атакував 227 ударними БпЛА типу Shahed (86 із них - реактивні), Гербера, дронами-імітаторами типу “Пародія” із напрямків: Орел, Курськ, Міллерово, Приморсько-Ахтарськ - рф, ТОТ Донецьк, Гвардійське, Чауда – ТОТ АР Крим.",
+     "time": "08:00",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "air attack",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Shahed/Gerbera-type UAVs (incl. decoys)",
+       "launched": 227,
+       "intercepted": 196
+      }
+     ],
+     "counts": {
+      "jet_powered_shahed": 86,
+      "launched": 227,
+      "jet_powered_shahed_intercepted": 70,
+      "intercepted": 196,
+      "impact_locations": 14,
+      "debris_locations": 8
+     },
+     "breakdown": [],
+     "locations": [
+      "Oryol",
+      "Kursk",
+      "Millerovo",
+      "Primorsko-Akhtarsk",
+      "Donetsk (occupied)",
+      "Hvardiiske (Crimea)",
+      "Чауда – ТОТ АР Крим"
+     ],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-06T06:02:21+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Oryol",
+      "Kursk",
+      "Millerovo",
+      "Primorsko-Akhtarsk",
+      "Donetsk (occupied)",
+      "Hvardiiske (Crimea)",
+      "Чауда – ТОТ АР Крим"
+     ],
+     "id": "d1cec857c3f7"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "air_attack",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68791",
+     "quote": "❗️ В течение ночи Вооруженные Силы Российской Федерации продолжили нанесение ударов беспилотными летательными аппаратами по объектам энергетического комплекса Украины и морским судам, используемым в интересах ВСУ.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "strike, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T04:53:43+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "27566ea7f1b5"
+    },
     {
      "date": "2026-11-06",
      "category": "air_attack",
@@ -31,6 +112,428 @@
      "detail_en": null,
      "locations_en": null,
      "id": "10cb902e7dcc"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130344",
+     "quote": "Три человека пострадали в результате российской атаки вечером 5 ноября в Кировоградской области, — власти «В Кропивницком районе в результате удара российского беспилотника разрушен частный жилой дом.",
+     "time": "07:06",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kirovohrad oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T05:06:59+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "4ea1ffddf5c2"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130347",
+     "quote": "В Минобороны РФ заявили о поражении электроподстанции в Сумской области и аккумуляторного парка в Киевской области ВКС РФ поразили электроподстанцию в районе Сум с помощью авиационной бомбы ФАБ-500, приводит ТАСС сообщение Минобороны РФ.",
+     "time": "07:20",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv",
+      "Odesa"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T05:20:30+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "e79fcaa52a2d"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4181982-russia-drones-attack-five-districts-of-dnipropetrovsk-region-overnight.html",
+     "quote": "Russia drones attack five districts of Dnipropetrovsk region overnight",
+     "time": "08:52",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces carried out more than ten drone attacks against five districts of the Dnipropetrovsk region, causing damage to several locations.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Dnipropetrovsk oblast"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T06:52:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "85f417812591"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "strikes_in_russia",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68792",
+     "quote": "⚡️В течение прошедшей ночи дежурными силами ПВО перехвачены и уничтожены 142 украинских беспилотных летательных средства над территориями Курской, Белгородской, Тульской, Орловской, Ростовской, Астраханской областей, Московского региона, Краснодарского края, Республики Крым и над акваториями Черного и Азовского морей.",
+     "time": null,
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "UAVs intercepted, as claimed (overnight)",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "intercepted_claimed": 142
+     },
+     "breakdown": [],
+     "locations": [
+      "Kursk oblast",
+      "Belgorod oblast",
+      "Tula oblast",
+      "Oryol oblast",
+      "Rostov oblast",
+      "Astrakhan oblast",
+      "Moscow oblast",
+      "Krasnodar krai",
+      "Crimea",
+      "над акваториями Черного",
+      "Sea of Azov"
+     ],
+     "lang": "ru",
+     "extraction": "structured",
+     "also_reported_by": [
+      {
+       "name": "ASTRA",
+       "url": "https://t.me/astrapress/130352",
+       "quote": "142 украинских беспилотников сбиты за ночь над регионами РФ, аннексированным Крымом, Черным и Азовским морями, — Минобороны России «В течение прошедшей ночи дежурными силами ПВО перехвачены и уничтожены 142 украинских беспилотных летательных средства над территориями Курской, Белгородской, Тульской, Орловской, Ростовс…"
+      }
+     ],
+     "published": "2026-11-06T05:42:34+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Kursk oblast",
+      "Belgorod oblast",
+      "Tula oblast",
+      "Oryol oblast",
+      "Rostov oblast",
+      "Astrakhan oblast",
+      "Moscow oblast",
+      "Krasnodar krai",
+      "Crimea",
+      "над акваториями Черного",
+      "Sea of Azov"
+     ],
+     "id": "f76201976e0d"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130342",
+     "quote": "Военного из Кирова приговорили к 17 годам за попытку завербовать сокурсника в РДК.",
+     "time": "05:06",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Novorossiysk",
+      "Ryazan oblast",
+      "Tatarstan",
+      "Donetsk oblast",
+      "Luhansk oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T03:06:38+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "3c42eea0cba3"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "strikes_in_russia",
+     "source_id": "gov_rostov",
+     "source_name": "Governor of Rostov oblast",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/Yuri_Slusar/7842",
+     "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область уничтожены более полутора десятков БПЛА в городах Ростове-на-Дону и Таганроге, а также в 7 районах области: Азовском, Дубовском, Зерноградском, Каменском, Миллеровском, Мясниковском, Неклиновском.",
+     "time": "06:04",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "attack on the region, as reported by the governor",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Rostov oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T04:04:11+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "ead112567854"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "strikes_in_russia",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/ukrainian-forces-reportedly-target-oil-refinery-as-explosions-reported-across-southern-russia/",
+     "quote": "Ukrainian forces target oil refinery as explosions reported across southern Russia",
+     "time": "06:41",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": null,
+     "detail": "A Russian oil refinery was set ablaze as a Ukrainian drone attack set off fires and explosions across southern Russia overnight on Nov.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T04:41:12+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "6ba2c84d7618"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130343",
+     "quote": "Краснодарский край под атакой БПЛА, вероятно атакован Афипский НПЗ Официальных подтверждений тому, что НПЗ в пгт Афипский Северского района был поражен — нет.",
+     "time": "06:43",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Krasnodar krai",
+      "Stavropol krai"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [
+      {
+       "name": "ASTRA",
+       "url": "https://t.me/astrapress/130349"
+      }
+     ],
+     "published": "2026-11-06T04:43:24+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "c8664d9d1416"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130353",
+     "quote": "Два человека пострадали в результате украинских атак в Курской области, — губернатор «В результате атак в урочище Моховом Большесолдатского района ранен 38-летний мужчина, в деревне Успешное Рыльского района — 46-летний.",
+     "time": "08:45",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kursk oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T06:45:01+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "9307fc4df9fa"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "front_line",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4181791-ukrainian-troops-capture-russian-soldier-wearing-ukrainian-military-uniform.html",
+     "quote": "Ukrainian troops capture Russian soldier wearing Ukrainian military uniform",
+     "time": "03:26",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Operators of the 3rd Detachment of the 4th Ranger Regiment of the Special Operations Forces (SOF) captured a Russian serviceman who was disguised in a Ukrainian Armed Forces uniform.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T01:26:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "931853f1fa1f"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "front_activity",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42823",
+     "quote": "Оперативна інформація станом на 08:00 06.11.2026 щодо російського вторгнення Слава Україні!",
+     "time": "08:00",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "past 24 hours to 08:00, as reported",
+     "detail": "Air strikes on: Есмань, Кияниця",
+     "weapons": [],
+     "counts": {
+      "clashes": 188,
+      "guided_bombs": 235,
+      "air_strikes": 79,
+      "kamikaze_drones": 7093,
+      "shellings": 2794,
+      "concentration_areas_struck": 2,
+      "settlements_shelled": 35
+     },
+     "breakdown": [],
+     "locations": [
+      "Sumy oblast: Кореньок, Нескучне, Храпівщина, Бачівськ, Уланове, Фотовиж, Безсалівка, Товстодубове, Сопич, Іскрисківщина, Мала Корчаківка, Корчаківка, Миропілля, Яструбщина, Новокостянтинівка, Писарівка, Кучерівка, Шалигине, Вовківка, Олексіївка, Хотінь, Рогізне, Нова Січ, Гірки, Могриця, Мар'їне, Садки, Отруба, Заріччя, Малушине, Кровне, Юнаківка, Андріївка, Кіндратівка",
+      "Chernihiv oblast: Михальчина-Слобода"
+     ],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-06T06:03:59+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Sumy oblast: Кореньок, Нескучне, Храпівщина, Бачівськ, Уланове, Фотовиж, Безсалівка, Товстодубове, Сопич, Іскрисківщина, Мала Корчаківка, Корчаківка, Миропілля, Яструбщина, Новокостянтинівка, Писарівка, Кучерівка, Шалигине, Вовківка, Олексіївка, Хотінь, Рогізне, Нова Січ, Гірки, Могриця, Мар'їне, Садки, Отруба, Заріччя, Малушине, Кровне, Юнаківка, Андріївка, Кіндратівка",
+      "Chernihiv oblast: Михальчина-Слобода"
+     ],
+     "id": "5c4db95ca8d6"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "losses_claimed",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42823",
+     "quote": "втрати російських загарбників склали 2440 осіб",
+     "time": null,
+     "actor": "Ukraine (General Staff)",
+     "target": "Russia",
+     "action": "Russian losses in the past 24 hours, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [
+      {
+       "label": "personnel",
+       "delta": 2440
+      },
+      {
+       "label": "tanks",
+       "delta": 2
+      },
+      {
+       "label": "armoured fighting vehicles",
+       "delta": 8
+      },
+      {
+       "label": "artillery systems",
+       "delta": 54
+      },
+      {
+       "label": "air defence systems",
+       "delta": 6
+      },
+      {
+       "label": "ground robotic systems",
+       "delta": 8
+      },
+      {
+       "label": "UAVs",
+       "delta": 1395
+      },
+      {
+       "label": "vehicles and fuel tankers",
+       "delta": 673
+      }
+     ],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [
+      {
+       "name": "Ukrinform",
+       "url": "https://www.ukrinform.net/rubric-ato/4181977-russian-army-loses-2440-troops-in-war-against-ukraine-over-past-day.html",
+       "quote": "Russian army loses 2,440 troops in war against Ukraine over past day"
+      }
+     ],
+     "published": "2026-11-06T06:03:59+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "89824ce3ce82"
     },
     {
      "date": "2026-11-06",
@@ -150,7 +653,12 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [],
+     "also_reported_by": [
+      {
+       "name": "Oryx (Russian equipment losses)",
+       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
+      }
+     ],
      "published": "2026-11-05T23:40:57.230539+00:00",
      "quote_en": null,
      "detail_en": null,
@@ -275,7 +783,12 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [],
+     "also_reported_by": [
+      {
+       "name": "Oryx (Ukrainian equipment losses)",
+       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+      }
+     ],
      "published": "2026-11-05T23:40:57.995792+00:00",
      "quote_en": null,
      "detail_en": null,
@@ -307,6 +820,60 @@
      "detail_en": null,
      "locations_en": null,
      "id": "382035224753"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "weapons_deliveries",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-polytics/4181961-canada-to-allocate-18b-for-drone-procurement.html",
+     "quote": "Canada to allocate $1.8B for drone procurement",
+     "time": "07:17",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Canada will spend at least CAD 2.3 billion (approximately $1.8 billion) on deploying advanced combat drones and counter-drone systems.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T05:17:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "42f0787b971c"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4181979-russian-forces-attack-energy-infrastructure-facility-in-mykolaiv-region.html",
+     "quote": "Russian forces attack energy infrastructure facility in Mykolaiv region",
+     "time": "08:38",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Russian forces attacked an energy infrastructure facility in the Mykolaiv region yesterday using a Geran-type attack drone.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Mykolaiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T06:38:00+00:00",
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "18f6f7ef2cb4"
     }
    ]
   },
