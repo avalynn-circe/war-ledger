@@ -32,7 +32,7 @@ sources.yaml  ->  fetch  ->  parse  ->  extract  ->  fold  ->  data/YYYY-MM-DD.j
      the first place named; entries carry an "unconfirmed" chip.
    - `oryx`: the Oryx loss pages. Cumulative totals per category; the returns
      sheet shows the change since the previous day.
-   - `news`: a keyword classifier for media feeds. It assigns one of ten
+   - `news`: a keyword classifier for media feeds. It assigns one of thirteen
      categories, picks out weapon and place names, and keeps the headline.
      Items that match no category are dropped.
 4. **Fold.** `pipeline/fold.py` merges duplicates. A headline whose numbers
@@ -135,6 +135,37 @@ To add a source, append an entry to `sources.yaml`. A Telegram channel or RSS
 feed with the `news` extractor needs no code. A new structured source needs an
 extractor module in `pipeline/extract/` and a line in `EXTRACTORS` in
 `pipeline/run.py`.
+
+## Data for developers
+
+Everything the site shows is also published as data, and the shapes below
+are kept stable.
+
+| File | What it holds |
+|---|---|
+| `feed.xml` | RSS of the wire, newest first, 150 items. Each title starts with the tier in brackets. |
+| `events.json` | Every day, newest first: `{"generated_at", "days": [{"date", "events": [entry, ...]}]}`. |
+| `events.csv` | One row per entry with the main fields flattened. |
+| `data/YYYY-MM-DD.json` | One day: `{"date", "generated_at", "events": [entry, ...]}`. |
+| `data/raw/<source>/YYYY-MM-DD.jsonl` | The source text of every post, one JSON object per line. |
+| `data/translations.json` | Cached English for Cyrillic excerpts, keyed by a hash of the source text. |
+
+An entry's fields:
+
+| Field | Meaning |
+|---|---|
+| `id` | Stable 12-character id, from source, link, category and quote. Use it to flag or correct an entry. |
+| `date`, `time`, `published` | Kyiv date; the time the source states, if any; the post's own timestamp in ISO 8601. |
+| `category` | One of the thirteen category keys. |
+| `source_id`, `source_name`, `source_side`, `source_tier` | The source and how to read it: tier is `operational`, `state`, `osint`, `media` or `unconfirmed`. |
+| `source_url` | The post or article. |
+| `actor`, `target`, `action` | Who did what to whom, as the source frames it. |
+| `quote`, `quote_en`, `detail`, `detail_en` | The source's words, and English when translated. |
+| `weapons`, `counts`, `breakdown` | Named systems with per-system counts; the entry's figures; per-item rows such as losses by type or interceptions by region. |
+| `locations`, `locations_en` | Places as named, transliterated when translated. |
+| `extraction` | `structured` when a purpose-built parser produced the figures, `rules` when the keyword classifier did. |
+| `also_reported_by` | Other sources whose report was folded into this entry. |
+| `corrected` | The reason, when a manual override changed the entry. |
 
 ## Data shape
 

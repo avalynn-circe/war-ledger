@@ -11,6 +11,7 @@ import json
 import pathlib
 import shutil
 from datetime import date, datetime, timedelta, timezone
+from email.utils import format_datetime
 from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -431,6 +432,27 @@ def _fmt(v) -> str:
 
 
 REPO_ISSUES = "https://github.com/avalynn-circe/war-ledger/issues/new"
+SITE_URL = "https://avalynn-circe.github.io/war-ledger/"
+FEED_ITEMS = 150
+
+
+def feed_items(days: dict[str, list[dict]], dates: list[str]) -> list[dict]:
+    items = []
+    for d in dates:
+        for e in wire(days[d]):
+            if len(items) >= FEED_ITEMS:
+                return items
+            text = e.get("quote_en") or e["quote"]
+            if e["extraction"] == "structured":
+                text = f"{e.get('actor') or e['source_name']}" + (f" → {e['target']}" if e.get("target") else "") + (f" · {e['line']}" if e.get("line") else f" · {e.get('action') or ''}")
+            pub = e.get("published")
+            items.append({
+                "id": e["id"], "category": e["category"], "source_url": e["source_url"],
+                "title": f"[{TIER_LABELS.get(e.get('source_tier'), '')}] {text}"[:200],
+                "pub_date": format_datetime(datetime.fromisoformat(pub)) if pub else format_datetime(datetime.fromisoformat(d + "T00:00:00+02:00")),
+                "description": " · ".join(x for x in [e["source_name"], e.get("detail_en") or e.get("detail") or "", ", ".join(e.get("locations_en") or e["locations"])] if x),
+            })
+    return items
 
 
 def flag_link(e: dict) -> str:
@@ -539,6 +561,11 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
         archive_rows.append({"date": d, "n": len(days[d]), "cells": [_numeric(sheets[d][k][side]) for k, side, _ in columns]})
     (site_dir / "archive.html").write_text(
         env.get_template("archive.html").render(title="Archive · The Ukraine War Ledger", nav="archive", columns=[c[2] for c in columns], rows=archive_rows, **base_ctx),
+        encoding="utf-8",
+    )
+
+    (site_dir / "feed.xml").write_text(
+        env.get_template("feed.xml").render(items=feed_items(days, dates), site_url=SITE_URL, build_date=format_datetime(datetime.now(timezone.utc))),
         encoding="utf-8",
     )
 

@@ -9,6 +9,7 @@ from .common import KYIV, Event, first_sentence, kyiv_date, source_fields
 from .lexicon import find_places, find_weapons
 
 TRIGGER = re.compile(r"удар|взрыв|пожар|атак[аиуе]|бпла|дрон|поражен|горит|нпз|аэродром|ракет|прилет|сбит|обстрел", re.I)
+CASUALTY = re.compile(r"погиб|ранен|пострадал|многоэтаж|жилой|жилых|больниц|школ|детск", re.I)
 
 
 def extract(post: Post, source: dict) -> list[Event]:
@@ -24,6 +25,8 @@ def extract(post: Post, source: dict) -> list[Event]:
         category, actor, target = "air_attack", "Russia", "Ukraine"
     else:
         return []
+    if CASUALTY.search(post.text):
+        category = "civilian_damage"
     return [
         Event(
             date=kyiv_date(post.dt),

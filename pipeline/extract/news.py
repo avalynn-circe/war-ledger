@@ -51,12 +51,31 @@ RULES: dict[str, list[str]] = {
         r"interceptor",
         r"anti-aircraft|surface-to-air",
     ],
+    "civilian_damage": [
+        r"\bkill(?:s|ed|ing)\b|\bdead\b|death toll|\bdies?\b",
+        r"injur|wounded|casualt|hospitali[sz]ed",
+        r"civilians?\b|residents?\b",
+        r"residential|apartment|high-rise|housing|private houses?",
+        r"hospital|clinic|maternity|school|kindergarten|universit|dormitor",
+        r"evacuat|rescuers|under the rubble",
+    ],
+    "electronic_warfare": [
+        r"electronic warfare|\bew\b|jamm|spoof",
+        r"\bgps\b|glonass|navigation (?:interference|disruption)",
+        r"radio[- ]electronic|signal (?:interference|suppression)",
+        r"starlink (?:outage|disrupt|jamm)",
+    ],
+    "logistics": [
+        r"ammunition depot|munitions depot|arsenal|fuel depot|oil depot|\bdepot\b|warehouse",
+        r"logistic|supply (?:route|line|chain|hub|convoy)|\bconvoy",
+        r"rail(?:way)? (?:junction|hub|line|bridge|traffic|station|yard)|freight",
+        r"pontoon|ferry|crossing|bridge(?:s)? (?:over|across|to|near|in)",
+    ],
     "field_adaptation": [
         r"\bnet(?:s|ting)\b|anti-drone net|\bmesh\b",
         r"cope cage|turtle tank|\bcage\b|screen armou?r",
         r"camouflag|decoy",
         r"fibre?-?optic|fiber-?optic",
-        r"electronic warfare|\bew\b|jamm",
         r"fortif|dragon'?s teeth|trench|dugout|bunker",
         r"tunnel|pipeline (?:infiltrat|crawl)",
         r"motorcycle|motorbike|\bbuggy|buggies|\bgolf cart|\bscooter",
@@ -111,18 +130,21 @@ GATES = {
     ),
     "losses_claimed": re.compile(r"\d.*(?:troops|soldiers|personnel|tanks?|artillery|vehicles|equipment|aircraft|general staff|oryx)|(?:general staff|oryx).*\d", re.I),
     "infrastructure": re.compile(r"attack|strike|struck|hit|drone|missile|shell|damage|destroy|outage|blackout|without", re.I),
+    "civilian_damage": re.compile(r"attack|strike|struck|shell|drone|missile|bomb|debris|air raid|glide|guided|explosion|rubble|rocket", re.I),
+    "logistics": re.compile(r"attack|strike|struck|hit|destroy|damage|blow|explo|drone|missile|disrupt|cut|halt|block", re.I),
 }
 
 # Tie-break order when categories score equal.
 PRIORITY = [
-    "field_adaptation", "weapons_deliveries", "air_defense", "naval", "infrastructure",
-    "front_activity", "front_line", "strikes_in_russia", "air_attack", "losses_claimed",
+    "civilian_damage", "electronic_warfare", "field_adaptation", "weapons_deliveries", "air_defense", "naval",
+    "logistics", "infrastructure", "front_activity", "front_line", "strikes_in_russia", "air_attack", "losses_claimed",
 ]
 DIRECTION = {
     "air_attack": ("Russia", "Ukraine"),
     "strikes_in_russia": ("Ukraine", "Russia"),
     "front_activity": ("Russia", "Ukraine"),
 }
+PLACE_DIRECTED = {"civilian_damage", "logistics", "infrastructure", "electronic_warfare"}
 
 
 def classify(title: str, summary: str) -> str | None:
@@ -176,6 +198,10 @@ def extract(item: Item, source: dict) -> list[Event]:
         return []
     text = f"{item.title} {item.summary}"
     actor, target = DIRECTION.get(category, (None, None))
+    if category in PLACE_DIRECTED:
+        sides = [side for _, side in find_places(text) if side in ("ua", "ru")]
+        if sides:
+            actor, target = ("Ukraine", "Russia") if sides[0] == "ru" else ("Russia", "Ukraine")
     return [
         Event(
             date=kyiv_date(item.dt),

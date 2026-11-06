@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>The Ukraine War Ledger · wire</title>
+<link>{{ site_url }}wire.html</link>
+<atom:link href="{{ site_url }}feed.xml" rel="self" type="application/rss+xml"/>
+<description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
+<language>en</language>
+<lastBuildDate>{{ build_date }}</lastBuildDate>
+{% for e in items %}
+<item>
+<title>{{ e.title|e }}</title>
+<link>{{ e.source_url|e }}</link>
+<guid isPermaLink="false">{{ e.id }}</guid>
+<pubDate>{{ e.pub_date }}</pubDate>
+<category>{{ e.category|catlabel|e }}</category>
+<description>{{ e.description|e }}</description>
+</item>
+{% endfor %}
+</channel>
+</rss>

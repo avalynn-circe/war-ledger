@@ -12,6 +12,7 @@ from .rumod import _ru_words_to_digits
 TRIGGER = re.compile(r"бпла|беспилотн|дрон|обстрел|ракет|атак[аиуе]|сбит|прилет|fpv", re.I)
 KILLED = re.compile(r"погиб(?:ли|ла|ло|)\s+(\d+)|(\d+)\s+(?:человек[а]?\s+|мирн\w+\s+жител\w+\s+)?погиб", re.I)
 INJURED = re.compile(r"(?:ранен[ыоа]?|пострадал[иао]?)\s+(\d+)|(\d+)\s+(?:человек[а]?\s+|мирн\w+\s+жител\w+\s+)?(?:ранен|пострадал)", re.I)
+DAMAGE = re.compile(r"поврежден|разрушен|загорел|пожар|дом(?:а|ов)?\b|квартир|школ|больниц|детск", re.I)
 SHOT_DOWN = re.compile(r"(?:сбит[ыоа]?|уничтожен[ыоа]?|подавлен[ыоа]?|перехвачен[ыоа]?)\s+(\d+)\s+(?:беспилотн|бпла|дрон)|(\d+)\s+(?:беспилотник\w*|бпла|дрон\w*)\s+(?:сбит|уничтожен|подавлен)", re.I)
 
 
@@ -31,11 +32,12 @@ def extract(post: Post, source: dict) -> list[Event]:
         n = _first_int(rx, text)
         if n is not None:
             counts[key] = n
+    civilian = "killed" in counts or "injured" in counts or bool(DAMAGE.search(post.text))
     return [
         Event(
             date=kyiv_date(post.dt),
             time=post.dt.astimezone(KYIV).strftime("%H:%M"),
-            category="strikes_in_russia",
+            category="civilian_damage" if civilian else "strikes_in_russia",
             actor="Ukraine",
             target="Russia",
             action="attack on the region, as reported by the governor",

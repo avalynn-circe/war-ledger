@@ -205,13 +205,13 @@ class Governor(unittest.TestCase):
         e = evs[0]
         self.assertEqual(e.counts, {"killed": 1, "injured": 2, "uav_shot_down": 10})
         self.assertEqual(e.locations, ["Belgorod oblast"])
-        self.assertEqual(e.category, "strikes_in_russia")
+        self.assertEqual(e.category, "civilian_damage")
 
 
 class Monitoring(unittest.TestCase):
     def test_direction_by_place(self):
         evs = [e for p in posts("astra") for e in monitoring.extract(p, SRC["astra"])]
-        self.assertEqual([e.category for e in evs], ["strikes_in_russia", "air_attack"])
+        self.assertEqual([e.category for e in evs], ["strikes_in_russia", "civilian_damage"])
         self.assertEqual(evs[0].locations, ["Ryazan oblast"])
         self.assertEqual(evs[0].source_side, "monitoring")
         self.assertEqual(evs[0].source_tier, "unconfirmed")
@@ -333,6 +333,14 @@ class News(unittest.TestCase):
         self.assertEqual(ki["Russian attack on Kharkiv energy facility cuts power to 30,000 customers"], "infrastructure")
         self.assertIsNone(ki["Parliament passes 2027 budget in first reading"])
 
+    def test_new_categories(self):
+        self.assertEqual(news.classify("Russian ballistic missile attack on Kyiv kills one, injures 10 and damages medical facilities", ""), "civilian_damage")
+        self.assertEqual(news.classify("Three killed, eight injured in Russian attacks on Kharkiv Region over past day", ""), "civilian_damage")
+        self.assertEqual(news.classify("Russia steps up GPS jamming across the Black Sea, pilots report", ""), "electronic_warfare")
+        self.assertEqual(news.classify("Ukrainian drones hit railway junction supplying Russian forces near Tokmak", ""), "logistics")
+        self.assertEqual(news.classify("Ukraine strikes Russian ammunition depot in Bryansk Oblast", ""), "strikes_in_russia")
+        self.assertEqual(news.classify("Ukraine shoots down 90 of 105 Russian drones overnight, Air Force says", ""), "air_attack")
+
     def test_entities(self):
         e = news.extract(items("militarnyi")[0], SRC["militarnyi"])[0]
         self.assertIn("Anti-drone netting", [w["name"] for w in e.weapons])
@@ -384,6 +392,10 @@ class EndToEnd(unittest.TestCase):
             self.assertIn("Flag this entry", index)
             self.assertIn("issues/new?title=Entry+", index)
             self.assertTrue((site / "corrections.html").exists())
+            feed = (site / "feed.xml").read_text(encoding="utf-8")
+            self.assertIn("<rss", feed)
+            self.assertIn("[Operational report]", feed)
+            self.assertIn("<category>Air attacks on Ukraine</category>", feed)
             self.assertIn('id="toggles"', index)
             self.assertIn('id="src-toggles"', index)
             self.assertIn('<details class="src-disclosure" id="src-disclosure" open>', index)

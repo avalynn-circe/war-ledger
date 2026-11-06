@@ -12,13 +12,16 @@ KYIV = ZoneInfo("Europe/Kyiv")
 # (key, label) in display order.
 CATEGORIES = [
     ("air_attack", "Air attacks on Ukraine"),
+    ("civilian_damage", "Civilian damage"),
     ("strikes_in_russia", "Strikes in Russia and occupied territory"),
     ("front_line", "Front line changes"),
     ("front_activity", "Front activity"),
     ("losses_claimed", "Claimed losses"),
     ("air_defense", "Air defence"),
+    ("electronic_warfare", "Electronic warfare"),
     ("field_adaptation", "Field adaptations"),
     ("weapons_deliveries", "Weapons and deliveries"),
+    ("logistics", "Logistics and supply"),
     ("naval", "Naval"),
     ("infrastructure", "Infrastructure"),
 ]
