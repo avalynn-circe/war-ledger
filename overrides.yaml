@@ -1,0 +1,23 @@
+# Manual corrections, applied on every rebuild and listed on the site's
+# Corrections page. Each entry names an entry id (shown on the page and in the
+# flag link), what to do, and why. Keep the reason specific: it is public.
+#
+#   - id: 3f9c1a2b7d0e          # the entry's id
+#     action: suppress          # drop the entry
+#     reason: Duplicate of the Air Force post; the channel reposted it.
+#     added: 2026-11-06
+#
+#   - id: 3f9c1a2b7d0e
+#     action: correct           # change fields on the entry
+#     fields:
+#       counts: {launched: 227}
+#       category: civilian_damage
+#     reason: The parser read the headline total as the drone count.
+#     added: 2026-11-06
+#
+#   - id: 3f9c1a2b7d0e
+#     action: duplicate_of      # fold into another entry as "also reported by"
+#     target: 9a8b7c6d5e4f
+#     reason: Same report, reposted by the regional channel.
+#     added: 2026-11-06
+overrides: []

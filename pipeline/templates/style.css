@@ -258,3 +258,9 @@ details.returns-full > summary { cursor: pointer; padding: 12px 0; font-weight: 
 .map-legend .sw.shelled { background: #c2410c; }
 .map-legend .sw.claimed { background: var(--accent); }
 .map-legend .sw.other { background: var(--muted); }
+
+/* corrections and flagging */
+.flag { font-size: .74rem; color: var(--muted); }
+.eid { font-family: var(--mono); font-size: .68rem; color: var(--line); margin-left: 6px; }
+.corrected { color: var(--t-state); font-size: .82rem; }
+.wire .src .flag { font-size: .7rem; }

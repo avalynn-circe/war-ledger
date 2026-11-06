@@ -53,7 +53,7 @@
 <div class="cat" id="{{ group.key }}" data-cat="{{ group.key }}">
   <h2>{{ group.label }} <span class="n">{{ group.events|length }}</span></h2>
   {% for e in group.events %}
-  <details class="hl {{ e.extraction }}" data-src="{{ e.source_id }}">
+  <details class="hl {{ e.extraction }}" id="{{ e.id }}" data-src="{{ e.source_id }}">
     <summary>
       <span class="time">{{ e.clock }}</span>
       <span class="text"{% if not e.quote_en and e.extraction != 'structured' %} lang="{{ e.lang }}"{% endif %}>{% if e.extraction == 'structured' %}<b>{{ e.actor }}{% if e.target %} &rarr; {{ e.target }}{% endif %}</b>{% if e.line %} · {{ e.line }}{% elif e.action %} · {{ e.action }}{% endif %}{% else %}{{ e.quote_en or e.quote }}{% endif %}</span>
@@ -67,7 +67,8 @@
       {% if e.breakdown %}<table class="breakdown">{% for b in e.breakdown %}<tr><td>{{ b.label }}</td>{% if b.count is defined %}<td class="num">{{ b.count|fmt }}</td>{% endif %}{% if b.delta is defined %}<td class="num">+{{ b.delta|fmt }}</td>{% endif %}</tr>{% endfor %}</table>{% endif %}
       {% if e.locations %}<p class="loc">{{ (e.locations_en or e.locations)|join(' · ') }}</p>{% endif %}
       {% if e.quote_en or e.extraction == 'structured' %}<blockquote lang="{{ e.lang }}">{{ e.quote }}</blockquote>{% endif %}
-      <p class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a>{% for r in e.also_reported_by %} · <a href="{{ r.url }}" rel="noopener">{{ r.name }}</a>{% endfor %}</p>
+      {% if e.corrected %}<p class="corrected">Corrected: {{ e.corrected }}</p>{% endif %}
+      <p class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a>{% for r in e.also_reported_by %} · <a href="{{ r.url }}" rel="noopener">{{ r.name }}</a>{% endfor %} · <a class="flag" href="{{ e|flag }}" rel="noopener">Flag this entry</a> <span class="eid">{{ e.id }}</span></p>
     </div>
   </details>
   {% endfor %}

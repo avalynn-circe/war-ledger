@@ -27,7 +27,7 @@
     {% if e.detail %}<span class="sub">{{ e.detail_en or e.detail }}</span>{% endif %}
     {% if e.locations %}<span class="sub muted">{{ (e.locations_en or e.locations)|join(' · ') }}</span>{% endif %}
   </span>
-  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_tier }}">{{ e.source_tier|tier }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}</span>
+  <span class="src"><a href="{{ e.source_url }}" rel="noopener">{{ e.source_name }}</a><span class="side {{ e.source_tier }}">{{ e.source_tier|tier }}</span>{% for r in e.also_reported_by %}<a href="{{ r.url }}" rel="noopener" class="also">{{ r.name }}</a>{% endfor %}<a class="flag" href="{{ e|flag }}" rel="noopener">flag</a></span>
 </div>
 {% endif %}
 {% endfor %}

@@ -15,7 +15,7 @@ from datetime import date, datetime, timedelta
 
 import yaml
 
-from . import render, store, translate
+from . import overrides, render, store, translate
 from .extract import airforce, deepstate, generalstaff, governor, monitoring, news, oryx, rumod
 from .extract.common import Event, kyiv_date
 from .fetch import Fetcher
@@ -153,6 +153,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--no-raw", action="store_true", help="do not archive source text under <data>/raw/")
     ap.add_argument("--rebuild-only", action="store_true", help="skip fetching; re-extract <data>/raw/ and render")
     ap.add_argument("--no-translate", action="store_true", help="do not translate Cyrillic excerpts (cached translations still apply)")
+    ap.add_argument("--overrides", default="overrides.yaml", help="manual corrections applied on every rebuild")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -172,6 +173,7 @@ def main(argv: list[str] | None = None) -> int:
 
     cutoff = (date.today() - timedelta(days=args.max_age_days)).isoformat()
     by_day: dict[str, list[Event]] = defaultdict(list)
+    corrections: list[dict] = []
     if args.no_raw:
         for e in fold(events):
             if e.date >= cutoff:
@@ -189,6 +191,10 @@ def main(argv: list[str] | None = None) -> int:
         translator = translate.Translator(data_dir / "translations.json", None if args.no_translate else translate.make_client())
         log.info("translations applied to %d entries", translator.apply(folded))
         translator.save()
+        rules = overrides.load(pathlib.Path(args.overrides))
+        folded, corrections = overrides.apply(folded, rules)
+        if rules:
+            log.info("overrides: %d rules, %d matched", len(rules), sum(1 for c in corrections if c["matched"]))
         for e in folded:
             if e.date >= cutoff:
                 by_day[e.date].append(e)
@@ -201,7 +207,7 @@ def main(argv: list[str] | None = None) -> int:
     days = store.load_all(data_dir)
     store.write_index(data_dir, days)
     if not args.no_render:
-        render.render(pathlib.Path(args.site), days, sources)
+        render.render(pathlib.Path(args.site), days, sources, corrections)
         log.info("site rendered: %d day(s)", len(days))
     return 0
 

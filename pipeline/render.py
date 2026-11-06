@@ -430,12 +430,26 @@ def _fmt(v) -> str:
     return f"{v:,}" if isinstance(v, int) else str(v)
 
 
-def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[dict]) -> None:
+REPO_ISSUES = "https://github.com/avalynn-circe/war-ledger/issues/new"
+
+
+def flag_link(e: dict) -> str:
+    from urllib.parse import urlencode
+    title = f"Entry {e['id']}: " + ((e.get("quote_en") or e["quote"])[:60]).replace("\n", " ")
+    body = (
+        f"Entry id: {e['id']}\nDate: {e['date']}\nCategory: {e['category']}\nSource: {e['source_name']}\n"
+        f"Link: {e['source_url']}\n\nWhat is wrong:\n\n\nWhat it should say:\n"
+    )
+    return REPO_ISSUES + "?" + urlencode({"title": title, "body": body, "labels": "entry"})
+
+
+def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[dict], corrections: list[dict] | None = None) -> None:
     site_dir.mkdir(parents=True, exist_ok=True)
     env = Environment(loader=FileSystemLoader(str(TEMPLATES)), autoescape=select_autoescape(["html"]))
     env.filters["countlabel"] = lambda k: COUNT_LABELS.get(k, k.replace("_", " "))
     env.filters["side"] = lambda s: SIDE_LABELS.get(s, s)
     env.filters["tier"] = lambda t: TIER_LABELS.get(t, t)
+    env.filters["flag"] = flag_link
     env.filters["longdate"] = _longdate
     env.filters["fmt"] = _fmt
     env.filters["catlabel"] = lambda k: CATEGORY_LABELS.get(k, k)
@@ -525,6 +539,11 @@ def render(site_dir: pathlib.Path, days: dict[str, list[dict]], sources: list[di
         archive_rows.append({"date": d, "n": len(days[d]), "cells": [_numeric(sheets[d][k][side]) for k, side, _ in columns]})
     (site_dir / "archive.html").write_text(
         env.get_template("archive.html").render(title="Archive · The Ukraine War Ledger", nav="archive", columns=[c[2] for c in columns], rows=archive_rows, **base_ctx),
+        encoding="utf-8",
+    )
+
+    (site_dir / "corrections.html").write_text(
+        env.get_template("corrections.html").render(title="Corrections · The Ukraine War Ledger", nav="corrections", rows=corrections or [], **base_ctx),
         encoding="utf-8",
     )
 

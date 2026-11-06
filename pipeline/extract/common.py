@@ -68,6 +68,7 @@ class Event:
     also_reported_by: list[dict] = field(default_factory=list)
     published: str | None = None  # the source post's own timestamp, ISO 8601 UTC
     source_tier: str = "media"
+    corrected: str | None = None
     quote_en: str | None = None
     detail_en: str | None = None
     locations_en: list[str] | None = None

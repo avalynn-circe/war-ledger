@@ -285,6 +285,40 @@ class Map(unittest.TestCase):
         self.assertIn('class="ua"', svg)
 
 
+class Overrides(unittest.TestCase):
+    def _events(self):
+        from pipeline.extract.common import Event
+        a = Event(date="2026-10-27", category="air_attack", source_id="ukrinform", source_name="Ukrinform", source_side="media", source_url="u1", quote="A")
+        b = Event(date="2026-10-27", category="air_attack", source_id="kyivindependent", source_name="KI", source_side="media", source_url="u2", quote="B", counts={"launched": 10})
+        c = Event(date="2026-10-27", category="air_attack", source_id="astra", source_name="ASTRA", source_side="monitoring", source_url="u3", quote="C")
+        return a, b, c
+
+    def test_actions(self):
+        from pipeline import overrides
+        a, b, c = self._events()
+        rules = [
+            {"id": a.id, "action": "suppress", "reason": "test", "added": "2026-11-06"},
+            {"id": b.id, "action": "correct", "fields": {"counts": {"launched": 12}, "category": "infrastructure"}, "reason": "misread", "added": "2026-11-06"},
+            {"id": c.id, "action": "duplicate_of", "target": b.id, "reason": "repost", "added": "2026-11-06"},
+            {"id": "deadbeef0000", "action": "suppress", "reason": "stale", "added": "2026-11-06"},
+        ]
+        out, report = overrides.apply([a, b, c], rules)
+        self.assertEqual([e.id for e in out], [b.id])
+        self.assertEqual(b.counts, {"launched": 12})
+        self.assertEqual(b.category, "infrastructure")
+        self.assertEqual(b.corrected, "misread")
+        self.assertEqual([r["name"] for r in b.also_reported_by], ["ASTRA"])
+        self.assertEqual([r["matched"] for r in report], [True, True, True, False])
+
+    def test_yaml_loads_and_skips_malformed(self):
+        from pipeline import overrides
+        with tempfile.TemporaryDirectory() as tmp:
+            path = pathlib.Path(tmp, "o.yaml")
+            path.write_text("overrides:\n  - id: abc\n    action: suppress\n    reason: r\n  - id: nope\n    action: explode\n", encoding="utf-8")
+            self.assertEqual([r["id"] for r in overrides.load(path)], ["abc"])
+            self.assertEqual(overrides.load(pathlib.Path(tmp, "missing.yaml")), [])
+
+
 class News(unittest.TestCase):
     def test_classification(self):
         got = {i.title: news.classify(i.title, i.summary) for i in items("militarnyi")}
@@ -347,6 +381,9 @@ class EndToEnd(unittest.TestCase):
             self.assertIn('class="tiers"', index)
             self.assertIn('data-preset="operational"', index)
             self.assertIn('class="chip unconfirmed" data-src="astra"', index)
+            self.assertIn("Flag this entry", index)
+            self.assertIn("issues/new?title=Entry+", index)
+            self.assertTrue((site / "corrections.html").exists())
             self.assertIn('id="toggles"', index)
             self.assertIn('id="src-toggles"', index)
             self.assertIn('<details class="src-disclosure" id="src-disclosure" open>', index)

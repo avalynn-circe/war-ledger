@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block main %}
+<h1>Corrections <span class="tz">{{ rows|length }} rules</span></h1>
+<p class="legend">Every manual correction the ledger applies, with its reason. Rules live in <a href="https://github.com/avalynn-circe/war-ledger/blob/main/overrides.yaml" rel="noopener">overrides.yaml</a> and are applied on every rebuild. To report an error, open any entry and use its Flag link, or <a href="https://github.com/avalynn-circe/war-ledger/issues/new" rel="noopener">open an issue</a>.</p>
+{% if rows %}
+<div class="scroll"><table class="archive">
+<thead><tr><th>Added</th><th>Action</th><th>Entry</th><th>Reason</th></tr></thead>
+<tbody>
+{% for r in rows %}
+<tr><td>{{ r.added }}</td><td class="mono">{{ r.action }}{% if r.target %} &rarr; {{ r.target }}{% endif %}</td>
+<td>{% if r.matched %}<a href="{{ r.date }}.html#{{ r.id }}">{{ r.date }}</a> · {{ r.source_name }} · {{ r.quote }} · <a href="{{ r.source_url }}" rel="noopener">source</a>{% else %}<span class="muted">{{ r.id }} · no longer matches an entry</span>{% endif %}</td>
+<td>{{ r.reason }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+{% else %}
+<p class="empty">No corrections yet.</p>
+{% endif %}
+{% endblock %}

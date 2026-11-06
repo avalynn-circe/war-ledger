@@ -157,6 +157,15 @@ extractor module in `pipeline/extract/` and a line in `EXTRACTORS` in
 }
 ```
 
+## Corrections
+
+Every entry has a Flag link that opens a prefilled GitHub issue with the
+entry's id, date, category and source link. Corrections are made in
+`overrides.yaml`: suppress an entry, correct its fields, or fold it into
+another as "also reported by", each with a reason. The rebuild applies them
+every run and lists them all, matched or stale, on the site's Corrections
+page.
+
 ## Translation
 
 With an `ANTHROPIC_API_KEY` secret set on the repository, the pipeline
