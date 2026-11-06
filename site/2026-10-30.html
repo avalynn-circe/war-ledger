@@ -19,6 +19,9 @@
   </nav>
 </header>
 <p class="notice"><b>Work in progress.</b> Figures and headlines are collected automatically from the sources listed below and have not been checked. Do not take them as fact. Spotted an error? <a href="https://github.com/avalynn-circe/war-ledger/issues" rel="noopener">Report it</a>.</p>
+<ul class="tiers" aria-label="How to read each source">
+<li><span class="sw operational"></span>Operational report</li><li><span class="sw state"></span>State claim</li><li><span class="sw osint"></span>Verified OSINT</li><li><span class="sw media"></span>Media</li><li><span class="sw unconfirmed"></span>Unconfirmed</li>
+</ul>
 
 <details class="src-disclosure" id="cat-disclosure" open>
 <summary class="tog-summary"><span class="tog-label">Categories</span><span class="tog-state" id="cat-state"></span></summary>
@@ -33,7 +36,8 @@
 <summary class="tog-summary"><span class="tog-label">Sources</span><span class="tog-state" id="src-state"></span></summary>
 <section class="toggles sources" id="src-toggles" aria-label="Sources shown on every page">
 <span class="tog-label wide-only">Sources</span>
-<button type="button" class="chip ua_official" data-src="kpszsu" aria-pressed="true">Air Force UA <span class="n">1</span></button><button type="button" class="chip ua_official" data-src="generalstaff" aria-pressed="true">General Staff UA <span class="n">5</span></button><button type="button" class="chip ru_official" data-src="mod_russia" aria-pressed="true">MoD Russia <span class="n">4</span></button><button type="button" class="chip osint" data-src="deepstate" aria-pressed="true">DeepState <span class="n">1</span></button><button type="button" class="chip media" data-src="militarnyi" aria-pressed="true">Militarnyi <span class="n">0</span></button><button type="button" class="chip media" data-src="kyivindependent" aria-pressed="true">Kyiv Independent <span class="n">8</span></button><button type="button" class="chip media" data-src="ukrinform" aria-pressed="true">Ukrinform <span class="n">29</span></button><button type="button" class="chip ru_official" data-src="gov_belgorod" aria-pressed="true">Gov. Belgorod <span class="n">0</span></button><button type="button" class="chip ru_official" data-src="gov_bryansk" aria-pressed="true">Gov. Bryansk <span class="n">1</span></button><button type="button" class="chip ru_official" data-src="gov_kursk" aria-pressed="true">Gov. Kursk <span class="n">0</span></button><button type="button" class="chip ru_official" data-src="gov_rostov" aria-pressed="true">Gov. Rostov <span class="n">1</span></button><button type="button" class="chip monitoring" data-src="astra" aria-pressed="true">ASTRA <span class="n">16</span></button><button type="button" class="chip osint" data-src="oryx_russia" aria-pressed="true">Oryx RU losses <span class="n">1</span></button><button type="button" class="chip osint" data-src="oryx_ukraine" aria-pressed="true">Oryx UA losses <span class="n">1</span></button>
+<button type="button" class="chip operational" data-src="kpszsu" data-tier="operational" aria-pressed="true">Air Force UA <span class="n">1</span></button><button type="button" class="chip operational" data-src="generalstaff" data-tier="operational" aria-pressed="true">General Staff UA <span class="n">5</span></button><button type="button" class="chip state" data-src="mod_russia" data-tier="state" aria-pressed="true">MoD Russia <span class="n">4</span></button><button type="button" class="chip osint" data-src="deepstate" data-tier="osint" aria-pressed="true">DeepState <span class="n">1</span></button><button type="button" class="chip media" data-src="militarnyi" data-tier="media" aria-pressed="true">Militarnyi <span class="n">0</span></button><button type="button" class="chip media" data-src="kyivindependent" data-tier="media" aria-pressed="true">Kyiv Independent <span class="n">8</span></button><button type="button" class="chip media" data-src="ukrinform" data-tier="media" aria-pressed="true">Ukrinform <span class="n">29</span></button><button type="button" class="chip state" data-src="gov_belgorod" data-tier="state" aria-pressed="true">Gov. Belgorod <span class="n">0</span></button><button type="button" class="chip state" data-src="gov_bryansk" data-tier="state" aria-pressed="true">Gov. Bryansk <span class="n">1</span></button><button type="button" class="chip state" data-src="gov_kursk" data-tier="state" aria-pressed="true">Gov. Kursk <span class="n">0</span></button><button type="button" class="chip state" data-src="gov_rostov" data-tier="state" aria-pressed="true">Gov. Rostov <span class="n">1</span></button><button type="button" class="chip unconfirmed" data-src="astra" data-tier="unconfirmed" aria-pressed="true">ASTRA <span class="n">16</span></button><button type="button" class="chip osint" data-src="oryx_russia" data-tier="osint" aria-pressed="true">Oryx RU losses <span class="n">1</span></button><button type="button" class="chip osint" data-src="oryx_ukraine" data-tier="osint" aria-pressed="true">Oryx UA losses <span class="n">1</span></button>
+<button type="button" class="chip ctl" data-preset="operational">OFFICIAL REPORTS ONLY</button>
 <button type="button" class="chip ctl" data-all="1">SELECT ALL</button>
 <button type="button" class="chip ctl" data-none="1">CLEAR ALL</button>
 </section>
@@ -55,7 +59,7 @@
 
 <section class="facts" aria-label="The day's figures">
 
-<article class="tile" data-src="kpszsu">
+<article class="tile t-operational" data-src="kpszsu">
   <span class="tile-label">Strike UAVs launched at Ukraine</span>
   <span class="tile-value"><a href="https://t.me/kpszsu/91428" rel="noopener">113</a></span>
   
@@ -63,7 +67,7 @@
   <span class="tile-foot"><span class="tile-src">Air Force</span><svg class="spark" viewBox="0 0 84 20" width="84" height="20" role="img"><circle cx="63.5" cy="2.0" r="1.5" fill="currentColor"/><circle cx="82.0" cy="11.5" r="1.5" fill="currentColor"/><circle cx="82.0" cy="11.5" r="2.5" fill="currentColor"/></svg></span>
 </article>
 
-<article class="tile" data-src="kpszsu">
+<article class="tile t-operational" data-src="kpszsu">
   <span class="tile-label">Targets intercepted</span>
   <span class="tile-value"><a href="https://t.me/kpszsu/91428" rel="noopener">99</a></span>
   <div class="bar"><div style="width:88%"></div></div><span class="tile-note">88% of launched</span>
@@ -71,7 +75,7 @@
   <span class="tile-foot"><span class="tile-src">Air Force</span><svg class="spark" viewBox="0 0 84 20" width="84" height="20" role="img"><circle cx="63.5" cy="2.0" r="1.5" fill="currentColor"/><circle cx="82.0" cy="11.8" r="1.5" fill="currentColor"/><circle cx="82.0" cy="11.8" r="2.5" fill="currentColor"/></svg></span>
 </article>
 
-<article class="tile" data-src="kpszsu">
+<article class="tile t-operational" data-src="kpszsu">
   <span class="tile-label">Impact locations</span>
   <span class="tile-value"><a href="https://t.me/kpszsu/91428" rel="noopener">17</a></span>
   
@@ -79,7 +83,7 @@
   <span class="tile-foot"><span class="tile-src">Air Force</span><svg class="spark" viewBox="0 0 84 20" width="84" height="20" role="img"><circle cx="63.5" cy="2.0" r="1.5" fill="currentColor"/><circle cx="82.0" cy="7.1" r="1.5" fill="currentColor"/><circle cx="82.0" cy="7.1" r="2.5" fill="currentColor"/></svg></span>
 </article>
 
-<article class="tile" data-src="mod_russia">
+<article class="tile t-state" data-src="mod_russia">
   <span class="tile-label">UAVs intercepted over Russia, claimed</span>
   <span class="tile-value"><a href="https://t.me/mod_russia/68643" rel="noopener">1,156</a></span>
   
@@ -87,7 +91,7 @@
   <span class="tile-foot"><span class="tile-src">MoD</span><svg class="spark" viewBox="0 0 84 20" width="84" height="20" role="img"><polyline points="57.4,17.5 63.5,13.9 69.7,9.4 75.8,17.4 82.0,2.0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="82.0" cy="2.0" r="2.5" fill="currentColor"/></svg></span>
 </article>
 
-<article class="tile" data-src="generalstaff">
+<article class="tile t-operational" data-src="generalstaff">
   <span class="tile-label">Combat clashes</span>
   <span class="tile-value"><a href="https://t.me/GeneralStaffZSU/42733" rel="noopener">211</a></span>
   
@@ -95,7 +99,7 @@
   <span class="tile-foot"><span class="tile-src">General Staff</span><svg class="spark" viewBox="0 0 84 20" width="84" height="20" role="img"><polyline points="51.2,3.4 57.4,4.6 63.5,3.1 69.7,3.5 75.8,3.7 82.0,2.0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="82.0" cy="2.0" r="2.5" fill="currentColor"/></svg></span>
 </article>
 
-<article class="tile" data-src="generalstaff">
+<article class="tile t-operational" data-src="generalstaff">
   <span class="tile-label">Guided aerial bombs</span>
   <span class="tile-value"><a href="https://t.me/GeneralStaffZSU/42733" rel="noopener">263</a></span>
   
@@ -103,7 +107,7 @@
   <span class="tile-foot"><span class="tile-src">General Staff</span><svg class="spark" viewBox="0 0 84 20" width="84" height="20" role="img"><polyline points="51.2,2.0 57.4,5.2 63.5,3.9 69.7,3.3 75.8,3.4 82.0,3.0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="82.0" cy="3.0" r="2.5" fill="currentColor"/></svg></span>
 </article>
 
-<article class="tile" data-src="generalstaff">
+<article class="tile t-operational" data-src="generalstaff">
   <span class="tile-label">Kamikaze drones used</span>
   <span class="tile-value"><a href="https://t.me/GeneralStaffZSU/42733" rel="noopener">9,576</a></span>
   
@@ -111,7 +115,7 @@
   <span class="tile-foot"><span class="tile-src">General Staff</span><svg class="spark" viewBox="0 0 84 20" width="84" height="20" role="img"><polyline points="51.2,2.0 57.4,3.1 63.5,2.5 69.7,2.6 75.8,3.4 82.0,2.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="82.0" cy="2.7" r="2.5" fill="currentColor"/></svg></span>
 </article>
 
-<article class="tile" data-src="generalstaff">
+<article class="tile t-operational" data-src="generalstaff">
   <span class="tile-label">Russian personnel losses, claimed</span>
   <span class="tile-value"><a href="https://t.me/GeneralStaffZSU/42733" rel="noopener">+1,590</a></span>
   
@@ -160,7 +164,7 @@
     <summary>
       <span class="time">07:31</span>
       <span class="text"><b>Russia &rarr; Ukraine</b> · 113 launched · 99 intercepted · 17 impact locations</span>
-      <span class="side ua_official">Air Force UA</span>
+      <span class="side operational">Air Force UA</span>
     </summary>
     <div class="hl-body">
       <p class="sub">air attack</p>
@@ -178,7 +182,7 @@
     <summary>
       <span class="time">07:02</span>
       <span class="text" lang="ru">❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесен массированный удар высокоточным оружием наземного базирования и беспилотными летательными аппаратами, в результате которого поражены ▫️ предприятия военно-промышленного комплекса Украины, задействованные в производстве и хранении БПЛА большой и средней…</span>
-      <span class="side ru_official">MoD Russia</span>
+      <span class="side state">MoD Russia</span>
     </summary>
     <div class="hl-body">
       
@@ -196,7 +200,7 @@
     <summary>
       <span class="time">17:20</span>
       <span class="text" lang="ru">❗️ Сегодня днем Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным в интересах ВСУ.</span>
-      <span class="side ru_official">MoD Russia</span>
+      <span class="side state">MoD Russia</span>
     </summary>
     <div class="hl-body">
       
@@ -232,7 +236,7 @@
     <summary>
       <span class="time">07:26</span>
       <span class="text" lang="ru">Дрон атаковал Запорожскую АЭС, погиб сотрудник станции Захваченная Россией Запорожская АЭС подверглась атаке БПЛА.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -358,7 +362,7 @@
     <summary>
       <span class="time">16:34</span>
       <span class="text" lang="ru">Один человек пострадал, загорелся объект критической инфраструктуры в результате российских ударов в Днепре, — ОВА «70-летняя женщина получила ранения в результате атаки россиян на Днепр.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -376,7 +380,7 @@
     <summary>
       <span class="time">16:45</span>
       <span class="text" lang="ru">Минобороны РФ подтвердило удар по Южному мосту в Киеве и заявило о поражении цеха сборки БПЛА компании Fire Point ВС РФ нанесли «массированный удар высокоточным оружием наземного базирования» и беспилотниками по предприятиям ВПК Украины и Южному мосту в Киеве…</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -412,7 +416,7 @@
     <summary>
       <span class="time">19:54</span>
       <span class="text" lang="ru">5 человек погибли, еще 14 пострадали в Изюме в результате российской атаки управляемыми авиабомбами 29 октября, — ОВА «Вчера в Изюме в результате попадания вражеских корректируемых авиабомб погибли пятеро сотрудников Изюмского филиала Харьковского центра контроля и профилактики заболеваний.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -502,7 +506,7 @@
     <summary>
       <span class="time">23:43</span>
       <span class="text" lang="ru">В Киеве начались перебои в системе водоснабжения в результате российских ударов БПЛА по критической инфраструктуре, — мэр По данным мэра, удары российскими беспилотниками по объектам критической инфраструктуры привели к отключению электроэнергии.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -525,7 +529,7 @@
     <summary>
       <span class="time">08:49</span>
       <span class="text"><b>Ukraine &rarr; Russia</b> · 1,043 UAVs intercepted, as claimed</span>
-      <span class="side ru_official">MoD Russia</span>
+      <span class="side state">MoD Russia</span>
     </summary>
     <div class="hl-body">
       <p class="sub">UAVs intercepted, as claimed (overnight)</p>
@@ -543,7 +547,7 @@
     <summary>
       <span class="time">19:35</span>
       <span class="text"><b>Ukraine &rarr; Russia</b> · 113 UAVs intercepted, as claimed</span>
-      <span class="side ru_official">MoD Russia</span>
+      <span class="side state">MoD Russia</span>
     </summary>
     <div class="hl-body">
       <p class="sub">UAVs intercepted, as claimed (8:00 to 20:00 MSK)</p>
@@ -561,7 +565,7 @@
     <summary>
       <span class="time">12:11</span>
       <span class="text" lang="uk">Мінус «Іскандер» на Курщині 29 жовтня та в ніч на 30 жовтня підрозділи Сил оборони України уразили пускову установку ОТРК «Іскандер-М» у Курській області рф, склади боєприпасів і матеріально-технічних засобів, а також ремонтні підрозділи противника.</span>
-      <span class="side ua_official">General Staff UA</span>
+      <span class="side operational">General Staff UA</span>
     </summary>
     <div class="hl-body">
       
@@ -579,7 +583,7 @@
     <summary>
       <span class="time">20:01</span>
       <span class="text" lang="uk">Збройні Сили України продовжують працювати над пошуком додаткових рішень для захисту неба Один із напрямів – залучення до протиповітряної оборони підприємств незалежно від форми власності.</span>
-      <span class="side ua_official">General Staff UA</span>
+      <span class="side operational">General Staff UA</span>
     </summary>
     <div class="hl-body">
       
@@ -597,7 +601,7 @@
     <summary>
       <span class="time">00:14</span>
       <span class="text" lang="ru">Из кошельков Binance переместили криптоактивы в миллиарды долларов.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -615,7 +619,7 @@
     <summary>
       <span class="time">01:17</span>
       <span class="text" lang="ru">В Москве закрыли все аэропорты на фоне атаки БПЛА Росавиация сообщила, что в аэропортах Домодедово, Внуково, Жуковский (Раменское) и Шереметьево введены временные ограничения на прием и выпуск воздушных судов.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -633,7 +637,7 @@
     <summary>
       <span class="time">02:15</span>
       <span class="text" lang="ru">Предположительно атаковано предприятие «Консервсушпрод» в Стародубе Брянской области, которое производит консервы для российской армии На присланных читателями ASTRA фото и видео видно пылающее здание.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -651,7 +655,7 @@
     <summary>
       <span class="time">06:16</span>
       <span class="text" lang="ru">Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область около 50 БПЛА уничтожены в 4 районах области: Верхнедонском, Миллеровском, Шолоховском и Чертковском.</span>
-      <span class="side ru_official">Gov. Rostov</span>
+      <span class="side state">Gov. Rostov</span>
     </summary>
     <div class="hl-body">
       
@@ -669,7 +673,7 @@
     <summary>
       <span class="time">06:35</span>
       <span class="text" lang="ru">В Новокуйбышевске Самарской области горит НПЗ, который производит реактивное топливо для нужд ВС РФ.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -705,7 +709,7 @@
     <summary>
       <span class="time">13:02</span>
       <span class="text" lang="ru">ВС РФ потеряли новейший Су-57, утверждают украинские OSINT-каналы 29 октября на территории аэродрома «Ахтубинск» Астраханской области в результате нештатной ситуации при запуске двигателя сгорел российский истребитель Су-57 пятого поколения.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -723,7 +727,7 @@
     <summary>
       <span class="time">13:35</span>
       <span class="text" lang="ru">Еще кадры последствий атаки дронов на «Новокуйбышевский нефтеперерабатывающий завод» в Самарской области.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -741,7 +745,7 @@
     <summary>
       <span class="time">13:55</span>
       <span class="text" lang="ru">В Брянской области от удара дрона ВСУ по частному дому погиб 19-летний парень.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -759,7 +763,7 @@
     <summary>
       <span class="time">14:42</span>
       <span class="text" lang="ru">Два человека погибли в Самарской области из-за ликвидации последствий атаки БПЛА, — власти Двое мужчин погибли при ликвидации последствий атаки БПЛА в Самарской области, сообщил губернатор региона Вячеслав Федорищев.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -777,7 +781,7 @@
     <summary>
       <span class="time">15:17</span>
       <span class="text" lang="ru">✅ Итоги заседания Брянской областной Думы: рассмотрено более 40 вопросов.</span>
-      <span class="side ru_official">Gov. Bryansk</span>
+      <span class="side state">Gov. Bryansk</span>
     </summary>
     <div class="hl-body">
       
@@ -795,7 +799,7 @@
     <summary>
       <span class="time">16:55</span>
       <span class="text" lang="ru">Один человек пострадал в результате украинской атаки на администрацию пгт Погар в Брянской области, — ОВА «Украинский беспилотник атаковал здание Погарской администрации.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -813,7 +817,7 @@
     <summary>
       <span class="time">19:14</span>
       <span class="text" lang="ru">В России впервые с 2022 года число ликвидаций частных АЗС превысило число регистраций новых, — «Коммерсантъ» За январь-сентябрь 2026 года в России ликвидировали 935 компаний и индивидуальных предпринимателей, занимающихся розничной продажей топлива, пишет «Коммерсантъ» со ссылкой на собственные расчеты по данным серви…</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -831,7 +835,7 @@
     <summary>
       <span class="time">22:10</span>
       <span class="text" lang="ru">Осужденный за взятку с вымогательством на 13 лет строгого режима бывший вице-премьер Башкортостана Алан Марзаев подписал контракт и отправился на войну с Украиной Об этом сообщается в его соцсетях, к посту прикреплены фотографии Марзаева в военной форме и с оружием.</span>
-      <span class="side monitoring">ASTRA</span>
+      <span class="side unconfirmed">ASTRA</span>
     </summary>
     <div class="hl-body">
       
@@ -931,7 +935,7 @@
     <summary>
       <span class="time">08:02</span>
       <span class="text"><b>Russia &rarr; Ukraine</b> · 211 combat clashes · 263 guided aerial bombs dropped · 9,576 kamikaze drones used · 2,478 shellings · 26 settlements shelled</span>
-      <span class="side ua_official">General Staff UA</span>
+      <span class="side operational">General Staff UA</span>
     </summary>
     <div class="hl-body">
       <p class="sub">past 24 hours to 08:00, as reported</p>
@@ -949,7 +953,7 @@
     <summary>
       <span class="time">22:01</span>
       <span class="text"><b>Russia &rarr; Ukraine</b> · 168 combat clashes · 172 guided aerial bombs dropped · 4,506 kamikaze drones used · 1,535 shellings</span>
-      <span class="side ua_official">General Staff UA</span>
+      <span class="side operational">General Staff UA</span>
     </summary>
     <div class="hl-body">
       <p class="sub">since 00:00, as of 22:00</p>
@@ -972,7 +976,7 @@
     <summary>
       <span class="time">08:02</span>
       <span class="text"><b>Ukraine (General Staff) &rarr; Russia</b> · Russian losses in the past 24 hours, as claimed</span>
-      <span class="side ua_official">General Staff UA</span>
+      <span class="side operational">General Staff UA</span>
     </summary>
     <div class="hl-body">
       <p class="sub">Russian losses in the past 24 hours, as claimed</p>
@@ -1675,36 +1679,36 @@
   <h2>Sources</h2>
   <table>
   
-    <tr><td><a href="https://t.me/s/kpszsu" rel="noopener">Air Force of Ukraine</a></td><td>Ukrainian official</td><td>telegram</td></tr>
+    <tr><td><a href="https://t.me/s/kpszsu" rel="noopener">Air Force of Ukraine</a></td><td><span class="side operational">Operational report</span></td><td>telegram</td></tr>
   
-    <tr><td><a href="https://t.me/s/GeneralStaffZSU" rel="noopener">General Staff of the Armed Forces of Ukraine</a></td><td>Ukrainian official</td><td>telegram</td></tr>
+    <tr><td><a href="https://t.me/s/GeneralStaffZSU" rel="noopener">General Staff of the Armed Forces of Ukraine</a></td><td><span class="side operational">Operational report</span></td><td>telegram</td></tr>
   
-    <tr><td><a href="https://t.me/s/mod_russia" rel="noopener">Ministry of Defence of Russia</a></td><td>Russian official</td><td>telegram</td></tr>
+    <tr><td><a href="https://t.me/s/mod_russia" rel="noopener">Ministry of Defence of Russia</a></td><td><span class="side state">State claim</span></td><td>telegram</td></tr>
   
-    <tr><td><a href="https://t.me/s/DeepStateUA" rel="noopener">DeepState</a></td><td>OSINT</td><td>telegram</td></tr>
+    <tr><td><a href="https://t.me/s/DeepStateUA" rel="noopener">DeepState</a></td><td><span class="side osint">Verified OSINT</span></td><td>telegram</td></tr>
   
-    <tr><td><a href="https://mil.in.ua/en/feed/" rel="noopener">Militarnyi</a></td><td>Media</td><td>rss</td></tr>
+    <tr><td><a href="https://mil.in.ua/en/feed/" rel="noopener">Militarnyi</a></td><td><span class="side media">Media</span></td><td>rss</td></tr>
   
-    <tr><td><a href="https://kyivindependent.com/news-archive/rss/" rel="noopener">The Kyiv Independent</a></td><td>Media</td><td>rss</td></tr>
+    <tr><td><a href="https://kyivindependent.com/news-archive/rss/" rel="noopener">The Kyiv Independent</a></td><td><span class="side media">Media</span></td><td>rss</td></tr>
   
-    <tr><td><a href="https://www.ukrinform.net/rss/block-lastnews" rel="noopener">Ukrinform</a></td><td>Media</td><td>rss</td></tr>
+    <tr><td><a href="https://www.ukrinform.net/rss/block-lastnews" rel="noopener">Ukrinform</a></td><td><span class="side media">Media</span></td><td>rss</td></tr>
   
-    <tr><td><a href="https://t.me/s/vvgladkov" rel="noopener">Governor of Belgorod oblast</a></td><td>Russian official</td><td>telegram</td></tr>
+    <tr><td><a href="https://t.me/s/vvgladkov" rel="noopener">Governor of Belgorod oblast</a></td><td><span class="side state">State claim</span></td><td>telegram</td></tr>
   
-    <tr><td><a href="https://t.me/s/avbogomaz" rel="noopener">Governor of Bryansk oblast</a></td><td>Russian official</td><td>telegram</td></tr>
+    <tr><td><a href="https://t.me/s/avbogomaz" rel="noopener">Governor of Bryansk oblast</a></td><td><span class="side state">State claim</span></td><td>telegram</td></tr>
   
-    <tr><td><a href="https://t.me/s/hinshtein" rel="noopener">Governor of Kursk oblast</a></td><td>Russian official</td><td>telegram</td></tr>
+    <tr><td><a href="https://t.me/s/hinshtein" rel="noopener">Governor of Kursk oblast</a></td><td><span class="side state">State claim</span></td><td>telegram</td></tr>
   
-    <tr><td><a href="https://t.me/s/Yuri_Slusar" rel="noopener">Governor of Rostov oblast</a></td><td>Russian official</td><td>telegram</td></tr>
+    <tr><td><a href="https://t.me/s/Yuri_Slusar" rel="noopener">Governor of Rostov oblast</a></td><td><span class="side state">State claim</span></td><td>telegram</td></tr>
   
-    <tr><td><a href="https://t.me/s/astrapress" rel="noopener">ASTRA</a></td><td>unconfirmed</td><td>telegram</td></tr>
+    <tr><td><a href="https://t.me/s/astrapress" rel="noopener">ASTRA</a></td><td><span class="side unconfirmed">Unconfirmed</span></td><td>telegram</td></tr>
   
-    <tr><td><a href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html" rel="noopener">Oryx (Russian equipment losses)</a></td><td>OSINT</td><td>html</td></tr>
+    <tr><td><a href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html" rel="noopener">Oryx (Russian equipment losses)</a></td><td><span class="side osint">Verified OSINT</span></td><td>html</td></tr>
   
-    <tr><td><a href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html" rel="noopener">Oryx (Ukrainian equipment losses)</a></td><td>OSINT</td><td>html</td></tr>
+    <tr><td><a href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html" rel="noopener">Oryx (Ukrainian equipment losses)</a></td><td><span class="side osint">Verified OSINT</span></td><td>html</td></tr>
   
   </table>
-  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-11-06 06:54 UTC.</p>
+  <p>Each entry reproduces the figures and wording its source published. Figures from different sources are not reconciled. Dates follow Kyiv time. Generated 2026-11-06 13:31 UTC.</p>
 </footer>
 <script src="ledger.js"></script>
 </body>
