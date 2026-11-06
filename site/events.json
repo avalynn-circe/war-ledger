@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06 13:35",
+ "generated_at": "2026-11-06 14:34",
  "days": [
   {
    "date": "2026-11-06",
@@ -80,6 +80,34 @@
      "detail_en": null,
      "locations_en": null,
      "id": "27566ea7f1b5"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "air_attack",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68802",
+     "quote": "❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным для доставки ВСУ грузов военного назначения.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "strike, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T14:02:45+00:00",
+     "source_tier": "state",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "c008e0288ac5"
     },
     {
      "date": "2026-11-06",
@@ -1485,6 +1513,36 @@
      "detail_en": null,
      "locations_en": null,
      "id": "994662f87725"
+    },
+    {
+     "date": "2026-11-06",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182153-zelensky-kyiv-facing-most-severe-electricity-and-water-supply-disruptions-following-russian-attacks.html",
+     "quote": "Zelensky: Kyiv facing most severe electricity and water supply disruptions following Russian attacks",
+     "time": "16:27",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Kyiv is facing the most severe disruptions to electricity and water supplies following Russian attacks.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-06T14:27:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "605f379e2996"
     }
    ]
   },

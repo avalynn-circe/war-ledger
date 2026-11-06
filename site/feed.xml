@@ -6,7 +6,25 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Fri, 06 Nov 2026 13:35:31 +0000</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 14:34:30 +0000</lastBuildDate>
+
+<item>
+<title>[Media] Zelensky: Kyiv facing most severe electricity and water supply disruptions following Russian attacks</title>
+<link>https://www.ukrinform.net/rubric-ato/4182153-zelensky-kyiv-facing-most-severe-electricity-and-water-supply-disruptions-following-russian-attacks.html</link>
+<guid isPermaLink="false">605f379e2996</guid>
+<pubDate>Fri, 06 Nov 2026 14:27:00 +0000</pubDate>
+<category>Infrastructure</category>
+<description>Ukrinform · Kyiv is facing the most severe disruptions to electricity and water supplies following Russian attacks. · Kyiv</description>
+</item>
+
+<item>
+<title>[State claim] ❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным для доставки ВСУ грузов военного назначения.</title>
+<link>https://t.me/mod_russia/68802</link>
+<guid isPermaLink="false">c008e0288ac5</guid>
+<pubDate>Fri, 06 Nov 2026 14:02:45 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ministry of Defence of Russia</description>
+</item>
 
 <item>
 <title>[State claim] Отсутствие отопления в домах – одно из самых частых обращений жителей ко мне через соцсети.</title>
@@ -1338,24 +1356,6 @@
 <pubDate>Tue, 03 Nov 2026 16:38:00 +0000</pubDate>
 <category>Civilian damage</category>
 <description>Ukrinform · As a result of Russia’s nighttime attack on Kharkiv in the Nemyshlianskyi District, three medical facilities and 17 high-rise residential buildings were damaged. · Kharkiv</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Один человек погиб, еще пять пострадали в результате российского авиаудара под Краматорском в Донецкой области, — ГСЧС «После удара российской авиации по Ясногорке спасатели извлекли из-</title>
-<link>https://t.me/astrapress/130142</link>
-<guid isPermaLink="false">4c5221a23eba</guid>
-<pubDate>Tue, 03 Nov 2026 16:15:01 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Donetsk oblast</description>
-</item>
-
-<item>
-<title>[Media] Kyiv faces emergency power cuts, widespread water outages after Russia&#39;s largest attack on energy infrastructure this year</title>
-<link>https://kyivindependent.com/kyiv-faces-emergency-power-cuts-widespread-water-outages-after-russias-largest-attack-on-energy-infrastructure-this-year/</link>
-<guid isPermaLink="false">acaca5a1c0b9</guid>
-<pubDate>Tue, 03 Nov 2026 16:08:09 +0000</pubDate>
-<category>Infrastructure</category>
-<description>The Kyiv Independent · The widespread power and water outages in Kyiv follow Russia&#39;s largest mass attack on Ukraine&#39;s energy infrastructure this year, which targeted substations, transmission systems, and power plants across the country. · Kyiv</description>
 </item>
 
 </channel>
