@@ -1,6 +1,6 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-07T01:59:09+00:00",
+ "generated_at": "2026-11-07T08:51:50+00:00",
  "events": [
   {
    "date": "2026-11-06",
@@ -476,7 +476,7 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/death-toll-from-russian-strike-on-komyshuvakha-rises-to-53-as-search-operation-enters-5th-day/",
-   "quote": "Death toll from Russian strike on Komyshuvakha rises to 53 as search operation enters 5th day",
+   "quote": "Death toll from Russian strike on Komyshuvakha rises to 55 as search operation enters 6th day",
    "time": "12:52",
    "actor": "Russia",
    "target": "Ukraine",
@@ -497,7 +497,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "ab4fa1ef2e8b"
+   "id": "76ff2747c675"
   },
   {
    "date": "2026-11-06",
