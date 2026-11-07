@@ -1,6 +1,6 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T21:33:32+00:00",
+ "generated_at": "2026-11-07T01:59:09+00:00",
  "events": [
   {
    "date": "2026-11-06",
@@ -800,6 +800,40 @@
    "detail_en": null,
    "locations_en": null,
    "id": "bfaa442a6f73"
+  },
+  {
+   "date": "2026-11-06",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4182280-injury-toll-after-russian-attack-on-sumy-rises-to-seven.html",
+   "quote": "Injury toll after Russian attack on Sumy rises to seven",
+   "time": "23:51",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "The number of people injured in today’s Russian attack on the city of Sumy with guided aerial bombs has risen to seven.",
+   "weapons": [
+    {
+     "name": "Guided aerial bomb (KAB/FAB)"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Sumy"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-06T21:51:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "042c0c1ef48f"
   },
   {
    "date": "2026-11-06",
