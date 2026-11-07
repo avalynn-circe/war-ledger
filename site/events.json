@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07 08:51",
+ "generated_at": "2026-11-07 16:29",
  "days": [
   {
    "date": "2026-11-07",
@@ -36,6 +36,34 @@
      "detail_en": null,
      "locations_en": null,
      "id": "235f0557b81f"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "air_attack",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68825",
+     "quote": "❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по объектам топливно-энергетической инфраструктуры Украины, используемым в интересах ВСУ, и морским судам, задействованным для доставки грузов военного назначения.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "strike, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T14:42:57+00:00",
+     "source_tier": "state",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "b895007229ef"
     },
     {
      "date": "2026-11-07",
@@ -132,6 +160,131 @@
     },
     {
      "date": "2026-11-07",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182373-massive-russian-attack-energy-facilities-damaged-in-two-districts-of-kyiv-region.html",
+     "quote": "Massive Russian attack: Energy facilities damaged in two districts of Kyiv region",
+     "time": "10:59",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces launched a massive attack on the Kyiv region using ballistic missiles and attack drones, targeting energy facilities, civilian infrastructure and residential buildings.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T08:59:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "36622fb40dda"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182395-defense-forces-strike-two-iskander-launchers-pantsirs1-system-in-russias-bryansk-region.html",
+     "quote": "Defense Forces strike two Iskander launchers, Pantsir-S1 system in Russia's Bryansk region",
+     "time": "12:21",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Ukraine's Defense Forces struck two launchers of the Iskander operational-tactical missile system and a Pantsir-S1 air defense missile and gun system in Russia's Bryansk region.",
+     "weapons": [
+      {
+       "name": "Iskander-M ballistic missile"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Bryansk oblast"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T10:21:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "183c35476ebd"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182426-russian-drones-attack-businesses-in-poltava-region-four-people-injured.html",
+     "quote": "Russian drones attack businesses in Poltava region, four people injured",
+     "time": "14:28",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Four people were injured in Kremenchuk, Poltava region, as a result of a Russian attack on private businesses.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Poltava"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T12:28:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "2ee158c062c7"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130486",
+     "quote": "Больше 120 000 абонентов остались без света в оккупированном Донецке Об этом сообщил поставленный РФ «мэр» украинского города Алексей Кулемзин.",
+     "time": "15:44",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Donetsk oblast",
+      "Kyiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T13:44:28+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "bb3445fe6f1e"
+    },
+    {
+     "date": "2026-11-07",
      "category": "civilian_damage",
      "source_id": "astra",
      "source_name": "ASTRA",
@@ -167,7 +320,7 @@
      "source_name": "The Kyiv Independent",
      "source_side": "media",
      "source_url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-after-zelensky-warns-of-mass-attack/",
-     "quote": "Russian ballistic missiles slam Kyiv, damage Northern Bridge, injure 6 people",
+     "quote": "Russian ballistic missiles slam Kyiv, damage Northern Bridge, injure at least 6 people",
      "time": "00:04",
      "actor": "Russia",
      "target": "Ukraine",
@@ -188,7 +341,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "ae0ff99f4b46"
+     "id": "eaa1f61e2928"
     },
     {
      "date": "2026-11-07",
@@ -381,6 +534,186 @@
     },
     {
      "date": "2026-11-07",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182377-injury-toll-after-russian-attack-on-kyiv-rises-to-six-including-one-child.html",
+     "quote": "Injury toll after Russian attack on Kyiv rises to six, including one child",
+     "time": "11:36",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The number of people injured in the Russian attack on Kyiv on November 7 has risen to six, including one child.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T09:36:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "bf3a2adccbb0"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182405-russian-forces-shell-lozova-damaging-apartment-buildings-heating-facility-and-kindergarten.html",
+     "quote": "Russian forces shell Lozova, damaging apartment buildings, heating facility and kindergarten",
+     "time": "13:17",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces shelled the city of Lozova in the Kharkiv region in the morning, damaging apartment buildings, a heating facility and a kindergarten.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T11:17:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "190291931b22"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130481",
+     "quote": "В Харькове в результате удара ВС РФ пострадали два человека, — ГСЧС По данным украинского ведомства, в результате российского удара по Слободскому району Харькова повреждения получили многоэтажные жилые дома, легковые автомобили и общественный транспорт.",
+     "time": "14:45",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T12:45:19+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "97a52f74abf3"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182427-russian-attack-on-kharkiv-leaves-two-injured.html",
+     "quote": "Russian attack on Kharkiv leaves two injured",
+     "time": "14:55",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Two people were injured as a result of a Russian attack on the Slobidskyi district of Kharkiv.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T12:55:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "aa9b25f0bf6b"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182452-private-house-damaged-in-russian-attack-on-kyivs-shevchenkivskyi-district.html",
+     "quote": "Private house damaged in Russian attack on Kyiv's Shevchenkivskyi district",
+     "time": "16:36",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "A private house was damaged in a Russian attack in Kyiv's Shevchenkivskyi district.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T14:36:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "258067546309"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182456-russian-forces-attack-odesa-damaging-residential-house.html",
+     "quote": "Russian forces attack Odesa, damaging residential house",
+     "time": "16:58",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces attacked Odesa in the afternoon of November 7, damaging a residential house.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Odesa"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T14:58:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "94f76d60e1cb"
+    },
+    {
+     "date": "2026-11-07",
      "category": "strikes_in_russia",
      "source_id": "mod_russia",
      "source_name": "Ministry of Defence of Russia",
@@ -473,6 +806,34 @@
      "detail_en": null,
      "locations_en": null,
      "id": "ab5b2cab4442"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "strikes_in_russia",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42834",
+     "quote": "«Іскандерам» не смішно Минула доба видалася для окупантів гарячою.",
+     "time": null,
+     "actor": "Ukraine (General Staff)",
+     "target": "Russia",
+     "action": "strike, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T09:01:01+00:00",
+     "source_tier": "operational",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "92e7fff99014"
     },
     {
      "date": "2026-11-07",
@@ -861,6 +1222,295 @@
     },
     {
      "date": "2026-11-07",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24251, of which: destroyed: 19216, damaged: 1001, abandoned: 1192, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24251,
+      "destroyed": 19216,
+      "damaged": 1001,
+      "abandoned": 1192,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4454
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2428
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6495
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 756
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 441
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 740
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 621
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1066
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 645
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 30
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 448
+      },
+      {
+       "label": "Radars",
+       "count": 143
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 208
+      },
+      {
+       "label": "Helicopters",
+       "count": 186
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 40
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4739
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-07T16:29:22.944825+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f09b136b6618"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12320, of which: destroyed: 9711, damaged: 718, abandoned: 693, captured: 1198",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12320,
+      "destroyed": 9711,
+      "damaged": 718,
+      "abandoned": 693,
+      "captured": 1198
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1473
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 566
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1628
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1474
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1015
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2202
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 105
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 302
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 306
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1000
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 136
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 150
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1403
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-07T16:29:23.719589+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "1a0b5703e945"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "air_defense",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/ukraine-strikes-russian-missile-launchers-air-defense-systems-in-bryansk-oblast-general-staff-says/",
+     "quote": "Ukraine strikes Russian missile launchers, air defense systems in Bryansk Oblast, General Staff says",
+     "time": "14:38",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The Iskander-M is one of Russia's principal ballistic weapons.",
+     "weapons": [
+      {
+       "name": "Iskander-M ballistic missile"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Bryansk oblast",
+      "Moscow"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T12:38:32+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "e810f18cfc92"
+    },
+    {
+     "date": "2026-11-07",
      "category": "logistics",
      "source_id": "ukrinform",
      "source_name": "Ukrinform",
@@ -946,6 +1596,191 @@
      "detail_en": null,
      "locations_en": null,
      "id": "5c5d7b6d5285"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "infrastructure",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/russian-attacks-kill-2-injure-37-across-ukraine-over-past-day-hit-substations-connecting-nuclear-power-plants-to-kyiv/",
+     "quote": "Russian attacks kill 2, injure 37 across Ukraine over past day, hit substations connecting nuclear power plants to Kyiv",
+     "time": "12:50",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "President Volodymyr Zelensky said on Nov.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv",
+      "Vinnytsia",
+      "Zhytomyr",
+      "Rivne",
+      "Kharkiv",
+      "Dnipro"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T10:50:06+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "06241773873d"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-economy/4182398-part-of-brovary-district-in-kyiv-region-left-without-electricity-following-russian-attack.html",
+     "quote": "Part of Brovary district in Kyiv region left without electricity following Russian attack",
+     "time": "12:52",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Part of Brovary district in the Kyiv region is without electricity following a Russian attack on a DTEK energy facility overnight.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T10:52:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "fd8755d1b3f7"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-economy/4182409-russia-attacks-power-transmission-networks-carrying-electricity-from-nuclear-power-plants-to-kyiv-and-central-ukraine.html",
+     "quote": "Russia attacks power transmission networks carrying electricity from nuclear power plants to Kyiv and central Ukraine",
+     "time": "13:41",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russia attacked overnight the power transmission networks carrying electricity from nuclear power plants to Kyiv, the Kyiv region and central Ukraine.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T11:41:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "c874fecba84d"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-economy/4182437-ukraines-energy-facilities-hit-18-times-in-past-24-hours-energy-minister.html",
+     "quote": "Ukraine's energy facilities hit 18 times in past 24 hours – energy minister",
+     "time": "15:23",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "First Deputy Prime Minister and Minister of Energy Denys Shmyhal told German Federal Minister for Economic Affairs and Energy Katherina Reiche that Ukraine's energy facilities had been hit 18 times over the past 24 hours.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T13:23:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "34228f2fc6d8"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182444-russia-may-have-used-north-korean-kn23-missiles-to-strike-ukrainian-energy-facility-zelensky.html",
+     "quote": "Russia may have used North Korean KN-23 missiles to strike Ukrainian energy facility – Zelensky",
+     "time": "16:12",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Russia likely used North Korean-made KN-23 missiles in its November 7 overnight attack on one of Ukraine's key energy facilities, according to preliminary findings.",
+     "weapons": [
+      {
+       "name": "KN-23 ballistic missile"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T14:12:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "bf75ca163297"
+    },
+    {
+     "date": "2026-11-07",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4182465-russian-attack-causes-power-outage-in-khmelnytskyi-region.html",
+     "quote": "Russian attack causes power outage in Khmelnytskyi region",
+     "time": "17:22",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "A power outage has occurred in the Kamianets-Podilskyi district of the Khmelnytskyi region as a result of a Russian attack.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Khmelnytskyi"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-07T15:22:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "4fbc71e9bbea"
     }
    ]
   },
