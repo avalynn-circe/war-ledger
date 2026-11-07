@@ -6,13 +6,13 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Sat, 07 Nov 2026 16:29:25 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 21:55:48 +0000</lastBuildDate>
 
 <item>
 <title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
 <link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
 <guid isPermaLink="false">1a0b5703e945</guid>
-<pubDate>Sat, 07 Nov 2026 16:29:23 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 21:55:46 +0000</pubDate>
 <category>Claimed losses</category>
 <description>Oryx (Ukrainian equipment losses)</description>
 </item>
@@ -21,9 +21,99 @@
 <title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
 <link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
 <guid isPermaLink="false">f09b136b6618</guid>
-<pubDate>Sat, 07 Nov 2026 16:29:22 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 21:55:45 +0000</pubDate>
 <category>Claimed losses</category>
 <description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Более 300 000 абонентов остались без света в оккупированной Луганской области после украинских ударов БПЛА, — «власти» Об этом сообщили в «правительстве» оккупированной Россией Луганской</title>
+<link>https://t.me/astrapress/130519</link>
+<guid isPermaLink="false">c100e66bc403</guid>
+<pubDate>Sat, 07 Nov 2026 21:31:37 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Luhansk oblast</description>
+</item>
+
+<item>
+<title>[Operational report] Russia → Ukraine · 187 combat clashes · 152 guided aerial bombs dropped · 5,405 kamikaze drones used · 1,897 shellings</title>
+<link>https://t.me/GeneralStaffZSU/42835</link>
+<guid isPermaLink="false">70595e19a16d</guid>
+<pubDate>Sat, 07 Nov 2026 20:00:01 +0000</pubDate>
+<category>Front activity</category>
+<description>General Staff of the Armed Forces of Ukraine</description>
+</item>
+
+<item>
+<title>[Media] Prosecutor&#39;s office building damaged in Russian attack on Kyiv</title>
+<link>https://www.ukrinform.net/rubric-ato/4182521-prosecutors-office-building-damaged-in-russian-attack-on-kyiv.html</link>
+<guid isPermaLink="false">814e7909fc15</guid>
+<pubDate>Sat, 07 Nov 2026 19:57:00 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ukrinform · A prosecutor&#39;s office building was damaged in a Russian attack on the capital on Saturday. · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Fire at warehouse in Kyiv region caused by Russian attack extinguished</title>
+<link>https://www.ukrinform.net/rubric-ato/4182519-fire-at-warehouse-in-kyiv-region-caused-by-russian-attack-extinguished.html</link>
+<guid isPermaLink="false">889259db00e8</guid>
+<pubDate>Sat, 07 Nov 2026 19:39:00 +0000</pubDate>
+<category>Logistics and supply</category>
+<description>Ukrinform · Rescuers have extinguished a fire at a warehouse facility in Kyiv region caused by a Russian attack. · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Woman killed, others injured in Russian attacks on Kharkiv region since morning</title>
+<link>https://www.ukrinform.net/rubric-ato/4182512-woman-killed-others-injured-in-russian-attacks-on-kharkiv-region-since-morning.html</link>
+<guid isPermaLink="false">c7d0479ffe5a</guid>
+<pubDate>Sat, 07 Nov 2026 19:19:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · A woman was killed and several people were injured in Russian shelling of Kharkiv and the surrounding region on Saturday. · Kharkiv</description>
+</item>
+
+<item>
+<title>[Media] More than 60,000 consumers left without electricity in Dnipro due to Russian attacks</title>
+<link>https://www.ukrinform.net/rubric-ato/4182511-more-than-60000-consumers-left-without-electricity-in-dnipro-due-to-russian-attacks.html</link>
+<guid isPermaLink="false">c4460fb30328</guid>
+<pubDate>Sat, 07 Nov 2026 18:53:00 +0000</pubDate>
+<category>Infrastructure</category>
+<description>Ukrinform · More than 60,000 consumers in Dnipro have been left without electricity following repeated Russian attacks on energy infrastructure. · Dnipro</description>
+</item>
+
+<item>
+<title>[Media] Russian forces attack two districts of Dnipropetrovsk region more than 10 times since morning, one injured</title>
+<link>https://www.ukrinform.net/rubric-ato/4182509-russian-forces-attack-two-districts-of-dnipropetrovsk-region-more-than-10-times-since-morning-one-injured.html</link>
+<guid isPermaLink="false">1f1a21269c5f</guid>
+<pubDate>Sat, 07 Nov 2026 18:41:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Russian forces attacked two districts of Dnipropetrovsk region more than 10 times during the day using drones and artillery, injuring one person. · Dnipropetrovsk oblast</description>
+</item>
+
+<item>
+<title>[Media] Germany cannot provide Ukraine with more Patriot systems for now, defense minister says</title>
+<link>https://kyivindependent.com/germany-cannot-provide-ukraine-with-more-patriot-systems-for-now-defense-minister-says/</link>
+<guid isPermaLink="false">c1dc207b59cc</guid>
+<pubDate>Sat, 07 Nov 2026 17:55:00 +0000</pubDate>
+<category>Air defence</category>
+<description>The Kyiv Independent · Boris Pistorius called on other countries to increase their contributions to Ukraine&#39;s air defenses, adding that the issue would be discussed at the next Ukraine Defense Contact Group meeting in mid-November.</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В течение дня над регионами РФ перехвачены и уничтожены 28 беспилотников ВСУ, сообщили в Минобороны РФ.</title>
+<link>https://t.me/astrapress/130507</link>
+<guid isPermaLink="false">2db56b97afe6</guid>
+<pubDate>Sat, 07 Nov 2026 17:25:49 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Belgorod oblast, Bryansk oblast, Kursk oblast, Oryol oblast</description>
+</item>
+
+<item>
+<title>[State claim] Ukraine → Russia · 28 UAVs intercepted, as claimed</title>
+<link>https://t.me/mod_russia/68831</link>
+<guid isPermaLink="false">b562503cda65</guid>
+<pubDate>Sat, 07 Nov 2026 17:18:43 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>Ministry of Defence of Russia · Belgorod oblast, Bryansk oblast, Kursk oblast, Oryol oblast</description>
 </item>
 
 <item>
@@ -1266,96 +1356,6 @@
 <pubDate>Thu, 05 Nov 2026 08:25:00 +0000</pubDate>
 <category>Logistics and supply</category>
 <description>Ukrinform · A local oil refinery in the Russian city of Ryazan, which supplies aviation fuel and diesel to the Russian military, caught fire following a drone attack. · Ryazan oblast</description>
-</item>
-
-<item>
-<title>[Unconfirmed] В Харьковской области российские дроны поразили почтовый терминал и склад, передает ГСЧС.</title>
-<link>https://t.me/astrapress/130273</link>
-<guid isPermaLink="false">f85dc12f72c0</guid>
-<pubDate>Thu, 05 Nov 2026 07:38:49 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>ASTRA · Kharkiv</description>
-</item>
-
-<item>
-<title>[Media] Russian attack damages college, warehouse and energy infrastructure in Odesa region</title>
-<link>https://www.ukrinform.net/rubric-ato/4181629-russian-attack-damages-college-warehouse-and-energy-infrastructure-in-odesa-region.html</link>
-<guid isPermaLink="false">1cf5d52c6ade</guid>
-<pubDate>Thu, 05 Nov 2026 07:37:00 +0000</pubDate>
-<category>Logistics and supply</category>
-<description>Ukrinform · A Russian attack in the southern Odesa region partially destroyed a delivery company&#39;s warehouse and damaged energy infrastructure and an educational institution. · Odesa</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Сотрудники ФСБ задержали 48-летнего жителя Ленинградской области, готовившего диверсию на объекте железнодорожного транспорта По данным ведомства, мужчина был завербован представителем у</title>
-<link>https://t.me/astrapress/130272</link>
-<guid isPermaLink="false">b93179e991d6</guid>
-<pubDate>Thu, 05 Nov 2026 07:17:58 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Leningrad oblast</description>
-</item>
-
-<item>
-<title>[Media] Russian army attacks logistics infrastructure in Bucha, one injured</title>
-<link>https://www.ukrinform.net/rubric-ato/4181596-russian-army-attacks-logistics-infrastructure-in-bucha-one-injured.html</link>
-<guid isPermaLink="false">f00cfd916557</guid>
-<pubDate>Thu, 05 Nov 2026 06:38:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces attacked logistics infrastructure in the Bucha district of Kyiv region, leaving one person injured. · Kyiv</description>
-</item>
-
-<item>
-<title>[Unconfirmed] ВС РФ атаковали логистическую инфраструктуру Киевской области.</title>
-<link>https://t.me/astrapress/130268</link>
-<guid isPermaLink="false">1dc776b32e94</guid>
-<pubDate>Thu, 05 Nov 2026 06:10:08 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Kyiv</description>
-</item>
-
-<item>
-<title>[Operational report] Russia → Ukraine · 184 combat clashes · 289 guided aerial bombs dropped · 7,045 kamikaze drones used · 2,449 shellings · 16 settlements shelled</title>
-<link>https://t.me/GeneralStaffZSU/42815</link>
-<guid isPermaLink="false">18649f769792</guid>
-<pubDate>Thu, 05 Nov 2026 06:01:08 +0000</pubDate>
-<category>Front activity</category>
-<description>General Staff of the Armed Forces of Ukraine · Air strikes on: Могриця, Лужки, Мар&#39;їне, Сінне, Іволжанське, Суми · Chernihiv oblast: Уланове, Юнаківка, Храпівщина, Бачівськ, Писарівка, Хотінь, Мар&#39;їне Сумської області, а також Берилівка, Chernihiv oblast: населені пункти Уланове, Юнаківка, Храпівщина, Бачівськ, Писарівка, Хотінь, Мар&#39;їне Сумської області, а також Берилівка</description>
-</item>
-
-<item>
-<title>[Media] Russian drones attack Dnipropetrovsk region, injuring three, damaging critical infrastructure</title>
-<link>https://www.ukrinform.net/rubric-ato/4181585-russian-drones-attack-dnipropetrovsk-region-injuring-three-damaging-critical-infrastructure.html</link>
-<guid isPermaLink="false">d261047acef1</guid>
-<pubDate>Thu, 05 Nov 2026 05:53:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian drones attacked the cities of Dnipro and Samar, injuring three people and causing fires at critical infrastructure facilities. · Dnipropetrovsk oblast, Dnipro</description>
-</item>
-
-<item>
-<title>[State claim] Ukraine → Russia · 496 UAVs intercepted, as claimed</title>
-<link>https://t.me/mod_russia/68773</link>
-<guid isPermaLink="false">3ec4cc1e6b4e</guid>
-<pubDate>Thu, 05 Nov 2026 05:36:13 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Ministry of Defence of Russia · Astrakhan oblast, Belgorod oblast, Bryansk oblast, Volgograd oblast, Voronezh oblast, Kursk oblast, Nizhny Novgorod oblast, Oryol oblast, Rostov oblast, Ryazan oblast, Tambov oblast, Tula oblast, Moscow oblast, Krasnodar krai, Crimea, Sea of Azov, Черного морей</description>
-</item>
-
-<item>
-<title>[Media] Unexploded Kh-101 cruise missile discovered in Mykolaiv region</title>
-<link>https://www.ukrinform.net/rubric-ato/4181584-unexploded-kh101-cruise-missile-discovered-in-mykolaiv-region.html</link>
-<guid isPermaLink="false">30da1680781e</guid>
-<pubDate>Thu, 05 Nov 2026 05:34:00 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ukrinform · An unexploded Kh-101 cruise missile was discovered in the Voznesensk district of Ukraine&#39;s Mykolaiv region. · Mykolaiv</description>
-</item>
-
-<item>
-<title>[Media] USF destroys Russian Tunguska air defence system</title>
-<link>https://www.ukrinform.net/rubric-ato/4181582-usf-destroys-russian-tunguska-air-defence-system.html</link>
-<guid isPermaLink="false">b05a55b6ca9c</guid>
-<pubDate>Thu, 05 Nov 2026 04:59:00 +0000</pubDate>
-<category>Air defence</category>
-<description>Ukrinform · Operators from the 4th Battalion of the 413th Separate Regiment of the Unmanned Systems Forces, known as Raid, destroyed a Russian Tunguska surface-to-air missile and anti-aircraft artillery system.</description>
 </item>
 
 </channel>
