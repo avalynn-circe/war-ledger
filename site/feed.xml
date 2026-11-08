@@ -6,7 +6,25 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Sat, 07 Nov 2026 21:55:48 +0000</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 01:28:59 +0000</lastBuildDate>
+
+<item>
+<title>[Unconfirmed] В Одессе 1 человек погиб в результате российской атаки, повреждена инфраструктура, сообщил глава Одесской ГВА Сергей Лысак.</title>
+<link>https://t.me/astrapress/130520</link>
+<guid isPermaLink="false">584ca48f1253</guid>
+<pubDate>Sat, 07 Nov 2026 23:32:24 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Odesa</description>
+</item>
+
+<item>
+<title>[Media] DIU&#39;s Prymary unit receives UAH 4.2M worth of combat drones from donors</title>
+<link>https://www.ukrinform.net/rubric-society/4182312-dius-prymary-unit-receives-uah-42m-worth-of-combat-drones-from-donors.html</link>
+<guid isPermaLink="false">b5867d912d5e</guid>
+<pubDate>Sat, 07 Nov 2026 22:42:00 +0000</pubDate>
+<category>Weapons and deliveries</category>
+<description>Ukrinform · The Prymary special unit of the Defense Intelligence of Ukraine (DIU) has received combat drones worth UAH 4.2 million from charitable donors.</description>
+</item>
 
 <item>
 <title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
@@ -33,6 +51,15 @@
 <pubDate>Sat, 07 Nov 2026 21:31:37 +0000</pubDate>
 <category>Civilian damage</category>
 <description>ASTRA · Luhansk oblast</description>
+</item>
+
+<item>
+<title>[Media] Kraków terrorist attack: Foreign nationals among dead and injured</title>
+<link>https://www.ukrinform.net/rubric-crime/4182530-krakow-terrorist-attack-foreign-nationals-among-dead-and-injured.html</link>
+<guid isPermaLink="false">2a61ff2077a8</guid>
+<pubDate>Sat, 07 Nov 2026 21:28:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · One foreign national has been identified among the six people killed in the terrorist attack in Kraków, while five citizens of other countries were injured.</description>
 </item>
 
 <item>
@@ -1329,33 +1356,6 @@
 <pubDate>Thu, 05 Nov 2026 08:55:00 +0000</pubDate>
 <category>Infrastructure</category>
 <description>Ukrinform · Russian forces continue to target energy infrastructure in Ukraine&#39;s Chernihiv region. · Chernihiv</description>
-</item>
-
-<item>
-<title>[Media] Russian forces shell Marhanets, four injured</title>
-<link>https://www.ukrinform.net/rubric-ato/4181644-russian-forces-shell-marhanets-four-injured.html</link>
-<guid isPermaLink="false">cb3268662592</guid>
-<pubDate>Thu, 05 Nov 2026 08:41:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces launched an artillery strike on the city of Marhanets in Ukraine&#39;s Dnipropetrovsk region, injuring four people. · Dnipropetrovsk oblast</description>
-</item>
-
-<item>
-<title>[Unconfirmed] В московском Манеже показали картину с Дмитрием Песковым в образе российского военного На выставке «Христианская традиция.</title>
-<link>https://t.me/astrapress/130274</link>
-<guid isPermaLink="false">0a2eacca1068</guid>
-<pubDate>Thu, 05 Nov 2026 08:35:17 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Moscow, Novorossiysk, Crimea</description>
-</item>
-
-<item>
-<title>[Media] Ryazan under massive drone attack: Fire breaks out at one of Russia&#39;s largest oil refineries, Wildberries warehouse</title>
-<link>https://www.ukrinform.net/rubric-ato/4181641-ryazan-under-massive-drone-attack-fire-breaks-out-at-one-of-russias-largest-oil-refineries-and-wildberries-warehouse.html</link>
-<guid isPermaLink="false">7f3ca83911ae</guid>
-<pubDate>Thu, 05 Nov 2026 08:25:00 +0000</pubDate>
-<category>Logistics and supply</category>
-<description>Ukrinform · A local oil refinery in the Russian city of Ryazan, which supplies aviation fuel and diesel to the Russian military, caught fire following a drone attack. · Ryazan oblast</description>
 </item>
 
 </channel>

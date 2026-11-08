@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-07T21:55:48+00:00",
+ "generated_at": "2026-11-08T01:28:59+00:00",
  "events": [
   {
    "date": "2026-11-07",
@@ -799,6 +799,34 @@
    "detail_en": null,
    "locations_en": null,
    "id": "c7d0479ffe5a"
+  },
+  {
+   "date": "2026-11-07",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-crime/4182530-krakow-terrorist-attack-foreign-nationals-among-dead-and-injured.html",
+   "quote": "Kraków terrorist attack: Foreign nationals among dead and injured",
+   "time": "23:28",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "One foreign national has been identified among the six people killed in the terrorist attack in Kraków, while five citizens of other countries were injured.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-07T21:28:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "2a61ff2077a8"
   },
   {
    "date": "2026-11-07",
