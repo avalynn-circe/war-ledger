@@ -6,7 +6,214 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Sun, 08 Nov 2026 09:04:36 +0000</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 16:42:55 +0000</lastBuildDate>
+
+<item>
+<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
+<guid isPermaLink="false">1a0b5703e945</guid>
+<pubDate>Sun, 08 Nov 2026 16:42:54 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Ukrainian equipment losses)</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Белгородской области в результате атак ВСУ погибли двое мужчин, — власти В Белгороде ночью 7 ноября в результате атаки БПЛА на МКД погиб мужчина, сообщил Оперштаб региона.</title>
+<link>https://t.me/astrapress/130557</link>
+<guid isPermaLink="false">22be39245ab2</guid>
+<pubDate>Sun, 08 Nov 2026 16:31:03 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Belgorod oblast</description>
+</item>
+
+<item>
+<title>[Media] Zelensky tasks PM with creating free transportation program in Kyiv as Russia&#39;s bridge attacks hinder travel</title>
+<link>https://kyivindependent.com/zelensky-tasks-pm-with-creating-free-transportation-program-in-kyiv-as-russias-bridge-attacks-hinder-travel/</link>
+<guid isPermaLink="false">b781db5092d2</guid>
+<pubDate>Sun, 08 Nov 2026 16:18:59 +0000</pubDate>
+<category>Infrastructure</category>
+<description>The Kyiv Independent · According to the president&#39;s advisor, Dmytro Lytvyn, the plan&#39;s details could be presented as soon as tomorrow. · Kyiv</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Три села Ростовской области остались без света из-за «падения обломков» БПЛА на трансформаторы, — губернатор По словам главы региона Юрия Слюсаря, «в результате воздушной атаки и падения</title>
+<link>https://t.me/astrapress/130556</link>
+<guid isPermaLink="false">3d2fe4cd01fd</guid>
+<pubDate>Sun, 08 Nov 2026 15:42:29 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Rostov oblast</description>
+</item>
+
+<item>
+<title>[State claim] ‼️ Сегодня днем в результате воздушной атаки и падения обломков БПЛА в Миллеровском районе произошло повреждение и возгорание трансформатора на территории электроподстанции Сулин.</title>
+<link>https://t.me/Yuri_Slusar/7858</link>
+<guid isPermaLink="false">c593d7d14cf4</guid>
+<pubDate>Sun, 08 Nov 2026 14:46:32 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Governor of Rostov oblast · Rostov oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В результате российских ударов более 600 000 человек в Днепропетровской области остались без света «Продолжаются восстановительные работы после ударов этих суток.</title>
+<link>https://t.me/astrapress/130549</link>
+<guid isPermaLink="false">e78e52e1b31f</guid>
+<pubDate>Sun, 08 Nov 2026 14:37:06 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>ASTRA · Dnipro, Pavlohrad</description>
+</item>
+
+<item>
+<title>[Media] Airstrike on underground school in Komyshuvakha: 29 of 55 victims identified</title>
+<link>https://www.ukrinform.net/rubric-ato/4182688-airstrike-on-underground-school-in-komyshuvakha-29-of-55-victims-identified.html</link>
+<guid isPermaLink="false">2ae21663bcd2</guid>
+<pubDate>Sun, 08 Nov 2026 14:21:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · A total of 55 people are now known to have been killed in the strike on an underground school in Komyshuvakha, Zaporizhzhia region. · Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[State claim] ❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по объектам энергетической инфраструктуры Украины и морским судам, задействованн</title>
+<link>https://t.me/mod_russia/68867</link>
+<guid isPermaLink="false">2cc577d82cc3</guid>
+<pubDate>Sun, 08 Nov 2026 14:06:27 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ministry of Defence of Russia</description>
+</item>
+
+<item>
+<title>[Media] Russian attack in Khmelnytskyi region leaves two injured</title>
+<link>https://www.ukrinform.net/rubric-ato/4182682-russian-attack-in-khmelnytskyi-region-leaves-two-injured.html</link>
+<guid isPermaLink="false">2cc5a447dce8</guid>
+<pubDate>Sun, 08 Nov 2026 13:57:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Enemy drones attacked a residential building in Khmelnytskyi regin, and two people were hospitalised. · Khmelnytskyi</description>
+</item>
+
+<item>
+<title>[Media] More than 800 km² liberated in Oleksandrivka sector this year thanks to Airborne Assault Forces – Zelensky</title>
+<link>https://www.ukrinform.net/rubric-ato/4182679-more-than-800-km-liberated-in-oleksandrivka-sector-this-year-thanks-to-airborne-assault-forces-zelensky.html</link>
+<guid isPermaLink="false">957be1265f3d</guid>
+<pubDate>Sun, 08 Nov 2026 13:38:00 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ukrinform · More than 800 square kilometres have been liberated in the Oleksandrivka sector this year thanks to the actions of the Airborne Assault Forces of the Armed Forces of Ukraine.</description>
+</item>
+
+<item>
+<title>[Media] Ukraine’s 7th Air Assault Corps reports 20,000 Russian casualties in one year on Pokrovsk front</title>
+<link>https://www.ukrinform.net/rubric-ato/4182664-ukraines-7th-air-assault-corps-reports-20000-russian-casualties-in-one-year-on-pokrovsk-front.html</link>
+<guid isPermaLink="false">26a8a8f042ed</guid>
+<pubDate>Sun, 08 Nov 2026 13:00:00 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ukrinform · Units of the Ukrainian 7th Air Assault Corps killed or wounded more than 20,000 Russian troops in the Pokrovsk sector of the front in 2026. · Pokrovsk</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Петербурге загорелся ангар «НПО Спецматериалов» — компания производит бронежилеты В Санкт-Петербурге возник пожар в ангаре «НПО Спецматериалов».</title>
+<link>https://t.me/astrapress/130543</link>
+<guid isPermaLink="false">6200cd92b79f</guid>
+<pubDate>Sun, 08 Nov 2026 12:39:28 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · St Petersburg, Tatarstan</description>
+</item>
+
+<item>
+<title>[Media] Germany cannot supply Ukraine with more Patriot systems, Pistorius says</title>
+<link>https://www.ukrinform.net/rubric-polytics/4182656-germany-cannot-supply-ukraine-with-more-patriot-systems-pistorius-says.html</link>
+<guid isPermaLink="false">42b1475d52b7</guid>
+<pubDate>Sun, 08 Nov 2026 12:20:00 +0000</pubDate>
+<category>Air defence</category>
+<description>Ukrinform · Germany is currently unable to provide Ukraine with additional Patriot air defense systems, as doing so would weaken Germany’s own defenses.</description>
+</item>
+
+<item>
+<title>[Operational report] Акцент на пункти управління російських дронів Минула доба видалася невдалою для російських операторів БпЛА.</title>
+<link>https://t.me/GeneralStaffZSU/42843</link>
+<guid isPermaLink="false">841d6596c462</guid>
+<pubDate>Sun, 08 Nov 2026 12:01:01 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>General Staff of the Armed Forces of Ukraine</description>
+</item>
+
+<item>
+<title>[Media] Russian attack sets trucks and warehouses ablaze at transport company in Dnipro</title>
+<link>https://www.ukrinform.net/rubric-ato/4182640-russian-attack-sets-trucks-and-warehouses-ablaze-at-transport-company-in-dnipro.html</link>
+<guid isPermaLink="false">7d90e44135b3</guid>
+<pubDate>Sun, 08 Nov 2026 11:23:00 +0000</pubDate>
+<category>Logistics and supply</category>
+<description>Ukrinform · Russian forces have again struck Dnipro, setting trucks and warehouses ablaze at a transport company. · Dnipro</description>
+</item>
+
+<item>
+<title>[Media] Russia suffers record weekly losses of over 16,000 troops in early November – Ukraine’s General Staff</title>
+<link>https://www.ukrinform.net/rubric-ato/4182634-russia-suffers-record-weekly-losses-of-over-16000-troops-in-early-november-ukraines-general-staff.html</link>
+<guid isPermaLink="false">f7a1523f7b4f</guid>
+<pubDate>Sun, 08 Nov 2026 11:05:00 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Ukrinform · Russian forces lost 16,130 personnel in the first week of November, the highest weekly figure since the start of Russia’s full-scale invasion of Ukraine.</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Движение на участке к мосту через реку Миус перекрыли после атаки БПЛА Движение на участке трассы Р-280 «Новороссия» по пути к мосту через реку Миус перекрыли после атаки дронов.</title>
+<link>https://t.me/astrapress/130539</link>
+<guid isPermaLink="false">96d391b027a8</guid>
+<pubDate>Sun, 08 Nov 2026 10:52:29 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Novorossiysk, Rostov oblast</description>
+</item>
+
+<item>
+<title>[Media] Zelensky: Russia launches 115 missiles, nearly 1,900 guided bombs, over 3,000 drones at Ukraine in a week</title>
+<link>https://www.ukrinform.net/rubric-ato/4182632-zelensky-russia-launches-115-missiles-nearly-1900-guided-bombs-over-3000-drones-at-ukraine-in-a-week.html</link>
+<guid isPermaLink="false">bc2819321969</guid>
+<pubDate>Sun, 08 Nov 2026 10:45:00 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ukrinform · Over the past week, Russia launched 115 missiles of various types, nearly 1,900 guided aerial bombs and more than 3,000 attack drones at Ukraine.</description>
+</item>
+
+<item>
+<title>[Unconfirmed] ГУР МО Украины утверждает, что установило личности российских военных, причастных к удару по школе в Камышевахе Запорожской области, где погибли не менее 55 человек Главное управление ра</title>
+<link>https://t.me/astrapress/130538</link>
+<guid isPermaLink="false">357bda351772</guid>
+<pubDate>Sun, 08 Nov 2026 10:18:23 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[Media] Russian drone strike on Dnipro suburbs kills one person, injures another</title>
+<link>https://www.ukrinform.net/rubric-ato/4182613-russian-drone-strike-on-dnipro-suburbs-kills-one-person-injures-another.html</link>
+<guid isPermaLink="false">de88cd693033</guid>
+<pubDate>Sun, 08 Nov 2026 10:10:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Russian forces have struck the suburbs of Dnipro with a drone, sparking a fire. · Dnipro</description>
+</item>
+
+<item>
+<title>[State claim] ‼️ По уточненной информации движение на участке трассы Р-280 по пути к мосту через реку Миус перекрыто.</title>
+<link>https://t.me/Yuri_Slusar/7857</link>
+<guid isPermaLink="false">abe3ca9d4cfa</guid>
+<pubDate>Sun, 08 Nov 2026 10:02:37 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>Governor of Rostov oblast · Rostov oblast</description>
+</item>
+
+<item>
+<title>[Media] Russian forces strike critical infrastructure facility in Cherkasy, power and heating disruptions possible</title>
+<link>https://www.ukrinform.net/rubric-ato/4182598-russian-forces-strike-critical-infrastructure-facility-in-cherkasy-power-and-heating-disruptions-possible.html</link>
+<guid isPermaLink="false">32dbf844e719</guid>
+<pubDate>Sun, 08 Nov 2026 09:33:00 +0000</pubDate>
+<category>Infrastructure</category>
+<description>Ukrinform · Russian forces have attacked a critical infrastructure facility in Cherkasy, potentially causing disruptions to electricity and heating supplies. · Cherkasy</description>
+</item>
+
+<item>
+<title>[Media] Russian drones attack Volyn region overnight, fire breaks out at agricultural enterprise</title>
+<link>https://www.ukrinform.net/rubric-ato/4182591-russian-drones-attack-volyn-region-overnight-fire-breaks-out-at-agricultural-enterprise.html</link>
+<guid isPermaLink="false">f434899d187e</guid>
+<pubDate>Sun, 08 Nov 2026 09:15:00 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ukrinform · A Russian drone attack on the Volyn region overnight sparked a fire at an agricultural enterprise in the Lutsk district. · Volyn</description>
+</item>
 
 <item>
 <title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
@@ -15,6 +222,15 @@
 <pubDate>Sun, 08 Nov 2026 09:04:26 +0000</pubDate>
 <category>Claimed losses</category>
 <description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Media] Russian attacks kill 7, injure 19 in Ukraine over the past day, striking Zaporizhzhia Oblast over 700 times</title>
+<link>https://kyivindependent.com/russian-attacks-kill-5-injure-10-in-ukraine-over-the-past-day-striking-zaporizhzhia-oblast-over-700-times/</link>
+<guid isPermaLink="false">81dfb4e089bc</guid>
+<pubDate>Sun, 08 Nov 2026 08:59:28 +0000</pubDate>
+<category>Civilian damage</category>
+<description>The Kyiv Independent · Russian forces carried out 725 strikes on 53 settlements in Zaporizhzhia Oblast alone, injuring one person, Governor Ivan Fedorov said. · Zaporizhzhia</description>
 </item>
 
 <item>
@@ -1140,222 +1356,6 @@
 <pubDate>Fri, 06 Nov 2026 05:17:00 +0000</pubDate>
 <category>Weapons and deliveries</category>
 <description>Ukrinform · Canada will spend at least CAD 2.3 billion (approximately $1.8 billion) on deploying advanced combat drones and counter-drone systems.</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Три человека пострадали в результате российской атаки вечером 5 ноября в Кировоградской области, — власти «В Кропивницком районе в результате удара российского беспилотника разрушен част</title>
-<link>https://t.me/astrapress/130344</link>
-<guid isPermaLink="false">53469474fa13</guid>
-<pubDate>Fri, 06 Nov 2026 05:06:59 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Kirovohrad oblast</description>
-</item>
-
-<item>
-<title>[State claim] ❗️ В течение ночи Вооруженные Силы Российской Федерации продолжили нанесение ударов беспилотными летательными аппаратами по объектам энергетического комплекса Украины и морским судам, ис</title>
-<link>https://t.me/mod_russia/68791</link>
-<guid isPermaLink="false">27566ea7f1b5</guid>
-<pubDate>Fri, 06 Nov 2026 04:53:43 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ministry of Defence of Russia</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Краснодарский край под атакой БПЛА, вероятно атакован Афипский НПЗ Официальных подтверждений тому, что НПЗ в пгт Афипский Северского района был поражен — нет.</title>
-<link>https://t.me/astrapress/130343</link>
-<guid isPermaLink="false">c8664d9d1416</guid>
-<pubDate>Fri, 06 Nov 2026 04:43:24 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Krasnodar krai, Stavropol krai</description>
-</item>
-
-<item>
-<title>[Media] Ukrainian forces target oil refinery as explosions reported across southern Russia</title>
-<link>https://kyivindependent.com/ukrainian-forces-reportedly-target-oil-refinery-as-explosions-reported-across-southern-russia/</link>
-<guid isPermaLink="false">6ba2c84d7618</guid>
-<pubDate>Fri, 06 Nov 2026 04:41:12 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>The Kyiv Independent · A Russian oil refinery was set ablaze as a Ukrainian drone attack set off fires and explosions across southern Russia overnight on Nov.</description>
-</item>
-
-<item>
-<title>[State claim] Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область уничтожены более полутора десятков БПЛА в городах Ростове-на-Дону и Таганроге, а также в 7 районах области: Азовском</title>
-<link>https://t.me/Yuri_Slusar/7842</link>
-<guid isPermaLink="false">681fffc85703</guid>
-<pubDate>Fri, 06 Nov 2026 04:04:11 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Governor of Rostov oblast · Rostov oblast</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Военного из Кирова приговорили к 17 годам за попытку завербовать сокурсника в РДК.</title>
-<link>https://t.me/astrapress/130342</link>
-<guid isPermaLink="false">3c42eea0cba3</guid>
-<pubDate>Fri, 06 Nov 2026 03:06:38 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Novorossiysk, Ryazan oblast, Tatarstan, Donetsk oblast, Luhansk oblast</description>
-</item>
-
-<item>
-<title>[Media] Ukrainian troops capture Russian soldier wearing Ukrainian military uniform</title>
-<link>https://www.ukrinform.net/rubric-ato/4181791-ukrainian-troops-capture-russian-soldier-wearing-ukrainian-military-uniform.html</link>
-<guid isPermaLink="false">931853f1fa1f</guid>
-<pubDate>Fri, 06 Nov 2026 01:26:00 +0000</pubDate>
-<category>Front line changes</category>
-<description>Ukrinform · Operators of the 3rd Detachment of the 4th Ranger Regiment of the Special Operations Forces (SOF) captured a Russian serviceman who was disguised in a Ukrainian Armed Forces uniform.</description>
-</item>
-
-<item>
-<title>[Media] Ukraine has not received $16 billion in previously agreed US aid, Zelensky says</title>
-<link>https://kyivindependent.com/ukraine-needs-to-consolidate-bipartisan-support-in-us-following-midterm-elections-zelensky-says/</link>
-<guid isPermaLink="false">f5aac9b023f9</guid>
-<pubDate>Fri, 06 Nov 2026 00:15:35 +0000</pubDate>
-<category>Weapons and deliveries</category>
-<description>The Kyiv Independent · With Democrats set to control the U.S.</description>
-</item>
-
-<item>
-<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
-<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
-<guid isPermaLink="false">1a0b5703e945</guid>
-<pubDate>Thu, 05 Nov 2026 23:40:57 +0000</pubDate>
-<category>Claimed losses</category>
-<description>Oryx (Ukrainian equipment losses)</description>
-</item>
-
-<item>
-<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
-<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
-<guid isPermaLink="false">f09b136b6618</guid>
-<pubDate>Thu, 05 Nov 2026 23:40:57 +0000</pubDate>
-<category>Claimed losses</category>
-<description>Oryx (Russian equipment losses)</description>
-</item>
-
-<item>
-<title>[Unconfirmed] ВС РФ атаковали Изюм в Харьковской области КАБами, два человека пострадали, — ГВА «Попадания зафиксированы в центральной и южной частях города.</title>
-<link>https://t.me/astrapress/130333</link>
-<guid isPermaLink="false">dcb66a0e1c8f</guid>
-<pubDate>Thu, 05 Nov 2026 23:09:03 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Kharkiv</description>
-</item>
-
-<item>
-<title>[Media] Spain to provide Ukraine $490 million in military aid, Zelensky says</title>
-<link>https://kyivindependent.com/spain-to-provide-ukraine-490-million-in-military-aid-zelensky-says/</link>
-<guid isPermaLink="false">382035224753</guid>
-<pubDate>Thu, 05 Nov 2026 22:21:17 +0000</pubDate>
-<category>Weapons and deliveries</category>
-<description>The Kyiv Independent · Attending the 30th Ibero-American Summit, Zelensky said the funds will help bolster Ukrainian air defenses as Russian strikes pummel Ukrainian transportation and energy infrastructure.</description>
-</item>
-
-<item>
-<title>[Media] CoE commissioner calls strikes on school in Komyshuvakha war crime</title>
-<link>https://www.ukrinform.net/rubric-polytics/4181929-coe-commissioner-calls-strikes-on-school-in-komyshuvakha-war-crime.html</link>
-<guid isPermaLink="false">5521477efbca</guid>
-<pubDate>Thu, 05 Nov 2026 20:30:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Council of Europe Commissioner for Human Rights Michael O&#39;Flaherty has condemned Russia&#39;s strike on a school in Komyshuvakha, Zaporizhzhia region, and called for urgent increased support for Ukraine ahead of winter. · Zaporizhzhia</description>
-</item>
-
-<item>
-<title>[Operational report] Russia → Ukraine · 167 combat clashes · 161 guided aerial bombs dropped · 4,873 kamikaze drones used · 1,677 shellings</title>
-<link>https://t.me/GeneralStaffZSU/42821</link>
-<guid isPermaLink="false">7f2035ff4121</guid>
-<pubDate>Thu, 05 Nov 2026 20:03:24 +0000</pubDate>
-<category>Front activity</category>
-<description>General Staff of the Armed Forces of Ukraine</description>
-</item>
-
-<item>
-<title>[Media] Russia attacked Ukraine&#39;s energy infrastructure 78 times over past three days – DTEK</title>
-<link>https://www.ukrinform.net/rubric-economy/4181912-russia-attacked-ukraines-energy-infrastructure-78-times-over-past-three-days-dtek.html</link>
-<guid isPermaLink="false">93f639697dac</guid>
-<pubDate>Thu, 05 Nov 2026 19:57:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Russian invaders have carried out 78 strikes on Ukraine&#39;s energy infrastructure over the past three days.</description>
-</item>
-
-<item>
-<title>[Media] Ukraine war latest: Kyiv water supply disrupted after power fluctuations due to Russian attacks</title>
-<link>https://kyivindependent.com/ukraine-war-latest-kyiv-water-supply-disrupted-after-power-fluctuations-due-to-russian-attacks/</link>
-<guid isPermaLink="false">b9ef9cf56963</guid>
-<pubDate>Thu, 05 Nov 2026 19:07:39 +0000</pubDate>
-<category>Infrastructure</category>
-<description>The Kyiv Independent · Key developments on Nov. · Kyiv</description>
-</item>
-
-<item>
-<title>[State claim] 📆 Главное за день 💬 Президент России Владимир Путин поручил создать отдельную программу обучения для бойцов СВО, не имеющих высшего образования.</title>
-<link>https://t.me/mod_russia/68787</link>
-<guid isPermaLink="false">a45c99105258</guid>
-<pubDate>Thu, 05 Nov 2026 18:37:09 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ministry of Defence of Russia</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Два человека пострадали в результате российской атаки на склад в Киевской области, — КОВА «К сожалению, в результате атаки вражеских беспилотников на производственно-складской комплекс в</title>
-<link>https://t.me/astrapress/130320</link>
-<guid isPermaLink="false">d34f6e80cf67</guid>
-<pubDate>Thu, 05 Nov 2026 18:20:15 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Kyiv</description>
-</item>
-
-<item>
-<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
-<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
-<guid isPermaLink="false">f09b136b6618</guid>
-<pubDate>Thu, 05 Nov 2026 18:05:17 +0000</pubDate>
-<category>Claimed losses</category>
-<description>Oryx (Russian equipment losses)</description>
-</item>
-
-<item>
-<title>[Media] Zelensky urges Latin American countries and Spain to help restore Ukraine&#39;s energy system</title>
-<link>https://www.ukrinform.net/rubric-polytics/4181890-zelensky-urges-latin-american-countries-and-spain-to-help-restore-ukraines-energy-system.html</link>
-<guid isPermaLink="false">6950c4104685</guid>
-<pubDate>Thu, 05 Nov 2026 17:52:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Ukrainian President Volodymyr Zelensky has called on Latin American countries and Spain to urgently help supply Ukraine with transformers, cables, generators and other electrical equipment to restore its energy system following Russian attacks.</description>
-</item>
-
-<item>
-<title>[State claim] Ukraine → Russia · 35 UAVs intercepted, as claimed</title>
-<link>https://t.me/mod_russia/68785</link>
-<guid isPermaLink="false">28bf3dec11ed</guid>
-<pubDate>Thu, 05 Nov 2026 17:30:06 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Ministry of Defence of Russia · Bryansk oblast, Belgorod oblast, Kursk oblast, Ryazan oblast, Oryol oblast, Krasnodar krai, Crimea</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Два человека пострадали в результате украинских атак в Белгородской области, — оперштаб В Шебекино FPV-дрон атаковал велосипедиста, мужчина получил осколочные ранения ног и кисти, а такж</title>
-<link>https://t.me/astrapress/130307</link>
-<guid isPermaLink="false">71f9248712e1</guid>
-<pubDate>Thu, 05 Nov 2026 17:19:01 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Belgorod oblast</description>
-</item>
-
-<item>
-<title>[Media] Five suspects in Carthage case notified of charges, including senior SBU and National Police officials</title>
-<link>https://www.ukrinform.net/rubric-ato/4181859-five-suspects-in-carthage-case-notified-of-charges-including-senior-sbu-and-national-police-officials.html</link>
-<guid isPermaLink="false">2cd1c24ea8fa</guid>
-<pubDate>Thu, 05 Nov 2026 16:23:00 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Ukrinform · Detectives from the National Anti-Corruption Bureau of Ukraine (NABU) have notified five alleged members of a criminal organization of suspicion.</description>
-</item>
-
-<item>
-<title>[Media] Police, SBU identify 130 people potentially involved in clashes near National Guard facility in Kyiv Oblast</title>
-<link>https://kyivindependent.com/police-sbu-identify-130-people-potentially-involved-in-clashes-near-national-guard-facility-in-kyiv-oblast/</link>
-<guid isPermaLink="false">baa4f25a8b5f</guid>
-<pubDate>Thu, 05 Nov 2026 15:34:37 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>The Kyiv Independent · Of the 130 people identified, 27 allegedly &#34;took an active part in unlawful actions,&#34; while another 24 &#34;acted aggressively, incited others, and deliberately provoked confrontations&#34; with police and National Guard personnel, according to the National Police. · Kyiv</description>
 </item>
 
 </channel>
