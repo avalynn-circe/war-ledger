@@ -6,7 +6,25 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Sun, 08 Nov 2026 22:12:01 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 01:45:27 +0000</lastBuildDate>
+
+<item>
+<title>[Unconfirmed] Мобильный интернет перестал работать в Петербурге.</title>
+<link>https://t.me/astrapress/130595</link>
+<guid isPermaLink="false">33418fd5c7e3</guid>
+<pubDate>Mon, 09 Nov 2026 01:00:25 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · St Petersburg, Leningrad oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Обладатель медали «За содействие СВО» получил пять лет колонии за комментарий об убийстве Владлена Татарского 2 апреля 2023 года предприниматель Семен Мартиш из Карелии опубликовал комме</title>
+<link>https://t.me/astrapress/130594</link>
+<guid isPermaLink="false">b933bd11c833</guid>
+<pubDate>Mon, 09 Nov 2026 00:16:23 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · St Petersburg, Tatarstan</description>
+</item>
 
 <item>
 <title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
@@ -387,9 +405,9 @@
 </item>
 
 <item>
-<title>[Media] Russian attacks kill 7, injure 19 in Ukraine over the past day, striking Zaporizhzhia Oblast over 700 times</title>
+<title>[Media] Russian attacks kill 8, injure 19 in Ukraine over the past day, striking Zaporizhzhia Oblast over 700 times</title>
 <link>https://kyivindependent.com/russian-attacks-kill-5-injure-10-in-ukraine-over-the-past-day-striking-zaporizhzhia-oblast-over-700-times/</link>
-<guid isPermaLink="false">81dfb4e089bc</guid>
+<guid isPermaLink="false">ca8e0bd0a6f8</guid>
 <pubDate>Sun, 08 Nov 2026 08:59:28 +0000</pubDate>
 <category>Civilian damage</category>
 <description>The Kyiv Independent · Russian forces carried out 725 strikes on 53 settlements in Zaporizhzhia Oblast alone, injuring one person, Governor Ivan Fedorov said. · Zaporizhzhia</description>
@@ -1338,24 +1356,6 @@
 <pubDate>Fri, 06 Nov 2026 10:52:29 +0000</pubDate>
 <category>Civilian damage</category>
 <description>The Kyiv Independent · The strike was the deadliest Russian attack on Zaporizhzhia Oblast since the start of the full-scale invasion. · Zaporizhzhia</description>
-</item>
-
-<item>
-<title>[Media] Russian forces strike several energy facilities in Dnipropetrovsk region</title>
-<link>https://www.ukrinform.net/rubric-ato/4182065-russian-forces-strike-several-energy-facilities-in-dnipropetrovsk-region.html</link>
-<guid isPermaLink="false">994662f87725</guid>
-<pubDate>Fri, 06 Nov 2026 10:37:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Russian forces struck several energy facilities in the Dnipropetrovsk region on the morning of November 6. · Dnipropetrovsk oblast</description>
-</item>
-
-<item>
-<title>[Unconfirmed] 50 тысяч человек остались без света после российской утренней атаки на объекты энергоинфраструктуры Днепропетровской области, один человек пострадал в Каменском, — ОВА «Утром россияне сн</title>
-<link>https://t.me/astrapress/130369</link>
-<guid isPermaLink="false">032584125b60</guid>
-<pubDate>Fri, 06 Nov 2026 10:30:17 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Samara oblast</description>
 </item>
 
 </channel>

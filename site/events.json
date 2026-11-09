@@ -1,9 +1,71 @@
 {
- "generated_at": "2026-11-08 22:12",
+ "generated_at": "2026-11-09 01:45",
  "days": [
   {
    "date": "2026-11-09",
    "events": [
+    {
+     "date": "2026-11-09",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130594",
+     "quote": "Обладатель медали «За содействие СВО» получил пять лет колонии за комментарий об убийстве Владлена Татарского 2 апреля 2023 года предприниматель Семен Мартиш из Карелии опубликовал комментарий, содержащий, по версии судов, «одобрение произошедшего террористического акта, в результате которого погиб военный корреспонде…",
+     "time": "02:16",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "St Petersburg",
+      "Tatarstan"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-09T00:16:23+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "b933bd11c833"
+    },
+    {
+     "date": "2026-11-09",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130595",
+     "quote": "Мобильный интернет перестал работать в Петербурге.",
+     "time": "03:00",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "St Petersburg",
+      "Leningrad oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-09T01:00:25+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "33418fd5c7e3"
+    },
     {
      "date": "2026-11-09",
      "category": "losses_claimed",
@@ -122,7 +184,12 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [],
+     "also_reported_by": [
+      {
+       "name": "Oryx (Russian equipment losses)",
+       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
+      }
+     ],
      "published": "2026-11-08T22:11:58.755266+00:00",
      "source_tier": "osint",
      "corrected": null,
@@ -249,7 +316,12 @@
      "locations": [],
      "lang": "en",
      "extraction": "structured",
-     "also_reported_by": [],
+     "also_reported_by": [
+      {
+       "name": "Oryx (Ukrainian equipment losses)",
+       "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+      }
+     ],
      "published": "2026-11-08T22:11:59.214511+00:00",
      "source_tier": "osint",
      "corrected": null,
@@ -661,7 +733,7 @@
      "source_name": "The Kyiv Independent",
      "source_side": "media",
      "source_url": "https://kyivindependent.com/russian-attacks-kill-5-injure-10-in-ukraine-over-the-past-day-striking-zaporizhzhia-oblast-over-700-times/",
-     "quote": "Russian attacks kill 7, injure 19 in Ukraine over the past day, striking Zaporizhzhia Oblast over 700 times",
+     "quote": "Russian attacks kill 8, injure 19 in Ukraine over the past day, striking Zaporizhzhia Oblast over 700 times",
      "time": "10:59",
      "actor": "Russia",
      "target": "Ukraine",
@@ -682,7 +754,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "81dfb4e089bc"
+     "id": "ca8e0bd0a6f8"
     },
     {
      "date": "2026-11-08",

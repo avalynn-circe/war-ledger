@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated_at": "2026-11-08T22:12:01+00:00",
+ "generated_at": "2026-11-09T01:45:27+00:00",
  "events": [
   {
    "date": "2026-11-08",
@@ -400,7 +400,7 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/russian-attacks-kill-5-injure-10-in-ukraine-over-the-past-day-striking-zaporizhzhia-oblast-over-700-times/",
-   "quote": "Russian attacks kill 7, injure 19 in Ukraine over the past day, striking Zaporizhzhia Oblast over 700 times",
+   "quote": "Russian attacks kill 8, injure 19 in Ukraine over the past day, striking Zaporizhzhia Oblast over 700 times",
    "time": "10:59",
    "actor": "Russia",
    "target": "Ukraine",
@@ -421,7 +421,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "81dfb4e089bc"
+   "id": "ca8e0bd0a6f8"
   },
   {
    "date": "2026-11-08",
