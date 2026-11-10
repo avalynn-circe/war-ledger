@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated_at": "2026-11-09T20:48:05+00:00",
+ "generated_at": "2026-11-10T04:10:10+00:00",
  "events": [
   {
    "date": "2026-11-09",
@@ -726,6 +726,36 @@
   },
   {
    "date": "2026-11-09",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4183118-russian-drone-strikes-apartment-building-in-kherson-injuring-elderly-woman.html",
+   "quote": "Russian drone strikes apartment building in Kherson, injuring elderly woman",
+   "time": "22:59",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Russian forces attacked a multi-storey apartment building in central Kherson with a drone in the evening, injuring an 88-year-old woman.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kherson"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-09T20:59:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7e95e74c9d31"
+  },
+  {
+   "date": "2026-11-09",
    "category": "strikes_in_russia",
    "source_id": "mod_russia",
    "source_name": "Ministry of Defence of Russia",
@@ -1102,6 +1132,73 @@
   },
   {
    "date": "2026-11-09",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130659",
+   "quote": "В Венгрии задержали брата бывшего премьер-министра Виктора Орбана.",
+   "time": "23:43",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Reconnaissance UAV (Orlan/Zala/Supercam)"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Tatarstan",
+    "Kyiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-09T21:43:59+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "47953ae500aa"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "front_line",
+   "source_id": "deepstate",
+   "source_name": "DeepState",
+   "source_side": "osint",
+   "source_url": "https://t.me/DeepStateUA/23987",
+   "quote": "🔄 Мапу оновлено ⚔️ Ворог просунувся у Рай-Олександрівці.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "advanced near",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Рай-Олександрівці"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-09T21:14:01+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Рай-Олександрівці"
+   ],
+   "id": "64a72e4b32a2"
+  },
+  {
+   "date": "2026-11-09",
    "category": "front_line",
    "source_id": "mod_russia",
    "source_name": "Ministry of Defence of Russia",
@@ -1256,6 +1353,37 @@
    "detail_en": null,
    "locations_en": null,
    "id": "a8d21a934322"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "front_line",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4183122-war-update-148-clashes-on-front-line-since-morning.html",
+   "quote": "War update: 148 clashes on front line since morning",
+   "time": "23:28",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Nearly 150 combat engagements have taken place along the front line.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Pokrovsk",
+    "Kostiantynivka"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-09T21:28:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "0cb7192267aa"
   },
   {
    "date": "2026-11-09",
@@ -2047,6 +2175,36 @@
    "detail_en": null,
    "locations_en": null,
    "id": "2d59797b6006"
+  },
+  {
+   "date": "2026-11-09",
+   "category": "infrastructure",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/drone-strike-kills-worker-at-zaporizhzhia-nuclear-power-plant-iaea-says/",
+   "quote": "Drone strike kills worker at Zaporizhzhia Nuclear Power Plant, IAEA says",
+   "time": "23:58",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "In a separate incident, an employee at the nearby Zaporizhzhia Thermal Power Plant was also killed by a drone, according to the IAEA.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-09T21:58:37+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "02ecc1c37aed"
   }
  ]
 }

@@ -1,0 +1,376 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T04:10:10+00:00",
+ "events": [
+  {
+   "date": "2026-11-10",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130661",
+   "quote": "В результате атаки БПЛА погиб сотрудник Запорожской атомной электростанции.",
+   "time": "00:09",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-09T22:09:07+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "605ace9a5116"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "strikes_in_russia",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/explosions-reported-near-russian-aircraft-repair-plant-in-novgorod-oblast-as-drones-target-occupied-crimea/",
+   "quote": "Explosions reported near Russian aircraft repair plant in Novgorod Oblast as drones target occupied Crimea",
+   "time": "05:36",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "The attack may have targeted the 123rd Aircraft Repair Plant in the town of Staraya Russa, according to the Exilenova+ Telegram monitoring channel.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-10T03:36:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "419c45f2fae5"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24275, of which: destroyed: 19240, damaged: 1001, abandoned: 1192, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24275,
+    "destroyed": 19240,
+    "damaged": 1001,
+    "abandoned": 1192,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4456
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2430
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6497
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 756
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 441
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 740
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 621
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1067
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 646
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 72
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 30
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 449
+    },
+    {
+     "label": "Radars",
+     "count": 143
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 208
+    },
+    {
+     "label": "Helicopters",
+     "count": 186
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 40
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4749
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-10T04:10:07.921931+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f66d51540908"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12346, of which: destroyed: 9736, damaged: 719, abandoned: 693, captured: 1198",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12346,
+    "destroyed": 9736,
+    "damaged": 719,
+    "abandoned": 693,
+    "captured": 1198
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1473
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 566
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1628
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1477
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1016
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2217
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 105
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 303
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 306
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1002
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 137
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 151
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1405
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-10T04:10:08.366906+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "583a97f46abc"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "field_adaptation",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4183127-latvia-digs-antitank-trenches-installs-dragons-teeth-along-its-border-with-russia.html",
+   "quote": "Latvia digs anti-tank trenches, installs dragon’s teeth along its border with Russia",
+   "time": "05:38",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Construction of the Baltic Defense Line is continuing along Latvia's eastern border with Russia.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-10T03:38:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "5cd3781e981a"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "infrastructure",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/energy-company-warns-of-extremely-serious-consequences-after-russian-forces-strike-trypillia-thermal-power-plant/",
+   "quote": "Energy company warns of 'extremely serious' consequences after Russian forces strike Trypillia Thermal Power Plant",
+   "time": "01:50",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Centrenergo, Ukraine's state-owned energy company, claimed that the impact of the latest Russian strikes appears significant, though the extent of the damage is not yet clear and will require further inspection.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-09T23:50:44+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "9f2a73be0603"
+  }
+ ]
+}

@@ -6,7 +6,106 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Mon, 09 Nov 2026 20:48:05 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 04:10:10 +0000</lastBuildDate>
+
+<item>
+<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
+<guid isPermaLink="false">583a97f46abc</guid>
+<pubDate>Tue, 10 Nov 2026 04:10:08 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Ukrainian equipment losses)</description>
+</item>
+
+<item>
+<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
+<guid isPermaLink="false">f66d51540908</guid>
+<pubDate>Tue, 10 Nov 2026 04:10:07 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Media] Latvia digs anti-tank trenches, installs dragon’s teeth along its border with Russia</title>
+<link>https://www.ukrinform.net/rubric-ato/4183127-latvia-digs-antitank-trenches-installs-dragons-teeth-along-its-border-with-russia.html</link>
+<guid isPermaLink="false">5cd3781e981a</guid>
+<pubDate>Tue, 10 Nov 2026 03:38:00 +0000</pubDate>
+<category>Field adaptations</category>
+<description>Ukrinform · Construction of the Baltic Defense Line is continuing along Latvia&#39;s eastern border with Russia.</description>
+</item>
+
+<item>
+<title>[Media] Explosions reported near Russian aircraft repair plant in Novgorod Oblast as drones target occupied Crimea</title>
+<link>https://kyivindependent.com/explosions-reported-near-russian-aircraft-repair-plant-in-novgorod-oblast-as-drones-target-occupied-crimea/</link>
+<guid isPermaLink="false">419c45f2fae5</guid>
+<pubDate>Tue, 10 Nov 2026 03:36:00 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>The Kyiv Independent · The attack may have targeted the 123rd Aircraft Repair Plant in the town of Staraya Russa, according to the Exilenova+ Telegram monitoring channel. · Crimea</description>
+</item>
+
+<item>
+<title>[Media] Energy company warns of &#39;extremely serious&#39; consequences after Russian forces strike Trypillia Thermal Power Plant</title>
+<link>https://kyivindependent.com/energy-company-warns-of-extremely-serious-consequences-after-russian-forces-strike-trypillia-thermal-power-plant/</link>
+<guid isPermaLink="false">9f2a73be0603</guid>
+<pubDate>Mon, 09 Nov 2026 23:50:44 +0000</pubDate>
+<category>Infrastructure</category>
+<description>The Kyiv Independent · Centrenergo, Ukraine&#39;s state-owned energy company, claimed that the impact of the latest Russian strikes appears significant, though the extent of the damage is not yet clear and will require further inspection.</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В результате атаки БПЛА погиб сотрудник Запорожской атомной электростанции.</title>
+<link>https://t.me/astrapress/130661</link>
+<guid isPermaLink="false">605ace9a5116</guid>
+<pubDate>Mon, 09 Nov 2026 22:09:07 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[Media] Drone strike kills worker at Zaporizhzhia Nuclear Power Plant, IAEA says</title>
+<link>https://kyivindependent.com/drone-strike-kills-worker-at-zaporizhzhia-nuclear-power-plant-iaea-says/</link>
+<guid isPermaLink="false">02ecc1c37aed</guid>
+<pubDate>Mon, 09 Nov 2026 21:58:37 +0000</pubDate>
+<category>Infrastructure</category>
+<description>The Kyiv Independent · In a separate incident, an employee at the nearby Zaporizhzhia Thermal Power Plant was also killed by a drone, according to the IAEA. · Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Венгрии задержали брата бывшего премьер-министра Виктора Орбана.</title>
+<link>https://t.me/astrapress/130659</link>
+<guid isPermaLink="false">47953ae500aa</guid>
+<pubDate>Mon, 09 Nov 2026 21:43:59 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Tatarstan, Kyiv</description>
+</item>
+
+<item>
+<title>[Media] War update: 148 clashes on front line since morning</title>
+<link>https://www.ukrinform.net/rubric-ato/4183122-war-update-148-clashes-on-front-line-since-morning.html</link>
+<guid isPermaLink="false">0cb7192267aa</guid>
+<pubDate>Mon, 09 Nov 2026 21:28:00 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ukrinform · Nearly 150 combat engagements have taken place along the front line. · Pokrovsk, Kostiantynivka</description>
+</item>
+
+<item>
+<title>[Verified OSINT] Russia → Ukraine · advanced near</title>
+<link>https://t.me/DeepStateUA/23987</link>
+<guid isPermaLink="false">64a72e4b32a2</guid>
+<pubDate>Mon, 09 Nov 2026 21:14:01 +0000</pubDate>
+<category>Front line changes</category>
+<description>DeepState · Рай-Олександрівці</description>
+</item>
+
+<item>
+<title>[Media] Russian drone strikes apartment building in Kherson, injuring elderly woman</title>
+<link>https://www.ukrinform.net/rubric-ato/4183118-russian-drone-strikes-apartment-building-in-kherson-injuring-elderly-woman.html</link>
+<guid isPermaLink="false">7e95e74c9d31</guid>
+<pubDate>Mon, 09 Nov 2026 20:59:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Russian forces attacked a multi-storey apartment building in central Kherson with a drone in the evening, injuring an 88-year-old woman. · Kherson</description>
+</item>
 
 <item>
 <title>[Media] Russians attack energy facilities in Cherkasy region</title>
@@ -1257,105 +1356,6 @@
 <pubDate>Sat, 07 Nov 2026 12:38:32 +0000</pubDate>
 <category>Air defence</category>
 <description>The Kyiv Independent · The Iskander-M is one of Russia&#39;s principal ballistic weapons. · Bryansk oblast, Moscow</description>
-</item>
-
-<item>
-<title>[Media] Russian drones attack businesses in Poltava region, four people injured</title>
-<link>https://www.ukrinform.net/rubric-ato/4182426-russian-drones-attack-businesses-in-poltava-region-four-people-injured.html</link>
-<guid isPermaLink="false">2ee158c062c7</guid>
-<pubDate>Sat, 07 Nov 2026 12:28:00 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ukrinform · Four people were injured in Kremenchuk, Poltava region, as a result of a Russian attack on private businesses. · Poltava</description>
-</item>
-
-<item>
-<title>[Media] Russia attacks power transmission networks carrying electricity from nuclear power plants to Kyiv and central Ukraine</title>
-<link>https://www.ukrinform.net/rubric-economy/4182409-russia-attacks-power-transmission-networks-carrying-electricity-from-nuclear-power-plants-to-kyiv-and-central-ukraine.html</link>
-<guid isPermaLink="false">c874fecba84d</guid>
-<pubDate>Sat, 07 Nov 2026 11:41:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Russia attacked overnight the power transmission networks carrying electricity from nuclear power plants to Kyiv, the Kyiv region and central Ukraine. · Kyiv</description>
-</item>
-
-<item>
-<title>[Media] Russian forces shell Lozova, damaging apartment buildings, heating facility and kindergarten</title>
-<link>https://www.ukrinform.net/rubric-ato/4182405-russian-forces-shell-lozova-damaging-apartment-buildings-heating-facility-and-kindergarten.html</link>
-<guid isPermaLink="false">190291931b22</guid>
-<pubDate>Sat, 07 Nov 2026 11:17:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces shelled the city of Lozova in the Kharkiv region in the morning, damaging apartment buildings, a heating facility and a kindergarten. · Kharkiv</description>
-</item>
-
-<item>
-<title>[Media] Part of Brovary district in Kyiv region left without electricity following Russian attack</title>
-<link>https://www.ukrinform.net/rubric-economy/4182398-part-of-brovary-district-in-kyiv-region-left-without-electricity-following-russian-attack.html</link>
-<guid isPermaLink="false">fd8755d1b3f7</guid>
-<pubDate>Sat, 07 Nov 2026 10:52:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Part of Brovary district in the Kyiv region is without electricity following a Russian attack on a DTEK energy facility overnight. · Kyiv</description>
-</item>
-
-<item>
-<title>[Media] Russian attacks kill 2, injure 37 across Ukraine over past day, hit substations connecting nuclear power plants to Kyiv</title>
-<link>https://kyivindependent.com/russian-attacks-kill-2-injure-37-across-ukraine-over-past-day-hit-substations-connecting-nuclear-power-plants-to-kyiv/</link>
-<guid isPermaLink="false">06241773873d</guid>
-<pubDate>Sat, 07 Nov 2026 10:50:06 +0000</pubDate>
-<category>Infrastructure</category>
-<description>The Kyiv Independent · President Volodymyr Zelensky said on Nov. · Kyiv, Vinnytsia, Zhytomyr, Rivne, Kharkiv, Dnipro</description>
-</item>
-
-<item>
-<title>[Media] Defense Forces strike two Iskander launchers, Pantsir-S1 system in Russia&#39;s Bryansk region</title>
-<link>https://www.ukrinform.net/rubric-ato/4182395-defense-forces-strike-two-iskander-launchers-pantsirs1-system-in-russias-bryansk-region.html</link>
-<guid isPermaLink="false">183c35476ebd</guid>
-<pubDate>Sat, 07 Nov 2026 10:21:00 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ukrinform · Ukraine&#39;s Defense Forces struck two launchers of the Iskander operational-tactical missile system and a Pantsir-S1 air defense missile and gun system in Russia&#39;s Bryansk region. · Bryansk oblast</description>
-</item>
-
-<item>
-<title>[Media] Injury toll after Russian attack on Kyiv rises to six, including one child</title>
-<link>https://www.ukrinform.net/rubric-ato/4182377-injury-toll-after-russian-attack-on-kyiv-rises-to-six-including-one-child.html</link>
-<guid isPermaLink="false">bf3a2adccbb0</guid>
-<pubDate>Sat, 07 Nov 2026 09:36:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · The number of people injured in the Russian attack on Kyiv on November 7 has risen to six, including one child. · Kyiv</description>
-</item>
-
-<item>
-<title>[Operational report] «Іскандерам» не смішно Минула доба видалася для окупантів гарячою.</title>
-<link>https://t.me/GeneralStaffZSU/42834</link>
-<guid isPermaLink="false">92e7fff99014</guid>
-<pubDate>Sat, 07 Nov 2026 09:01:01 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>General Staff of the Armed Forces of Ukraine</description>
-</item>
-
-<item>
-<title>[Media] Massive Russian attack: Energy facilities damaged in two districts of Kyiv region</title>
-<link>https://www.ukrinform.net/rubric-ato/4182373-massive-russian-attack-energy-facilities-damaged-in-two-districts-of-kyiv-region.html</link>
-<guid isPermaLink="false">36622fb40dda</guid>
-<pubDate>Sat, 07 Nov 2026 08:59:00 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ukrinform · Russian forces launched a massive attack on the Kyiv region using ballistic missiles and attack drones, targeting energy facilities, civilian infrastructure and residential buildings. · Kyiv</description>
-</item>
-
-<item>
-<title>[Unconfirmed] В Ростове-на-Дону сгорел склад с маслами и полимерами, находящийся рядом с военным заводом «Алмаз», причины неизвестны Крупный пожар произошел утром 7 ноября на складе с маслами и полиме</title>
-<link>https://t.me/astrapress/130458</link>
-<guid isPermaLink="false">791f14098089</guid>
-<pubDate>Sat, 07 Nov 2026 08:17:19 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Rostov oblast</description>
-</item>
-
-<item>
-<title>[Media] Large-scale power outage hits Zhytomyr region after Russian strike on energy facility</title>
-<link>https://www.ukrinform.net/rubric-ato/4182355-largescale-power-outage-hits-zhytomyr-region-after-russian-strike-on-energy-facility.html</link>
-<guid isPermaLink="false">5c5d7b6d5285</guid>
-<pubDate>Sat, 07 Nov 2026 08:12:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · A large-scale power outage has occurred in the Zhytomyr region following a Russian attack on energy infrastructure. · Zhytomyr</description>
 </item>
 
 </channel>
