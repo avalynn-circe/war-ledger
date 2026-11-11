@@ -6,7 +6,106 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Tue, 10 Nov 2026 20:51:34 +0000</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 01:58:08 +0000</lastBuildDate>
+
+<item>
+<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
+<guid isPermaLink="false">583a97f46abc</guid>
+<pubDate>Wed, 11 Nov 2026 01:58:06 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Ukrainian equipment losses)</description>
+</item>
+
+<item>
+<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
+<guid isPermaLink="false">f66d51540908</guid>
+<pubDate>Wed, 11 Nov 2026 01:58:06 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Media] Another tanker carrying Russian diesel changes course en route to U.S. – Bloomberg</title>
+<link>https://www.ukrinform.net/rubric-economy/4183474-another-tanker-carrying-russian-diesel-changes-course-en-route-to-us-bloomberg.html</link>
+<guid isPermaLink="false">ffc47b68c396</guid>
+<pubDate>Wed, 11 Nov 2026 01:28:00 +0000</pubDate>
+<category>Naval</category>
+<description>Ukrinform · A tanker carrying Russian diesel fuel, which briefly listed the United States as its destination, changed course about 400 nautical miles from New York, adding to uncertainty over Russian fuel supplies to the North American market.</description>
+</item>
+
+<item>
+<title>[Media] Ukraine reportedly strikes Ust-Luga Baltic Sea port as drones attack regions across Russia</title>
+<link>https://kyivindependent.com/ukraine-reportedly-strikes-ust-luga-baltic-sea-port-as-drones-attack-regions-across-russia/</link>
+<guid isPermaLink="false">01ea226363bd</guid>
+<pubDate>Wed, 11 Nov 2026 00:59:32 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>The Kyiv Independent · Ukrainian drones struck the Ust-Luga Baltic Sea port in western Russia&#39;s Leningrad Oblast overnight on Nov. · Leningrad oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Ленобласти и Санкт-Петербурге объявлена опасность БПЛА.</title>
+<link>https://t.me/astrapress/130734</link>
+<guid isPermaLink="false">04f089087687</guid>
+<pubDate>Wed, 11 Nov 2026 00:48:09 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · St Petersburg, Leningrad oblast</description>
+</item>
+
+<item>
+<title>[Media] Ukrainian Red Cross vehicle damaged in Russian attack on Zaporizhzhia</title>
+<link>https://www.ukrinform.net/rubric-ato/4183465-ukrainian-red-cross-vehicle-damaged-in-russian-attack-on-zaporizhzhia.html</link>
+<guid isPermaLink="false">14c38510f4d2</guid>
+<pubDate>Wed, 11 Nov 2026 00:32:00 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ukrinform · A vehicle belonging to the Ukrainian Red Cross Society was damaged in a Russian attack in Zaporizhzhia on Monday. · Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[Media] SSU detains Dnipro resident suspected of directing Russian strikes</title>
+<link>https://www.ukrinform.net/rubric-crime/4183155-ssu-detains-dnipro-resident-suspected-of-directing-russian-strikes.html</link>
+<guid isPermaLink="false">98809be16452</guid>
+<pubDate>Tue, 10 Nov 2026 23:30:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · The Security Service of Ukraine (SSU) counterintelligence has exposed a local woman in Dnipro suspected of directing Russian strikes on fuel and energy infrastructure facilities and logistics centers on orders from Russia&#39;s Federal Security Service (FSB). · Dnipro</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Ярцево Смоленской области горит квартира на фоне атаки БПЛА, — OSINT-анализ ASTRA В области была объявлена беспилотная опасность, сообщалось о большом количестве дронов по направлению </title>
+<link>https://t.me/astrapress/130729</link>
+<guid isPermaLink="false">e8c5b20b68b5</guid>
+<pubDate>Tue, 10 Nov 2026 23:17:29 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Smolensk oblast, Leningrad oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Над жилыми домами в Твери сбивают дроны, сообщают читатели ASTRA.</title>
+<link>https://t.me/astrapress/130727</link>
+<guid isPermaLink="false">c22fe7411419</guid>
+<pubDate>Tue, 10 Nov 2026 22:46:11 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Tver oblast, Leningrad oblast</description>
+</item>
+
+<item>
+<title>[Media] Ukraine strikes drone port at occupied Donetsk Airport</title>
+<link>https://kyivindependent.com/ukraine-strikes-drone-port-at-occupied-donetsk-airport/</link>
+<guid isPermaLink="false">0a8fb5dccbb1</guid>
+<pubDate>Tue, 10 Nov 2026 21:46:53 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>The Kyiv Independent · &#34;There should be fewer enemy drones over Ukrainian cities. · Donetsk oblast</description>
+</item>
+
+<item>
+<title>[Media] War update: 116 clashes on front line since morning</title>
+<link>https://www.ukrinform.net/rubric-ato/4183554-war-update-116-clashes-on-front-line-since-morning.html</link>
+<guid isPermaLink="false">c335f36136f1</guid>
+<pubDate>Tue, 10 Nov 2026 21:26:00 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ukrinform · There have been 116 combat engagements along the front line, with Russian forces making 14 attempts to break through Ukrainian defenses on the Kostiantynivka axis. · Kostiantynivka</description>
+</item>
 
 <item>
 <title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
@@ -1257,105 +1356,6 @@
 <pubDate>Sun, 08 Nov 2026 12:01:01 +0000</pubDate>
 <category>Strikes in Russia and occupied territory</category>
 <description>General Staff of the Armed Forces of Ukraine</description>
-</item>
-
-<item>
-<title>[Media] Russian attack sets trucks and warehouses ablaze at transport company in Dnipro</title>
-<link>https://www.ukrinform.net/rubric-ato/4182640-russian-attack-sets-trucks-and-warehouses-ablaze-at-transport-company-in-dnipro.html</link>
-<guid isPermaLink="false">7d90e44135b3</guid>
-<pubDate>Sun, 08 Nov 2026 11:23:00 +0000</pubDate>
-<category>Logistics and supply</category>
-<description>Ukrinform · Russian forces have again struck Dnipro, setting trucks and warehouses ablaze at a transport company. · Dnipro</description>
-</item>
-
-<item>
-<title>[Media] Russia suffers record weekly losses of over 16,000 troops in early November – Ukraine’s General Staff</title>
-<link>https://www.ukrinform.net/rubric-ato/4182634-russia-suffers-record-weekly-losses-of-over-16000-troops-in-early-november-ukraines-general-staff.html</link>
-<guid isPermaLink="false">f7a1523f7b4f</guid>
-<pubDate>Sun, 08 Nov 2026 11:05:00 +0000</pubDate>
-<category>Claimed losses</category>
-<description>Ukrinform · Russian forces lost 16,130 personnel in the first week of November, the highest weekly figure since the start of Russia’s full-scale invasion of Ukraine.</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Движение на участке к мосту через реку Миус перекрыли после атаки БПЛА Движение на участке трассы Р-280 «Новороссия» по пути к мосту через реку Миус перекрыли после атаки дронов.</title>
-<link>https://t.me/astrapress/130539</link>
-<guid isPermaLink="false">96d391b027a8</guid>
-<pubDate>Sun, 08 Nov 2026 10:52:29 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Novorossiysk, Rostov oblast</description>
-</item>
-
-<item>
-<title>[Media] Zelensky: Russia launches 115 missiles, nearly 1,900 guided bombs, over 3,000 drones at Ukraine in a week</title>
-<link>https://www.ukrinform.net/rubric-ato/4182632-zelensky-russia-launches-115-missiles-nearly-1900-guided-bombs-over-3000-drones-at-ukraine-in-a-week.html</link>
-<guid isPermaLink="false">bc2819321969</guid>
-<pubDate>Sun, 08 Nov 2026 10:45:00 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ukrinform · Over the past week, Russia launched 115 missiles of various types, nearly 1,900 guided aerial bombs and more than 3,000 attack drones at Ukraine.</description>
-</item>
-
-<item>
-<title>[Unconfirmed] ГУР МО Украины утверждает, что установило личности российских военных, причастных к удару по школе в Камышевахе Запорожской области, где погибли не менее 55 человек Главное управление ра</title>
-<link>https://t.me/astrapress/130538</link>
-<guid isPermaLink="false">357bda351772</guid>
-<pubDate>Sun, 08 Nov 2026 10:18:23 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Zaporizhzhia</description>
-</item>
-
-<item>
-<title>[Media] Russian drone strike on Dnipro suburbs kills one person, injures another</title>
-<link>https://www.ukrinform.net/rubric-ato/4182613-russian-drone-strike-on-dnipro-suburbs-kills-one-person-injures-another.html</link>
-<guid isPermaLink="false">de88cd693033</guid>
-<pubDate>Sun, 08 Nov 2026 10:10:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces have struck the suburbs of Dnipro with a drone, sparking a fire. · Dnipro</description>
-</item>
-
-<item>
-<title>[State claim] ‼️ По уточненной информации движение на участке трассы Р-280 по пути к мосту через реку Миус перекрыто.</title>
-<link>https://t.me/Yuri_Slusar/7857</link>
-<guid isPermaLink="false">abe3ca9d4cfa</guid>
-<pubDate>Sun, 08 Nov 2026 10:02:37 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Governor of Rostov oblast · Rostov oblast</description>
-</item>
-
-<item>
-<title>[Media] Russian forces strike critical infrastructure facility in Cherkasy, power and heating disruptions possible</title>
-<link>https://www.ukrinform.net/rubric-ato/4182598-russian-forces-strike-critical-infrastructure-facility-in-cherkasy-power-and-heating-disruptions-possible.html</link>
-<guid isPermaLink="false">32dbf844e719</guid>
-<pubDate>Sun, 08 Nov 2026 09:33:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Russian forces have attacked a critical infrastructure facility in Cherkasy, potentially causing disruptions to electricity and heating supplies. · Cherkasy</description>
-</item>
-
-<item>
-<title>[Media] Russian drones attack Volyn region overnight, fire breaks out at agricultural enterprise</title>
-<link>https://www.ukrinform.net/rubric-ato/4182591-russian-drones-attack-volyn-region-overnight-fire-breaks-out-at-agricultural-enterprise.html</link>
-<guid isPermaLink="false">f434899d187e</guid>
-<pubDate>Sun, 08 Nov 2026 09:15:00 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ukrinform · A Russian drone attack on the Volyn region overnight sparked a fire at an agricultural enterprise in the Lutsk district. · Volyn</description>
-</item>
-
-<item>
-<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
-<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
-<guid isPermaLink="false">f09b136b6618</guid>
-<pubDate>Sun, 08 Nov 2026 09:04:26 +0000</pubDate>
-<category>Claimed losses</category>
-<description>Oryx (Russian equipment losses)</description>
-</item>
-
-<item>
-<title>[Media] Russian attacks kill 8, injure 19 in Ukraine over the past day, striking Zaporizhzhia Oblast over 700 times</title>
-<link>https://kyivindependent.com/russian-attacks-kill-5-injure-10-in-ukraine-over-the-past-day-striking-zaporizhzhia-oblast-over-700-times/</link>
-<guid isPermaLink="false">ca8e0bd0a6f8</guid>
-<pubDate>Sun, 08 Nov 2026 08:59:28 +0000</pubDate>
-<category>Civilian damage</category>
-<description>The Kyiv Independent · Russian forces carried out 725 strikes on 53 settlements in Zaporizhzhia Oblast alone, injuring one person, Governor Ivan Fedorov said. · Zaporizhzhia</description>
 </item>
 
 </channel>

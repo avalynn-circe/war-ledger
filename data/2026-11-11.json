@@ -1,0 +1,476 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T01:58:07+00:00",
+ "events": [
+  {
+   "date": "2026-11-11",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4183465-ukrainian-red-cross-vehicle-damaged-in-russian-attack-on-zaporizhzhia.html",
+   "quote": "Ukrainian Red Cross vehicle damaged in Russian attack on Zaporizhzhia",
+   "time": "02:32",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A vehicle belonging to the Ukrainian Red Cross Society was damaged in a Russian attack in Zaporizhzhia on Monday.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-11T00:32:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "14c38510f4d2"
+  },
+  {
+   "date": "2026-11-11",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130729",
+   "quote": "В Ярцево Смоленской области горит квартира на фоне атаки БПЛА, — OSINT-анализ ASTRA В области была объявлена беспилотная опасность, сообщалось о большом количестве дронов по направлению к Ленинградской области, где также заявили об опасности и закрыли аэропорт Пулково.",
+   "time": "01:17",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Smolensk oblast",
+    "Leningrad oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-10T23:17:29+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "e8c5b20b68b5"
+  },
+  {
+   "date": "2026-11-11",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-crime/4183155-ssu-detains-dnipro-resident-suspected-of-directing-russian-strikes.html",
+   "quote": "SSU detains Dnipro resident suspected of directing Russian strikes",
+   "time": "01:30",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "The Security Service of Ukraine (SSU) counterintelligence has exposed a local woman in Dnipro suspected of directing Russian strikes on fuel and energy infrastructure facilities and logistics centers on orders from Russia's Federal Security Service (FSB).",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Dnipro"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-10T23:30:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "98809be16452"
+  },
+  {
+   "date": "2026-11-11",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130727",
+   "quote": "Над жилыми домами в Твери сбивают дроны, сообщают читатели ASTRA.",
+   "time": "00:46",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Tver oblast",
+    "Leningrad oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-10T22:46:11+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c22fe7411419"
+  },
+  {
+   "date": "2026-11-11",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130734",
+   "quote": "В Ленобласти и Санкт-Петербурге объявлена опасность БПЛА.",
+   "time": "02:48",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "St Petersburg",
+    "Leningrad oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/130735"
+    }
+   ],
+   "published": "2026-11-11T00:48:09+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "04f089087687"
+  },
+  {
+   "date": "2026-11-11",
+   "category": "strikes_in_russia",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/ukraine-reportedly-strikes-ust-luga-baltic-sea-port-as-drones-attack-regions-across-russia/",
+   "quote": "Ukraine reportedly strikes Ust-Luga Baltic Sea port as drones attack regions across Russia",
+   "time": "02:59",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Ukrainian drones struck the Ust-Luga Baltic Sea port in western Russia's Leningrad Oblast overnight on Nov.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Leningrad oblast"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-11T00:59:32+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "01ea226363bd"
+  },
+  {
+   "date": "2026-11-11",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24275, of which: destroyed: 19240, damaged: 1001, abandoned: 1192, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24275,
+    "destroyed": 19240,
+    "damaged": 1001,
+    "abandoned": 1192,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4456
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2430
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6497
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 756
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 441
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 740
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 621
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1067
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 646
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 72
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 30
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 449
+    },
+    {
+     "label": "Radars",
+     "count": 143
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 208
+    },
+    {
+     "label": "Helicopters",
+     "count": 186
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 40
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4749
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-11T01:58:06.308305+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f66d51540908"
+  },
+  {
+   "date": "2026-11-11",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12346, of which: destroyed: 9736, damaged: 719, abandoned: 693, captured: 1198",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12346,
+    "destroyed": 9736,
+    "damaged": 719,
+    "abandoned": 693,
+    "captured": 1198
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1473
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 566
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1628
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1477
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1016
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2217
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 105
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 303
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 306
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1002
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 137
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 151
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1405
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-11T01:58:06.747834+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "583a97f46abc"
+  },
+  {
+   "date": "2026-11-11",
+   "category": "naval",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-economy/4183474-another-tanker-carrying-russian-diesel-changes-course-en-route-to-us-bloomberg.html",
+   "quote": "Another tanker carrying Russian diesel changes course en route to U.S. – Bloomberg",
+   "time": "03:28",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "A tanker carrying Russian diesel fuel, which briefly listed the United States as its destination, changed course about 400 nautical miles from New York, adding to uncertainty over Russian fuel supplies to the North American market.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-11T01:28:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "ffc47b68c396"
+  }
+ ]
+}

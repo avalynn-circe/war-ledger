@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated_at": "2026-11-10T20:51:33+00:00",
+ "generated_at": "2026-11-11T01:58:07+00:00",
  "events": [
   {
    "date": "2026-11-10",
@@ -847,6 +847,36 @@
   },
   {
    "date": "2026-11-10",
+   "category": "strikes_in_russia",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/ukraine-strikes-drone-port-at-occupied-donetsk-airport/",
+   "quote": "Ukraine strikes drone port at occupied Donetsk Airport",
+   "time": "23:46",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "\"There should be fewer enemy drones over Ukrainian cities.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Donetsk oblast"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-10T21:46:53+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "0a8fb5dccbb1"
+  },
+  {
+   "date": "2026-11-10",
    "category": "front_line",
    "source_id": "mod_russia",
    "source_name": "Ministry of Defence of Russia",
@@ -1091,6 +1121,36 @@
    "detail_en": null,
    "locations_en": null,
    "id": "c23499d9d098"
+  },
+  {
+   "date": "2026-11-10",
+   "category": "front_line",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4183554-war-update-116-clashes-on-front-line-since-morning.html",
+   "quote": "War update: 116 clashes on front line since morning",
+   "time": "23:26",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "There have been 116 combat engagements along the front line, with Russian forces making 14 attempts to break through Ukrainian defenses on the Kostiantynivka axis.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kostiantynivka"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-10T21:26:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c335f36136f1"
   },
   {
    "date": "2026-11-10",
