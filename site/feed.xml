@@ -6,7 +6,70 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Wed, 11 Nov 2026 17:55:42 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 00:48:20 +0000</lastBuildDate>
+
+<item>
+<title>[Media] Russia attacks Kyiv with ballistic missiles hours after peace talks end</title>
+<link>https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/</link>
+<guid isPermaLink="false">f21845a874e4</guid>
+<pubDate>Wed, 11 Nov 2026 23:27:06 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>The Kyiv Independent · Attacks against the capital are ongoing, and details about precise targets are not yet available. · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Russia&#39;s largest oil refinery slammed by drones in 8-hour attack 2,500 km from Ukraine</title>
+<link>https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/</link>
+<guid isPermaLink="false">1ecc35202d92</guid>
+<pubDate>Wed, 11 Nov 2026 22:41:46 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>The Kyiv Independent · The Omsk oil refinery, a Gazprom facility in Siberia, has a processing capacity of over 21 million metric tons of crude per year.</description>
+</item>
+
+<item>
+<title>[Operational report] Russia → Ukraine · 149 combat clashes · 171 guided aerial bombs dropped · 5,466 kamikaze drones used · 1,860 shellings</title>
+<link>https://t.me/GeneralStaffZSU/42873</link>
+<guid isPermaLink="false">0b17c56400e3</guid>
+<pubDate>Wed, 11 Nov 2026 20:01:49 +0000</pubDate>
+<category>Front activity</category>
+<description>General Staff of the Armed Forces of Ukraine</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В результате атаки БПЛА погиб сотрудник Запорожской атомной электростанции.</title>
+<link>https://t.me/astrapress/130852</link>
+<guid isPermaLink="false">d8e48e598b02</guid>
+<pubDate>Wed, 11 Nov 2026 19:35:53 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Часть жителей Черкасской области осталась без электричества после атаки российских беспилотников В Уманском и Звенигородском районах Черкасской области под удар попали несколько объектов</title>
+<link>https://t.me/astrapress/130851</link>
+<guid isPermaLink="false">d3bbeb951792</guid>
+<pubDate>Wed, 11 Nov 2026 19:26:45 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>ASTRA · Cherkasy</description>
+</item>
+
+<item>
+<title>[Media] Ukraine captures first Indonesian prisoner of war as Russia steps up foreign recruitment</title>
+<link>https://kyivindependent.com/ukraine-captures-first-indonesian-prisoner-of-war-as-russia-steps-up-foreign-recruitment/</link>
+<guid isPermaLink="false">6a22a6a0d9e6</guid>
+<pubDate>Wed, 11 Nov 2026 19:03:34 +0000</pubDate>
+<category>Front line changes</category>
+<description>The Kyiv Independent · The man, originally from the Indonesian island of Java, was sent to participate in a Russian assault in southern Ukraine.</description>
+</item>
+
+<item>
+<title>[State claim] Russia → Ukraine · settlement captured, as claimed</title>
+<link>https://t.me/mod_russia/68943</link>
+<guid isPermaLink="false">53d9472ac3a6</guid>
+<pubDate>Wed, 11 Nov 2026 18:41:07 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ministry of Defence of Russia · Шиловка</description>
+</item>
 
 <item>
 <title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
@@ -90,9 +153,9 @@
 </item>
 
 <item>
-<title>[Media] Russian strike on crowded market in Odesa Oblast kills at least 3, injures 8</title>
+<title>[Media] Russian strike on crowded market in Odesa Oblast kills at least 4, injures 8</title>
 <link>https://kyivindependent.com/russian-strike-on-crowded-market-in-odesa-oblast-kills-at-least-3-injures-8/</link>
-<guid isPermaLink="false">b1662c7a91e6</guid>
+<guid isPermaLink="false">206c8a572e96</guid>
 <pubDate>Wed, 11 Nov 2026 13:16:30 +0000</pubDate>
 <category>Civilian damage</category>
 <description>The Kyiv Independent · An air raid alert sounded in the region at around 11 a.m. · Odesa</description>
@@ -351,9 +414,9 @@
 </item>
 
 <item>
-<title>[Media] Ukrainian drones reportedly target Russia&#39;s largest oil refinery, strike Baltic Sea port</title>
+<title>[Media] Ukrainian drones reportedly target Russia&#39;s largest oil refinery, strike Baltic Sea port, missile boat</title>
 <link>https://kyivindependent.com/ukraine-reportedly-strikes-ust-luga-baltic-sea-port-as-drones-attack-regions-across-russia/</link>
-<guid isPermaLink="false">f58a6c026922</guid>
+<guid isPermaLink="false">e5be06038085</guid>
 <pubDate>Wed, 11 Nov 2026 00:59:32 +0000</pubDate>
 <category>Strikes in Russia and occupied territory</category>
 <description>The Kyiv Independent · Ukrainian drones struck the Ust-Luga Baltic Sea port in western Russia&#39;s Leningrad Oblast overnight on Nov. · Leningrad oblast</description>
@@ -1293,69 +1356,6 @@
 <pubDate>Mon, 09 Nov 2026 05:54:00 +0000</pubDate>
 <category>Civilian damage</category>
 <description>Ukrinform · Russian troops launched 819 attacks on 52 settlements in the Zaporizhzhia region over the past 24 hours. · Zaporizhzhia</description>
-</item>
-
-<item>
-<title>[State claim] ❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по объектам энергетической инфраструктуры, обеспечивающим работу предприятий вое</title>
-<link>https://t.me/mod_russia/68878</link>
-<guid isPermaLink="false">1af6a745692f</guid>
-<pubDate>Mon, 09 Nov 2026 05:52:47 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ministry of Defence of Russia</description>
-</item>
-
-<item>
-<title>[State claim] Ukraine → Russia · 430 UAVs intercepted, as claimed</title>
-<link>https://t.me/mod_russia/68876</link>
-<guid isPermaLink="false">c003b7785455</guid>
-<pubDate>Mon, 09 Nov 2026 05:34:04 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Ministry of Defence of Russia · Belgorod oblast, Bryansk oblast, Voronezh oblast, Kaluga oblast, Kursk oblast, Leningrad oblast, Lipetsk oblast, Oryol oblast, Pskov oblast, Smolensk oblast, Tambov oblast, Tver oblast, Tula oblast, Moscow oblast, Crimea</description>
-</item>
-
-<item>
-<title>[Unconfirmed] В Ленинградской области горит Киришский НПЗ на фоне атаки БПЛА.</title>
-<link>https://t.me/astrapress/130605</link>
-<guid isPermaLink="false">df6e02152609</guid>
-<pubDate>Mon, 09 Nov 2026 05:23:46 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Leningrad oblast, St Petersburg</description>
-</item>
-
-<item>
-<title>[Media] Ukraine&#39;s 7th Air Assault Corps receives over 50 types of drones, 40 ground robotic systems this year</title>
-<link>https://www.ukrinform.net/rubric-ato/4182767-ukraines-7th-air-assault-corps-receives-over-50-types-of-drones-40-ground-robotic-systems-this-year.html</link>
-<guid isPermaLink="false">d92d46be9023</guid>
-<pubDate>Mon, 09 Nov 2026 04:43:00 +0000</pubDate>
-<category>Weapons and deliveries</category>
-<description>Ukrinform · Since the beginning of 2026, units within the 7th Air Assault Corps of the Ukrainian Armed Forces have expanded their range of unmanned systems and ground robotic systems.</description>
-</item>
-
-<item>
-<title>[Media] Three injured in Russian strike on Balakliia</title>
-<link>https://www.ukrinform.net/rubric-ato/4182766-three-injured-in-russian-strike-on-balakliia.html</link>
-<guid isPermaLink="false">80ea3814f232</guid>
-<pubDate>Mon, 09 Nov 2026 04:26:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces struck the city of Balakliia in the Kharkiv region yesterday evening, injuring three people. · Kharkiv</description>
-</item>
-
-<item>
-<title>[State claim] Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область БПЛА уничтожены в Миллеровском, Тарасовском и Неклиновском районах.</title>
-<link>https://t.me/Yuri_Slusar/7868</link>
-<guid isPermaLink="false">fb52ef9aa270</guid>
-<pubDate>Mon, 09 Nov 2026 04:09:38 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Governor of Rostov oblast · Rostov oblast</description>
-</item>
-
-<item>
-<title>[Media] Ukraine strikes Russia&#39;s second-largest oil refinery in overnight drone attack, Russian governor says</title>
-<link>https://kyivindependent.com/ukrainian-forces-reportedly-strike-russias-second-largest-oil-refinery-in-overnight-drone-attack/</link>
-<guid isPermaLink="false">ef22c1885dd9</guid>
-<pubDate>Mon, 09 Nov 2026 04:05:17 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>The Kyiv Independent · The attack caused large explosions at the Kirishi Petroleum Organic Synthesis plant, also known as the Kinef plant, around 800 kilometers (roughly 500 miles) north of Ukraine.</description>
 </item>
 
 </channel>

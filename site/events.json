@@ -1,6 +1,69 @@
 {
- "generated_at": "2026-11-11 17:55",
+ "generated_at": "2026-11-12 00:48",
  "days": [
+  {
+   "date": "2026-11-12",
+   "events": [
+    {
+     "date": "2026-11-12",
+     "category": "air_attack",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/",
+     "quote": "Russia attacks Kyiv with ballistic missiles hours after peace talks end",
+     "time": "01:27",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Attacks against the capital are ongoing, and details about precise targets are not yet available.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-11T23:27:06+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f21845a874e4"
+    },
+    {
+     "date": "2026-11-12",
+     "category": "strikes_in_russia",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/",
+     "quote": "Russia's largest oil refinery slammed by drones in 8-hour attack 2,500 km from Ukraine",
+     "time": "00:41",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": null,
+     "detail": "The Omsk oil refinery, a Gazprom facility in Siberia, has a processing capacity of over 21 million metric tons of crude per year.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-11T22:41:46+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "1ecc35202d92"
+    }
+   ]
+  },
   {
    "date": "2026-11-11",
    "events": [
@@ -164,6 +227,36 @@
      "detail_en": null,
      "locations_en": null,
      "id": "637685d0b9be"
+    },
+    {
+     "date": "2026-11-11",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130851",
+     "quote": "Часть жителей Черкасской области осталась без электричества после атаки российских беспилотников В Уманском и Звенигородском районах Черкасской области под удар попали несколько объектов энергетической инфраструктуры.",
+     "time": "21:26",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Cherkasy"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-11T19:26:45+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "d3bbeb951792"
     },
     {
      "date": "2026-11-11",
@@ -538,7 +631,7 @@
      "source_name": "The Kyiv Independent",
      "source_side": "media",
      "source_url": "https://kyivindependent.com/russian-strike-on-crowded-market-in-odesa-oblast-kills-at-least-3-injures-8/",
-     "quote": "Russian strike on crowded market in Odesa Oblast kills at least 3, injures 8",
+     "quote": "Russian strike on crowded market in Odesa Oblast kills at least 4, injures 8",
      "time": "15:16",
      "actor": "Russia",
      "target": "Ukraine",
@@ -559,7 +652,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "b1662c7a91e6"
+     "id": "206c8a572e96"
     },
     {
      "date": "2026-11-11",
@@ -650,6 +743,36 @@
      "detail_en": null,
      "locations_en": null,
      "id": "fef2c44b2ea4"
+    },
+    {
+     "date": "2026-11-11",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/130852",
+     "quote": "В результате атаки БПЛА погиб сотрудник Запорожской атомной электростанции.",
+     "time": "21:35",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-11T19:35:53+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "d8e48e598b02"
     },
     {
      "date": "2026-11-11",
@@ -917,7 +1040,7 @@
      "source_name": "The Kyiv Independent",
      "source_side": "media",
      "source_url": "https://kyivindependent.com/ukraine-reportedly-strikes-ust-luga-baltic-sea-port-as-drones-attack-regions-across-russia/",
-     "quote": "Ukrainian drones reportedly target Russia's largest oil refinery, strike Baltic Sea port",
+     "quote": "Ukrainian drones reportedly target Russia's largest oil refinery, strike Baltic Sea port, missile boat",
      "time": "02:59",
      "actor": "Ukraine",
      "target": "Russia",
@@ -938,7 +1061,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "f58a6c026922"
+     "id": "e5be06038085"
     },
     {
      "date": "2026-11-11",
@@ -1078,6 +1201,38 @@
     {
      "date": "2026-11-11",
      "category": "front_line",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/68943",
+     "quote": "📆 Главное за день 🤝 Обстоятельный и продуктивный обмен мнениями: Президент России Владимир Путин провел заседание Совета коллективной безопасности Организации Договора о коллективной безопасности.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "settlement captured, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Шиловка"
+     ],
+     "lang": "ru",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-11T18:41:07+00:00",
+     "source_tier": "state",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Шиловка"
+     ],
+     "id": "53d9472ac3a6"
+    },
+    {
+     "date": "2026-11-11",
+     "category": "front_line",
      "source_id": "ukrinform",
      "source_name": "Ukrinform",
      "source_side": "media",
@@ -1136,6 +1291,34 @@
     },
     {
      "date": "2026-11-11",
+     "category": "front_line",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/ukraine-captures-first-indonesian-prisoner-of-war-as-russia-steps-up-foreign-recruitment/",
+     "quote": "Ukraine captures first Indonesian prisoner of war as Russia steps up foreign recruitment",
+     "time": "21:03",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The man, originally from the Indonesian island of Java, was sent to participate in a Russian assault in southern Ukraine.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-11T19:03:34+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "6a22a6a0d9e6"
+    },
+    {
+     "date": "2026-11-11",
      "category": "front_activity",
      "source_id": "generalstaff",
      "source_name": "General Staff of the Armed Forces of Ukraine",
@@ -1176,6 +1359,41 @@
       "Chernihiv oblast: Красний Хутір"
      ],
      "id": "d414e84c02a2"
+    },
+    {
+     "date": "2026-11-11",
+     "category": "front_activity",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42873",
+     "quote": "Оперативна інформація станом на 22:00 11.11.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 149 бойових зіткнень.",
+     "time": "22:00",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "since 00:00, as of 22:00",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "clashes": 149,
+      "guided_bombs": 171,
+      "air_strikes": 61,
+      "kamikaze_drones": 5466,
+      "shellings": 1860,
+      "mlrs_shellings": 6
+     },
+     "breakdown": [],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-11T20:01:49+00:00",
+     "source_tier": "operational",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "0b17c56400e3"
     },
     {
      "date": "2026-11-11",
