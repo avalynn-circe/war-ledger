@@ -1,7 +1,40 @@
 {
  "date": "2026-11-12",
- "generated_at": "2026-11-12T00:48:19+00:00",
+ "generated_at": "2026-11-12T09:54:39+00:00",
  "events": [
+  {
+   "date": "2026-11-12",
+   "category": "air_attack",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/68948",
+   "quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесен массированный удар высокоточным оружием наземного базирования и ударными беспилотными летательными аппаратами большой дальности, в результате которого поражены объекты военно-промышленного и энергетического комплексов Украины и склад боеприпасов в город…",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "Ministry of Defence of Russia",
+     "url": "https://t.me/mod_russia/68950"
+    }
+   ],
+   "published": "2026-11-12T04:54:01+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "3508b33dd928"
+  },
   {
    "date": "2026-11-12",
    "category": "air_attack",
@@ -9,12 +42,12 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/",
-   "quote": "Russia attacks Kyiv with ballistic missiles hours after peace talks end",
+   "quote": "Russia attacks Kyiv with ballistic missiles, drones hours after peace talks end",
    "time": "01:27",
    "actor": "Russia",
    "target": "Ukraine",
    "action": null,
-   "detail": "Attacks against the capital are ongoing, and details about precise targets are not yet available.",
+   "detail": "Kyiv Mayor Vitali Klitschko reported that one person was killed, and seven others were injured as a result of a Russian drone strike.",
    "weapons": [],
    "counts": {},
    "breakdown": [],
@@ -30,7 +63,259 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "f21845a874e4"
+   "id": "1fba7eaa4858"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130877",
+   "quote": "В Минобороны РФ заявили о поражении четырех украинских военных предприятий в Киеве и области, местные власти подтвердили частичные разрушения неназванного производственного предприятия В Минобороны России заявили о ночном массированном ударе по объектам ВПК в Киеве и области.",
+   "time": "08:52",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv",
+    "Tver oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-12T06:52:01+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "349a4e20498d"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130879",
+   "quote": "В Киеве российский дрон попал в жилую девятиэтажку, возник пожар, — мэр «В Соломенском районе, в результате попадания беспилотного летательного аппарата, произошло возгорание с 3 по 6 этажи девятиэтажного жилого дома.",
+   "time": "09:15",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-12T07:15:01+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "472d09e7e1ae"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "civilian_damage",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7903",
+   "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область БПЛА уничтожены в городе Каменске-Шахтинском и Чертковском районе.",
+   "time": "05:46",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-12T03:46:39+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "215666c18b71"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130873",
+   "quote": "Один человек пострадал в результате российских атак в Житомирской области, Минобороны РФ заявили о поражении двух электроподстанций в регионе «В течение последних суток и этой ночи россияне нанесли удары беспилотниками по территории Коростенской, Ольшанской, Чудновской, Ружинской, Бердичевской, Житомирской общин.",
+   "time": "08:39",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zhytomyr"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-12T06:39:01+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "dfa4a74a3b14"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130880",
+   "quote": "В ФСБ заявили о задержании четырех человек по подозрению в передаче Украине сведений о российских военнослужащих, объектах ВПК и ТЭК ФСБ задержала трех граждан России и одного иностранца по подозрению в сотрудничестве с украинскими спецслужбами.",
+   "time": "09:30",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Donetsk oblast",
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-12T07:30:01+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "e21bc5c80bce"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130882",
+   "quote": "Два человека пострадали в результате попадания российского дрона в многоэтажку в Соломенском районе Киева, им оказана медпомощь, — мэр",
+   "time": "09:53",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv",
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-12T07:53:22+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "75b422b402bc"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/130888",
+   "quote": "До 5 возросло число пострадавших в Киеве в результате удара российского БПЛА по многоэтажке, один человек погиб, — мэр «5 человек пострадали в Соломенском районе.",
+   "time": "10:59",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-12T08:59:28+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "04b5cab1a32f"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "strikes_in_russia",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/68949",
+   "quote": "⚡️ В течение прошедшей ночи дежурными силами ПВО перехвачен и уничтожен 71 украинский беспилотный летательный аппарат самолетного типа над территориями Белгородской, Брянской, Курской, Тульской, Орловской, Ростовской областей, Московского региона и Республики Крым.",
+   "time": null,
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "UAVs intercepted, as claimed (overnight)",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "intercepted_claimed": 71
+   },
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast",
+    "Bryansk oblast",
+    "Kursk oblast",
+    "Tula oblast",
+    "Oryol oblast",
+    "Rostov oblast",
+    "Moscow oblast",
+    "Crimea"
+   ],
+   "lang": "ru",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-12T05:54:49+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "6b90824b6f70"
   },
   {
    "date": "2026-11-12",
@@ -59,6 +344,418 @@
    "detail_en": null,
    "locations_en": null,
    "id": "1ecc35202d92"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42875",
+   "quote": "Оперативна інформація станом на 08:00 12.11.2026 щодо російського вторгнення Слава Україні!",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": "Air strikes on: Хотінь",
+   "weapons": [],
+   "counts": {
+    "clashes": 167,
+    "guided_bombs": 238,
+    "air_strikes": 84,
+    "kamikaze_drones": 7137,
+    "shellings": 2371,
+    "settlements_shelled": 30
+   },
+   "breakdown": [],
+   "locations": [
+    "Sumy oblast: Рожковичі, Гаврилова Слобода, Бачівськ, Товстодубове, Білокопитове, Вільна Слобода, Суходіл, Кучерівка, Кореньок, Уланове, Яструбщина, Сімейкине, Баранівка, Гірки, Безсалівка, Іскрівщина, Отруба, Волфине, Павлівка, Малушине, Яструбине, Корчаківка, Нова Січ, Писарівка, Садки, Мар'їне, Миропілля, Запсілля, Дігтярне, Нескучне"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-12T06:01:31+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Sumy oblast: Рожковичі, Гаврилова Слобода, Бачівськ, Товстодубове, Білокопитове, Вільна Слобода, Суходіл, Кучерівка, Кореньок, Уланове, Яструбщина, Сімейкине, Баранівка, Гірки, Безсалівка, Іскрівщина, Отруба, Волфине, Павлівка, Малушине, Яструбине, Корчаківка, Нова Січ, Писарівка, Садки, Мар'їне, Миропілля, Запсілля, Дігтярне, Нескучне"
+   ],
+   "id": "c24751e26661"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42875",
+   "quote": "втрати російських загарбників склали 2150 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 2150
+    },
+    {
+     "label": "tanks",
+     "delta": 3
+    },
+    {
+     "label": "armoured fighting vehicles",
+     "delta": 14
+    },
+    {
+     "label": "artillery systems",
+     "delta": 47
+    },
+    {
+     "label": "multiple rocket launchers",
+     "delta": 3
+    },
+    {
+     "label": "ground robotic systems",
+     "delta": 8
+    },
+    {
+     "label": "UAVs",
+     "delta": 1013
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 312
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-12T06:01:31+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "1bde2e868961"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24275, of which: destroyed: 19240, damaged: 1001, abandoned: 1192, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24275,
+    "destroyed": 19240,
+    "damaged": 1001,
+    "abandoned": 1192,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4456
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2430
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6497
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 756
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 441
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 740
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 621
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1067
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 646
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 72
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 30
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 449
+    },
+    {
+     "label": "Radars",
+     "count": 143
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 208
+    },
+    {
+     "label": "Helicopters",
+     "count": 186
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 40
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4749
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-12T09:54:36.402064+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f66d51540908"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12346, of which: destroyed: 9736, damaged: 719, abandoned: 693, captured: 1198",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12346,
+    "destroyed": 9736,
+    "damaged": 719,
+    "abandoned": 693,
+    "captured": 1198
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1473
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 566
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1628
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1477
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1016
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2217
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 105
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 303
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 306
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1002
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 137
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 151
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1405
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-12T09:54:37.012040+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "583a97f46abc"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "weapons_deliveries",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/eu-purchases-of-russian-yamal-lng-rise-to-over-9-billion-in-2026-despite-october-dip/",
+   "quote": "EU purchases of Russian Yamal LNG rise to over $9 billion in 2026, despite October dip",
+   "time": "07:00",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "The European bloc has already paid over one-fifth more for Yamal LNG this year than throughout the entire 2025, according to Urgewald.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-12T05:00:31+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "45a478890998"
+  },
+  {
+   "date": "2026-11-12",
+   "category": "infrastructure",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/russia-attacks-khmelnytskyi-oblast-energy-infrastructure-leaving-outages/",
+   "quote": "Russia attacks Khmelnytskyi Oblast energy infrastructure, leaving outages",
+   "time": "06:28",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "\"As a result of the Russian attack, energy infrastructure was damaged, causing emergency power outages in the Shepetivka district,\" Khmelnytskyi Oblast Governor Serhii Tiurin said.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Khmelnytskyi"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-12T04:28:38+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "4be4d643b453"
   }
  ]
 }
