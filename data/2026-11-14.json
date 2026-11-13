@@ -1,0 +1,36 @@
+{
+ "date": "2026-11-14",
+ "generated_at": "2026-11-13T23:37:54+00:00",
+ "events": [
+  {
+   "date": "2026-11-14",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131062",
+   "quote": "Силами ПВО сбиты три БПЛА, летевших на Москву.",
+   "time": "00:59",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Moscow"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-13T22:59:24+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "553fdc0150de"
+  }
+ ]
+}
