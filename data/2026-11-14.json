@@ -1,7 +1,215 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-13T23:37:54+00:00",
+ "generated_at": "2026-11-14T06:33:09+00:00",
  "events": [
+  {
+   "date": "2026-11-14",
+   "category": "air_attack",
+   "source_id": "kpszsu",
+   "source_name": "Air Force of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/kpszsu/95898",
+   "quote": "⚡️ ЗБИТО/ПОДАВЛЕНО 81 ВОРОЖУ ЦІЛЬ ➖➖➖➖➖➖➖➖➖➖ У ніч на 14 листопада (з 18:00 13 листопада) противник атакував 96 ударними БпЛА типу Shahed (61 із них - реактивні), Гербера, дронами-імітаторами типу “Пародія” із напрямків: Брянськ, Орел, Приморсько-Ахтарськ- рф, ТОТ Донецьк, ТОТ АР Крим – Гвардійське.",
+   "time": "07:30",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "air attack",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Gerbera-type UAVs (incl. decoys)",
+     "launched": 96,
+     "intercepted": 81
+    }
+   ],
+   "counts": {
+    "jet_powered_shahed": 61,
+    "launched": 96,
+    "jet_powered_shahed_intercepted": 52,
+    "intercepted": 81,
+    "impact_locations": 8
+   },
+   "breakdown": [],
+   "locations": [
+    "Bryansk",
+    "Oryol",
+    "Primorsko-Akhtarsk",
+    "Donetsk (occupied)",
+    "Hvardiiske (Crimea)"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-14T05:39:14+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "8e8c09548d2b"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "air_attack",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/69004",
+   "quote": "❗️Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам энергетики, портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в доставке военных грузов на Украину.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-14T05:02:18+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "44bd8f318728"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-economy/4184350-ukraine-has-lost-630-locomotives-to-russian-attacks-nearly-400-of-them-this-year-kalashnyk.html",
+   "quote": "Ukraine has lost 630 locomotives to Russian attacks, nearly 400 of them this year – Kalashnyk",
+   "time": "05:21",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Ukraine has lost 630 locomotives as a result of Russian attacks since the start of the full-scale invasion, with nearly 400 of those losses occurring this year.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-14T03:21:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "bb9fa2723dc3"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "civilian_damage",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7917",
+   "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область БПЛА уничтожены в Миллеровском районе.",
+   "time": "05:49",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-14T03:49:03+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7e9b5ef6ca82"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131073",
+   "quote": "Супруги и их дочь погибли при ударе БПЛА по дому в белгородском поселке Пролетарский, — Оперштаб Беспилотник атаковал частный дом в поселке Пролетарский Ракитянского округа, заявили в региональном Оперштабе.",
+   "time": "08:30",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-14T06:30:43+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "6d36b2dfabf4"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "strikes_in_russia",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/69005",
+   "quote": "⚡️ В течение прошедшей ночи дежурными силами ПВО перехвачены и уничтожены 29 украинских беспилотных летательных аппаратов самолетного типа над территориями Белгородской, Брянской, Тульской, Ростовской областей, Московского региона и над акваториями Черного и Азовского морей.",
+   "time": null,
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "UAVs intercepted, as claimed (overnight)",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "intercepted_claimed": 29
+   },
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast",
+    "Bryansk oblast",
+    "Tula oblast",
+    "Rostov oblast",
+    "Moscow oblast",
+    "над акваториями Черного",
+    "Sea of Azov"
+   ],
+   "lang": "ru",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-14T05:29:42+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Belgorod oblast",
+    "Bryansk oblast",
+    "Tula oblast",
+    "Rostov oblast",
+    "Moscow oblast",
+    "над акваториями Черного",
+    "Sea of Azov"
+   ],
+   "id": "436e9cd02f3a"
+  },
   {
    "date": "2026-11-14",
    "category": "strikes_in_russia",
@@ -31,6 +239,334 @@
    "detail_en": null,
    "locations_en": null,
    "id": "553fdc0150de"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131065",
+   "quote": "Россия требует от НАТО вернуться к границам 1997 года и прекратить военную поддержку Украины, — The New York Times Москва вновь настаивает на пересмотре всей системы европейской безопасности по образцу холодной войны.",
+   "time": "03:15",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Moscow"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-14T01:15:14+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f00a9a73c5bb"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131066",
+   "quote": "В Ростовской области в результате падения БПЛА загорелось здание гостиницы, — губернатор В результате падения беспилотника в хуторе Северный сад повреждено здание гостиницы.",
+   "time": "07:06",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/131070"
+    }
+   ],
+   "published": "2026-11-14T05:06:15+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "a758e3e3ef45"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131071",
+   "quote": "Россия этой ночью выпустила по Украине 96 БПЛА, сообщили в Воздушных силах Украины Из них подавлен/уничтожен 81 беспилотник, утверждают в ведомстве.",
+   "time": "08:15",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-14T06:15:14+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "e1acf19c27bf"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42891",
+   "quote": "Оперативна інформація станом на 08:00 14.11.2026 щодо російського вторгнення Слава Україні!",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": "Air strikes on: Спаське",
+   "weapons": [],
+   "counts": {
+    "clashes": 273,
+    "guided_bombs": 220,
+    "air_strikes": 64,
+    "kamikaze_drones": 4844,
+    "shellings": 2117,
+    "settlements_shelled": 32
+   },
+   "breakdown": [],
+   "locations": [
+    "Sumy oblast: Павлівка, Безсалівка, Кореньок, Писарівка, Товстодубове, Ободи, Бачівськ, Хотінь, Яструбщина, Кіндратівка, Уланове, Лужки, Шпиль, Нескучне, Волфине, Юнаківка, Андріївка, Гірки, Шалигине, Запсілля, Садки, Кучерівка, Атинське, Рогізне, Отруба, Миропілля, Іскрисківщина, Мар’їне, Нова Січ, Малушине, Дорошівка, Мала Рибиця"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-14T06:03:22+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Sumy oblast: Павлівка, Безсалівка, Кореньок, Писарівка, Товстодубове, Ободи, Бачівськ, Хотінь, Яструбщина, Кіндратівка, Уланове, Лужки, Шпиль, Нескучне, Волфине, Юнаківка, Андріївка, Гірки, Шалигине, Запсілля, Садки, Кучерівка, Атинське, Рогізне, Отруба, Миропілля, Іскрисківщина, Мар’їне, Нова Січ, Малушине, Дорошівка, Мала Рибиця"
+   ],
+   "id": "dc7a16b01f07"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42891",
+   "quote": "втрати російських загарбників склали 1710 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 1710
+    },
+    {
+     "label": "tanks",
+     "delta": 6
+    },
+    {
+     "label": "armoured fighting vehicles",
+     "delta": 19
+    },
+    {
+     "label": "artillery systems",
+     "delta": 33
+    },
+    {
+     "label": "multiple rocket launchers",
+     "delta": 2
+    },
+    {
+     "label": "ground robotic systems",
+     "delta": 4
+    },
+    {
+     "label": "UAVs",
+     "delta": 448
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 302
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4184575-russias-war-casualty-toll-in-ukraine-up-by-1710-over-past-day.html",
+     "quote": "Russia's war casualty toll in Ukraine up by 1,710 over past day"
+    }
+   ],
+   "published": "2026-11-14T06:03:22+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7325983d3b41"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12346, of which: destroyed: 9736, damaged: 719, abandoned: 693, captured: 1198",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12346,
+    "destroyed": 9736,
+    "damaged": 719,
+    "abandoned": 693,
+    "captured": 1198
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1473
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 566
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1628
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1477
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1016
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2217
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 105
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 303
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 306
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1002
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 137
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 151
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1405
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-14T06:33:07.144844+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "583a97f46abc"
   }
  ]
 }

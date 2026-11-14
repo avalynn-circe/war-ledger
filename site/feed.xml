@@ -6,7 +6,106 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Fri, 13 Nov 2026 23:37:54 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 06:33:09 +0000</lastBuildDate>
+
+<item>
+<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
+<guid isPermaLink="false">583a97f46abc</guid>
+<pubDate>Sat, 14 Nov 2026 06:33:07 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Ukrainian equipment losses)</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Супруги и их дочь погибли при ударе БПЛА по дому в белгородском поселке Пролетарский, — Оперштаб Беспилотник атаковал частный дом в поселке Пролетарский Ракитянского округа, заявили в ре</title>
+<link>https://t.me/astrapress/131073</link>
+<guid isPermaLink="false">6d36b2dfabf4</guid>
+<pubDate>Sat, 14 Nov 2026 06:30:43 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Belgorod oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Россия этой ночью выпустила по Украине 96 БПЛА, сообщили в Воздушных силах Украины Из них подавлен/уничтожен 81 беспилотник, утверждают в ведомстве.</title>
+<link>https://t.me/astrapress/131071</link>
+<guid isPermaLink="false">e1acf19c27bf</guid>
+<pubDate>Sat, 14 Nov 2026 06:15:14 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Tatarstan</description>
+</item>
+
+<item>
+<title>[Operational report] Russia → Ukraine · 273 combat clashes · 220 guided aerial bombs dropped · 4,844 kamikaze drones used · 2,117 shellings · 32 settlements shelled</title>
+<link>https://t.me/GeneralStaffZSU/42891</link>
+<guid isPermaLink="false">dc7a16b01f07</guid>
+<pubDate>Sat, 14 Nov 2026 06:03:22 +0000</pubDate>
+<category>Front activity</category>
+<description>General Staff of the Armed Forces of Ukraine · Air strikes on: Спаське · Sumy oblast: Павлівка, Безсалівка, Кореньок, Писарівка, Товстодубове, Ободи, Бачівськ, Хотінь, Яструбщина, Кіндратівка, Уланове, Лужки, Шпиль, Нескучне, Волфине, Юнаківка, Андріївка, Гірки, Шалигине, Запсілля, Садки, Кучерівка, Атинське, Рогізне, Отруба, Миропілля, Іскрисківщина, Мар’їне, Нова Січ, Малушине, Дорошівка, Мала Рибиця</description>
+</item>
+
+<item>
+<title>[Operational report] Russia → Ukraine · 96 launched · 81 intercepted · 8 impact locations</title>
+<link>https://t.me/kpszsu/95898</link>
+<guid isPermaLink="false">8e8c09548d2b</guid>
+<pubDate>Sat, 14 Nov 2026 05:39:14 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Air Force of Ukraine · Bryansk, Oryol, Primorsko-Akhtarsk, Donetsk (occupied), Hvardiiske (Crimea)</description>
+</item>
+
+<item>
+<title>[State claim] Ukraine → Russia · 29 UAVs intercepted, as claimed</title>
+<link>https://t.me/mod_russia/69005</link>
+<guid isPermaLink="false">436e9cd02f3a</guid>
+<pubDate>Sat, 14 Nov 2026 05:29:42 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>Ministry of Defence of Russia · Belgorod oblast, Bryansk oblast, Tula oblast, Rostov oblast, Moscow oblast, над акваториями Черного, Sea of Azov</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Ростовской области в результате падения БПЛА загорелось здание гостиницы, — губернатор В результате падения беспилотника в хуторе Северный сад повреждено здание гостиницы.</title>
+<link>https://t.me/astrapress/131066</link>
+<guid isPermaLink="false">a758e3e3ef45</guid>
+<pubDate>Sat, 14 Nov 2026 05:06:15 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Rostov oblast</description>
+</item>
+
+<item>
+<title>[State claim] ❗️Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам энергетики, портовой и железнодорожной инфраструктур</title>
+<link>https://t.me/mod_russia/69004</link>
+<guid isPermaLink="false">44bd8f318728</guid>
+<pubDate>Sat, 14 Nov 2026 05:02:18 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ministry of Defence of Russia</description>
+</item>
+
+<item>
+<title>[State claim] Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область БПЛА уничтожены в Миллеровском районе.</title>
+<link>https://t.me/Yuri_Slusar/7917</link>
+<guid isPermaLink="false">7e9b5ef6ca82</guid>
+<pubDate>Sat, 14 Nov 2026 03:49:03 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Governor of Rostov oblast · Rostov oblast</description>
+</item>
+
+<item>
+<title>[Media] Ukraine has lost 630 locomotives to Russian attacks, nearly 400 of them this year – Kalashnyk</title>
+<link>https://www.ukrinform.net/rubric-economy/4184350-ukraine-has-lost-630-locomotives-to-russian-attacks-nearly-400-of-them-this-year-kalashnyk.html</link>
+<guid isPermaLink="false">bb9fa2723dc3</guid>
+<pubDate>Sat, 14 Nov 2026 03:21:00 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ukrinform · Ukraine has lost 630 locomotives as a result of Russian attacks since the start of the full-scale invasion, with nearly 400 of those losses occurring this year.</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Россия требует от НАТО вернуться к границам 1997 года и прекратить военную поддержку Украины, — The New York Times Москва вновь настаивает на пересмотре всей системы европейской безопасн</title>
+<link>https://t.me/astrapress/131065</link>
+<guid isPermaLink="false">f00a9a73c5bb</guid>
+<pubDate>Sat, 14 Nov 2026 01:15:14 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Moscow</description>
+</item>
 
 <item>
 <title>[Unconfirmed] Силами ПВО сбиты три БПЛА, летевших на Москву.</title>
@@ -1257,105 +1356,6 @@
 <pubDate>Wed, 11 Nov 2026 09:23:06 +0000</pubDate>
 <category>Front line changes</category>
 <description>Ministry of Defence of Russia · Воскресенка</description>
-</item>
-
-<item>
-<title>[State claim] Russia → Ukraine · settlement captured, as claimed</title>
-<link>https://t.me/mod_russia/68927</link>
-<guid isPermaLink="false">fab83fe5b27d</guid>
-<pubDate>Wed, 11 Nov 2026 09:22:51 +0000</pubDate>
-<category>Front line changes</category>
-<description>Ministry of Defence of Russia · Шиловка Донецкой</description>
-</item>
-
-<item>
-<title>[Media] Russian strikes hit energy infrastructure in southern Odesa region</title>
-<link>https://www.ukrinform.net/rubric-ato/4183660-russian-strikes-hit-energy-infrastructure-in-southern-odesa-region.html</link>
-<guid isPermaLink="false">d6c79b9ade2a</guid>
-<pubDate>Wed, 11 Nov 2026 09:00:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Russian forces attacked energy infrastructure in the southern part of the Odesa region in the evening of November 10 and early on November 11; a woman was killed. · Odesa</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Один человек погиб, около 135 тысяч — остались без электричества в Одесской области в результате российской атаки, — ОВА Госпитализированная в крайне тяжелом состоянии после российской а</title>
-<link>https://t.me/astrapress/130772</link>
-<guid isPermaLink="false">3df58afb4aaa</guid>
-<pubDate>Wed, 11 Nov 2026 08:47:01 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Odesa, Belgorod oblast</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Один человек пострадал в результате украинской атаки в Рыльске Курской области, — губернатор «Вражеский дрон атаковал парковку Рыльской ЦРБ.</title>
-<link>https://t.me/astrapress/130771</link>
-<guid isPermaLink="false">8bff85ca827d</guid>
-<pubDate>Wed, 11 Nov 2026 08:42:01 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Kursk oblast</description>
-</item>
-
-<item>
-<title>[Media] Russian strikes in Kharkiv region injure woman, damage infrastructure</title>
-<link>https://www.ukrinform.net/rubric-ato/4183655-russian-strikes-in-kharkiv-region-injure-woman-damage-infrastructure.html</link>
-<guid isPermaLink="false">ba1e57f97fd1</guid>
-<pubDate>Wed, 11 Nov 2026 08:40:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces attacked Kharkiv and 11 other settlements in the Kharkiv region over past day, damaging infrastructure and injuring a woman. · Kharkiv</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Два человека пострадали в результате российских ударов по Харьковской области, — ОВА «В результате обстрела в Харькове у 73-летней женщины возникла острая реакция на стресс.</title>
-<link>https://t.me/astrapress/130764</link>
-<guid isPermaLink="false">303a6d641a2c</guid>
-<pubDate>Wed, 11 Nov 2026 08:32:14 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Kharkiv</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Пять человек, в том числе сотрудники полиции, пострадали от российских ударов в Житомирской области, — власти О многочисленных ударах БПЛА по объектам энергетической, транспортной и топл</title>
-<link>https://t.me/astrapress/130760</link>
-<guid isPermaLink="false">239ff3428651</guid>
-<pubDate>Wed, 11 Nov 2026 08:21:14 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Zhytomyr</description>
-</item>
-
-<item>
-<title>[Media] Russian attack damages private house in Kyiv’s Darnytskyi district</title>
-<link>https://www.ukrinform.net/rubric-ato/4183643-russian-attack-damages-private-house-in-kyivs-darnytskyi-district.html</link>
-<guid isPermaLink="false">b4a8286a0a71</guid>
-<pubDate>Wed, 11 Nov 2026 08:20:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · A private house in Kyiv’s Darnytskyi district was damaged in a Russian attack. · Kyiv</description>
-</item>
-
-<item>
-<title>[Verified OSINT] Russia → Ukraine · advanced near</title>
-<link>https://t.me/DeepStateUA/23993</link>
-<guid isPermaLink="false">3abb5101b0b1</guid>
-<pubDate>Wed, 11 Nov 2026 08:10:25 +0000</pubDate>
-<category>Front line changes</category>
-<description>DeepState · Костянтинівки, Червоного</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Один человек погиб, еще один ранен в результате российских ударов по Славянску Донецкой области, — власти «За вчерашний день в результате вражеских обстрелов в городе погиб 74-летний муж</title>
-<link>https://t.me/astrapress/130758</link>
-<guid isPermaLink="false">ee83ae43f4b3</guid>
-<pubDate>Wed, 11 Nov 2026 08:07:14 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Donetsk oblast</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Один человек погиб в Херсонской области в результате удара российского FPV-дрона, — ОВА «Стало известно о гибели жителя села Станислав в результате атаки российского беспилотника 8 ноябр</title>
-<link>https://t.me/astrapress/130757</link>
-<guid isPermaLink="false">f17563dca008</guid>
-<pubDate>Wed, 11 Nov 2026 08:02:53 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Kherson</description>
 </item>
 
 </channel>
