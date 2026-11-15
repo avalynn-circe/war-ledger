@@ -1,14 +1,568 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-15T01:57:56+00:00",
+ "generated_at": "2026-11-15T09:31:54+00:00",
  "events": [
+  {
+   "date": "2026-11-15",
+   "category": "air_attack",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/69025",
+   "quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам энергетики, портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в интересах обеспечения ВСУ.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T05:42:06+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c5c0eb6ca084"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184783-air-defense-neutralizes-106-of-132-russian-drones-used-to-attack-ukraine.html",
+   "quote": "Air defense neutralizes 106 of 132 Russian drones used to attack Ukraine",
+   "time": "09:16",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Air defense forces neutralized 106 drones used by the Russian military to attack Ukraine overnight on November 15.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T07:16:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "197b33871f4d"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7919",
+   "quote": "Сегодняшняя ночь принесла большое горе.",
+   "time": "06:24",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T04:24:46+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "62c8af9fd4f1"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184768-russians-strike-zaporizhzhia-eight-times-injuring-five-people-including-an-elderly-woman.html",
+   "quote": "Russians strike Zaporizhzhia eight times, injuring five people, including an elderly woman",
+   "time": "07:38",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Russian forces carried out eight strikes on Zaporizhzhia, injuring five people, including an elderly woman.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T05:38:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "0855d3d19488"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184769-israel-strikes-hamas-military-wing-killing-senior-commander.html",
+   "quote": "Israel strikes Hamas military wing, killing senior commander",
+   "time": "07:52",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Israel has carried out a strike against Hamas's military wing, killing a senior commander and injuring several other people.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T05:52:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "798022f9b554"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/drone-attack-kills-1-injures-4-in-russias-rostov-oblast-governor-says/",
+   "quote": "Drone attack kills 1, injures 4 in Russia's Rostov Oblast, governor says",
+   "time": "07:55",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "The attack damaged two electrical substations in Taganrog, including one supplying power to railway infrastructure.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast",
+    "Taganrog"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T05:55:31+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c0447739161e"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131143",
+   "quote": "Шесть человек, включая двухлетнего ребенка, пострадали в результате атаки ВС РФ на Запорожье, — власти «Вследствие атаки пострадали шестеро человек: три женщины в возрасте 40, 78 и 79 лет, двое мужчин — 19 и 39 лет, а также двухлетний ребенок», — сообщил и.",
+   "time": "07:56",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T05:56:18+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "d8795a10336c"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7920",
+   "quote": "‼️ ДОПОЛНЕНИЕ к ранее опубликованной информации.",
+   "time": "08:29",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "killed": 1
+   },
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T06:29:42+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "8786f0064d2f"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131150",
+   "quote": "Один человек погиб, четверо ранены в результате атаки БПЛА на Таганрог, поврежден мост на трассе и две электроподстанции, — власти «В результате вражеской атаки в Таганроге погиб мужчина — главный инженер электроподстанции, — сообщил губернатор Ростовской…",
+   "time": "08:41",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Taganrog",
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T06:41:18+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "00df54e8bea0"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184781-private-house-catches-fire-following-enemy-attack-in-dnipro-district.html",
+   "quote": "Private house catches fire following enemy attack in Dnipro district",
+   "time": "08:52",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A private house caught fire in Dnipro district following a drone attack.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Dnipro"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T06:52:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "bbc826566437"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131151",
+   "quote": "Двое ранены, один человек пострадал в результате украинских ударов по Белгородской области, — власти «В селе Отрадное (Белгородский округ) при атаке FPV-дрона ранен мужчина, — сказано в суточной сводке оперативного штаба региона.",
+   "time": "08:56",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "FPV drone"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast",
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T06:56:18+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "ed7daa8261ff"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184803-russian-attacks-leave-14-injured-in-kharkiv-region-damage-businesses-warehouses-and-homes.html",
+   "quote": "Russian attacks leave 14 injured in Kharkiv region, damage businesses, warehouses, and homes",
+   "time": "10:31",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Fourteen people, including four children, were injured in Russian attacks in the Kharkiv region over the past day.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kharkiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T08:31:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "282ce7634ece"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131156",
+   "quote": "До пяти человек выросло число раненых в Ростовской области в результате атаки БПЛА, — губернатор «Сегодня утром еще один мужчина получил ранение в селе Троицкое Неклиновского района в результате падения обломков БПЛА на территорию производственного цеха.…",
+   "time": "10:33",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T08:33:04+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "71fafa4bcec3"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184809-russian-attack-on-chornomorsk-leaves-six-injured-damages-energy-infrastructure.html",
+   "quote": "Russian attack on Chornomorsk leaves six injured, damages energy infrastructure",
+   "time": "11:09",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Six people were injured in a Russian attack on the city of Chornomorsk in the Odesa region.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Odesa"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T09:09:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "08089b526bdd"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131159",
+   "quote": "Один человек погиб, 14, в том числе дети, пострадали в результате российских ударов в Харьковской области, — Нацполиция «В Боровой в результате обстрела погиб 67-летний местный житель, — сказано в сообщении Нацполиции Украины о ситуации в Харьковской области за минувшие сутки.",
+   "time": "11:19",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kharkiv",
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T09:19:18+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "12fefd6101c3"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184816-russian-drone-strikes-residential-building-in-kropyvnytskyi.html",
+   "quote": "Russian drone strikes residential building in Kropyvnytskyi, three injured",
+   "time": "11:28",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A Russian drone has struck a residential building in Kropyvnytskyi.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kirovohrad oblast"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T09:28:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "936c32f02e39"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "strikes_in_russia",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/69026",
+   "quote": "⚡️ В течение прошедшей ночи, в период с 20.00 мск 14 ноября до 8.00 мск 15 ноября, дежурными силами ПВО перехвачены и уничтожены 533 украинских беспилотных летательных аппарата самолетного типа над территориями Астраханской, Белгородской, Брянской, Воронежской, Волгоградской, Курской, Липецкой, Ростовской, Саратовской…",
+   "time": null,
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "UAVs intercepted, as claimed (overnight)",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "intercepted_claimed": 533
+   },
+   "breakdown": [],
+   "locations": [
+    "Astrakhan oblast",
+    "Belgorod oblast",
+    "Bryansk oblast",
+    "Voronezh oblast",
+    "Volgograd oblast",
+    "Kursk oblast",
+    "Lipetsk oblast",
+    "Rostov oblast",
+    "Saratov oblast",
+    "Tula oblast",
+    "Ulyanovsk oblast",
+    "Krasnodar krai",
+    "Tatarstan",
+    "Crimea",
+    "Sea of Azov",
+    "Черного морей"
+   ],
+   "lang": "ru",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/131147",
+     "quote": "533 украинских БПЛА нейтрализованы силами российской ПВО, — Минобороны РФ Минувшей ночью 533 БПЛА перехватывали и уничтожали над территориями Астраханской, Белгородской, Брянской, Воронежской, Волгоградской, Курской, Липецкой, Ростовской, Саратовской, Тульской, Ульяновской областей, Краснодарского края, Республики Тат…"
+    }
+   ],
+   "published": "2026-11-15T05:46:09+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Astrakhan oblast",
+    "Belgorod oblast",
+    "Bryansk oblast",
+    "Voronezh oblast",
+    "Volgograd oblast",
+    "Kursk oblast",
+    "Lipetsk oblast",
+    "Rostov oblast",
+    "Saratov oblast",
+    "Tula oblast",
+    "Ulyanovsk oblast",
+    "Krasnodar krai",
+    "Tatarstan",
+    "Crimea",
+    "Sea of Azov",
+    "Черного морей"
+   ],
+   "id": "4fadf4fcf6e6"
+  },
   {
    "date": "2026-11-15",
    "category": "strikes_in_russia",
    "source_id": "ukrinform",
    "source_name": "Ukrinform",
    "source_side": "media",
-   "source_url": "https://www.ukrinform.net/rubric-society/4184568-sbu-exposes-109-criminal-groups-undermining-stability-in-ukraine-this-year.html",
+   "source_url": "https://www.ukrinform.net/rubric-crime/4184568-sbu-exposes-109-criminal-groups-undermining-stability-in-ukraine-this-year.html",
    "quote": "SBU exposes 109 criminal groups undermining stability in Ukraine this year",
    "time": "00:28",
    "actor": "Ukraine",
@@ -28,7 +582,197 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "f0929a4e28cc"
+   "id": "441dfd8ae79b"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131148",
+   "quote": "106 из 132 российских беспилотников нейтрализовали силы ПВО Украины, — Воздушные силы ВСУ «В ночь на 15 ноября противник атаковал Украину 132 ударными БПЛА типа Shahed (78 из них — реактивные), «Гербера» и беспилотниками-имитаторами типа «Пародия» с направлений Брянска, Орла, Курска, Миллерово, Приморско-Ахтарска (РФ)…",
+   "time": "08:16",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Geran-2 strike UAV"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Bryansk oblast",
+    "Kursk oblast",
+    "Donetsk oblast",
+    "Crimea",
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T06:16:18+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "de979f826b07"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131149",
+   "quote": "В Татарстане атакован ПАО «Нижнекамскнефтехим», — OSINT-аналитик ASTRA На кадрах очевидцев виден масштабный пожар в результате удара.",
+   "time": "08:26",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T06:26:42+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7548cc802d08"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42908",
+   "quote": "Оперативна інформація станом на 08:00 15.11.2026 щодо російського вторгнення Слава Україні!",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": "Air strikes on: Лужки",
+   "weapons": [],
+   "counts": {
+    "clashes": 171,
+    "guided_bombs": 311,
+    "air_strikes": 104,
+    "missile_strikes": 1,
+    "kamikaze_drones": 6957,
+    "shellings": 1981,
+    "mlrs_shellings": 43,
+    "concentration_areas_struck": 1,
+    "settlements_shelled": 28
+   },
+   "breakdown": [],
+   "locations": [
+    "Sumy oblast: Кореньок, Товстодубове, Уланове, Бачівськ, Іскрисківщина, Волфине, Гірки, Вовківка, Заріччя, Нескучне, Потапівка, Бруски, Кучерівка, Рогізне, Середина-Буда, Яструбщина, Будки, Атинське, Чернацьке, Студенок, Хлібороб, Безсалівка, Баранівка, Кружок, Партизанське",
+    "Chernihiv oblast: Клюси, Янжулівка, Михальчина-Слобода"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4184801-war-update-171-combat-engagements-on-front-line-over-past-day.html",
+     "quote": "War update: 171 combat engagements on front line over past day"
+    }
+   ],
+   "published": "2026-11-15T06:03:01+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Sumy oblast: Кореньок, Товстодубове, Уланове, Бачівськ, Іскрисківщина, Волфине, Гірки, Вовківка, Заріччя, Нескучне, Потапівка, Бруски, Кучерівка, Рогізне, Середина-Буда, Яструбщина, Будки, Атинське, Чернацьке, Студенок, Хлібороб, Безсалівка, Баранівка, Кружок, Партизанське",
+    "Chernihiv oblast: Клюси, Янжулівка, Михальчина-Слобода"
+   ],
+   "id": "7e4d58c3bb6b"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42908",
+   "quote": "втрати російських загарбників склали 2230 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 2230
+    },
+    {
+     "label": "armoured fighting vehicles",
+     "delta": 34
+    },
+    {
+     "label": "artillery systems",
+     "delta": 46
+    },
+    {
+     "label": "multiple rocket launchers",
+     "delta": 1
+    },
+    {
+     "label": "ground robotic systems",
+     "delta": 10
+    },
+    {
+     "label": "UAVs",
+     "delta": 1272
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 549
+    },
+    {
+     "label": "special equipment",
+     "delta": 1
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-622-860-troops-in-ukraine-since-feb-24-2022/",
+     "quote": "General Staff: Russia has lost 1,622,860 troops in Ukraine since Feb. 24, 2022"
+    },
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4184778-russian-army-loses-another-2230-soldiers-in-war-against-ukraine-over-past-day.html",
+     "quote": "Russian army loses another 2,230 soldiers in war against Ukraine over past day"
+    }
+   ],
+   "published": "2026-11-15T06:03:01+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "5192dd319563"
   },
   {
    "date": "2026-11-15",
@@ -37,7 +781,7 @@
    "source_name": "Oryx (Russian equipment losses)",
    "source_side": "osint",
    "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
-   "quote": "Russia - 24275, of which: destroyed: 19240, damaged: 1001, abandoned: 1192, captured: 2842",
+   "quote": "Russia - 24306, of which: destroyed: 19262, damaged: 1010, abandoned: 1192, captured: 2842",
    "time": null,
    "actor": "Oryx",
    "target": "Russia",
@@ -45,16 +789,16 @@
    "detail": null,
    "weapons": [],
    "counts": {
-    "total": 24275,
-    "destroyed": 19240,
-    "damaged": 1001,
+    "total": 24306,
+    "destroyed": 19262,
+    "damaged": 1010,
     "abandoned": 1192,
     "captured": 2842
    },
    "breakdown": [
     {
      "label": "Tanks",
-     "count": 4456
+     "count": 4458
     },
     {
      "label": "Armoured Fighting Vehicles",
@@ -74,7 +818,7 @@
     },
     {
      "label": "Infantry Mobility Vehicles",
-     "count": 441
+     "count": 442
     },
     {
      "label": "Command Posts And Communications Stations",
@@ -82,7 +826,7 @@
     },
     {
      "label": "Engineering Vehicles And Equipment",
-     "count": 740
+     "count": 741
     },
     {
      "label": "Self-Propelled Anti-Tank Missile Systems",
@@ -98,27 +842,27 @@
     },
     {
      "label": "Self-Propelled Artillery",
-     "count": 1067
+     "count": 1070
     },
     {
      "label": "Rocket and Missile Artillery",
-     "count": 646
+     "count": 651
     },
     {
      "label": "Anti-Aircraft Guns",
-     "count": 72
+     "count": 71
     },
     {
      "label": "Self-Propelled Anti-Aircraft Guns",
-     "count": 30
+     "count": 12
     },
     {
      "label": "Surface-To-Air Missile Systems",
-     "count": 449
+     "count": 469
     },
     {
      "label": "Radars",
-     "count": 143
+     "count": 144
     },
     {
      "label": "Jammers And Deception Systems",
@@ -130,7 +874,7 @@
     },
     {
      "label": "Helicopters",
-     "count": 186
+     "count": 188
     },
     {
      "label": "Unmanned Combat Aerial Vehicles",
@@ -142,20 +886,20 @@
     },
     {
      "label": "Trucks and similar vehicles",
-     "count": 4749
+     "count": 4758
     }
    ],
    "locations": [],
    "lang": "en",
    "extraction": "structured",
    "also_reported_by": [],
-   "published": "2026-11-15T01:57:54.080690+00:00",
+   "published": "2026-11-15T09:31:53.014101+00:00",
    "source_tier": "osint",
    "corrected": null,
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "f66d51540908"
+   "id": "535987660d7f"
   },
   {
    "date": "2026-11-15",
@@ -181,11 +925,11 @@
    "breakdown": [
     {
      "label": "Tanks",
-     "count": 1473
+     "count": 1475
     },
     {
      "label": "Armoured Fighting Vehicles",
-     "count": 566
+     "count": 568
     },
     {
      "label": "Infantry Fighting Vehicles",
@@ -276,7 +1020,7 @@
    "lang": "en",
    "extraction": "structured",
    "also_reported_by": [],
-   "published": "2026-11-15T01:57:54.589086+00:00",
+   "published": "2026-11-15T09:31:53.435950+00:00",
    "source_tier": "osint",
    "corrected": null,
    "quote_en": null,
@@ -313,6 +1057,68 @@
    "detail_en": null,
    "locations_en": null,
    "id": "f512cd12cd26"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184802-petrochemical-plant-on-fire-in-tatarstan-following-drone-attack-substation-damaged-in-taganrog-media.html",
+   "quote": "Petrochemical plant on fire in Tatarstan following drone attack, substation damaged in Taganrog – media",
+   "time": "10:14",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "A fire broke out at the Nizhnekamskneftekhim industrial facility in Russia's Tatarstan region following a nighttime drone attack, while an electrical substation supplying power to Taganrog's industrial zone in the Rostov region was damaged.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Tatarstan",
+    "Taganrog",
+    "Rostov oblast"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T08:14:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "fb534f07a5e6"
+  },
+  {
+   "date": "2026-11-15",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184808-russian-forces-strike-energy-infrastructure-in-zhytomyr-region.html",
+   "quote": "Russian forces strike energy infrastructure in Zhytomyr region",
+   "time": "10:50",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Russian attacks have damaged energy infrastructure and residential buildings in the Zhytomyr region.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zhytomyr"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-15T08:50:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "b8637814d84d"
   }
  ]
 }
