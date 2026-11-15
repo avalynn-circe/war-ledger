@@ -6,7 +6,52 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Sat, 14 Nov 2026 20:46:03 +0000</lastBuildDate>
+<lastBuildDate>Sun, 15 Nov 2026 01:57:56 +0000</lastBuildDate>
+
+<item>
+<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
+<guid isPermaLink="false">583a97f46abc</guid>
+<pubDate>Sun, 15 Nov 2026 01:57:54 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Ukrainian equipment losses)</description>
+</item>
+
+<item>
+<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
+<guid isPermaLink="false">f66d51540908</guid>
+<pubDate>Sun, 15 Nov 2026 01:57:54 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Media] Three commercial ships struck by drones near Romania&#39;s Black Sea coast over two days</title>
+<link>https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days/</link>
+<guid isPermaLink="false">f512cd12cd26</guid>
+<pubDate>Sun, 15 Nov 2026 00:19:21 +0000</pubDate>
+<category>Naval</category>
+<description>The Kyiv Independent · Speaking at the military port of Constanța on Nov. · Black Sea</description>
+</item>
+
+<item>
+<title>[Media] SBU exposes 109 criminal groups undermining stability in Ukraine this year</title>
+<link>https://www.ukrinform.net/rubric-society/4184568-sbu-exposes-109-criminal-groups-undermining-stability-in-ukraine-this-year.html</link>
+<guid isPermaLink="false">f0929a4e28cc</guid>
+<pubDate>Sat, 14 Nov 2026 22:28:00 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>Ukrinform · Since the beginning of the year, units of the Security Service of Ukraine&#39;s (SBU) Main Directorate D have exposed 109 criminal organizations and groups involved in undermining domestic stability and notified 3,920 individuals of suspicion.</description>
+</item>
+
+<item>
+<title>[Media] Russian attack on Zaporizhzhia leaves five injured</title>
+<link>https://www.ukrinform.net/rubric-ato/4184752-russian-attack-on-zaporizhzhia-leaves-five-injured.html</link>
+<guid isPermaLink="false">11565823d362</guid>
+<pubDate>Sat, 14 Nov 2026 21:57:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Russian forces attacked the Voznesenivskyi district of Zaporizhzhia, injuring at least five people. · Zaporizhzhia</description>
+</item>
 
 <item>
 <title>[Media] War update: 54 clashes on front line over past day</title>
@@ -1311,51 +1356,6 @@
 <pubDate>Thu, 12 Nov 2026 14:31:28 +0000</pubDate>
 <category>Air attacks on Ukraine</category>
 <description>Ministry of Defence of Russia</description>
-</item>
-
-<item>
-<title>[Media] Russia strikes Naftogaz facility in Chernihiv region with two missiles</title>
-<link>https://www.ukrinform.net/rubric-economy/4184055-russia-strikes-naftogaz-facility-in-chernihiv-region-with-two-missiles.html</link>
-<guid isPermaLink="false">e2f419cdbb92</guid>
-<pubDate>Thu, 12 Nov 2026 14:15:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Russian invaders struck a Naftogaz Group oil and gas facility in the Chernihiv region with two missiles in the afternoon on November 12. · Chernihiv</description>
-</item>
-
-<item>
-<title>[Media] Russian colonel reportedly killed in car explosion near St. Petersburg</title>
-<link>https://kyivindependent.com/russian-colonel-reportedly-killed-in-car-explosion-near-st-petersburg/</link>
-<guid isPermaLink="false">24ad2a4ccf73</guid>
-<pubDate>Thu, 12 Nov 2026 11:54:13 +0000</pubDate>
-<category>Civilian damage</category>
-<description>The Kyiv Independent · Russian military officials and other figures involved in Moscow&#39;s full-scale invasion have previously been targeted in car bombings and other attacks, sometimes in Ukrainian-led operations. · St Petersburg, Moscow</description>
-</item>
-
-<item>
-<title>[Operational report] П&#39;ять з п&#39;яти найбільших нафтопереробних заводів росії уразили Сили оборони Від 30 жовтня українські «далекобійні санкції» дісталися Омського, Кірішського, Рязанського, Нижньогоро</title>
-<link>https://t.me/GeneralStaffZSU/42879</link>
-<guid isPermaLink="false">2a41904aba3e</guid>
-<pubDate>Thu, 12 Nov 2026 10:59:01 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>General Staff of the Armed Forces of Ukraine · Ryazan oblast, Yaroslavl oblast, Saratov oblast</description>
-</item>
-
-<item>
-<title>[Media] One killed, seven injured as Russian drone hits apartment building in Kyiv&#39;s Solomianskyi district</title>
-<link>https://www.ukrinform.net/rubric-ato/4183954-one-killed-seven-injured-as-russian-drone-hits-apartment-building-in-kyivs-solomianskyi-district.html</link>
-<guid isPermaLink="false">821c438321b0</guid>
-<pubDate>Thu, 12 Nov 2026 10:57:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · A Russian drone strike caused a fire in a nine-story residential building in Kyiv&#39;s Solomianskyi district. · Kyiv</description>
-</item>
-
-<item>
-<title>[Media] Starshield speed restrictions return, hampering efforts to intercept Russian drones, Zelensky says</title>
-<link>https://kyivindependent.com/starshield-speed-restrictions-return-hampering-efforts-to-intercept-russian-drones-zelensky-says/</link>
-<guid isPermaLink="false">caecbd2c8399</guid>
-<pubDate>Thu, 12 Nov 2026 10:47:13 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>The Kyiv Independent · &#34;Unfortunately, this is helping the Russians kill more Ukrainians and carry out more accurate strikes against Ukraine,&#34; President Volodymyr Zelensky said.</description>
 </item>
 
 </channel>

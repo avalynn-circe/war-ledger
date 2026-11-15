@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-14T20:46:02+00:00",
+ "generated_at": "2026-11-15T01:57:56+00:00",
  "events": [
   {
    "date": "2026-11-14",
@@ -857,6 +857,36 @@
    "detail_en": null,
    "locations_en": null,
    "id": "b1405bb54ad2"
+  },
+  {
+   "date": "2026-11-14",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4184752-russian-attack-on-zaporizhzhia-leaves-five-injured.html",
+   "quote": "Russian attack on Zaporizhzhia leaves five injured",
+   "time": "23:57",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Russian forces attacked the Voznesenivskyi district of Zaporizhzhia, injuring at least five people.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-14T21:57:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "11565823d362"
   },
   {
    "date": "2026-11-14",
