@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-15T22:53:45+00:00",
+ "generated_at": "2026-11-16T06:39:11+00:00",
  "events": [
   {
    "date": "2026-11-15",
@@ -977,7 +977,7 @@
    "source_name": "Ukrinform",
    "source_side": "media",
    "source_url": "https://www.ukrinform.net/rubric-ato/4184912-russians-strike-warehouses-in-vyshhorod-district-leaving-one-injured.html",
-   "quote": "Russians strike warehouses in Vyshhorod district, leaving one injured",
+   "quote": "Russians strike warehouses in Vyshorod district, leaving one injured",
    "time": "17:28",
    "actor": "Russia",
    "target": "Ukraine",
@@ -998,7 +998,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "ea1a176f0201"
+   "id": "21904f37e798"
   },
   {
    "date": "2026-11-15",
