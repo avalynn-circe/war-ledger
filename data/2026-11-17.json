@@ -1,7 +1,97 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-17T02:58:08+00:00",
+ "generated_at": "2026-11-17T13:31:27+00:00",
  "events": [
+  {
+   "date": "2026-11-17",
+   "category": "air_attack",
+   "source_id": "kpszsu",
+   "source_name": "Air Force of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/kpszsu/96916",
+   "quote": "⚡️ ЗБИТО/ПОДАВЛЕНО 211 ВОРОЖИХ ЦІЛЕЙ ➖➖➖➖➖➖➖➖➖➖ У ніч на 17 листопада (з 18:00 16 листопада) противник атакував балістичними ракетами Іскандер-М/Циркон/С-400 із Брянської, Воронезької, Курської та Ростовської обл.",
+   "time": "12:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "air attack",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Gerbera-type UAVs (incl. decoys)",
+     "launched": 306
+    },
+    {
+     "name": "Iskander-M ballistic missile"
+    }
+   ],
+   "counts": {
+    "jet_powered_shahed": 92,
+    "launched": 306,
+    "intercepted": 211,
+    "impact_locations": 44
+   },
+   "breakdown": [],
+   "locations": [
+    "Oryol",
+    "Kursk",
+    "Primorsko-Akhtarsk",
+    "Шаталове",
+    "Millerovo",
+    "Donetsk (occupied)",
+    "Hvardiiske (Crimea)"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-17T11:25:18+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Oryol",
+    "Kursk",
+    "Primorsko-Akhtarsk",
+    "Шаталове",
+    "Millerovo",
+    "Donetsk (occupied)",
+    "Hvardiiske (Crimea)"
+   ],
+   "id": "14f2cfccd31e"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "air_attack",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/69073",
+   "quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесен массированный удар высокоточным оружием наземного и воздушного базирования, беспилотными летательными аппаратами.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "Ministry of Defence of Russia",
+     "url": "https://t.me/mod_russia/69077"
+    }
+   ],
+   "published": "2026-11-17T05:09:23+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "4fed0dbca5d8"
+  },
   {
    "date": "2026-11-17",
    "category": "air_attack",
@@ -29,6 +119,607 @@
    "detail_en": null,
    "locations_en": null,
    "id": "025fd8947eef"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185380-traffic-suspended-on-kyivs-northern-and-southern-bridges-following-russian-attacks.html",
+   "quote": "Traffic suspended on Kyiv's Northern and Southern bridges following Russian attacks",
+   "time": "07:39",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Traffic on Kyiv's Northern and Southern bridges has been temporarily suspended following Russian attacks on the capital, and public transport routes have been diverted.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T05:39:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "946ca710c7c3"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185420-kyivs-northern-and-southern-bridges-remain-closed-as-experts-assess-damage-from-russian-attack-klitschko.html",
+   "quote": "Kyiv’s Northern and Southern Bridges remain closed as experts assess damage from Russian attack – Klitschko",
+   "time": "09:29",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Experts are assessing damage to Kyiv’s Northern and Southern bridges caused by a Russian missile attack in the early hours of November 17.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T07:29:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "0431b8418da4"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185482-russian-strike-cuts-power-to-more-than-300-settlements-in-rivne-region.html",
+   "quote": "Russian strike cuts power to more than 300 settlements in Rivne region",
+   "time": "11:24",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "More than 300 settlements in the Rivne region have been left without electricity following a Russian attack this morning.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rivne"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T09:24:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "af91652936b1"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131355",
+   "quote": "Минобороны РФ отчиталось об ударах по предприятиям и инфраструктуре Украины Минобороны России заявило о массированной атаке по предприятиям военно-промышленного комплекса, энергетическим и транспортным объектам Украины в ночь на 17 ноября.",
+   "time": "11:32",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv",
+    "Zaporizhzhia",
+    "Cherkasy",
+    "Kharkiv",
+    "Odesa"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T09:32:36+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "bb79c8eea4a5"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185574-ukraines-air-defense-neutralizes-three-russian-missiles-three-banderols-205-drones.html",
+   "quote": "Ukraine’s air defense neutralizes three Russian missiles, three Banderols, 205 drones",
+   "time": "14:37",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "As of 12:00 on Tuesday, November 17, Ukraine's air defense forces had neutralized three Kh-59/Kh-69 guided aerial missiles, three S8000 Banderol/Dan-T missiles and 205 drones launched by Russian forces against Ukraine since the evening of November 16.",
+   "weapons": [
+    {
+     "name": "Kh-59/Kh-69 guided missile"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T12:37:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "dcfa86e86e96"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7934",
+   "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область было уничтожено около 50 БПЛА в 8 районах области: Боковском, Верхнедонском, Каменском, Кашарском, Миллеровском, Мясниковском, Чертковском, Шолоховском.",
+   "time": "06:01",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T04:01:37+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c02d6436d62e"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185381-car-driver-killed-in-drone-attack-on-zaporizhzhia.html",
+   "quote": "Car driver killed in drone attack on Zaporizhzhia",
+   "time": "07:53",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A car driver was killed in a drone attack on the Kosmichnyi district of Zaporizhzhia.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T05:53:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7b9a08ffb44b"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185397-russian-shelling-reported-in-four-kyiv-districts-one-person-injured.html",
+   "quote": "Russian shelling reported in four Kyiv districts, one person injured",
+   "time": "08:39",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "The consequences of Russian attacks on Kyiv on November 17 have been recorded in four districts: Holosiivskyi, Desnianskyi, Dniprovskyi and Obolonskyi.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T06:39:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "37baeefd35ee"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185418-russian-attack-on-industrial-facilities-in-zaporizhzhia-kills-one-injures-nine.html",
+   "quote": "Russian attack on industrial facilities in Zaporizhzhia kills one, injures nine",
+   "time": "09:19",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "One man was killed and nine people were injured in a Russian attack on industrial facilities in Zaporizhzhia.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T07:19:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c1c0091e6c11"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185426-russian-missile-strike-on-smila-damages-industrial-facilities-injures-six.html",
+   "quote": "Russian missile strike on Smila damages industrial facilities, injures six",
+   "time": "09:40",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A Russian missile attack on Smila, Cherkasy region, damaged industrial infrastructure and a vocational education institution, injuring six people.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Cherkasy"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T07:40:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "237ec9cd2863"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7935",
+   "quote": "‼️ Сегодня утром в результате прицельной воздушной атаки БПЛА на участке трассы Р-280 в Неклиновском районе (96-97 км) в районе моста через реку Миус, по предварительной информации, повреждены дорожное полотно, металлические ограждения.",
+   "time": "09:55",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T07:55:00+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "5cd1fc6cb7fa"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185451-russian-attack-on-kyiv-kills-two-injures-one.html",
+   "quote": "Russian attack on Kyiv kills two, injures one",
+   "time": "10:35",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Two people were killed and another was injured in a Russian attack on Kyiv on November 17.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T08:35:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "857b4e8bbba8"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185465-russian-drone-strikes-parking-lot-in-vinnytsia-killing-one-woman-and-injuring-another.html",
+   "quote": "Russian drone strikes parking lot in Vinnytsia, killing one woman and injuring another",
+   "time": "11:06",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A woman was killed and another injured when a Russian drone struck a parking lot in Vinnytsia.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Vinnytsia"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T09:06:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "5c6fa68bec38"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/russian-attacks-kill-14-injure-78-across-ukraine-over-past-day-hitting-kyivs-southern-northern-bridges/",
+   "quote": "Russian attacks kill 14, injure 78 across Ukraine over past day, hitting Kyiv’s Southern, Northern bridges",
+   "time": "13:23",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "In Donetsk Oblast, Russian attacks killed one person and injured nine people.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv",
+    "Donetsk oblast"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T11:23:46+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "88ab013db116"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185553-russian-drone-strikes-police-vehicle-in-sumy-region-two-officers-injured.html",
+   "quote": "Russian drone strikes police vehicle in Sumy region, two officers injured",
+   "time": "13:53",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Two police officers were injured when a Russian drone struck a police vehicle in the town of Hlukhiv, Shostka district, Sumy region.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Sumy"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T11:53:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "638c2d91a2ff"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "strikes_in_russia",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/69074",
+   "quote": "⚡️ В течение прошедшей ночи (с 20.00 мск 16 ноября до 8.00 мск 17 ноября) дежурными силами ПВО уничтожен 1441 украинский беспилотный летательный аппарат самолетного типа над территориями Белгородской, Брянской, Волгоградской, Воронежской, Владимирской, Калужской, Курской, Липецкой, Новгородской, Орловской, Ростовской,…",
+   "time": null,
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "UAVs intercepted, as claimed (overnight)",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "intercepted_claimed": 1441
+   },
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast",
+    "Bryansk oblast",
+    "Volgograd oblast",
+    "Voronezh oblast",
+    "Vladimir oblast",
+    "Kaluga oblast",
+    "Kursk oblast",
+    "Lipetsk oblast",
+    "Novgorod oblast",
+    "Oryol oblast",
+    "Rostov oblast",
+    "Ryazan oblast",
+    "Samara oblast",
+    "Saratov oblast",
+    "Smolensk oblast",
+    "Tver oblast",
+    "Tula oblast",
+    "Ulyanovsk oblast",
+    "Moscow oblast",
+    "Bashkortostan",
+    "Crimea",
+    "Krasnodar krai",
+    "Sea of Azov",
+    "Черного морей"
+   ],
+   "lang": "ru",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-17T05:37:34+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Belgorod oblast",
+    "Bryansk oblast",
+    "Volgograd oblast",
+    "Voronezh oblast",
+    "Vladimir oblast",
+    "Kaluga oblast",
+    "Kursk oblast",
+    "Lipetsk oblast",
+    "Novgorod oblast",
+    "Oryol oblast",
+    "Rostov oblast",
+    "Ryazan oblast",
+    "Samara oblast",
+    "Saratov oblast",
+    "Smolensk oblast",
+    "Tver oblast",
+    "Tula oblast",
+    "Ulyanovsk oblast",
+    "Moscow oblast",
+    "Bashkortostan",
+    "Crimea",
+    "Krasnodar krai",
+    "Sea of Azov",
+    "Черного морей"
+   ],
+   "id": "b9021a2fc696"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "strikes_in_russia",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42926",
+   "quote": "Сили оборони влучили у Кримський міст: проліт упав, автошлях до окупованого Криму зупинено У ніч на 17 листопада Сили оборони України завдали удару по Керченському мосту.",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Electronic warfare"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "uk",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T10:00:01+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "e21d5fc30dbd"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "strikes_in_russia",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42927",
+   "quote": "Башкортостан у вогні: уражено один із найбільших нафтохімічних комплексів рф В ніч на 17 листопада підрозділи Сил оборони України уразили нафтопереробний завод «Газпром нефтехім Салават» у Башкортостані — за півтори тисячі кілометрів від кордону.",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Bashkortostan"
+   ],
+   "lang": "uk",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T10:59:01+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "3ee44fa2762e"
   },
   {
    "date": "2026-11-17",
@@ -242,6 +933,325 @@
   },
   {
    "date": "2026-11-17",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131357",
+   "quote": "Владимир Зеленский прокомментировал удары по Крымскому мосту По его словам, операция СБУ и Генштаба ВСУ длилась несколько недель.",
+   "time": "11:55",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Neptune cruise missile"
+    },
+    {
+     "name": "Flamingo FP-5 cruise missile"
+    },
+    {
+     "name": "Palianytsia/Peklo/Ruta drone-missile"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T09:55:29+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "1b5cd8deaf54"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131361",
+   "quote": "Четыре поезда в Крым задерживаются из-за закрытия Крымского моста Движение по Крымскому мосту приостановили утром 17 ноября после удара ВСУ.",
+   "time": "12:36",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T10:36:47+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "075be9103055"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131363",
+   "quote": "ФСБ заявила о предотвращении серии терактов, которые, по версии ведомства, готовили украинские спецслужбы В Майкопе, Тихорецке, Кизляре и Ростове-на-Дону задержали четырех подозреваемых.",
+   "time": "13:10",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast",
+    "Caspian Sea"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T11:10:28+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "08967f9b4ead"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131366",
+   "quote": "Генштаб ВСУ подтвердил удар по НПЗ «Газпром нефтехим Салават» в Башкортостане Заявлено поражение объекта и последовавший пожар.",
+   "time": "13:40",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Bashkortostan",
+    "Crimea"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T11:40:01+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "758c6ad22196"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "strikes_in_russia",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185570-general-staff-confirms-strike-on-gazprom-oil-refinery-in-bashkortostan.html",
+   "quote": "General Staff confirms strike on Gazprom oil refinery in Bashkortostan",
+   "time": "14:15",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Ukraine's Defense Forces struck the Gazprom Neftekhim Salavat facility in Russia's Bashkortostan overnight on November 17, approximately 1,500 kilometers from the Ukrainian border.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Bashkortostan"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T12:15:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "bae19dd7e62c"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "front_line",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/69079",
+   "quote": "⚡️ Подразделения группировки войск «Восток» освободили населенный пункт Заливное Запорожской области.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "settlement captured, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Заливное"
+   ],
+   "lang": "ru",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-17T09:03:32+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Заливное"
+   ],
+   "id": "eec947f10599"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42924",
+   "quote": "Оперативна інформація станом на 08:00 17.11.2026 щодо російського вторгнення Слава Україні!",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": "Air strikes on: Хотінь, Пустогород, Битиця",
+   "weapons": [],
+   "counts": {
+    "clashes": 135,
+    "guided_bombs": 262,
+    "air_strikes": 90,
+    "missile_strikes": 2,
+    "kamikaze_drones": 9018,
+    "shellings": 2284,
+    "concentration_areas_struck": 2,
+    "settlements_shelled": 26
+   },
+   "breakdown": [],
+   "locations": [
+    "Sumy oblast: Бачівськ, Товстодубове, Кореньок, Нескучне, Нова Січ, Писарівка, Лужки, Кучерівка, Яструбщина, Сопич, Безсалівка, Яблунівка, Олексіївка, Мала Корчаківка, Гірки, Середина-Буда, Прогрес, Бруски, Миропілля, Вовківка, Сімейчине, Іскрисківщина, Вільна Слобода, Козаче, Атинське",
+    "Chernihiv oblast: Лісківщина"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4185400-war-update-135-combat-engagements-on-front-line-over-past-day.html",
+     "quote": "War update: 135 combat engagements on front line over past day"
+    }
+   ],
+   "published": "2026-11-17T06:00:36+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Sumy oblast: Бачівськ, Товстодубове, Кореньок, Нескучне, Нова Січ, Писарівка, Лужки, Кучерівка, Яструбщина, Сопич, Безсалівка, Яблунівка, Олексіївка, Мала Корчаківка, Гірки, Середина-Буда, Прогрес, Бруски, Миропілля, Вовківка, Сімейчине, Іскрисківщина, Вільна Слобода, Козаче, Атинське",
+    "Chernihiv oblast: Лісківщина"
+   ],
+   "id": "f4d69bdc18b6"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42924",
+   "quote": "втрати російських загарбників склали 1620 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 1620
+    },
+    {
+     "label": "tanks",
+     "delta": 2
+    },
+    {
+     "label": "armoured fighting vehicles",
+     "delta": 6
+    },
+    {
+     "label": "artillery systems",
+     "delta": 52
+    },
+    {
+     "label": "multiple rocket launchers",
+     "delta": 4
+    },
+    {
+     "label": "ground robotic systems",
+     "delta": 10
+    },
+    {
+     "label": "UAVs",
+     "delta": 1494
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 1
+    },
+    {
+     "label": "special equipment",
+     "delta": 4
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-627-040-troops-in-ukraine-since-feb-24-2022/",
+     "quote": "General Staff: Russia has lost 1,627,040 troops in Ukraine since Feb. 24, 2022"
+    },
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4185395-russian-army-loses-another-1620-personnel-four-mlrs-in-ukraine.html",
+     "quote": "Russian army loses another 1,620 personnel, four MLRS in Ukraine"
+    }
+   ],
+   "published": "2026-11-17T06:00:36+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "95f496e7689f"
+  },
+  {
+   "date": "2026-11-17",
    "category": "losses_claimed",
    "source_id": "oryx_russia",
    "source_name": "Oryx (Russian equipment losses)",
@@ -359,7 +1369,7 @@
    "lang": "en",
    "extraction": "structured",
    "also_reported_by": [],
-   "published": "2026-11-17T02:57:59.830192+00:00",
+   "published": "2026-11-17T13:31:23.601963+00:00",
    "source_tier": "osint",
    "corrected": null,
    "quote_en": null,
@@ -369,12 +1379,171 @@
   },
   {
    "date": "2026-11-17",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12376, of which: destroyed: 9761, damaged: 723, abandoned: 693, captured: 1199",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12376,
+    "destroyed": 9761,
+    "damaged": 723,
+    "abandoned": 693,
+    "captured": 1199
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1475
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 568
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1628
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1483
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1021
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2225
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 105
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 303
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 306
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1004
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 137
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 152
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1409
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-17T13:31:26.305205+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "78d4270be692"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "weapons_deliveries",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-polytics/4185501-germany-to-contribute-300m-to-new-purl-package-with-patriot-missiles-pistorius.html",
+   "quote": "Germany to contribute $300M to new PURL package with Patriot missiles – Pistorius",
+   "time": "12:03",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Germany will contribute $300 million to a new package of U.S.",
+   "weapons": [
+    {
+     "name": "Patriot"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T10:03:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "a49d3f115e4d"
+  },
+  {
+   "date": "2026-11-17",
    "category": "logistics",
    "source_id": "kyivindependent",
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/key-bridges-in-kyiv-struck-in-massive-russian-ballistic-missile-attack-across-ukraine/",
-   "quote": "Key bridges in Kyiv struck in massive Russian ballistic missile attack across Ukraine",
+   "quote": "2 key bridges in Kyiv struck in massive Russian ballistic missile attack across Ukraine",
    "time": "00:20",
    "actor": "Russia",
    "target": "Ukraine",
@@ -395,7 +1564,37 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "bbf55b1c86c7"
+   "id": "515d81a2cf62"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "naval",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-polytics/4185489-russia-opposes-separate-black-sea-deal-without-a-peace-agreement-turkish-fm-says.html",
+   "quote": "Russia opposes separate Black Sea deal without a peace agreement, Turkish FM says",
+   "time": "11:41",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Russia does not want to reach an interim agreement with Ukraine on the Black Sea without a comprehensive peace deal.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Black Sea"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T09:41:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "ff58ad4dded9"
   },
   {
    "date": "2026-11-17",
@@ -404,7 +1603,7 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/",
-   "quote": "Ukrainian forces reportedly strike Crimean Bridge after Russian missiles hit Kyiv bridges",
+   "quote": "Entire section of Crimean Bridge collapses after 'seven-phase operation,' Zelensky reveals",
    "time": "02:40",
    "actor": "Ukraine",
    "target": "Russia",
@@ -415,8 +1614,8 @@
    "breakdown": [],
    "locations": [
     "Crimea",
-    "Kyiv",
-    "Dnipro"
+    "Dnipro",
+    "Kyiv"
    ],
    "lang": "en",
    "extraction": "rules",
@@ -427,7 +1626,231 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "41dd348c9770"
+   "id": "f6765cb8f360"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185406-one-of-crimean-bridges-arches-damaged-in-second-strike.html",
+   "quote": "One of Crimean Bridge’s arches damaged in second strike",
+   "time": "09:01",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "One of the two arches of the Crimean Bridge was damaged in a second attack in as many days, media reports say.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T07:01:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "db087de6f658"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185409-317-buildings-in-kyivs-darnytskyi-district-left-without-heating-after-russian-attack.html",
+   "quote": "317 buildings in Kyiv’s Darnytskyi district left without heating after Russian attack",
+   "time": "09:11",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "A total of 317 residential buildings in Kyiv’s Darnytskyi district remain without heating in the aftermath of a Russian attack.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T07:11:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "eafaba5cb278"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185477-emergency-power-outages-affect-four-regions-following-russian-attacks.html",
+   "quote": "Emergency power outages affect four regions following Russian attacks",
+   "time": "11:17",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Emergency power outages have been introduced in the Dnipropetrovsk, Kirovohrad, Poltava, and Kharkiv regions due to equipment damage and a drop in voltage in the high-voltage grid following Russian attacks.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Dnipropetrovsk oblast",
+    "Kirovohrad oblast",
+    "Poltava",
+    "Kharkiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T09:17:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "4501ed707b0a"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185493--palianytsia-struck-road-section-of-crimean-bridge-neptune-ruta-and-fp5-hit-rail-section-zelensky.html",
+   "quote": "Palianytsia struck road section of Crimean Bridge, Neptune, Ruta, and FP-5 hit rail section - Zelensky",
+   "time": "11:48",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "President Volodymyr Zelensky has revealed details of the operation targeting the Crimean Bridge, saying it consisted of seven stages carried out over several weeks.",
+   "weapons": [
+    {
+     "name": "Neptune cruise missile"
+    },
+    {
+     "name": "Flamingo FP-5 cruise missile"
+    },
+    {
+     "name": "Palianytsia/Peklo/Ruta drone-missile"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T09:48:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "003bbd365ebd"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185542-arch-and-road-span-collapse-general-staff-confirms-results-of-strike-on-crimean-bridge.html",
+   "quote": "Arch and road span collapse: General Staff confirms results of strike on Crimean Bridge",
+   "time": "13:12",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "The arch and a span of the road section of the Kerch Strait Bridge collapsed following a strike by Ukraine's Defense Forces overnight on November 17.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T11:12:07+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "54343c50c348"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "infrastructure",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185551-usf-commander-shows-drones-used-in-strike-on-crimean-bridge.html",
+   "quote": "USF commander shows drones used in strike on Crimean Bridge",
+   "time": "13:32",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Robert Brovdi, commander of the Unmanned Systems Forces of the Ukrainian Armed Forces, has shown the drones used in the strike on the Kerch Strait Bridge.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T11:32:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "cbdc566cce77"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "infrastructure",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/russia-says-the-crimean-bridge-will-come-back-even-better-that-may-take-a-while/",
+   "quote": "Russia says it will rebuild Crimean Bridge 'even better.' Here's why they'll be disappointed",
+   "time": "15:01",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Russia has vowed to restore the Crimean Bridge after Ukrainian drones and missiles struck the structure on Nov.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea",
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T13:01:59+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "ddb42bd4ba3a"
   }
  ]
 }
