@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-17T22:27:30+00:00",
+ "generated_at": "2026-11-18T07:37:17+00:00",
  "events": [
   {
    "date": "2026-11-17",
@@ -832,7 +832,7 @@
    "source_name": "Governor of Rostov oblast",
    "source_side": "ru_official",
    "source_url": "https://t.me/Yuri_Slusar/7942",
-   "quote": "✅ ДОПОЛНЕНИЕ: По оперативной информации полностью локализован второй очаг пожара на объекте в Азове.",
+   "quote": "✅ ДОПОЛНЕНИЕ: По оперативной информации полностью ликвидирован второй очаг пожара на объекте в Азове.",
    "time": "21:04",
    "actor": "Ukraine",
    "target": "Russia",
@@ -853,7 +853,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "d76853178b99"
+   "id": "83a3dc50b7cf"
   },
   {
    "date": "2026-11-17",
@@ -2416,6 +2416,34 @@
    "detail_en": null,
    "locations_en": null,
    "id": "c426a5afc632"
+  },
+  {
+   "date": "2026-11-17",
+   "category": "logistics",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185798-moldova-temporarily-closes-six-border-crossing-points-with-ukraine-following-russian-drone-attack.html",
+   "quote": "Moldova temporarily closes six border crossing points with Ukraine following Russian drone attack",
+   "time": "23:59",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Moldova temporarily closed six border crossing points with Ukraine on November 17 after Russian drones violated its airspace.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T21:59:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "ca659e5e0ac5"
   },
   {
    "date": "2026-11-17",

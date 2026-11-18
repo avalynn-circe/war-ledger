@@ -1,7 +1,194 @@
 {
  "date": "2026-11-18",
- "generated_at": "2026-11-17T22:27:30+00:00",
+ "generated_at": "2026-11-18T07:37:17+00:00",
  "events": [
+  {
+   "date": "2026-11-18",
+   "category": "air_attack",
+   "source_id": "kpszsu",
+   "source_name": "Air Force of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/kpszsu/97092",
+   "quote": "⚡️ ЗБИТО/ПОДАВЛЕНО 126 ВОРОЖИХ ЦІЛЕЙ ➖➖➖➖➖➖➖➖➖➖ У ніч на 18 листопада (з 18:00 17 листопада) противник атакував 141 ударним БпЛА типу Shahed (73 із них - реактивні), Гербера, дронами-імітаторами типу “Пародія” із напрямків: Орел, Міллерово - рф, ТОТ АР Крим – Чауда, Гвардійське.",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "air attack",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Gerbera-type UAVs (incl. decoys)",
+     "launched": 141,
+     "intercepted": 126
+    }
+   ],
+   "counts": {
+    "jet_powered_shahed": 73,
+    "launched": 141,
+    "jet_powered_shahed_intercepted": 59,
+    "intercepted": 126,
+    "impact_locations": 7
+   },
+   "breakdown": [],
+   "locations": [
+    "Oryol",
+    "Millerovo",
+    "Cape Chauda (Crimea)",
+    "Hvardiiske (Crimea)"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4185845-air-defence-neutralises-126-russian-drones-used-to-attack-ukraine-overnight.html",
+     "quote": "Air defence neutralises 126 Russian drones used to attack Ukraine overnight"
+    }
+   ],
+   "published": "2026-11-18T06:00:27+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "d92e28df8823"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "air_attack",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/69108",
+   "quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам портовой инфраструктуры, а также морским судам, задействованным в интересах обеспечения ВСУ.",
+   "time": null,
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "strike, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T04:52:27+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "797cc6a28ede"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-economy/4185613-banks-net-profit-down-onethird-in-first-nine-months-nbu.html",
+   "quote": "Banks' net profit down one-third in first nine months – NBU",
+   "time": "01:29",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Ukrainian banks' net profit fell 33.3% year-on-year in January-September 2026 as the 50% profit tax rate weighed on earnings.",
+   "weapons": [
+    {
+     "name": "Anti-drone netting"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-17T23:29:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "8d014758fc42"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131399",
+   "quote": "Замминистра обороны США Элбридж Колби осудил украинские дальнобойные удары по российской территории.",
+   "time": "02:05",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Neptune cruise missile"
+    },
+    {
+     "name": "Flamingo FP-5 cruise missile"
+    },
+    {
+     "name": "Palianytsia/Peklo/Ruta drone-missile"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv",
+    "Crimea"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T00:05:53+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "e164cc7dfb44"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185836-kalibr-missile-strike-on-kyiv-apartment-building-ukraine-issues-inabsentia-notice-of-suspicion-to-russian-vice-admiral.html",
+   "quote": "Kalibr missile strike on Kyiv apartment building: Ukraine issues in-absentia notice of suspicion to Russian vice admiral",
+   "time": "07:51",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "The Security Service of Ukraine (SSU) and the Prosecutor's Office have issued an in-absentia notice of suspicion to Russian Black Sea Fleet Vice Admiral Arkady Romanov for his alleged involvement in directing Kalibr cruise missiles at a residential apartment building in Kyiv in July 2024.",
+   "weapons": [
+    {
+     "name": "Kalibr cruise missile"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv",
+    "Black Sea"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T05:51:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "4e92aff2a50d"
+  },
   {
    "date": "2026-11-18",
    "category": "civilian_damage",
@@ -26,7 +213,12 @@
    ],
    "lang": "ru",
    "extraction": "rules",
-   "also_reported_by": [],
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/131410"
+    }
+   ],
    "published": "2026-11-17T22:25:45+00:00",
    "source_tier": "unconfirmed",
    "corrected": null,
@@ -34,6 +226,409 @@
    "detail_en": null,
    "locations_en": null,
    "id": "41fa094ef044"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "civilian_damage",
+   "source_id": "gov_rostov",
+   "source_name": "Governor of Rostov oblast",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/Yuri_Slusar/7943",
+   "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область БПЛА уничтожены в Неклиновском и Каменском районах области.",
+   "time": "05:59",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "attack on the region, as reported by the governor",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Rostov oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T03:59:13+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7c7e35233b98"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131404",
+   "quote": "БПЛА атакуют Краснодарский край, вероятно под ударом Афипский и Ильский НПЗ, также есть сообщения о пострадавших Читатели ASTRA сообщают, что атака началась около 4:40 утра, взрывы звучат до сих пор и слышна работа ПВО.",
+   "time": "07:00",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Krasnodar krai",
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T05:00:06+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "5d08aa12cc18"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131406",
+   "quote": "Два человека погибли, еще 49 пострадали в течение суток в результате российских атак в Запорожье и районе, — власти Об этом сообщил глава Совета обороны Запорожской области Иван Федоров.",
+   "time": "08:01",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T06:01:01+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "d4b21ab8334c"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131411",
+   "quote": "Оперштаб сообщил о 4 пострадавших и пожарах на двух предприятиях в результате атаки БПЛА в Северском районе Краснодарского края, там находятся Афипский и Ильский НПЗ «В Северском районе при атаке БПЛА пострадали четыре человека.",
+   "time": "08:25",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Krasnodar krai"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/131414"
+    }
+   ],
+   "published": "2026-11-18T06:25:12+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "6475dab83ebf"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185844-russian-army-attacks-dnipro-dnipro-region-injuring-six-people.html",
+   "quote": "Russian army attacks Dnipro, Dnipro region, injuring six people",
+   "time": "08:37",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Russian forces have been attacking the city of Dnipro and the Nikopol district of Dnipropetrovsk region with drones since the evening of November 17.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Dnipro",
+    "Nikopol",
+    "Dnipropetrovsk oblast"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T06:37:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f3293a37c093"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131413",
+   "quote": "Три человека погибли, еще восемь пострадали в течение суток в результате украинских атак в Белгороде и области, — губернатор В Белгородском, Волоконовском и Шебекинском округах в результате ударов ВСУ погибли три мирных жителя, в Белгороде, Белгородском и Шебекинском округах ранены восемь человек, одна из пострадавших…",
+   "time": "08:45",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T06:45:13+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "37fb9c20c0be"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131419",
+   "quote": "11 человек пострадали в результате российского удара по рынку в Златополе Харьковской области, — ОВА «На данный момент известно об 11 пострадавших, среди них – 11-летний мальчик.",
+   "time": "09:15",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kharkiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T07:15:34+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "8f3467c9fb98"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "strikes_in_russia",
+   "source_id": "mod_russia",
+   "source_name": "Ministry of Defence of Russia",
+   "source_side": "ru_official",
+   "source_url": "https://t.me/mod_russia/69109",
+   "quote": "⚡️ В течение прошедшей ночи в период с 20.00 мск 17 ноября до 8.00 мск 18 ноября дежурными силами ПВО перехвачены и уничтожены 184 украинских беспилотных летательных аппарата самолетного типа над территориями Белгородской, Ростовской областей, Краснодарского края, Республики Крым и над акваторией Азовского моря.",
+   "time": null,
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "UAVs intercepted, as claimed (overnight)",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "intercepted_claimed": 184
+   },
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast",
+    "Rostov oblast",
+    "Krasnodar krai",
+    "Crimea",
+    "Sea of Azov"
+   ],
+   "lang": "ru",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-18T06:05:59+00:00",
+   "source_tier": "state",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "b4752a3c6b6d"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131405",
+   "quote": "БПЛА атакуют Краснодарский край, вероятно под ударом Афипский и Ильский НПЗ, также есть сообщения о пострадавших Читатели ASTRA сообщают, что атака началась около 4:40 утра, взрывы звучат до сих пор и слышна работа ПВО.",
+   "time": "07:47",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Krasnodar krai"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T05:47:40+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f879b9899c11"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "front_activity",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42932",
+   "quote": "Оперативна інформація станом на 08:00 18.11.2026 щодо російського вторгнення Слава Україні!",
+   "time": "08:00",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "past 24 hours to 08:00, as reported",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "clashes": 165,
+    "guided_bombs": 220,
+    "air_strikes": 87,
+    "kamikaze_drones": 6990,
+    "shellings": 2418,
+    "concentration_areas_struck": 1,
+    "missile_strikes": 2,
+    "settlements_shelled": 12
+   },
+   "breakdown": [],
+   "locations": [
+    "Sumy oblast: Лужки, Кореньок, Біловоди, Бачівськ, Товстодубове, Кіндратівка",
+    "Sumy oblast: населені пункти Лужки, Кореньок, Біловоди, Бачівськ, Товстодубове, Кіндратівка"
+   ],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-18T06:00:24+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": [
+    "Sumy oblast: Лужки, Кореньок, Біловоди, Бачівськ, Товстодубове, Кіндратівка",
+    "Sumy oblast: населені пункти Лужки, Кореньок, Біловоди, Бачівськ, Товстодубове, Кіндратівка"
+   ],
+   "id": "f9c2030ceef7"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "losses_claimed",
+   "source_id": "generalstaff",
+   "source_name": "General Staff of the Armed Forces of Ukraine",
+   "source_side": "ua_official",
+   "source_url": "https://t.me/GeneralStaffZSU/42932",
+   "quote": "втрати російських загарбників склали 1970 осіб",
+   "time": null,
+   "actor": "Ukraine (General Staff)",
+   "target": "Russia",
+   "action": "Russian losses in the past 24 hours, as claimed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [
+    {
+     "label": "personnel",
+     "delta": 1970
+    },
+    {
+     "label": "armoured fighting vehicles",
+     "delta": 2
+    },
+    {
+     "label": "artillery systems",
+     "delta": 34
+    },
+    {
+     "label": "multiple rocket launchers",
+     "delta": 1
+    },
+    {
+     "label": "air defence systems",
+     "delta": 2
+    },
+    {
+     "label": "ground robotic systems",
+     "delta": 17
+    },
+    {
+     "label": "UAVs",
+     "delta": 1223
+    },
+    {
+     "label": "vehicles and fuel tankers",
+     "delta": 375
+    },
+    {
+     "label": "special equipment",
+     "delta": 1
+    }
+   ],
+   "locations": [],
+   "lang": "uk",
+   "extraction": "structured",
+   "also_reported_by": [
+    {
+     "name": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-629-010-troops-in-ukraine-since-feb-24-2022/",
+     "quote": "General Staff: Russia has lost 1,629,010 troops in Ukraine since Feb. 24, 2022"
+    },
+    {
+     "name": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4185843-russia-loses-1970-troops-over-past-day-in-war-against-ukraine.html",
+     "quote": "Russia loses 1,970 troops over past day in war against Ukraine"
+    }
+   ],
+   "published": "2026-11-18T06:00:24+00:00",
+   "source_tier": "operational",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "13289c598a1f"
   },
   {
    "date": "2026-11-18",
@@ -153,7 +748,12 @@
    "locations": [],
    "lang": "en",
    "extraction": "structured",
-   "also_reported_by": [],
+   "also_reported_by": [
+    {
+     "name": "Oryx (Russian equipment losses)",
+     "url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
+    }
+   ],
    "published": "2026-11-17T22:27:20.677693+00:00",
    "source_tier": "osint",
    "corrected": null,
@@ -288,6 +888,90 @@
    "detail_en": null,
    "locations_en": null,
    "id": "78d4270be692"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "weapons_deliveries",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4185707-more-than-1000-air-defense-missiles-uk-announces-240m-military-aid-package-for-ukraine.html",
+   "quote": "More than 1,000 air defense missiles: UK announces £240M military aid package for Ukraine",
+   "time": "02:28",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "The United Kingdom is providing Ukraine with a £240 million ($316 million) military aid package, including more than 1,000 additional short-range air defense missiles and over a dozen air defense radars.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T00:28:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "e20b960cad16"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "weapons_deliveries",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-economy/4185720-ukraine-germany-to-launch-joint-production-of-unmanned-ground-systems-pistorius.html",
+   "quote": "Ukraine, Germany to launch joint production of unmanned ground systems – Pistorius",
+   "time": "03:30",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Germany and Ukraine are setting up another joint venture to manufacture unmanned ground vehicles in Germany for subsequent delivery to the Ukrainian military.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T01:30:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "19ec26d619bb"
+  },
+  {
+   "date": "2026-11-18",
+   "category": "weapons_deliveries",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-polytics/4185832-canada-to-allocate-120m-in-military-aid-to-ukraine.html",
+   "quote": "Canada to allocate $120M in military aid to Ukraine",
+   "time": "06:32",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "The Canadian government has announced a new military assistance package for Ukraine, which will include ammunition, specialised sensors for air defence systems, military equipment and individual combat rations.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T04:32:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "3599f164c598"
   }
  ]
 }

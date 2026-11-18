@@ -6,7 +6,169 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Tue, 17 Nov 2026 22:27:31 +0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 07:37:18 +0000</lastBuildDate>
+
+<item>
+<title>[Unconfirmed] 11 человек пострадали в результате российского удара по рынку в Златополе Харьковской области, — ОВА «На данный момент известно об 11 пострадавших, среди них – 11-летний мальчик.</title>
+<link>https://t.me/astrapress/131419</link>
+<guid isPermaLink="false">8f3467c9fb98</guid>
+<pubDate>Wed, 18 Nov 2026 07:15:34 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Kharkiv</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Три человека погибли, еще восемь пострадали в течение суток в результате украинских атак в Белгороде и области, — губернатор В Белгородском, Волоконовском и Шебекинском округах в результ</title>
+<link>https://t.me/astrapress/131413</link>
+<guid isPermaLink="false">37fb9c20c0be</guid>
+<pubDate>Wed, 18 Nov 2026 06:45:13 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Belgorod oblast</description>
+</item>
+
+<item>
+<title>[Media] Russian army attacks Dnipro, Dnipro region, injuring six people</title>
+<link>https://www.ukrinform.net/rubric-ato/4185844-russian-army-attacks-dnipro-dnipro-region-injuring-six-people.html</link>
+<guid isPermaLink="false">f3293a37c093</guid>
+<pubDate>Wed, 18 Nov 2026 06:37:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Russian forces have been attacking the city of Dnipro and the Nikopol district of Dnipropetrovsk region with drones since the evening of November 17. · Dnipro, Nikopol, Dnipropetrovsk oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Оперштаб сообщил о 4 пострадавших и пожарах на двух предприятиях в результате атаки БПЛА в Северском районе Краснодарского края, там находятся Афипский и Ильский НПЗ «В Северском районе </title>
+<link>https://t.me/astrapress/131411</link>
+<guid isPermaLink="false">6475dab83ebf</guid>
+<pubDate>Wed, 18 Nov 2026 06:25:12 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Krasnodar krai</description>
+</item>
+
+<item>
+<title>[State claim] Ukraine → Russia · 184 UAVs intercepted, as claimed</title>
+<link>https://t.me/mod_russia/69109</link>
+<guid isPermaLink="false">b4752a3c6b6d</guid>
+<pubDate>Wed, 18 Nov 2026 06:05:59 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>Ministry of Defence of Russia · Belgorod oblast, Rostov oblast, Krasnodar krai, Crimea, Sea of Azov</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Два человека погибли, еще 49 пострадали в течение суток в результате российских атак в Запорожье и районе, — власти Об этом сообщил глава Совета обороны Запорожской области Иван Федоров.</title>
+<link>https://t.me/astrapress/131406</link>
+<guid isPermaLink="false">d4b21ab8334c</guid>
+<pubDate>Wed, 18 Nov 2026 06:01:01 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[Operational report] Russia → Ukraine · 141 launched · 126 intercepted · 7 impact locations</title>
+<link>https://t.me/kpszsu/97092</link>
+<guid isPermaLink="false">d92e28df8823</guid>
+<pubDate>Wed, 18 Nov 2026 06:00:27 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Air Force of Ukraine · Oryol, Millerovo, Cape Chauda (Crimea), Hvardiiske (Crimea)</description>
+</item>
+
+<item>
+<title>[Operational report] Russia → Ukraine · 165 combat clashes · 220 guided aerial bombs dropped · 6,990 kamikaze drones used · 2,418 shellings · 12 settlements shelled</title>
+<link>https://t.me/GeneralStaffZSU/42932</link>
+<guid isPermaLink="false">f9c2030ceef7</guid>
+<pubDate>Wed, 18 Nov 2026 06:00:24 +0000</pubDate>
+<category>Front activity</category>
+<description>General Staff of the Armed Forces of Ukraine · Sumy oblast: Лужки, Кореньок, Біловоди, Бачівськ, Товстодубове, Кіндратівка, Sumy oblast: населені пункти Лужки, Кореньок, Біловоди, Бачівськ, Товстодубове, Кіндратівка</description>
+</item>
+
+<item>
+<title>[Media] Kalibr missile strike on Kyiv apartment building: Ukraine issues in-absentia notice of suspicion to Russian vice admiral</title>
+<link>https://www.ukrinform.net/rubric-ato/4185836-kalibr-missile-strike-on-kyiv-apartment-building-ukraine-issues-inabsentia-notice-of-suspicion-to-russian-vice-admiral.html</link>
+<guid isPermaLink="false">4e92aff2a50d</guid>
+<pubDate>Wed, 18 Nov 2026 05:51:00 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ukrinform · The Security Service of Ukraine (SSU) and the Prosecutor&#39;s Office have issued an in-absentia notice of suspicion to Russian Black Sea Fleet Vice Admiral Arkady Romanov for his alleged involvement in directing Kalibr cruise missiles at a residential apartment building in Kyiv in July 2024. · Kyiv, Black Sea</description>
+</item>
+
+<item>
+<title>[Unconfirmed] БПЛА атакуют Краснодарский край, вероятно под ударом Афипский и Ильский НПЗ, также есть сообщения о пострадавших Читатели ASTRA сообщают, что атака началась около 4:40 утра, взрывы звуча</title>
+<link>https://t.me/astrapress/131405</link>
+<guid isPermaLink="false">f879b9899c11</guid>
+<pubDate>Wed, 18 Nov 2026 05:47:40 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Krasnodar krai</description>
+</item>
+
+<item>
+<title>[Unconfirmed] БПЛА атакуют Краснодарский край, вероятно под ударом Афипский и Ильский НПЗ, также есть сообщения о пострадавших Читатели ASTRA сообщают, что атака началась около 4:40 утра, взрывы звуча</title>
+<link>https://t.me/astrapress/131404</link>
+<guid isPermaLink="false">5d08aa12cc18</guid>
+<pubDate>Wed, 18 Nov 2026 05:00:06 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Krasnodar krai, Tatarstan</description>
+</item>
+
+<item>
+<title>[State claim] ❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам портовой инфраструктуры, а также морским судам, зад</title>
+<link>https://t.me/mod_russia/69108</link>
+<guid isPermaLink="false">797cc6a28ede</guid>
+<pubDate>Wed, 18 Nov 2026 04:52:27 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ministry of Defence of Russia</description>
+</item>
+
+<item>
+<title>[Media] Canada to allocate $120M in military aid to Ukraine</title>
+<link>https://www.ukrinform.net/rubric-polytics/4185832-canada-to-allocate-120m-in-military-aid-to-ukraine.html</link>
+<guid isPermaLink="false">3599f164c598</guid>
+<pubDate>Wed, 18 Nov 2026 04:32:00 +0000</pubDate>
+<category>Weapons and deliveries</category>
+<description>Ukrinform · The Canadian government has announced a new military assistance package for Ukraine, which will include ammunition, specialised sensors for air defence systems, military equipment and individual combat rations.</description>
+</item>
+
+<item>
+<title>[State claim] Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область БПЛА уничтожены в Неклиновском и Каменском районах области.</title>
+<link>https://t.me/Yuri_Slusar/7943</link>
+<guid isPermaLink="false">7c7e35233b98</guid>
+<pubDate>Wed, 18 Nov 2026 03:59:13 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Governor of Rostov oblast · Rostov oblast</description>
+</item>
+
+<item>
+<title>[Media] Ukraine, Germany to launch joint production of unmanned ground systems – Pistorius</title>
+<link>https://www.ukrinform.net/rubric-economy/4185720-ukraine-germany-to-launch-joint-production-of-unmanned-ground-systems-pistorius.html</link>
+<guid isPermaLink="false">19ec26d619bb</guid>
+<pubDate>Wed, 18 Nov 2026 01:30:00 +0000</pubDate>
+<category>Weapons and deliveries</category>
+<description>Ukrinform · Germany and Ukraine are setting up another joint venture to manufacture unmanned ground vehicles in Germany for subsequent delivery to the Ukrainian military.</description>
+</item>
+
+<item>
+<title>[Media] More than 1,000 air defense missiles: UK announces £240M military aid package for Ukraine</title>
+<link>https://www.ukrinform.net/rubric-ato/4185707-more-than-1000-air-defense-missiles-uk-announces-240m-military-aid-package-for-ukraine.html</link>
+<guid isPermaLink="false">e20b960cad16</guid>
+<pubDate>Wed, 18 Nov 2026 00:28:00 +0000</pubDate>
+<category>Weapons and deliveries</category>
+<description>Ukrinform · The United Kingdom is providing Ukraine with a £240 million ($316 million) military aid package, including more than 1,000 additional short-range air defense missiles and over a dozen air defense radars.</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Замминистра обороны США Элбридж Колби осудил украинские дальнобойные удары по российской территории.</title>
+<link>https://t.me/astrapress/131399</link>
+<guid isPermaLink="false">e164cc7dfb44</guid>
+<pubDate>Wed, 18 Nov 2026 00:05:53 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>ASTRA · Kyiv, Crimea</description>
+</item>
+
+<item>
+<title>[Media] Banks&#39; net profit down one-third in first nine months – NBU</title>
+<link>https://www.ukrinform.net/rubric-economy/4185613-banks-net-profit-down-onethird-in-first-nine-months-nbu.html</link>
+<guid isPermaLink="false">8d014758fc42</guid>
+<pubDate>Tue, 17 Nov 2026 23:29:00 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ukrinform · Ukrainian banks&#39; net profit fell 33.3% year-on-year in January-September 2026 as the 50% profit tax rate weighed on earnings.</description>
+</item>
 
 <item>
 <title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
@@ -33,6 +195,15 @@
 <pubDate>Tue, 17 Nov 2026 22:25:45 +0000</pubDate>
 <category>Civilian damage</category>
 <description>ASTRA · Kyiv, Tatarstan, Dnipro, Kharkiv</description>
+</item>
+
+<item>
+<title>[Media] Moldova temporarily closes six border crossing points with Ukraine following Russian drone attack</title>
+<link>https://www.ukrinform.net/rubric-ato/4185798-moldova-temporarily-closes-six-border-crossing-points-with-ukraine-following-russian-drone-attack.html</link>
+<guid isPermaLink="false">ca659e5e0ac5</guid>
+<pubDate>Tue, 17 Nov 2026 21:59:00 +0000</pubDate>
+<category>Logistics and supply</category>
+<description>Ukrinform · Moldova temporarily closed six border crossing points with Ukraine on November 17 after Russian drones violated its airspace.</description>
 </item>
 
 <item>
@@ -126,9 +297,9 @@
 </item>
 
 <item>
-<title>[State claim] ✅ ДОПОЛНЕНИЕ: По оперативной информации полностью локализован второй очаг пожара на объекте в Азове.</title>
+<title>[State claim] ✅ ДОПОЛНЕНИЕ: По оперативной информации полностью ликвидирован второй очаг пожара на объекте в Азове.</title>
 <link>https://t.me/Yuri_Slusar/7942</link>
-<guid isPermaLink="false">d76853178b99</guid>
+<guid isPermaLink="false">83a3dc50b7cf</guid>
 <pubDate>Tue, 17 Nov 2026 19:04:08 +0000</pubDate>
 <category>Civilian damage</category>
 <description>Governor of Rostov oblast · Rostov oblast</description>
@@ -1185,177 +1356,6 @@
 <pubDate>Mon, 16 Nov 2026 12:35:00 +0000</pubDate>
 <category>Civilian damage</category>
 <description>Ukrinform · Two people were killed and four others injured in a Russian attack on two industrial facilities in Chernihiv. · Chernihiv</description>
-</item>
-
-<item>
-<title>[Media] Russian forces strike Balakliia in Kharkiv region, killing one, injuring four</title>
-<link>https://www.ukrinform.net/rubric-ato/4185147-russian-forces-strike-balakliia-in-kharkiv-region-killing-one-injuring-four.html</link>
-<guid isPermaLink="false">3af1c8a3a6a9</guid>
-<pubDate>Mon, 16 Nov 2026 12:23:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces struck the city of Balakliia in the Kharkiv region on the afternoon of November 16, killing one person and injuring four others. · Kharkiv</description>
-</item>
-
-<item>
-<title>[Media] EU clamps down on Wildberries owner, 50 banks, oil, and shadow fleet with new Russia sanctions</title>
-<link>https://kyivindependent.com/eu-clamps-down-on-russias-wildberries-owner-50-banks-oil-and-shadow-fleet-with-new-sanctions/</link>
-<guid isPermaLink="false">ca38e251190c</guid>
-<pubDate>Mon, 16 Nov 2026 12:20:51 +0000</pubDate>
-<category>Naval</category>
-<description>The Kyiv Independent · The EU&#39;s latest listings go beyond Russia to enforce EU sanctions, targeting oil buyers in China, the United Arab Emirates, the Seychelles, and Oman.</description>
-</item>
-
-<item>
-<title>[Operational report] НПЗ-пад триває: Сили оборони уразили Ільський нафтопереробний завод Листопад для російської нафтопереробки перетворюється на справжній «НПЗ-пад».</title>
-<link>https://t.me/GeneralStaffZSU/42919</link>
-<guid isPermaLink="false">f0bbd792ac9d</guid>
-<pubDate>Mon, 16 Nov 2026 11:59:01 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>General Staff of the Armed Forces of Ukraine · Saratov oblast, Volgograd oblast, Krasnodar krai, Crimea</description>
-</item>
-
-<item>
-<title>[Media] Russian forces attack industrial facilities in Dnipro, leaving two injured</title>
-<link>https://www.ukrinform.net/rubric-ato/4185123-russian-forces-attack-industrial-facilities-in-dnipro-leaving-two-injured.html</link>
-<guid isPermaLink="false">4843c87c1c89</guid>
-<pubDate>Mon, 16 Nov 2026 11:36:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces attacked the city of Dnipro, injuring two people. · Dnipro</description>
-</item>
-
-<item>
-<title>[State claim] ‼️ Последствия ночных воздушных атак БПЛА на Ростовскую область сегодня в центре внимания регионального правительства.</title>
-<link>https://t.me/Yuri_Slusar/7922</link>
-<guid isPermaLink="false">72d54313a1ef</guid>
-<pubDate>Mon, 16 Nov 2026 11:12:24 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Governor of Rostov oblast · Rostov oblast</description>
-</item>
-
-<item>
-<title>[Media] Russian forces attack businesses in Odesa region, injuring civilians</title>
-<link>https://www.ukrinform.net/rubric-ato/4185109-russian-forces-attack-businesses-in-odesa-region-injuring-civilians.html</link>
-<guid isPermaLink="false">1264d58293b9</guid>
-<pubDate>Mon, 16 Nov 2026 10:51:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces attacked infrastructure facilities in Odesa region. · Odesa</description>
-</item>
-
-<item>
-<title>[Operational report] Пальне ворога для фронту у вогні: уражено нафтобазу в Ростовській області та пункти управління противника 15-го та в ніч на 16 листопада підрозділи Сил оборони України вдарили по </title>
-<link>https://t.me/GeneralStaffZSU/42918</link>
-<guid isPermaLink="false">08607c462206</guid>
-<pubDate>Mon, 16 Nov 2026 10:50:13 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>General Staff of the Armed Forces of Ukraine · Rostov oblast</description>
-</item>
-
-<item>
-<title>[Media] Russian forces strike energy facilities in Odesa region, leaving thousands without power</title>
-<link>https://www.ukrinform.net/rubric-ato/4185106-russian-forces-strike-energy-facilities-in-odesa-region-leaving-thousands-without-power.html</link>
-<guid isPermaLink="false">99b3c0135c5e</guid>
-<pubDate>Mon, 16 Nov 2026 10:23:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Russian forces attacked DTEK energy facilities in the northern part of Odesa region on the morning of November 16. · Odesa</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Украина атаковала Крымский мост, движение транспорта перекрыто, — «власти» «Враг нанес удар по Крымскому мосту.</title>
-<link>https://t.me/astrapress/131237</link>
-<guid isPermaLink="false">78ebc8aecd4a</guid>
-<pubDate>Mon, 16 Nov 2026 06:22:56 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Crimea</description>
-</item>
-
-<item>
-<title>[Media] Russian attacks hit energy facilities in Cherkasy region, causing power outages</title>
-<link>https://www.ukrinform.net/rubric-ato/4185015-russian-attacks-hit-energy-facilities-in-cherkasy-region-causing-power-outages.html</link>
-<guid isPermaLink="false">d081e7dc2f4f</guid>
-<pubDate>Mon, 16 Nov 2026 06:18:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Part of the population in the Cherkasy region has been left without electricity following a Russian attack on energy facilities. · Cherkasy</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Еще одна родственница генерала Александра Чайко могла умереть после взрыва в ресторане Balzi Rossi Юлия Кириллова – жена Даниила Кирилова, племянника главкома ВКС Александра Чайко по лин</title>
-<link>https://t.me/astrapress/131232</link>
-<guid isPermaLink="false">8f94db5e0f00</guid>
-<pubDate>Mon, 16 Nov 2026 06:09:19 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Moscow</description>
-</item>
-
-<item>
-<title>[State claim] ❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам портовой и железнодорожной инфраструктуры, а также </title>
-<link>https://t.me/mod_russia/69055</link>
-<guid isPermaLink="false">5b016ba49e15</guid>
-<pubDate>Mon, 16 Nov 2026 06:01:05 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ministry of Defence of Russia</description>
-</item>
-
-<item>
-<title>[Operational report] Russia → Ukraine · 141 combat clashes · 282 guided aerial bombs dropped · 7,429 kamikaze drones used · 2,337 shellings · 34 settlements shelled</title>
-<link>https://t.me/GeneralStaffZSU/42915</link>
-<guid isPermaLink="false">dc4ae2557d49</guid>
-<pubDate>Mon, 16 Nov 2026 06:01:03 +0000</pubDate>
-<category>Front activity</category>
-<description>General Staff of the Armed Forces of Ukraine · Air strikes on: Яструбщина, Стецьківка · Sumy oblast: Хлібороб, Ромашкове, Дорошівка, Бачівськ, Товстодубове, Кореньок, Шалигине, Вовківка, Кружок, Гірки, Безсалівка, Отруба, Атинське, Волфине, Павлівка, Горожанка, Мала Корчаківка, Корчаківка, Рогізне, Водолаги, Яблунівка, Нова Січ, Писарівка, Іволжанське, Кияниця, Юнаківка, Храпівщина, Мар&#39;їне, Запсілля, Хмелівка, Шпиль, Нескучне, Chernihiv oblast: Блешня, Бучки</description>
-</item>
-
-<item>
-<title>[Operational report] Russia → Ukraine · 158 launched · 131 intercepted · 19 impact locations</title>
-<link>https://t.me/kpszsu/96507</link>
-<guid isPermaLink="false">5ca86c34a3c2</guid>
-<pubDate>Mon, 16 Nov 2026 06:00:16 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Air Force of Ukraine · Oryol, Kursk, Millerovo, Shatalovo, Primorsko-Akhtarsk, Cape Chauda (Crimea), Hvardiiske (Crimea)</description>
-</item>
-
-<item>
-<title>[State claim] Ukraine → Russia · 1,336 UAVs intercepted, as claimed</title>
-<link>https://t.me/mod_russia/69054</link>
-<guid isPermaLink="false">d0a7294146e2</guid>
-<pubDate>Mon, 16 Nov 2026 05:47:34 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Ministry of Defence of Russia · Tver oblast, Belgorod oblast, Bryansk oblast, Kursk oblast, Kaluga oblast, Tula oblast, Ryazan oblast, Oryol oblast, Voronezh oblast, Vladimir oblast, Smolensk oblast, Nizhny Novgorod oblast, Rostov oblast, Krasnodar krai, Crimea, Moscow oblast, Sea of Azov, Черного морей</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Один человек погиб в результате российской атаки в Запорожье, — ОВА «В результате российского удара по Хортицкому району Запорожья погибла женщина, еще два человека получили ранения.</title>
-<link>https://t.me/astrapress/131230</link>
-<guid isPermaLink="false">0a39baaf8633</guid>
-<pubDate>Mon, 16 Nov 2026 05:37:33 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Zaporizhzhia</description>
-</item>
-
-<item>
-<title>[Unconfirmed] 191 беспилотник был сбит на подлете к Москве, — мэр «В период с 17:00 15 ноября по 08:00 16 ноября в сторону Московского региона летели около 600 БПЛА.</title>
-<link>https://t.me/astrapress/131229</link>
-<guid isPermaLink="false">910dd60671b6</guid>
-<pubDate>Mon, 16 Nov 2026 05:26:01 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Moscow</description>
-</item>
-
-<item>
-<title>[Unconfirmed] На фоне атаки БПЛА в Азове Ростовской области предположительно начался пожар в районе, где расположены две нефтебазы, — OSINT-анализ ASTRA Беспилотная опасность была объявлена в регионе </title>
-<link>https://t.me/astrapress/131228</link>
-<guid isPermaLink="false">702426d7654e</guid>
-<pubDate>Mon, 16 Nov 2026 05:16:19 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Rostov oblast</description>
-</item>
-
-<item>
-<title>[State claim] Сегодня утром в результате воздушной атаки БПЛА снова пострадали мирные жители.</title>
-<link>https://t.me/Yuri_Slusar/7921</link>
-<guid isPermaLink="false">7f8cea8075b9</guid>
-<pubDate>Mon, 16 Nov 2026 05:07:07 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Governor of Rostov oblast · Rostov oblast</description>
 </item>
 
 </channel>
