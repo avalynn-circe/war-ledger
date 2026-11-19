@@ -1,0 +1,450 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T00:26:59+00:00",
+ "events": [
+  {
+   "date": "2026-11-19",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-economy/4185889-russian-strikes-on-processing-plants-drive-up-ukraine-rapeseed-export-prices.html",
+   "quote": "Russian strikes on processing plants drive up Ukraine rapeseed export prices",
+   "time": "01:35",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Rapeseed export prices in Ukraine rose by UAH 500-1,000 per tonne over the past week after Russian strikes on processing facilities disrupted oilseed processing operations.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T23:35:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "80064601e260"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131489",
+   "quote": "В Чугуеве в Харьковской области в результате российской атаки пострадали три человека, — МВД «Два беспилотника попали в жилую девятиэтажку, повредив лестничную клетку между шестым и седьмым этажами.",
+   "time": "00:45",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kharkiv",
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T22:45:53+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "91cea6847d6a"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131496",
+   "quote": "Два человека получили ранения в результате атаки ВС РФ на Запорожье, — ОВА В результате ударов БПЛА загорелись три частных дома и автомобиль.",
+   "time": "01:41",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T23:41:53+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7c432598ce52"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131487",
+   "quote": "ФСБ под видом пожарных пришла с обыском к матери липецкого правозащитника Геннадия Макарова, возбудив против него дело о госизмене О том, что липецкое управление ФСБ возбудило против Макарова уголовное дело о «госизмене в форме шпионажа», рассказал ASTRA сам правозащитник.",
+   "time": "00:09",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Reconnaissance UAV (Orlan/Zala/Supercam)"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Lipetsk oblast",
+    "Tatarstan"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-18T22:09:26+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "5626ddc15bcc"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131488",
+   "quote": "Крымский мост снова под атакой, сообщается о не менее двух попаданиях в железнодорожный мост «Мощные взрывы в Керчи в районе моста.",
+   "time": "00:34",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/131495"
+    }
+   ],
+   "published": "2026-11-18T22:34:49+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c88f47fc08b6"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24306, of which: destroyed: 19262, damaged: 1010, abandoned: 1192, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24306,
+    "destroyed": 19262,
+    "damaged": 1010,
+    "abandoned": 1192,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4458
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2430
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6497
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 756
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 442
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 741
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 621
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1070
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 651
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 71
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 12
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 469
+    },
+    {
+     "label": "Radars",
+     "count": 144
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 208
+    },
+    {
+     "label": "Helicopters",
+     "count": 188
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 40
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4758
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-19T00:26:57.573233+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "535987660d7f"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12376, of which: destroyed: 9761, damaged: 723, abandoned: 693, captured: 1199",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12376,
+    "destroyed": 9761,
+    "damaged": 723,
+    "abandoned": 693,
+    "captured": 1199
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1475
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 568
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1628
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1483
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1021
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2225
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 105
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 303
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 306
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1004
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 137
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 152
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1409
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-19T00:26:58.051627+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "78d4270be692"
+  },
+  {
+   "date": "2026-11-19",
+   "category": "infrastructure",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/ukrainian-forces-once-more-hit-russias-crimean-bridge-days-after-devastating-strike/",
+   "quote": "Ukrainian forces once more hit Russia's Crimean Bridge, days after devastating strike",
+   "time": "02:04",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Sergey Aksyonov, the Moscow-installed head of Russian-occupied Crimea, confirmed the bridge had been hit again just after midnight local time.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea",
+    "Moscow"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-19T00:04:38+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "64ad3ed2ad41"
+  }
+ ]
+}
