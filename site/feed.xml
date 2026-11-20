@@ -6,7 +6,88 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Thu, 19 Nov 2026 20:43:07 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 03:24:54 +0000</lastBuildDate>
+
+<item>
+<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
+<guid isPermaLink="false">78d4270be692</guid>
+<pubDate>Fri, 20 Nov 2026 03:24:51 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Ukrainian equipment losses)</description>
+</item>
+
+<item>
+<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
+<guid isPermaLink="false">535987660d7f</guid>
+<pubDate>Fri, 20 Nov 2026 03:24:50 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Media] Ukrainian drones reportedly strike Russian chemical plant</title>
+<link>https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-chemical-plant/</link>
+<guid isPermaLink="false">7853686e836b</guid>
+<pubDate>Fri, 20 Nov 2026 02:59:39 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>The Kyiv Independent · Explosions and a large fire were seen emanating from the plant just after midnight following the reported attack, according to monitoring channel Exilenova Plus.</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Четыре человека пострадали в результате российского удара по больнице в Харькове, — мэр «В результате попадания вражеского дрона по больнице пострадали четыре человека, выбиты более 50 о</title>
+<link>https://t.me/astrapress/131635</link>
+<guid isPermaLink="false">c53c97f085fa</guid>
+<pubDate>Fri, 20 Nov 2026 02:58:05 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Kharkiv</description>
+</item>
+
+<item>
+<title>[Media] Russian forces deploy fiber-optic-controlled Molniya drones on various front-line sectors – presidential advisor</title>
+<link>https://www.ukrinform.net/rubric-ato/4186329-russian-forces-deploy-fiberopticcontrolled-molniya-drones-on-various-frontline-sectors-presidential-advisor.html</link>
+<guid isPermaLink="false">c92eca81718b</guid>
+<pubDate>Fri, 20 Nov 2026 01:39:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Russian forces have been using Molniya drones controlled via fiber-optic cables on various sectors of the front line over the past several days.</description>
+</item>
+
+<item>
+<title>[Unconfirmed] ВС РФ атаковали Киев баллистикой.</title>
+<link>https://t.me/astrapress/131631</link>
+<guid isPermaLink="false">4b64e54ee135</guid>
+<pubDate>Fri, 20 Nov 2026 00:14:38 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>ASTRA · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Russia launches mass missile attack against Ukraine after Putin vows retaliation</title>
+<link>https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/</link>
+<guid isPermaLink="false">9be566ffc4b2</guid>
+<pubDate>Thu, 19 Nov 2026 23:41:36 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>The Kyiv Independent · Explosions rocked Kyiv at around 1:25 a.m. · Kyiv</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Смоленской области атакован завод ПАО «Дорогобуж», крупный производитель компонентов для промышленных взрывчатых веществ, — OSINT-анализ ASTRA Опасность БПЛА в регионе была объявлена о</title>
+<link>https://t.me/astrapress/131627</link>
+<guid isPermaLink="false">9c34dbed481b</guid>
+<pubDate>Thu, 19 Nov 2026 23:39:29 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Smolensk oblast</description>
+</item>
+
+<item>
+<title>[Media] Simferopol residents rush to stock up on food and fuel after attacks on Kerch Bridge – Chubarov</title>
+<link>https://www.ukrinform.net/rubric-ato/4186257-simferopol-residents-rush-to-stock-up-on-food-and-fuel-after-attacks-on-kerch-bridge-chubarov.html</link>
+<guid isPermaLink="false">ccd17971604e</guid>
+<pubDate>Thu, 19 Nov 2026 22:32:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Residents of Simferopol in temporarily occupied Crimea are buying up food and fuel in large quantities following attacks on the Kerch Bridge. · Crimea</description>
+</item>
 
 <item>
 <title>[Operational report] Russia → Ukraine · 248 combat clashes · 171 guided aerial bombs dropped · 3,247 kamikaze drones used · 1,620 shellings</title>
@@ -1275,87 +1356,6 @@
 <pubDate>Tue, 17 Nov 2026 18:34:00 +0000</pubDate>
 <category>Air defence</category>
 <description>Ukrinform · Germany will provide Ukraine with new high-performance radars to enhance its air surveillance capabilities.</description>
-</item>
-
-<item>
-<title>[Media] Strike on Kerch Bridge marks another impressive success for Ukraine – Austrian colonel</title>
-<link>https://www.ukrinform.net/rubric-ato/4185747-strike-on-kerch-bridge-marks-another-impressive-success-for-ukraine-austrian-colonel.html</link>
-<guid isPermaLink="false">cd0b9db7a5ee</guid>
-<pubDate>Tue, 17 Nov 2026 18:05:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Ukraine’s Defense Forces have achieved an impressive result by causing an arch of the Kerch Bridge’s road section to collapse, despite the extensive protection system Russia had spent several years building around the structure.</description>
-</item>
-
-<item>
-<title>[Media] UK defense secretary praises Ukraine&#39;s strike on Kerch Bridge, calls year terrible for Putin</title>
-<link>https://www.ukrinform.net/rubric-polytics/4185743-uk-defense-secretary-praises-ukraines-strike-on-crimean-bridge-calls-year-terrible-for-putin.html</link>
-<guid isPermaLink="false">3b2b63a297bd</guid>
-<pubDate>Tue, 17 Nov 2026 18:03:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · The United Kingdom welcomes the Ukrainian Defense Forces&#39; operation against the Kerch Strait Bridge.</description>
-</item>
-
-<item>
-<title>[Media] Kyiv begins preparations for tunnel under Dnipro with help from US company Robbins</title>
-<link>https://www.ukrinform.net/rubric-vidbudova/4185738-kyiv-begins-preparations-for-tunnel-under-dnipro-with-help-from-us-company-robbins.html</link>
-<guid isPermaLink="false">dbea70a1671e</guid>
-<pubDate>Tue, 17 Nov 2026 17:32:00 +0000</pubDate>
-<category>Field adaptations</category>
-<description>Ukrinform · Ukraine&#39;s Minister for Restoration, Infrastructure and Transport Mykola Kalashnyk has held a working meeting with representatives of U.S. · Kyiv, Dnipro</description>
-</item>
-
-<item>
-<title>[State claim] Ukraine → Russia · 51 UAVs intercepted, as claimed</title>
-<link>https://t.me/mod_russia/69092</link>
-<guid isPermaLink="false">c59015d35bbf</guid>
-<pubDate>Tue, 17 Nov 2026 17:29:20 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Ministry of Defence of Russia · Bryansk oblast, Belgorod oblast, Oryol oblast, Smolensk oblast, Kaluga oblast, Tver oblast, Rostov oblast, Krasnodar krai, Sea of Azov</description>
-</item>
-
-<item>
-<title>[Media] Ramstein: Zelensky proposes swapping partners’ Patriot and IRIS-T missile stockpiles for future deliveries</title>
-<link>https://www.ukrinform.net/rubric-ato/4185731-ramstein-zelensky-proposes-swapping-partners-patriot-and-irist-missile-stockpiles-for-future-deliveries.html</link>
-<guid isPermaLink="false">a5367b101084</guid>
-<pubDate>Tue, 17 Nov 2026 17:20:00 +0000</pubDate>
-<category>Weapons and deliveries</category>
-<description>Ukrinform · President Volodymyr Zelensky has proposed that Ukraine receive interceptor missiles for Patriot and IRIS-T systems currently held in partner countries’ stockpiles in exchange for missiles already ordered by Ukraine but scheduled for production and delivery at a later date.</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Венгрия на два дня остановила железнодорожное сообщение с Украиной после удара российского дрона по Мукачево Венгрия 17 и 18 ноября не будет пускать поезда в Украину, объявил премьер-мин</title>
-<link>https://t.me/astrapress/131389</link>
-<guid isPermaLink="false">2efaebf0cff2</guid>
-<pubDate>Tue, 17 Nov 2026 17:11:16 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Zakarpattia</description>
-</item>
-
-<item>
-<title>[State claim] В донской столице продолжается реконструкция бывшего кинотеатра «Ростов».</title>
-<link>https://t.me/Yuri_Slusar/7938</link>
-<guid isPermaLink="false">b8cbcb0fb41a</guid>
-<pubDate>Tue, 17 Nov 2026 17:04:08 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Governor of Rostov oblast · Rostov oblast</description>
-</item>
-
-<item>
-<title>[Unconfirmed] В Белгородской и Брянской областях из-за атак дронов пострадали четыре человека В Белгородской области 17 ноября ранены три человека, сообщил оперштаб региона.</title>
-<link>https://t.me/astrapress/131387</link>
-<guid isPermaLink="false">96b80e341ebf</guid>
-<pubDate>Tue, 17 Nov 2026 16:53:21 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Belgorod oblast, Bryansk oblast</description>
-</item>
-
-<item>
-<title>[Media] Analysis: Why Ukraine&#39;s strike on the Crimean Bridge is such a big deal</title>
-<link>https://kyivindependent.com/analysis-why-ukraines-strike-on-the-crimean-bridge-is-such-a-big-deal/</link>
-<guid isPermaLink="false">7c612fb3887b</guid>
-<pubDate>Tue, 17 Nov 2026 16:49:30 +0000</pubDate>
-<category>Infrastructure</category>
-<description>The Kyiv Independent · A section of the Crimean Bridge collapsed into the Kerch Strait after a Ukrainian overnight strike on Nov. · Crimea</description>
 </item>
 
 </channel>

@@ -1,0 +1,473 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T03:24:53+00:00",
+ "events": [
+  {
+   "date": "2026-11-20",
+   "category": "air_attack",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/",
+   "quote": "Russia launches mass missile attack against Ukraine after Putin vows retaliation",
+   "time": "01:41",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "Explosions rocked Kyiv at around 1:25 a.m.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-19T23:41:36+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "9be566ffc4b2"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "air_attack",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131631",
+   "quote": "ВС РФ атаковали Киев баллистикой.",
+   "time": "02:14",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kyiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-20T00:14:38+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "4b64e54ee135"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4186257-simferopol-residents-rush-to-stock-up-on-food-and-fuel-after-attacks-on-kerch-bridge-chubarov.html",
+   "quote": "Simferopol residents rush to stock up on food and fuel after attacks on Kerch Bridge – Chubarov",
+   "time": "00:32",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Residents of Simferopol in temporarily occupied Crimea are buying up food and fuel in large quantities following attacks on the Kerch Bridge.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Crimea"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-19T22:32:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "ccd17971604e"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131627",
+   "quote": "В Смоленской области атакован завод ПАО «Дорогобуж», крупный производитель компонентов для промышленных взрывчатых веществ, — OSINT-анализ ASTRA Опасность БПЛА в регионе была объявлена около полуночи.",
+   "time": "01:39",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Smolensk oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-19T23:39:29+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "9c34dbed481b"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4186329-russian-forces-deploy-fiberopticcontrolled-molniya-drones-on-various-frontline-sectors-presidential-advisor.html",
+   "quote": "Russian forces deploy fiber-optic-controlled Molniya drones on various front-line sectors – presidential advisor",
+   "time": "03:39",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Russian forces have been using Molniya drones controlled via fiber-optic cables on various sectors of the front line over the past several days.",
+   "weapons": [
+    {
+     "name": "Fibre-optic drone"
+    },
+    {
+     "name": "Molniya UAV"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-20T01:39:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c92eca81718b"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/131635",
+   "quote": "Четыре человека пострадали в результате российского удара по больнице в Харькове, — мэр «В результате попадания вражеского дрона по больнице пострадали четыре человека, выбиты более 50 окон.",
+   "time": "04:58",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kharkiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-20T02:58:05+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c53c97f085fa"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "strikes_in_russia",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-chemical-plant/",
+   "quote": "Ukrainian drones reportedly strike Russian chemical plant",
+   "time": "04:59",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": null,
+   "detail": "Explosions and a large fire were seen emanating from the plant just after midnight following the reported attack, according to monitoring channel Exilenova Plus.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-20T02:59:39+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "7853686e836b"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24306, of which: destroyed: 19262, damaged: 1010, abandoned: 1192, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24306,
+    "destroyed": 19262,
+    "damaged": 1010,
+    "abandoned": 1192,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4458
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2430
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6497
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 756
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 442
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 741
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 621
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1070
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 651
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 71
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 12
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 469
+    },
+    {
+     "label": "Radars",
+     "count": 144
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 208
+    },
+    {
+     "label": "Helicopters",
+     "count": 188
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 40
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4758
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-20T03:24:50.988633+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "535987660d7f"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12376, of which: destroyed: 9761, damaged: 723, abandoned: 693, captured: 1199",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12376,
+    "destroyed": 9761,
+    "damaged": 723,
+    "abandoned": 693,
+    "captured": 1199
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1475
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 568
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1628
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1483
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1021
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2225
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 105
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 303
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 306
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1004
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 137
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 152
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1409
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-20T03:24:51.539579+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "78d4270be692"
+  }
+ ]
+}
