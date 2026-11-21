@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T21:52:00+00:00",
+ "generated_at": "2026-11-21T03:15:56+00:00",
  "events": [
   {
    "date": "2026-11-20",
@@ -1140,7 +1140,7 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/russian-ballistic-missile-strikes-on-kryvyi-rih-kill-7-year-old-paramedic-injure-42-others-in-double-tap-attack/",
-   "quote": "Russian ballistic missile strikes on Kryvyi Rih kill 7-year-old, paramedic, injure 42 others in double-tap attack",
+   "quote": "Russian double-tap attack kills 7-year-old, paramedic in Kryvyi Rih; 42 others injured",
    "time": "23:28",
    "actor": "Russia",
    "target": "Ukraine",
@@ -1161,7 +1161,37 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "0b12562e46f5"
+   "id": "ab502ece9169"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "civilian_damage",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4187003-two-killed-including-child-in-russian-strike-on-kryvyi-rih-injury-toll-rises-to-42.html",
+   "quote": "Two killed, including child, in Russian strike on Kryvyi Rih, injury toll rises to 42",
+   "time": "23:58",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "The number of people injured in the strike on Kryvyi Rih has risen to 42, including four children.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kryvyi Rih"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-20T21:58:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "b53b4afc063e"
   },
   {
    "date": "2026-11-20",
@@ -1494,6 +1524,36 @@
    "detail_en": null,
    "locations_en": null,
    "id": "dbc3f9d0cdd2"
+  },
+  {
+   "date": "2026-11-20",
+   "category": "front_line",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4186998-war-update-157-clashes-on-front-line-pokrovsk-sector-remains-hottest.html",
+   "quote": "War update: 157 clashes on front line, Pokrovsk sector remains hottest",
+   "time": "23:35",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "A total of 157 combat engagements took place on the front line.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Pokrovsk"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-20T21:35:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "da3622338ec2"
   },
   {
    "date": "2026-11-20",

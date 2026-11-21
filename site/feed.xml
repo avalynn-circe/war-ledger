@@ -6,7 +6,61 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Fri, 20 Nov 2026 21:52:01 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 03:15:56 +0000</lastBuildDate>
+
+<item>
+<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
+<guid isPermaLink="false">78d4270be692</guid>
+<pubDate>Sat, 21 Nov 2026 03:15:55 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Ukrainian equipment losses)</description>
+</item>
+
+<item>
+<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
+<guid isPermaLink="false">535987660d7f</guid>
+<pubDate>Sat, 21 Nov 2026 03:15:54 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Media] Bringing equipment repairs closer to front line: NATO and Ukraine developing enhanced repair centers</title>
+<link>https://www.ukrinform.net/rubric-ato/4186746-bringing-equipment-repairs-closer-to-front-line-nato-and-ukraine-developing-enhanced-repair-centers.html</link>
+<guid isPermaLink="false">11d88f7d81a5</guid>
+<pubDate>Sat, 21 Nov 2026 01:35:00 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ukrinform · NATO and Ukraine are developing a concept for enhanced repair centers that would bring industrial and logistical capabilities closer to the front line, enabling faster repairs and the quicker return of equipment to the battlefield.</description>
+</item>
+
+<item>
+<title>[Media] Zelensky says Putin must understand Crimean Bridge &#39;will not stay,&#39; warns Russia increasing double-tap strikes</title>
+<link>https://kyivindependent.com/zelensky-says-putin-must-understand-crimean-bridge-will-not-stay-warns-russia-increasing-double-tap-strikes/</link>
+<guid isPermaLink="false">af51b285138d</guid>
+<pubDate>Sat, 21 Nov 2026 00:59:45 +0000</pubDate>
+<category>Infrastructure</category>
+<description>The Kyiv Independent · President Volodymyr Zelensky warned that Russia is increasing its double-tap strikes and even conducting triple-tap strikes to &#34;kill as many people as possible&#34; in its attacks. · Crimea</description>
+</item>
+
+<item>
+<title>[Media] Incoming Democratic chairman warns US lawmakers could halt SpaceX funding following Starshield slowdown in Ukraine, CNN reports</title>
+<link>https://kyivindependent.com/incoming-democratic-chairman-warns-us-lawmakers-could-halt-spacex-funding-following-starshield-slowdown-in-ukraine-cnn-reports/</link>
+<guid isPermaLink="false">013ec91e6936</guid>
+<pubDate>Fri, 20 Nov 2026 23:54:11 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>The Kyiv Independent · &#34;Simply, our committee cannot authorize funds for the development of government systems that the government will not fully control,&#34; Democratic Rep.</description>
+</item>
+
+<item>
+<title>[Media] Two killed, including child, in Russian strike on Kryvyi Rih, injury toll rises to 42</title>
+<link>https://www.ukrinform.net/rubric-ato/4187003-two-killed-including-child-in-russian-strike-on-kryvyi-rih-injury-toll-rises-to-42.html</link>
+<guid isPermaLink="false">b53b4afc063e</guid>
+<pubDate>Fri, 20 Nov 2026 21:58:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · The number of people injured in the strike on Kryvyi Rih has risen to 42, including four children. · Kryvyi Rih</description>
+</item>
 
 <item>
 <title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
@@ -27,9 +81,18 @@
 </item>
 
 <item>
-<title>[Media] Russian ballistic missile strikes on Kryvyi Rih kill 7-year-old, paramedic, injure 42 others in double-tap attack</title>
+<title>[Media] War update: 157 clashes on front line, Pokrovsk sector remains hottest</title>
+<link>https://www.ukrinform.net/rubric-ato/4186998-war-update-157-clashes-on-front-line-pokrovsk-sector-remains-hottest.html</link>
+<guid isPermaLink="false">da3622338ec2</guid>
+<pubDate>Fri, 20 Nov 2026 21:35:00 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ukrinform · A total of 157 combat engagements took place on the front line. · Pokrovsk</description>
+</item>
+
+<item>
+<title>[Media] Russian double-tap attack kills 7-year-old, paramedic in Kryvyi Rih; 42 others injured</title>
 <link>https://kyivindependent.com/russian-ballistic-missile-strikes-on-kryvyi-rih-kill-7-year-old-paramedic-injure-42-others-in-double-tap-attack/</link>
-<guid isPermaLink="false">0b12562e46f5</guid>
+<guid isPermaLink="false">ab502ece9169</guid>
 <pubDate>Fri, 20 Nov 2026 21:28:48 +0000</pubDate>
 <category>Civilian damage</category>
 <description>The Kyiv Independent · &#34;The occupying forces launched a missile strike on the territory of a restaurant in the city center, at a time when families with children, staff, and an emergency medical team that had responded to a call were inside,&#34; Interior Minister Ivan Vykhivskyi wrote. · Kryvyi Rih</description>
@@ -1293,69 +1356,6 @@
 <pubDate>Wed, 18 Nov 2026 14:40:02 +0000</pubDate>
 <category>Air attacks on Ukraine</category>
 <description>ASTRA · Kyiv, Dnipro</description>
-</item>
-
-<item>
-<title>[Media] Zelensky briefed on Russia&#39;s plans in Black Sea</title>
-<link>https://www.ukrinform.net/rubric-polytics/4186053-zelensky-briefed-on-russias-plans-in-black-sea.html</link>
-<guid isPermaLink="false">0a6bb073a0bf</guid>
-<pubDate>Wed, 18 Nov 2026 14:32:00 +0000</pubDate>
-<category>Naval</category>
-<description>Ukrinform · Ukrainian President Volodymyr Zelensky received briefings on the security situation in the Black Sea and along grain export routes, following which diplomats and government officials were given specific tasks. · Black Sea</description>
-</item>
-
-<item>
-<title>[Media] General Staff confirms strikes on Ilsky and Afipsky oil refineries</title>
-<link>https://www.ukrinform.net/rubric-ato/4186044-general-staff-confirms-strikes-on-ilsky-and-afipsky-oil-refineries.html</link>
-<guid isPermaLink="false">2bb99fde67f5</guid>
-<pubDate>Wed, 18 Nov 2026 14:09:00 +0000</pubDate>
-<category>Claimed losses</category>
-<description>Ukrinform · Ukraine&#39;s Defense Forces attacked and hit the Ilsky and Afipsky oil refineries in Russia&#39;s Krasnodar Territory on November 17 and overnight into November 18. · Krasnodar krai</description>
-</item>
-
-<item>
-<title>[Unconfirmed] СК подтвердил гибель генерал-лейтенанта Москалика при взрыве автомобиля в Балашихе, дело переквалифицировано на статью «убийство» В сообщении ведомства указаны последняя должность и зван</title>
-<link>https://t.me/astrapress/131460</link>
-<guid isPermaLink="false">05c3b3871e70</guid>
-<pubDate>Wed, 18 Nov 2026 13:45:10 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Tatarstan</description>
-</item>
-
-<item>
-<title>[Media] Zelensky on strikes on Odesa: Those who want peace do not step up killing</title>
-<link>https://www.ukrinform.net/rubric-polytics/4186028-zelensky-on-strikes-on-odesa-those-who-want-peace-do-not-step-up-killing.html</link>
-<guid isPermaLink="false">d81f198407a3</guid>
-<pubDate>Wed, 18 Nov 2026 13:41:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Ukrainian President Volodymyr Zelensky has said that today&#39;s attack on Odesa was a brutal and deliberate strike against civilians, demonstrating what Russia wants and how it truly regards diplomatic efforts. · Odesa</description>
-</item>
-
-<item>
-<title>[Media] Russian attack on Kyiv region leaves four injured, including child</title>
-<link>https://www.ukrinform.net/rubric-ato/4186004-russian-attack-on-kyiv-region-leaves-four-injured-including-child.html</link>
-<guid isPermaLink="false">372334c2ce81</guid>
-<pubDate>Wed, 18 Nov 2026 12:45:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Four people, including a child, were injured in a Russian attack in the Vyshhorod district, Kyiv region. · Kyiv</description>
-</item>
-
-<item>
-<title>[Operational report] Нафтовий дубль на Кубані: уражено Ільський і Афіпський НПЗ 17-го та в ніч на 18 листопада Краснодарський край прокинувся від вибухів одразу біля двох нафтопереробних заводів.</title>
-<link>https://t.me/GeneralStaffZSU/42938</link>
-<guid isPermaLink="false">019199248461</guid>
-<pubDate>Wed, 18 Nov 2026 12:31:35 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>General Staff of the Armed Forces of Ukraine · Krasnodar krai</description>
-</item>
-
-<item>
-<title>[Media] Ukrainian forces strike bridge over Siverskyi Donets River</title>
-<link>https://www.ukrinform.net/rubric-ato/4186002-ukrainian-forces-strike-bridge-over-siverskyi-donets-river.html</link>
-<guid isPermaLink="false">4d385d6e15ec</guid>
-<pubDate>Wed, 18 Nov 2026 12:22:00 +0000</pubDate>
-<category>Logistics and supply</category>
-<description>Ukrinform · Ukraine&#39;s Defense Forces struck a crossing over the Siverskyi Donets River near the temporarily occupied town of Stanytsia Luhanska on November 17 and during the night of November 18. · Siversk, Luhansk oblast</description>
 </item>
 
 </channel>
