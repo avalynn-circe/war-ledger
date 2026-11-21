@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-21T03:15:56+00:00",
+ "generated_at": "2026-11-21T12:43:43+00:00",
  "events": [
   {
    "date": "2026-11-20",
@@ -1140,12 +1140,12 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/russian-ballistic-missile-strikes-on-kryvyi-rih-kill-7-year-old-paramedic-injure-42-others-in-double-tap-attack/",
-   "quote": "Russian double-tap attack kills 7-year-old, paramedic in Kryvyi Rih; 42 others injured",
+   "quote": "'Despicable' —Russian double-tap attack in Kryvyi Rih kills 7-year-old and paramedic, injures 52",
    "time": "23:28",
    "actor": "Russia",
    "target": "Ukraine",
    "action": null,
-   "detail": "\"The occupying forces launched a missile strike on the territory of a restaurant in the city center, at a time when families with children, staff, and an emergency medical team that had responded to a call were inside,\" Interior Minister Ivan Vykhivskyi wrote.",
+   "detail": "The deadly strikes targeted a densely populated urban area full of civilians on World Children's Day, Kryvyi Rih Defense Council Head Oleksandr Visual said.",
    "weapons": [],
    "counts": {},
    "breakdown": [],
@@ -1161,7 +1161,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "ab502ece9169"
+   "id": "2265763d6bfd"
   },
   {
    "date": "2026-11-20",
