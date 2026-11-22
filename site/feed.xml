@@ -6,13 +6,13 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Sun, 22 Nov 2026 09:54:25 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 17:52:14 +0000</lastBuildDate>
 
 <item>
 <title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
 <link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
 <guid isPermaLink="false">78d4270be692</guid>
-<pubDate>Sun, 22 Nov 2026 09:54:23 +0000</pubDate>
+<pubDate>Sun, 22 Nov 2026 17:52:11 +0000</pubDate>
 <category>Claimed losses</category>
 <description>Oryx (Ukrainian equipment losses)</description>
 </item>
@@ -21,9 +21,207 @@
 <title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
 <link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
 <guid isPermaLink="false">535987660d7f</guid>
-<pubDate>Sun, 22 Nov 2026 09:54:22 +0000</pubDate>
+<pubDate>Sun, 22 Nov 2026 17:52:10 +0000</pubDate>
 <category>Claimed losses</category>
 <description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[State claim] Ukraine → Russia · 38 UAVs intercepted, as claimed</title>
+<link>https://t.me/mod_russia/69258</link>
+<guid isPermaLink="false">b209267aa150</guid>
+<pubDate>Sun, 22 Nov 2026 17:49:24 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>Ministry of Defence of Russia · Belgorod oblast, Bryansk oblast, Kursk oblast, Oryol oblast</description>
+</item>
+
+<item>
+<title>[Media] Ukraine war latest: US delays on Patriot missiles &#39;difficult to understand&#39; as Russia fires 165 missiles in single week, Zelensky says</title>
+<link>https://kyivindependent.com/ukraine-war-latest-us-delays-on-patriot-missiles-difficult-to-understand-as-russia-fires-165-missiles-in-single-week-zelensky-says/</link>
+<guid isPermaLink="false">f01517dfeff3</guid>
+<pubDate>Sun, 22 Nov 2026 16:53:12 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>The Kyiv Independent · Key developments on Nov. · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] One killed, three injured in Russian attack on store in Kyiv region</title>
+<link>https://www.ukrinform.net/rubric-ato/4187427-one-killed-three-injured-in-russian-attack-on-store-in-kyiv-region.html</link>
+<guid isPermaLink="false">c87d23874715</guid>
+<pubDate>Sun, 22 Nov 2026 16:27:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · One person was killed and three others injured in an enemy attack in the town of Vyshneve, Bucha district, Kyiv region. · Kyiv</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Брянской области 50-летний водитель погиб при ударе дрона по гражданскому автомобилю, — губернатор</title>
+<link>https://t.me/astrapress/131932</link>
+<guid isPermaLink="false">db632e1cf88e</guid>
+<pubDate>Sun, 22 Nov 2026 16:14:58 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Bryansk oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Тело еще одного погибшего извлекли из-под завалов разрушенной российским ударом жилого дома в Дымере Киевской области, 11 человек не выходят на связь, — ГСЧС Украины Среди погибших — 18-</title>
+<link>https://t.me/astrapress/131931</link>
+<guid isPermaLink="false">4a92309802af</guid>
+<pubDate>Sun, 22 Nov 2026 16:05:52 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Woman injured in Russian drone attack on Bila Tserkva district in Kyiv region</title>
+<link>https://www.ukrinform.net/rubric-ato/4187424-woman-injured-in-russian-drone-attack-on-bila-tserkva-district-in-kyiv-region.html</link>
+<guid isPermaLink="false">7bb8284ad7d2</guid>
+<pubDate>Sun, 22 Nov 2026 16:05:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · A woman was injured in an attack by Russian drones in the Bila Tserkva district of the Kyiv region. · Kyiv</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Днепре и Одессе блэкаут после российских ударов, — украинские СМИ В Запорожской области введены специальные аварийные отключения электроэнергии.</title>
+<link>https://t.me/astrapress/131927</link>
+<guid isPermaLink="false">1536d69e2019</guid>
+<pubDate>Sun, 22 Nov 2026 15:48:58 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>ASTRA · Odesa, Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[Media] Ukraine and Sweden discuss fast-tracking Gripen fighter jet deliveries</title>
+<link>https://www.ukrinform.net/rubric-defense/4187420-ukraine-and-sweden-discuss-fasttracking-gripen-fighter-jet-deliveries.html</link>
+<guid isPermaLink="false">cb0d9154bf4f</guid>
+<pubDate>Sun, 22 Nov 2026 15:42:00 +0000</pubDate>
+<category>Weapons and deliveries</category>
+<description>Ukrinform · Ukraine’s Defense Minister Yevhenii Khmara discussed ways to accelerate deliveries of Gripen fighter jets and their weapons systems during a meeting with General Michael Claesson, Supreme Commander of the Swedish Armed Forces.</description>
+</item>
+
+<item>
+<title>[State claim] ❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам энергетики и морским судам, задействованным в интересах ВСУ.</title>
+<link>https://t.me/mod_russia/69254</link>
+<guid isPermaLink="false">fc5006d7bcf9</guid>
+<pubDate>Sun, 22 Nov 2026 15:41:07 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ministry of Defence of Russia</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Дрон ударил по торговому центру в Вишневом Киевской области, сообщают украинские каналы UPD.</title>
+<link>https://t.me/astrapress/131924</link>
+<guid isPermaLink="false">e32893871e31</guid>
+<pubDate>Sun, 22 Nov 2026 15:38:30 +0000</pubDate>
+<category>Civilian damage</category>
+<description>ASTRA · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Russia strikes gas service facility in Dnipropetrovsk region with guided bomb, several injured</title>
+<link>https://www.ukrinform.net/rubric-ato/4187418-russia-strikes-gas-service-facility-in-dnipropetrovsk-region-with-guided-bomb-several-injured.html</link>
+<guid isPermaLink="false">7bbdac4b0654</guid>
+<pubDate>Sun, 22 Nov 2026 15:20:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Russian forces attacked a gas service facility in the Dnipropetrovsk region with an aerial bomb on Sunday, November 22. · Dnipropetrovsk oblast</description>
+</item>
+
+<item>
+<title>[Media] Ukrainian forces foil Russian assault attempt in Pokrovsk sector</title>
+<link>https://www.ukrinform.net/rubric-ato/4187407-ukrainian-forces-foil-russian-assault-attempt-in-pokrovsk-sector.html</link>
+<guid isPermaLink="false">40a8eb5e3554</guid>
+<pubDate>Sun, 22 Nov 2026 14:58:00 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ukrinform · In the Pokrovsk sector, Ukraine’s 4th Operational Brigade Rubizh of the National Guard thwarted an attempt by Russian invaders to launch an assault using armored vehicles and motorcycles. · Pokrovsk</description>
+</item>
+
+<item>
+<title>[Media] Russian attacks cause &#39;serious damage&#39; to Odesa power grid as outages disrupt city</title>
+<link>https://kyivindependent.com/russian-attacks-cause-serious-damage-to-odesa-power-grid-as-outages-disrupt-city/</link>
+<guid isPermaLink="false">325e23e941a0</guid>
+<pubDate>Sun, 22 Nov 2026 14:08:06 +0000</pubDate>
+<category>Infrastructure</category>
+<description>The Kyiv Independent · Repair crews are working to restore electricity, but continued Russian attacks and air raid alerts are disrupting their work, Ukraine&#39;s state-owned grid operator Ukrenergo said. · Odesa</description>
+</item>
+
+<item>
+<title>[Media] Strike on Kerch Bridge comparable in significance to hitting strategic target in Moscow – expert</title>
+<link>https://www.ukrinform.net/rubric-ato/4187388-strike-on-kerch-bridge-comparable-in-significance-to-hitting-strategic-target-in-moscow-expert.html</link>
+<guid isPermaLink="false">9e5a7e2f93e7</guid>
+<pubDate>Sun, 22 Nov 2026 13:41:00 +0000</pubDate>
+<category>Infrastructure</category>
+<description>Ukrinform · A strike on the Kerch Bridge can be compared in significance to hitting a strategic target in Moscow. · Moscow</description>
+</item>
+
+<item>
+<title>[Media] Death toll in Russian attack on Dymer rises to two, four injured</title>
+<link>https://www.ukrinform.net/rubric-ato/4187386-death-toll-in-russian-attack-on-dymer-rises-to-two-four-injured.html</link>
+<guid isPermaLink="false">74d007384a18</guid>
+<pubDate>Sun, 22 Nov 2026 13:18:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · The body of another victim has been recovered from the rubble of a residential apartment building in the town of Dymer, Kyiv region, following a Russian attack, bringing the death toll to two and the number of injured to four. · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Russian drone hits apartment building in Dnipro, destroying one apartment, damaging around 20 others</title>
+<link>https://www.ukrinform.net/rubric-ato/4187368-russian-drone-hits-apartment-building-in-dnipro-destroying-one-apartmentdamaging-around-20-others.html</link>
+<guid isPermaLink="false">3d2e8acc57ae</guid>
+<pubDate>Sun, 22 Nov 2026 12:26:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · A Russian drone attacked a ten-story residential building in Dnipro, destroying one apartment and damaging around 20 others. · Dnipro</description>
+</item>
+
+<item>
+<title>[Media] Russians attack Zaporizhzhia, leaving one killed</title>
+<link>https://www.ukrinform.net/rubric-ato/4187359-russians-attack-zaporizhzhia-leaving-one-killed.html</link>
+<guid isPermaLink="false">fe9c66b596fd</guid>
+<pubDate>Sun, 22 Nov 2026 11:39:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · A man was killed in a Russian shelling attack on the city of Zaporizhzhia. · Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[Media] Body of person killed in Russian drone attack recovered from rubble of apartment building in Dymer</title>
+<link>https://www.ukrinform.net/rubric-ato/4187354-body-of-person-killed-in-russian-drone-attack-recovered-from-rubble-of-apartment-building-in-dymer.html</link>
+<guid isPermaLink="false">d2c41072be65</guid>
+<pubDate>Sun, 22 Nov 2026 11:16:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · The body of a person killed in a Russian drone attack on an apartment building has been recovered from the rubble in the town of Dymer, Kyiv region. · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Zelensky says US delays on Patriot missiles are &#39;difficult to understand&#39; as Russia fires 165 missiles in a week</title>
+<link>https://kyivindependent.com/zelensky-says-us-delays-on-patriot-missiles-are-difficult-to-understand-as-russia-fires-165-missiles-in-a-week/</link>
+<guid isPermaLink="false">bbdb1117d007</guid>
+<pubDate>Sun, 22 Nov 2026 10:45:04 +0000</pubDate>
+<category>Air defence</category>
+<description>The Kyiv Independent · President Volodymyr Zelensky again urged Washington to authorize the transfer of Patriot missiles that Ukraine&#39;s allies have already paid for.</description>
+</item>
+
+<item>
+<title>[Media] Attack on Vyshhorod district: Eight people may be trapped under rubble of apartment building</title>
+<link>https://www.ukrinform.net/rubric-ato/4187332-attack-on-vyshhorod-district-eight-people-may-be-trapped-under-rubble-of-apartment-building.html</link>
+<guid isPermaLink="false">716281b530db</guid>
+<pubDate>Sun, 22 Nov 2026 10:18:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · Emergency rescue operations are ongoing at the site of a Russian attack in the Vyshhorod district of Kyiv region. · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Russian attacks across Ukraine injure 30 over past day as rescue operation continues near Kyiv after drone strike</title>
+<link>https://kyivindependent.com/russian-attacks-across-ukraine-injure-30-over-past-day-as-rescue-operation-continues-near-kyiv-after-drone-strike/</link>
+<guid isPermaLink="false">faedf2a9fceb</guid>
+<pubDate>Sun, 22 Nov 2026 09:54:18 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>The Kyiv Independent · Ukraine&#39;s Air Force said Russian troops launched 186 attack drones against Ukraine overnight, of which 161 were shot down. · Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Russia launches approximately 2,700 drones, nearly 1,460 glide bombs, and 165 missiles at Ukraine in one week – Zelensky</title>
+<link>https://www.ukrinform.net/rubric-ato/4187329-russia-launches-approximately-2700-drones-nearly-1460-glide-bombs-and-165-missiles-at-ukraine-in-one-week-zelensky.html</link>
+<guid isPermaLink="false">71a1627f8dd5</guid>
+<pubDate>Sun, 22 Nov 2026 09:52:00 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ukrinform · Russia launched approximately 2,700 drones, nearly 1,460 guided aerial bombs, and 165 missiles of various types at Ukraine over the past week.</description>
 </item>
 
 <item>
@@ -153,9 +351,9 @@
 </item>
 
 <item>
-<title>[Media] 14 feared trapped after Russian drone hits apartment building near Kyiv, injuring 2</title>
+<title>[Media] &#39;We live in fear&#39; — Russian attack near Kyiv kills 3, leaves families waiting as rescuers search rubble</title>
 <link>https://kyivindependent.com/apartment-building-destroyed-in-kyiv-oblast-following-russian-drone-attack/</link>
-<guid isPermaLink="false">78627e672907</guid>
+<guid isPermaLink="false">e73d0fbef5e7</guid>
 <pubDate>Sun, 22 Nov 2026 04:49:11 +0000</pubDate>
 <category>Civilian damage</category>
 <description>The Kyiv Independent · &#34;People may still be trapped under the rubble,&#34; President Volodymyr Zelensky said. · Kyiv</description>
@@ -1158,204 +1356,6 @@
 <pubDate>Fri, 20 Nov 2026 06:00:00 +0000</pubDate>
 <category>Civilian damage</category>
 <description>Ukrinform · Three people have been killed and 15 injured in a Russian missile attack on Kyiv. · Kyiv</description>
-</item>
-
-<item>
-<title>[State claim] Ukraine → Russia · 310 UAVs intercepted, as claimed</title>
-<link>https://t.me/mod_russia/69181</link>
-<guid isPermaLink="false">12cc4b4e6021</guid>
-<pubDate>Fri, 20 Nov 2026 05:46:49 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Ministry of Defence of Russia · Belgorod oblast, Bryansk oblast, Kursk oblast, Kaluga oblast, Smolensk oblast, Tula oblast, Oryol oblast, Pskov oblast, Rostov oblast, Volgograd oblast, Krasnodar krai, Crimea, Moscow oblast, Sea of Azov, Черного морей</description>
-</item>
-
-<item>
-<title>[State claim] ❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесен массированный удар высокоточным оружием наземного, морского и воздушного базирования, беспилотными летательными аппарата</title>
-<link>https://t.me/mod_russia/69180</link>
-<guid isPermaLink="false">8b8b7caf66cc</guid>
-<pubDate>Fri, 20 Nov 2026 05:32:05 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ministry of Defence of Russia</description>
-</item>
-
-<item>
-<title>[State claim] Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область БПЛА уничтожены в городах Таганроге, Шахтах, Новошахтинске, а также в Неклиновском и Зимовниковском районах.</title>
-<link>https://t.me/Yuri_Slusar/7965</link>
-<guid isPermaLink="false">a3a264c6860a</guid>
-<pubDate>Fri, 20 Nov 2026 03:40:25 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Governor of Rostov oblast · Rostov oblast</description>
-</item>
-
-<item>
-<title>[Media] Ukrainian drones reportedly strike Russian chemical plant</title>
-<link>https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-chemical-plant/</link>
-<guid isPermaLink="false">7853686e836b</guid>
-<pubDate>Fri, 20 Nov 2026 02:59:39 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>The Kyiv Independent · Explosions and a large fire were seen emanating from the plant just after midnight following the reported attack, according to monitoring channel Exilenova Plus.</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Четыре человека пострадали в результате российского удара по больнице в Харькове, — мэр «В результате попадания вражеского дрона по больнице пострадали четыре человека, выбиты более 50 о</title>
-<link>https://t.me/astrapress/131635</link>
-<guid isPermaLink="false">c53c97f085fa</guid>
-<pubDate>Fri, 20 Nov 2026 02:58:05 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Kharkiv</description>
-</item>
-
-<item>
-<title>[Media] Russian forces deploy fiber-optic-controlled Molniya drones on various front-line sectors – presidential advisor</title>
-<link>https://www.ukrinform.net/rubric-ato/4186329-russian-forces-deploy-fiberopticcontrolled-molniya-drones-on-various-frontline-sectors-presidential-advisor.html</link>
-<guid isPermaLink="false">c92eca81718b</guid>
-<pubDate>Fri, 20 Nov 2026 01:39:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces have been using Molniya drones controlled via fiber-optic cables on various sectors of the front line over the past several days.</description>
-</item>
-
-<item>
-<title>[Unconfirmed] ВС РФ атаковали Киев баллистикой.</title>
-<link>https://t.me/astrapress/131631</link>
-<guid isPermaLink="false">4b64e54ee135</guid>
-<pubDate>Fri, 20 Nov 2026 00:14:38 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>ASTRA · Kyiv</description>
-</item>
-
-<item>
-<title>[Media] 3 Kyiv bridges struck in massive Russian aerial assault on Ukraine, at least 9 dead</title>
-<link>https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/</link>
-<guid isPermaLink="false">ce348810d29f</guid>
-<pubDate>Thu, 19 Nov 2026 23:41:36 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>The Kyiv Independent · After a day of striking government buildings and cathedrals in central Kyiv, Russia launched a mass missile attack targeting the capital, striking key infrastructure in Kyiv, while targeting various regions of the country. · Kyiv</description>
-</item>
-
-<item>
-<title>[Unconfirmed] В Смоленской области атакован завод ПАО «Дорогобуж», крупный производитель компонентов для промышленных взрывчатых веществ, — OSINT-анализ ASTRA Опасность БПЛА в регионе была объявлена о</title>
-<link>https://t.me/astrapress/131627</link>
-<guid isPermaLink="false">9c34dbed481b</guid>
-<pubDate>Thu, 19 Nov 2026 23:39:29 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Smolensk oblast</description>
-</item>
-
-<item>
-<title>[Media] Simferopol residents rush to stock up on food and fuel after attacks on Kerch Bridge – Chubarov</title>
-<link>https://www.ukrinform.net/rubric-ato/4186257-simferopol-residents-rush-to-stock-up-on-food-and-fuel-after-attacks-on-kerch-bridge-chubarov.html</link>
-<guid isPermaLink="false">ccd17971604e</guid>
-<pubDate>Thu, 19 Nov 2026 22:32:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Residents of Simferopol in temporarily occupied Crimea are buying up food and fuel in large quantities following attacks on the Kerch Bridge. · Crimea</description>
-</item>
-
-<item>
-<title>[Operational report] Russia → Ukraine · 248 combat clashes · 171 guided aerial bombs dropped · 3,247 kamikaze drones used · 1,620 shellings</title>
-<link>https://t.me/GeneralStaffZSU/42949</link>
-<guid isPermaLink="false">8e399d0faff4</guid>
-<pubDate>Thu, 19 Nov 2026 20:02:04 +0000</pubDate>
-<category>Front activity</category>
-<description>General Staff of the Armed Forces of Ukraine</description>
-</item>
-
-<item>
-<title>[Unconfirmed] В результате удара российского FPV-дрона по Кушугуму Запорожской области погиб человек, — ОВА</title>
-<link>https://t.me/astrapress/131623</link>
-<guid isPermaLink="false">c575befbe8e8</guid>
-<pubDate>Thu, 19 Nov 2026 19:49:46 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Zaporizhzhia</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Петербургского активиста из партии «Рассвет» Егора Прянишникова задержали во Внуково.</title>
-<link>https://t.me/astrapress/131621</link>
-<guid isPermaLink="false">b9c595b8bbe4</guid>
-<pubDate>Thu, 19 Nov 2026 19:19:00 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · St Petersburg, Saratov oblast</description>
-</item>
-
-<item>
-<title>[Media] Latvian diplomats to continue working in Ukraine despite Russian strikes – FM</title>
-<link>https://www.ukrinform.net/rubric-polytics/4186535-latvian-diplomats-to-continue-working-in-ukraine-despite-russian-strikes-fm.html</link>
-<guid isPermaLink="false">f6edd1b3bfef</guid>
-<pubDate>Thu, 19 Nov 2026 18:19:00 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ukrinform · Latvian Foreign Minister Girts Jaunzems has said that Latvian diplomats will carry on their work in Ukraine despite Russian strikes on diplomatic missions in Ukrainian cities.</description>
-</item>
-
-<item>
-<title>[Media] Ukraine deploys experimental laser air defense system in Kyiv</title>
-<link>https://kyivindependent.com/ukraine-deploys-experimental-laser-air-defense-system-in-kyiv/</link>
-<guid isPermaLink="false">b615eaff34c4</guid>
-<pubDate>Thu, 19 Nov 2026 17:55:51 +0000</pubDate>
-<category>Air defence</category>
-<description>The Kyiv Independent · In early November Carmine Sky deployed its new &#34;Blysk&#34; laser system as part of Kyiv&#39;s air defenses. · Kyiv</description>
-</item>
-
-<item>
-<title>[Unconfirmed] В Харькове в результате российского удара дроном пострадали семь человек, — мэр Среди них подростки 13 лет и 16 лет.</title>
-<link>https://t.me/astrapress/131616</link>
-<guid isPermaLink="false">32f0c78eabde</guid>
-<pubDate>Thu, 19 Nov 2026 17:55:01 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Kharkiv</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Путин впервые за трое суток прокомментировал удары по Крымскому мосту и пообещал ответить на них Крымский мост — «исключительно мирный объект», он давно не используется для перевозки вое</title>
-<link>https://t.me/astrapress/131612</link>
-<guid isPermaLink="false">3e9dad53bcfa</guid>
-<pubDate>Thu, 19 Nov 2026 17:40:01 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Crimea</description>
-</item>
-
-<item>
-<title>[Media] &#39;We will not negotiate&#39; — Putin addresses Ukraine&#39;s strikes on Crimean Bridge</title>
-<link>https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/</link>
-<guid isPermaLink="false">c3895f0be3fb</guid>
-<pubDate>Thu, 19 Nov 2026 17:23:44 +0000</pubDate>
-<category>Infrastructure</category>
-<description>The Kyiv Independent · The remarks marked the Russian president&#39;s first public reaction to the attacks on the bridge, which he described as having sustained &#34;serious damage.&#34; · Crimea</description>
-</item>
-
-<item>
-<title>[State claim] Ukraine → Russia · 33 UAVs intercepted, as claimed</title>
-<link>https://t.me/mod_russia/69162</link>
-<guid isPermaLink="false">b5f61aa75352</guid>
-<pubDate>Thu, 19 Nov 2026 17:23:02 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>Ministry of Defence of Russia · Belgorod oblast, Bryansk oblast, Kursk oblast, Lipetsk oblast, Oryol oblast, Crimea, Black Sea</description>
-</item>
-
-<item>
-<title>[Unconfirmed] «Я очень жалею за все».</title>
-<link>https://t.me/astrapress/131607</link>
-<guid isPermaLink="false">681b9929878d</guid>
-<pubDate>Thu, 19 Nov 2026 17:16:11 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · St Petersburg, Kyiv</description>
-</item>
-
-<item>
-<title>[Media] Facing charges, SBU general goes all-in against anti-graft agencies investigating him</title>
-<link>https://kyivindependent.com/facing-charges-sbu-general-goes-on-offensive-against-anti-graft-agencies-investigating-him/</link>
-<guid isPermaLink="false">e74fe6322a2b</guid>
-<pubDate>Thu, 19 Nov 2026 17:13:45 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>The Kyiv Independent · Days after his release from pre-trial detention, SBU Major General Serhiy Duka went on the offensive against the anti-corruption agencies responsible for his arrest. · Kyiv</description>
-</item>
-
-<item>
-<title>[Media] Austrian Embassy in Kyiv damaged in Russian attack</title>
-<link>https://www.ukrinform.net/rubric-ato/4186509-austrian-embassy-in-kyiv-damaged-in-russian-attack.html</link>
-<guid isPermaLink="false">97fe4f0ce3c6</guid>
-<pubDate>Thu, 19 Nov 2026 17:03:00 +0000</pubDate>
-<category>Air attacks on Ukraine</category>
-<description>Ukrinform · The Embassy of Austria in Ukraine was damaged during a Russian drone attack on Kyiv. · Kyiv</description>
 </item>
 
 </channel>
