@@ -1,6 +1,420 @@
 {
- "generated_at": "2026-11-21 20:34",
+ "generated_at": "2026-11-22 02:17",
  "days": [
+  {
+   "date": "2026-11-22",
+   "events": [
+    {
+     "date": "2026-11-22",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/131833",
+     "quote": "Очевидцы из Краснодара публикуют видео с задымлением после украинской ночной атаки Кадры не подтверждены OSINT-аналитиком ASTRA.",
+     "time": "01:41",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Krasnodar krai"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [
+      {
+       "name": "ASTRA",
+       "url": "https://t.me/astrapress/131834"
+      }
+     ],
+     "published": "2026-11-21T23:41:14+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "ce7e6e558642"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/131837",
+     "quote": "Еще кадры с задымлением в Краснодаре после ночной украинской атаки.",
+     "time": "04:03",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Krasnodar krai"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T02:03:29+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "87560d6d1c55"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "front_line",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187082-state-special-transport-service-deminers-clear-over-230000-hectares-of-liberated-territory.html",
+     "quote": "State Special Transport Service deminers clear over 230,000 hectares of liberated territory",
+     "time": "00:40",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Demining teams from the State Special Transport Service (SSTS) of Ukraine’s Ministry of Defense have surveyed and cleared more than 230,000 hectares of territory liberated from Russian forces.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-21T22:40:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "2f809bf18947"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24306, of which: destroyed: 19262, damaged: 1010, abandoned: 1192, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24306,
+      "destroyed": 19262,
+      "damaged": 1010,
+      "abandoned": 1192,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4458
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2430
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6497
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 756
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 442
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 741
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 621
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1070
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 651
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 12
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 469
+      },
+      {
+       "label": "Radars",
+       "count": 144
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 208
+      },
+      {
+       "label": "Helicopters",
+       "count": 188
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 40
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4758
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-22T02:17:23.190985+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "535987660d7f"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12376, of which: destroyed: 9761, damaged: 723, abandoned: 693, captured: 1199",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12376,
+      "destroyed": 9761,
+      "damaged": 723,
+      "abandoned": 693,
+      "captured": 1199
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1475
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 568
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1628
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1483
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1021
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2225
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 105
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 303
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 306
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1004
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 137
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 152
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1409
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-22T02:17:23.656992+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "78d4270be692"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "weapons_deliveries",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/swedish-gripen-pilot-unable-to-shoot-down-suspected-russian-missile-over-poland-due-to-poor-weather-commander-says/",
+     "quote": "Swedish Gripen pilot unable to shoot down suspected Russian missile over Poland due to poor weather, commander says",
+     "time": "00:07",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The aircraft were participating in a two-month NATO air defense deployment to protect Polish airspace.",
+     "weapons": [
+      {
+       "name": "Gripen"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-21T22:07:35+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7d20c9244e8b"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "weapons_deliveries",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/uk-to-produce-middle-strike-long-range-drones-for-ukraine-in-britain/",
+     "quote": "UK to produce 'middle strike,' long-range drones for Ukraine in Britain",
+     "time": "03:30",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Kyiv and London finalized an agreement on Nov.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T01:30:56+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "88cf1ca83db9"
+    }
+   ]
+  },
   {
    "date": "2026-11-21",
    "events": [
@@ -756,6 +1170,66 @@
     },
     {
      "date": "2026-11-21",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187248-injury-toll-in-russian-attack-on-kryvyi-rih-rises-to-73-including-nine-children.html",
+     "quote": "Injury toll in Russian attack on Kryvyi Rih rises to 73, including nine children",
+     "time": "22:25",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The number of people injured in yesterday’s Russian attack on Kryvyi Rih has risen to 73, including nine children.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kryvyi Rih"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-21T20:25:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f65983c63364"
+    },
+    {
+     "date": "2026-11-21",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187254-three-people-injured-in-russian-attack-on-zaporizhzhia-including-two-children.html",
+     "quote": "Three people injured in Russian attack on Zaporizhzhia, including two children",
+     "time": "23:12",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The number of people injured in the Russian attack on Zaporizhzhia has risen to three, including two children.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-21T21:12:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "6e98262d029d"
+    },
+    {
+     "date": "2026-11-21",
      "category": "strikes_in_russia",
      "source_id": "mod_russia",
      "source_name": "Ministry of Defence of Russia",
@@ -986,6 +1460,37 @@
      "detail_en": null,
      "locations_en": null,
      "id": "825636542183"
+    },
+    {
+     "date": "2026-11-21",
+     "category": "front_line",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187253-war-update-116-clashes-on-front-line-russian-forces-pressing-hardest-in-pokrovsk-kostiantynivka-sectors.html",
+     "quote": "War update: 116 clashes on front line, Russian forces pressing hardest in Pokrovsk, Kostiantynivka sectors",
+     "time": "22:48",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "A total of 116 combat engagements took place along the front line, with Russian forces launching nearly 25 assaults on Ukrainian positions in the Pokrovsk and Kostiantynivka sectors.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Pokrovsk",
+      "Kostiantynivka"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-21T20:48:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "e9ce04b76f82"
     },
     {
      "date": "2026-11-21",

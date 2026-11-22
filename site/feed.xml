@@ -6,7 +6,88 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Sat, 21 Nov 2026 20:34:12 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 02:17:25 +0000</lastBuildDate>
+
+<item>
+<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
+<guid isPermaLink="false">78d4270be692</guid>
+<pubDate>Sun, 22 Nov 2026 02:17:23 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Ukrainian equipment losses)</description>
+</item>
+
+<item>
+<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
+<guid isPermaLink="false">535987660d7f</guid>
+<pubDate>Sun, 22 Nov 2026 02:17:23 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Еще кадры с задымлением в Краснодаре после ночной украинской атаки.</title>
+<link>https://t.me/astrapress/131837</link>
+<guid isPermaLink="false">87560d6d1c55</guid>
+<pubDate>Sun, 22 Nov 2026 02:03:29 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Krasnodar krai</description>
+</item>
+
+<item>
+<title>[Media] UK to produce &#39;middle strike,&#39; long-range drones for Ukraine in Britain</title>
+<link>https://kyivindependent.com/uk-to-produce-middle-strike-long-range-drones-for-ukraine-in-britain/</link>
+<guid isPermaLink="false">88cf1ca83db9</guid>
+<pubDate>Sun, 22 Nov 2026 01:30:56 +0000</pubDate>
+<category>Weapons and deliveries</category>
+<description>The Kyiv Independent · Kyiv and London finalized an agreement on Nov. · Kyiv</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Очевидцы из Краснодара публикуют видео с задымлением после украинской ночной атаки Кадры не подтверждены OSINT-аналитиком ASTRA.</title>
+<link>https://t.me/astrapress/131833</link>
+<guid isPermaLink="false">ce7e6e558642</guid>
+<pubDate>Sat, 21 Nov 2026 23:41:14 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Krasnodar krai</description>
+</item>
+
+<item>
+<title>[Media] State Special Transport Service deminers clear over 230,000 hectares of liberated territory</title>
+<link>https://www.ukrinform.net/rubric-ato/4187082-state-special-transport-service-deminers-clear-over-230000-hectares-of-liberated-territory.html</link>
+<guid isPermaLink="false">2f809bf18947</guid>
+<pubDate>Sat, 21 Nov 2026 22:40:00 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ukrinform · Demining teams from the State Special Transport Service (SSTS) of Ukraine’s Ministry of Defense have surveyed and cleared more than 230,000 hectares of territory liberated from Russian forces.</description>
+</item>
+
+<item>
+<title>[Media] Swedish Gripen pilot unable to shoot down suspected Russian missile over Poland due to poor weather, commander says</title>
+<link>https://kyivindependent.com/swedish-gripen-pilot-unable-to-shoot-down-suspected-russian-missile-over-poland-due-to-poor-weather-commander-says/</link>
+<guid isPermaLink="false">7d20c9244e8b</guid>
+<pubDate>Sat, 21 Nov 2026 22:07:35 +0000</pubDate>
+<category>Weapons and deliveries</category>
+<description>The Kyiv Independent · The aircraft were participating in a two-month NATO air defense deployment to protect Polish airspace.</description>
+</item>
+
+<item>
+<title>[Media] Three people injured in Russian attack on Zaporizhzhia, including two children</title>
+<link>https://www.ukrinform.net/rubric-ato/4187254-three-people-injured-in-russian-attack-on-zaporizhzhia-including-two-children.html</link>
+<guid isPermaLink="false">6e98262d029d</guid>
+<pubDate>Sat, 21 Nov 2026 21:12:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · The number of people injured in the Russian attack on Zaporizhzhia has risen to three, including two children. · Zaporizhzhia</description>
+</item>
+
+<item>
+<title>[Media] War update: 116 clashes on front line, Russian forces pressing hardest in Pokrovsk, Kostiantynivka sectors</title>
+<link>https://www.ukrinform.net/rubric-ato/4187253-war-update-116-clashes-on-front-line-russian-forces-pressing-hardest-in-pokrovsk-kostiantynivka-sectors.html</link>
+<guid isPermaLink="false">e9ce04b76f82</guid>
+<pubDate>Sat, 21 Nov 2026 20:48:00 +0000</pubDate>
+<category>Front line changes</category>
+<description>Ukrinform · A total of 116 combat engagements took place along the front line, with Russian forces launching nearly 25 assaults on Ukrainian positions in the Pokrovsk and Kostiantynivka sectors. · Pokrovsk, Kostiantynivka</description>
+</item>
 
 <item>
 <title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
@@ -24,6 +105,15 @@
 <pubDate>Sat, 21 Nov 2026 20:34:10 +0000</pubDate>
 <category>Claimed losses</category>
 <description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Media] Injury toll in Russian attack on Kryvyi Rih rises to 73, including nine children</title>
+<link>https://www.ukrinform.net/rubric-ato/4187248-injury-toll-in-russian-attack-on-kryvyi-rih-rises-to-73-including-nine-children.html</link>
+<guid isPermaLink="false">f65983c63364</guid>
+<pubDate>Sat, 21 Nov 2026 20:25:00 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Ukrinform · The number of people injured in yesterday’s Russian attack on Kryvyi Rih has risen to 73, including nine children. · Kryvyi Rih</description>
 </item>
 
 <item>
@@ -1266,96 +1356,6 @@
 <pubDate>Thu, 19 Nov 2026 09:45:00 +0000</pubDate>
 <category>Strikes in Russia and occupied territory</category>
 <description>Ukrinform · Residents of Almetyevsk in Russia&#39;s Tatarstan region recorded flashes near the village of Kaleykino, where an oil pumping station of the Russian trunk oil pipeline system of the same name is located. · Tatarstan</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Власти Татарстана подтвердили атаку украинских БПЛА на резервуары с нефтью рядом с Альметьевском и сообщили о повреждении гражданских объектов «Рано утром вражеские беспилотники атаковал</title>
-<link>https://t.me/astrapress/131550</link>
-<guid isPermaLink="false">cf1239f38b24</guid>
-<pubDate>Thu, 19 Nov 2026 09:39:23 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Tatarstan</description>
-</item>
-
-<item>
-<title>[State claim] ❗️Количество пострадавших в результате атаки на Курск выросло до 11 В клинике получили ранения три женщины, ещё две — в частном секторе.</title>
-<link>https://t.me/Hinshtein/19820</link>
-<guid isPermaLink="false">31eddd3ad6a8</guid>
-<pubDate>Thu, 19 Nov 2026 09:32:18 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Governor of Kursk oblast · Kursk oblast</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Появились фото поврежденного в результате атаки БПЛА в Курске дома №23 по улице Карла Маркса и рядом стоящих автомобилей «Пепел.Курск» опубликовал фотографии повреждений дома и автомобил</title>
-<link>https://t.me/astrapress/131543</link>
-<guid isPermaLink="false">0639c021448e</guid>
-<pubDate>Thu, 19 Nov 2026 09:01:42 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Kursk oblast</description>
-</item>
-
-<item>
-<title>[Media] Russian forces strike industrial and energy infrastructure in Odesa region overnight</title>
-<link>https://www.ukrinform.net/rubric-ato/4186267-russian-forces-strike-industrial-and-energy-infrastructure-in-odesa-region-overnight.html</link>
-<guid isPermaLink="false">21be96b0c3aa</guid>
-<pubDate>Thu, 19 Nov 2026 08:51:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Russian forces launched a massive combined attack on the south of the Odesa region overnight on November 19, damaging industrial and energy infrastructure facilities. · Odesa</description>
-</item>
-
-<item>
-<title>[State claim] ❗️ВСУ атаковали Курск Пострадали девять человек.</title>
-<link>https://t.me/Hinshtein/19815</link>
-<guid isPermaLink="false">e1afb50ee85d</guid>
-<pubDate>Thu, 19 Nov 2026 08:35:40 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Governor of Kursk oblast · Kursk oblast</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Генштаб ВСУ косвенно подтвердил поражение железнодорожной части Крымского моста «Вооруженные силы Украины поздравляют мост Васко да Гама (Лиссабон) с получением звания самого длинного мо</title>
-<link>https://t.me/astrapress/131537</link>
-<guid isPermaLink="false">a773ed25b608</guid>
-<pubDate>Thu, 19 Nov 2026 08:22:22 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Crimea</description>
-</item>
-
-<item>
-<title>[Unconfirmed] «В дом попало».</title>
-<link>https://t.me/astrapress/131532</link>
-<guid isPermaLink="false">5504234a3cc2</guid>
-<pubDate>Thu, 19 Nov 2026 08:06:27 +0000</pubDate>
-<category>Strikes in Russia and occupied territory</category>
-<description>ASTRA · Kursk oblast</description>
-</item>
-
-<item>
-<title>[Media] Four people injured in Russian drone attacks on two districts of Kyiv region over past day</title>
-<link>https://www.ukrinform.net/rubric-ato/4186244-four-people-injured-in-russian-drone-attacks-on-two-districts-of-kyiv-region-over-past-day.html</link>
-<guid isPermaLink="false">f0294a308183</guid>
-<pubDate>Thu, 19 Nov 2026 08:00:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces attacked the Vyshhorod and Fastiv districts of the Kyiv region with attack drones over the past day, injuring four people. · Kyiv</description>
-</item>
-
-<item>
-<title>[Media] War update: 211 attacks on front lines over past day, most on Pokrovsk and Kostiantynivka axes</title>
-<link>https://www.ukrinform.net/rubric-ato/4186241-war-update-211-attacks-on-front-lines-over-past-day-most-on-pokrovsk-and-kostiantynivka-axes.html</link>
-<guid isPermaLink="false">5f45db8db467</guid>
-<pubDate>Thu, 19 Nov 2026 07:25:00 +0000</pubDate>
-<category>Front line changes</category>
-<description>Ukrinform · On November 19, a total of 211 combat engagements between Ukraine&#39;s Defense Forces and Russian invading forces were recorded along the front line, with the largest number of Russian attacks on the Pokrovsk and Kostiantynivka axes. · Pokrovsk, Kostiantynivka</description>
-</item>
-
-<item>
-<title>[Media] Train services on Crimean Bridge suspended after overnight drone attack – media</title>
-<link>https://www.ukrinform.net/rubric-ato/4186231-train-services-on-crimean-bridge-suspended-after-overnight-drone-attack-media.html</link>
-<guid isPermaLink="false">a70edf5efcc7</guid>
-<pubDate>Thu, 19 Nov 2026 07:03:00 +0000</pubDate>
-<category>Infrastructure</category>
-<description>Ukrinform · Train services on the Kerch Strait Bridge have been temporarily suspended. · Crimea</description>
 </item>
 
 </channel>
