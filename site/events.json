@@ -1,6 +1,138 @@
 {
- "generated_at": "2026-11-22 17:52",
+ "generated_at": "2026-11-22 23:39",
  "days": [
+  {
+   "date": "2026-11-23",
+   "events": [
+    {
+     "date": "2026-11-23",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24323, of which: destroyed: 19276, damaged: 1012, abandoned: 1193, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24323,
+      "destroyed": 19276,
+      "damaged": 1012,
+      "abandoned": 1193,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4460
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2432
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6499
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 757
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 442
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 742
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 622
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1073
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 652
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 12
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 469
+      },
+      {
+       "label": "Radars",
+       "count": 144
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 209
+      },
+      {
+       "label": "Helicopters",
+       "count": 188
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 41
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4760
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-22T23:38:56.851019+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "eca589eab183"
+    }
+   ]
+  },
   {
    "date": "2026-11-22",
    "events": [
@@ -286,6 +418,36 @@
     },
     {
      "date": "2026-11-22",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187481-russian-attacks-on-kharkiv-continue-strike-reported-in-one-district.html",
+     "quote": "Russian attacks on Kharkiv continue, strike reported in one district",
+     "time": "22:31",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian attacks on Kharkiv are continuing, with a strike reported in the Kholodnohirskyi district.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T20:31:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "fd0623658aa3"
+    },
+    {
+     "date": "2026-11-22",
      "category": "civilian_damage",
      "source_id": "gov_rostov",
      "source_name": "Governor of Rostov oblast",
@@ -321,12 +483,12 @@
      "source_name": "The Kyiv Independent",
      "source_side": "media",
      "source_url": "https://kyivindependent.com/apartment-building-destroyed-in-kyiv-oblast-following-russian-drone-attack/",
-     "quote": "'We live in fear' — Russian attack near Kyiv kills 3, leaves families waiting as rescuers search rubble",
+     "quote": "'We live in fear' — Russian attack near Kyiv kills 6, leaves families waiting as rescuers search rubble",
      "time": "06:49",
      "actor": "Russia",
      "target": "Ukraine",
      "action": null,
-     "detail": "\"People may still be trapped under the rubble,\" President Volodymyr Zelensky said.",
+     "detail": "Several people remain missing as rescue operations continue in Dymer, where a Russian drone destroyed part of a residential building on Nov.",
      "weapons": [],
      "counts": {},
      "breakdown": [],
@@ -342,7 +504,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "e73d0fbef5e7"
+     "id": "cfd14fce3cbb"
     },
     {
      "date": "2026-11-22",
@@ -865,6 +1027,349 @@
     },
     {
      "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187442-russian-forces-pound-dnipropetrovsk-region-with-over-40-attacks-one-killed-several-injured.html",
+     "quote": "Russian forces pound Dnipropetrovsk region with over 40 attacks, one killed, several injured",
+     "time": "19:30",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "A woman was killed and several other people were injured in Russian attacks on the Dnipropetrovsk region.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Dnipropetrovsk oblast"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T17:30:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "e8e7b1ae7afd"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187456-death-toll-from-russian-attack-on-supermarket-in-vyshneve-rises-to-two.html",
+     "quote": "Death toll from Russian attack on supermarket in Vyshneve rises to two",
+     "time": "20:38",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The number of people killed in the Russian attack on a store in Vyshneve, Bucha district, Kyiv region, on the evening of November 22 has risen to two.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T18:38:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "33ec2282e16b"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/routine-shopping-trip-turned-tragedy-russia-attacks-kyiv-oblast-supermarket-during-working-hours-killing-2-injuring-at-least-8/",
+     "quote": "'Routine shopping trip turned tragedy' — Russia attacks Kyiv Oblast supermarket during working hours, killing 3, injuring 15",
+     "time": "20:43",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "\"The enemy is deliberately terrorizing the civilian population, attacking civilian infrastructure, and taking lives,\" Governor Tymur Tkachenko said.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T18:43:47+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "816c9ff3b1cd"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/131950",
+     "quote": "Ребенка нашли живым под завалами атакованной в киевском Дымере многоэтажки, — ОВА Спасатели достали ребенка живым из-под завалов, заявили в областной администрации.",
+     "time": "20:52",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T18:52:10+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "4cea9ae7a5e9"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187458-man-killed-in-russian-attack-in-bila-tserkva-district.html",
+     "quote": "Man killed in Russian attack in Bila Tserkva district",
+     "time": "20:54",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "A man was killed in a Russian attack in the Bila Tserkva district of Kyiv region on November 22.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T18:54:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "30c57afdb698"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187471-death-toll-from-russian-strike-on-supermarket-in-vyshneve-rises-to-three.html",
+     "quote": "Death toll from Russian strike on supermarket in Vyshneve rises to three",
+     "time": "21:37",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The death toll from the Russian attack on a store in Vyshneve, Bucha district, Kyiv region, on the evening of November 22 has risen to three.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T19:37:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "6210dccf6701"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187474-death-toll-from-russian-attack-in-dymer-rises-to-four-zelensky.html",
+     "quote": "Death toll from Russian attack in Dymer rises to four – Zelensky",
+     "time": "21:56",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The death toll from the Russian attack in Dymer, Kyiv region, has risen to four.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T19:56:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f1f4f6531bd8"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187482-shahed-drone-strikes-kindergarten-in-kharkiv-several-injured.html",
+     "quote": "Shahed drone strikes kindergarten in Kharkiv, several injured",
+     "time": "23:02",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "A Russian-launched Shahed drone struck a kindergarten in the Nemyshlianskyi district of Kharkiv.",
+     "weapons": [
+      {
+       "name": "Shahed/Geran-2 strike UAV"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T21:02:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "207b5a416f50"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/131955",
+     "quote": "Число погибших при ударе по многоэтажке в киевском Дымере выросло до четырех, еще 10 человек до сих пор ищут, — Зеленский «В этот дом попал российский \"шахед\" – фактически разрушен подъезд.",
+     "time": "23:24",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Shahed/Geran-2 strike UAV"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T21:24:41+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "16a6f4d97149"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/131959",
+     "quote": "В Харькове ВС РФ атаковали реактивными «шахедами» детский сад и отель, пострадали пять человек, — мэр Игорь Терехов сообщил, что атака произошла в двух районах города: в Немышлянском районе в результате удара БПЛА серьезно повреждено здание детсада, в 11 многоэтажках вылетели окна, ранения получили четыре человека.",
+     "time": "23:40",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Shahed/Geran-2 strike UAV"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T21:40:31+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7fc57f352f97"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187484-russian-forces-strike-sloviansk-killing-two-injuring-three-others.html",
+     "quote": "Russian forces strike Sloviansk, killing two, injuring three others",
+     "time": "23:52",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces shelled the city of Sloviansk in Donetsk region, killing two people and injuring three others.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Sloviansk",
+      "Donetsk oblast"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T21:52:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "4d069e9a8d45"
+    },
+    {
+     "date": "2026-11-22",
      "category": "strikes_in_russia",
      "source_id": "mod_russia",
      "source_name": "Ministry of Defence of Russia",
@@ -1048,6 +1553,38 @@
     {
      "date": "2026-11-22",
      "category": "front_line",
+     "source_id": "deepstate",
+     "source_name": "DeepState",
+     "source_side": "osint",
+     "source_url": "https://t.me/DeepStateUA/24020",
+     "quote": "🔄 Мапу оновлено ⚔️ Сили Оборони України відкинули противника поблизу Устинівки.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "advanced near",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Верхньої Терси"
+     ],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-22T21:45:15+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Верхньої Терси"
+     ],
+     "id": "0550a7317013"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "front_line",
      "source_id": "ukrinform",
      "source_name": "Ukrinform",
      "source_side": "media",
@@ -1132,6 +1669,40 @@
      "detail_en": null,
      "locations_en": null,
      "id": "40a8eb5e3554"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "front_activity",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42973",
+     "quote": "Оперативна інформація станом на 22:00 22.11.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 143 бойові зіткнення.",
+     "time": "22:00",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "since 00:00, as of 22:00",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "clashes": 143,
+      "guided_bombs": 173,
+      "air_strikes": 49,
+      "kamikaze_drones": 4398,
+      "shellings": 1855
+     },
+     "breakdown": [],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-22T20:03:01+00:00",
+     "source_tier": "operational",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "83191e758866"
     },
     {
      "date": "2026-11-22",
@@ -1571,6 +2142,40 @@
     },
     {
      "date": "2026-11-22",
+     "category": "naval",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/russian-warship-docked-in-benghazi-hit-by-suspected-drone-attack-libyan-officials-say/",
+     "quote": "Russian warship docked in Benghazi hit by suspected drone attack, Libyan officials say",
+     "time": "20:02",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Libyan officials have reported that the Russian Navy corvette Merkury was severely damaged by Ukrainian sea drones.",
+     "weapons": [
+      {
+       "name": "Naval drone (Magura/Sea Baby)"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T18:02:49+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7275cf4f146d"
+    },
+    {
+     "date": "2026-11-22",
      "category": "infrastructure",
      "source_id": "ukrinform",
      "source_name": "Ukrinform",
@@ -1658,6 +2263,66 @@
      "detail_en": null,
      "locations_en": null,
      "id": "325e23e941a0"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "infrastructure",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187461-russian-forces-destroy-18-trolleybuses-damage-heating-pipeline-in-dnipro.html",
+     "quote": "Russian forces destroy 18 trolleybuses, damage heating pipeline in Dnipro",
+     "time": "21:21",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "A depot for electric public transport caught fire in Dnipro following Russian shelling, resulting in the destruction of 18 trolleybuses.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Dnipro"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T19:21:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f4c48360e60f"
+    },
+    {
+     "date": "2026-11-22",
+     "category": "infrastructure",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/a-438-000-bet-on-kyiv-why-open-a-restaurant-ahead-of-a-winter-of-blackouts/",
+     "quote": "A $438,000 bet on Kyiv — Why open a restaurant ahead of a winter of blackouts?",
+     "time": "21:56",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "On a sunny November Sunday in Kyiv's Podil District, a line of people stretches outside Lyra, a newly opened Greek restaurant.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-22T19:56:22+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "967f154647aa"
     }
    ]
   },

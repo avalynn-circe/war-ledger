@@ -1,0 +1,133 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-22T23:39:06+00:00",
+ "events": [
+  {
+   "date": "2026-11-23",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24323, of which: destroyed: 19276, damaged: 1012, abandoned: 1193, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24323,
+    "destroyed": 19276,
+    "damaged": 1012,
+    "abandoned": 1193,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4460
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2432
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6499
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 757
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 442
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 742
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 622
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1073
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 652
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 71
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 12
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 469
+    },
+    {
+     "label": "Radars",
+     "count": 144
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 209
+    },
+    {
+     "label": "Helicopters",
+     "count": 188
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 41
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4760
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-22T23:38:56.851019+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "eca589eab183"
+  }
+ ]
+}
