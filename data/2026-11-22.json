@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T23:39:06+00:00",
+ "generated_at": "2026-11-23T07:47:14+00:00",
  "events": [
   {
    "date": "2026-11-22",
@@ -349,7 +349,7 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/apartment-building-destroyed-in-kyiv-oblast-following-russian-drone-attack/",
-   "quote": "'We live in fear' — Russian attack near Kyiv kills 6, leaves families waiting as rescuers search rubble",
+   "quote": "'We live in fear' — Russian attack near Kyiv kills 11, leaves families waiting as rescuers search rubble",
    "time": "06:49",
    "actor": "Russia",
    "target": "Ukraine",
@@ -370,7 +370,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "cfd14fce3cbb"
+   "id": "ee0c52144b38"
   },
   {
    "date": "2026-11-22",
