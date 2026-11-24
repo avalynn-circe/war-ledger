@@ -1,6 +1,577 @@
 {
- "generated_at": "2026-11-23 20:17",
+ "generated_at": "2026-11-24 04:50",
  "days": [
+  {
+   "date": "2026-11-24",
+   "events": [
+    {
+     "date": "2026-11-24",
+     "category": "air_attack",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132070",
+     "quote": "Приближенный к Кадырову выдавал себя за украинца, чтобы получить румынское гражданство, — СМИ Майрбек Абдулазизов, принадлежащий к ближнему кругу главы Чечни Рамзана Кадырова, подавал заявление на получение румынского гражданства, выдавая себя за украинца.",
+     "time": "02:39",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kyiv",
+      "Samara oblast",
+      "Dagestan",
+      "Tatarstan"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-24T00:39:52+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f704c553ed51"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132072",
+     "quote": "В результате авиаудара ВС РФ по Запорожью пострадали семь человек, — ОВА Атака произошла вечером 23 ноября.",
+     "time": "03:27",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Guided aerial bomb (KAB/FAB)"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-24T01:27:50+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "57689d7e9ba2"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132078",
+     "quote": "ВС РФ атаковали Запорожье: повреждены многоэтажка и частный дом, 11 человек ранены, — ОВА «Разрушен частный жилой дом, частично разрушена пятиэтажка.",
+     "time": "05:22",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-24T03:22:02+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "324094abcb65"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187755-russia-develops-new-reconnaissance-version-of-molniya-drone-with-gasoline-engine-presidential-advisor.html",
+     "quote": "Russia develops new reconnaissance version of Molniya drone with gasoline engine – presidential advisor",
+     "time": "05:27",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Russian forces have developed a new reconnaissance version of the Molniya unmanned aerial vehicle equipped with a gasoline engine.",
+     "weapons": [
+      {
+       "name": "Molniya UAV"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-24T03:27:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "2307b1147d13"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "civilian_damage",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/2-killed-22-injured-in-russian-attack-on-residential-building-in-zaporizhzhia/",
+     "quote": "2 killed, 22 injured in Russian attack on residential building in Zaporizhzhia",
+     "time": "06:19",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Mykhailo Semikin, the head of the Zaporizhzhia Oblast Military Administration, reported that Russian forces partially destroyed a five-story residential building in the Kosmichnyi district of the city.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-24T04:19:44+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "0b7b7ba20ef4"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187890-russian-strikes-on-zaporizhzhia-leave-11-injured-houses-destroyed.html",
+     "quote": "Russian strikes on Zaporizhzhia leave two people killed, 11 injured, houses destroyed",
+     "time": "06:20",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Two people were killed and 11 injured in a Russian attack on Zaporizhzhia, which damaged apartment buildings, private houses and a transport infrastructure facility.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Zaporizhzhia"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-24T04:20:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "97528cf051fe"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132084",
+     "quote": "Минюст РФ разработал схему перераспределения смертей российских военных между регионами, чтобы не показывать всплеск смертности в Ростовской области Издание «Важные истории» обнаружили в утечке документов Росстата, которую журналистам передали хакеры из группировок Silent Crow и «Киберпартизаны», как российские власти…",
+     "time": "06:29",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Rostov oblast",
+      "St Petersburg",
+      "Leningrad oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-24T04:29:27+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "78fdbb8e5d7f"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132069",
+     "quote": "В Люблинском воеводстве Польши объявили воздушную тревогу из-за «угрозы авиаудара» Правительственный центр безопасности выпустил предупреждение для некоторых районов Люблинского воеводства.",
+     "time": "00:39",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "Kh-101/Kh-555 cruise missile"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Tatarstan",
+      "Moscow"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-23T22:39:04+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "1dae934aab3c"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "strikes_in_russia",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-polytics/4187653-estonia-must-get-used-to-ukrainian-drone-attacks-in-the-baltic-sea-prime-minister-says.html",
+     "quote": "Estonia must get used to Ukrainian drone attacks in the Baltic Sea, Prime Minister says",
+     "time": "02:37",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": null,
+     "detail": "Estonian Prime Minister Kristen Michal said Ukraine’s attacks on Russian vessels in the Baltic Sea were understandable, adding that such attacks were something countries should get used to and be prepared for.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-24T00:37:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "bfa23b6d7569"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24323, of which: destroyed: 19276, damaged: 1012, abandoned: 1193, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24323,
+      "destroyed": 19276,
+      "damaged": 1012,
+      "abandoned": 1193,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4460
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2432
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6499
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 757
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 442
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 742
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 622
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1073
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 652
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 12
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 469
+      },
+      {
+       "label": "Radars",
+       "count": 144
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 209
+      },
+      {
+       "label": "Helicopters",
+       "count": 188
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 41
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4760
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-24T04:50:47.106610+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "eca589eab183"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12396, of which: destroyed: 9775, damaged: 729, abandoned: 693, captured: 1199",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12396,
+      "destroyed": 9775,
+      "damaged": 729,
+      "abandoned": 693,
+      "captured": 1199
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1475
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 568
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1628
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1490
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1021
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2231
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 105
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 303
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 307
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1010
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 137
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 152
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1409
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-24T04:50:48.085334+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "eefc12e5a3e5"
+    },
+    {
+     "date": "2026-11-24",
+     "category": "naval",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187567-russia-lacks-capability-to-recover-kerch-bridge-spans-from-seabed-ukrainian-navy-spokesperson.html",
+     "quote": "Russia lacks capability to recover Kerch Bridge spans from seabed – Ukrainian Navy spokesperson",
+     "time": "00:27",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Russia lacks the capability to raise the spans of the Kerch Bridge from the seabed, while foreign companies are unlikely to take part in the operation because the area is an active combat zone.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-23T22:27:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "982d09839d5d"
+    }
+   ]
+  },
   {
    "date": "2026-11-23",
    "events": [
@@ -1020,7 +1591,7 @@
      "source_name": "The Kyiv Independent",
      "source_side": "media",
      "source_url": "https://kyivindependent.com/novoshakhtinsk-oil-refinery-reportedly-burning-after-ukrainian-drone-attack/",
-     "quote": "Novoshakhtinsk oil refinery, Tatarstan pumping station burning after Ukrainian drone attack",
+     "quote": "Novoshakhtinsk, Perm oil refineries hit, General Staff confirms, Tatarstan pumping station reportedly burning after Ukrainian drone attack",
      "time": "03:18",
      "actor": "Ukraine",
      "target": "Russia",
@@ -1030,6 +1601,7 @@
      "counts": {},
      "breakdown": [],
      "locations": [
+      "Perm krai",
       "Tatarstan"
      ],
      "lang": "en",
@@ -1041,7 +1613,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "894b6f68959e"
+     "id": "a816f7b696f1"
     },
     {
      "date": "2026-11-23",
@@ -1916,6 +2488,34 @@
      "detail_en": null,
      "locations_en": null,
      "id": "95562577497d"
+    },
+    {
+     "date": "2026-11-23",
+     "category": "naval",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4187865-zelensky-ukraine-to-continue-naval-strikes-after-hitting-two-russian-vessels-off-libya.html",
+     "quote": "Zelensky: Ukraine to continue naval strikes after hitting two Russian vessels off Libya",
+     "time": "23:00",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Volodymyr Zelensky said Ukraine is responding appropriately to Russian attacks and that its naval operations will continue.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-23T21:00:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "cfc28e964c0b"
     },
     {
      "date": "2026-11-23",

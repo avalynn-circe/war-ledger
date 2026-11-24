@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-23T20:17:58+00:00",
+ "generated_at": "2026-11-24T04:50:50+00:00",
  "events": [
   {
    "date": "2026-11-23",
@@ -1018,7 +1018,7 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/novoshakhtinsk-oil-refinery-reportedly-burning-after-ukrainian-drone-attack/",
-   "quote": "Novoshakhtinsk oil refinery, Tatarstan pumping station burning after Ukrainian drone attack",
+   "quote": "Novoshakhtinsk, Perm oil refineries hit, General Staff confirms, Tatarstan pumping station reportedly burning after Ukrainian drone attack",
    "time": "03:18",
    "actor": "Ukraine",
    "target": "Russia",
@@ -1028,6 +1028,7 @@
    "counts": {},
    "breakdown": [],
    "locations": [
+    "Perm krai",
     "Tatarstan"
    ],
    "lang": "en",
@@ -1039,7 +1040,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "894b6f68959e"
+   "id": "a816f7b696f1"
   },
   {
    "date": "2026-11-23",
@@ -1914,6 +1915,34 @@
    "detail_en": null,
    "locations_en": null,
    "id": "95562577497d"
+  },
+  {
+   "date": "2026-11-23",
+   "category": "naval",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4187865-zelensky-ukraine-to-continue-naval-strikes-after-hitting-two-russian-vessels-off-libya.html",
+   "quote": "Zelensky: Ukraine to continue naval strikes after hitting two Russian vessels off Libya",
+   "time": "23:00",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "Volodymyr Zelensky said Ukraine is responding appropriately to Russian attacks and that its naval operations will continue.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-23T21:00:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "cfc28e964c0b"
   },
   {
    "date": "2026-11-23",
