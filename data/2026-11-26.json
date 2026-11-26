@@ -1,0 +1,286 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T00:27:39+00:00",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "category": "air_attack",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4188297-sbu-detains-hairdresser-in-sloviansk-suspected-of-directing-russian-strikes.html",
+   "quote": "SBU detains hairdresser in Sloviansk suspected of directing Russian strikes",
+   "time": "00:32",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": null,
+   "detail": "The Security Service of Ukraine (SBU) has detained a woman suspected of directing Russian strikes on Sloviansk.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Sloviansk"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-25T22:32:00+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "6f8f6986b06c"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/132243",
+   "quote": "Шесть человек пострадали в результате российской атаки в Запорожье, — ОВА «Враг атаковал Шевченковский район города.",
+   "time": "00:56",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Zaporizhzhia"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-25T22:56:02+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "2e884f75ffa9"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "strikes_in_russia",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/132238",
+   "quote": "В Валуйках Белгородской области дрон попал в супермаркет «Пятерочка» и магазин пиротехники, — СМИ «После удара БПЛА в Валуйках горит супермаркет «Пятерочка».",
+   "time": "00:02",
+   "actor": "Ukraine",
+   "target": "Russia",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Belgorod oblast"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [
+    {
+     "name": "ASTRA",
+     "url": "https://t.me/astrapress/132240"
+    }
+   ],
+   "published": "2026-11-25T22:02:39+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "66ec633069c5"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "front_line",
+   "source_id": "ukrinform",
+   "source_name": "Ukrinform",
+   "source_side": "media",
+   "source_url": "https://www.ukrinform.net/rubric-ato/4188683-war-update-151-clashes-along-the-front-line-40-russian-troops-killed-on-pokrovsk-axis.html",
+   "quote": "War update: 151 clashes along the front line; 40 Russian troops killed on Pokrovsk axis",
+   "time": "00:06",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "On November 25, Ukrainian forces reported 151 combat engagements along the front line, including 18 Russian attacks repelled in the Pokrovsk sector.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Pokrovsk"
+   ],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-25T22:06:30+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "c08a74b4f020"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "losses_claimed",
+   "source_id": "oryx_russia",
+   "source_name": "Oryx (Russian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+   "quote": "Russia - 24323, of which: destroyed: 19276, damaged: 1012, abandoned: 1193, captured: 2842",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Russia",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 24323,
+    "destroyed": 19276,
+    "damaged": 1012,
+    "abandoned": 1193,
+    "captured": 2842
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 4460
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 2432
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 6499
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 757
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 64
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 442
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 323
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 742
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 47
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 183
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 622
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1073
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 652
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 71
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 12
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 469
+    },
+    {
+     "label": "Radars",
+     "count": 144
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 107
+    },
+    {
+     "label": "Aircraft",
+     "count": 209
+    },
+    {
+     "label": "Helicopters",
+     "count": 188
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 26
+    },
+    {
+     "label": "Naval Ships and Submarines",
+     "count": 41
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 4760
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-26T00:27:29.782780+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "eca589eab183"
+  },
+  {
+   "date": "2026-11-26",
+   "category": "weapons_deliveries",
+   "source_id": "kyivindependent",
+   "source_name": "The Kyiv Independent",
+   "source_side": "media",
+   "source_url": "https://kyivindependent.com/no-good-news-from-us-on-accelerating-air-defense-missile-deliveries-zelensky-says/",
+   "quote": "No good news from US on accelerating air defense missile deliveries, Zelensky says",
+   "time": "01:05",
+   "actor": null,
+   "target": null,
+   "action": null,
+   "detail": "\"Unfortunately, we don't have any good news from the United States yet on accelerating deliveries.",
+   "weapons": [],
+   "counts": {},
+   "breakdown": [],
+   "locations": [],
+   "lang": "en",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-25T23:05:31+00:00",
+   "source_tier": "media",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "f8c0f98b2f7c"
+  }
+ ]
+}
