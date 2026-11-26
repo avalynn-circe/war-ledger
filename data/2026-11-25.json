@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-26T00:27:39+00:00",
+ "generated_at": "2026-11-26T10:58:45+00:00",
  "events": [
   {
    "date": "2026-11-25",
@@ -358,12 +358,12 @@
    "source_name": "The Kyiv Independent",
    "source_side": "media",
    "source_url": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-   "quote": "Russia slams Kyiv in ballistic missile attack, hits shopping center, injures 4",
+   "quote": "Russia slams Kyiv in ballistic missile attack, hits shopping center, injures 7",
    "time": "23:42",
    "actor": "Russia",
    "target": "Ukraine",
    "action": null,
-   "detail": "Russia launched a massive ballistic missile attack against Ukraine late on Nov.",
+   "detail": "Russia launched a ballistic missile attack against Ukraine late on Nov.",
    "weapons": [],
    "counts": {},
    "breakdown": [],
@@ -379,7 +379,7 @@
    "quote_en": null,
    "detail_en": null,
    "locations_en": null,
-   "id": "6d5c17130fb3"
+   "id": "fb09db3eeec0"
   },
   {
    "date": "2026-11-25",
@@ -1693,7 +1693,7 @@
    "lang": "en",
    "extraction": "rules",
    "also_reported_by": [],
-   "published": "2026-11-25T20:58:39+00:00",
+   "published": "2026-11-25T20:58:00+00:00",
    "source_tier": "media",
    "corrected": null,
    "quote_en": null,

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26 00:27",
+ "generated_at": "2026-11-26 10:58",
  "days": [
   {
    "date": "2026-11-26",
@@ -7,10 +7,43 @@
     {
      "date": "2026-11-26",
      "category": "air_attack",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/69332",
+     "quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесен массированный удар высокоточным оружием наземного базирования и ударными беспилотными летательными аппаратами, в результате которого поражены предприятия военно-промышленного комплекса в городе Киеве.",
+     "time": null,
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "strike, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [
+      {
+       "name": "Ministry of Defence of Russia",
+       "url": "https://t.me/mod_russia/69334"
+      }
+     ],
+     "published": "2026-11-26T05:24:54+00:00",
+     "source_tier": "state",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "5338c6f04f6f"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "air_attack",
      "source_id": "ukrinform",
      "source_name": "Ukrinform",
      "source_side": "media",
-     "source_url": "https://www.ukrinform.net/rubric-ato/4188297-sbu-detains-hairdresser-in-sloviansk-suspected-of-directing-russian-strikes.html",
+     "source_url": "https://www.ukrinform.net/rubric-crime/4188297-sbu-detains-hairdresser-in-sloviansk-suspected-of-directing-russian-strikes.html",
      "quote": "SBU detains hairdresser in Sloviansk suspected of directing Russian strikes",
      "time": "00:32",
      "actor": "Russia",
@@ -32,7 +65,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "6f8f6986b06c"
+     "id": "99ae12250c41"
     },
     {
      "date": "2026-11-26",
@@ -63,6 +96,361 @@
      "detail_en": null,
      "locations_en": null,
      "id": "2e884f75ffa9"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "civilian_damage",
+     "source_id": "gov_rostov",
+     "source_name": "Governor of Rostov oblast",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/Yuri_Slusar/8025",
+     "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область более 20 БПЛА и ракеты уничтожены в городах Таганроге, Ростове-на-Дону и Батайске, также в семи районах области: Азовском, Верхнедонском, Каменском, Мясниковском, Неклиновском, Шолоховском, Зерноградском.",
+     "time": "06:25",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "attack on the region, as reported by the governor",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Rostov oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T04:25:42+00:00",
+     "source_tier": "state",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "0e25d47850dd"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132268",
+     "quote": "Один человек пострадал в результате российских атак в Днепропетровской области, — ОВА ВС РФ почти 20 раз атаковали беспилотниками четыре района области, 46-летний мужчина пострадал в Никопольском районе, он находится на амбулаторном лечении, сообщил глава Днепропетровской ОВА Александр Ганжа.",
+     "time": "08:26",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Pavlohrad",
+      "Mykolaiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T06:26:12+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "6b7302f77315"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132270",
+     "quote": "Четыре человека пострадали в результате атаки БПЛА в Славянском районе Краснодарского края, — оперштаб «Из-за атаки БПЛА в Славянском районе пострадали четыре человека.",
+     "time": "08:46",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Krasnodar krai"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [
+      {
+       "name": "ASTRA",
+       "url": "https://t.me/astrapress/132275"
+      }
+     ],
+     "published": "2026-11-26T06:46:24+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "1901844ffc69"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4188730-drone-strike-on-highrise-building-in-kharkiv-kills-two-people.html",
+     "quote": "Drone strike on high-rise building in Kharkiv kills two people",
+     "time": "09:27",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "In the Novobavarskyi district of Kharkiv, two people were killed when a Russian drone struck a multi-storey residential block on the morning of 26 November.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T07:27:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "1d5b18fd4fad"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4188732-russian-forces-launch-20-drone-attacks-on-four-districts-in-dnipropetrovsk-region-injuring-one-person.html",
+     "quote": "Russian forces launch 20 drone attacks on four districts in Dnipropetrovsk region, injuring one person",
+     "time": "09:58",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Since the evening of 25 November, Russian forces have launched nearly 20 drone attacks on four districts in the Dnipropetrovsk region, leaving one person injured.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Dnipropetrovsk oblast"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T07:58:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "8f0afd8a9414"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4188747-russian-attacks-on-kharkiv-region-kill-four-people-and-injure-six-in-past-24-hours.html",
+     "quote": "Russian attacks on Kharkiv region kill four people and injure six in past 24 hours",
+     "time": "10:26",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Over the past 24 hours, on 25 November, Kharkiv and 13 other settlements in the Kharkiv region came under Russian attack; four people were killed and a further six were injured.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kharkiv"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T08:26:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "577cfe070551"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4188746-russian-attacks-on-kherson-region-kill-one-person-and-injure-another-in-past-24-hours.html",
+     "quote": "Russian attacks on Kherson region kill one person and injure another in past 24 hours",
+     "time": "10:59",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "In the Kherson region, one person was killed and another injured as a result of Russian aggression.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kherson"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T08:59:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7ce5494574ec"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "civilian_damage",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4188825-russian-forces-drop-two-aerial-bombs-on-sloviansk-killing-one-person-injuring-another.html",
+     "quote": "Russian forces drop two aerial bombs on Sloviansk, killing one person, injuring another",
+     "time": "12:38",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "Russian forces dropped two 250-kilogram aerial bombs on the city of Sloviansk in the Donetsk region, killing one man and injuring another.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Sloviansk",
+      "Donetsk oblast"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T10:38:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "e40b1722a602"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "civilian_damage",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132285",
+     "quote": "Три человека погибли, 18 пострадали в результате российских атак в пяти областях Украины, — власти В результате российских атак в Черниговской, Донецкой, Запорожской, Харьковской и Херсонской областях Украины погибли три человека, еще 18 пострадали, сообщили областные военные администрации или ГСЧС.",
+     "time": "12:42",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Donetsk oblast",
+      "Zaporizhzhia",
+      "Kharkiv",
+      "Kherson",
+      "Kyiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T10:42:02+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "bc8c009f4877"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "strikes_in_russia",
+     "source_id": "mod_russia",
+     "source_name": "Ministry of Defence of Russia",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/mod_russia/69333",
+     "quote": "⚡️ В течение прошедшей ночи дежурными силами ПВО перехвачены и уничтожены 343 украинских беспилотных летательных аппарата самолетного типа над территориями Брянской, Белгородской, Курской, Орловской, Воронежской, Тульской, Саратовской, Самарской, Ростовской, Ульяновской областей, Московского региона, Ставропольского к…",
+     "time": null,
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "UAVs intercepted, as claimed (overnight)",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "intercepted_claimed": 343
+     },
+     "breakdown": [],
+     "locations": [
+      "Bryansk oblast",
+      "Belgorod oblast",
+      "Kursk oblast",
+      "Oryol oblast",
+      "Voronezh oblast",
+      "Tula oblast",
+      "Saratov oblast",
+      "Samara oblast",
+      "Rostov oblast",
+      "Ulyanovsk oblast",
+      "Moscow oblast",
+      "Stavropol krai",
+      "Krasnodar krai",
+      "Tatarstan",
+      "Bashkortostan",
+      "Crimea",
+      "Sea of Azov",
+      "Черного морей"
+     ],
+     "lang": "ru",
+     "extraction": "structured",
+     "also_reported_by": [
+      {
+       "name": "ASTRA",
+       "url": "https://t.me/astrapress/132267",
+       "quote": "343 украинских беспилотника сбиты за ночь над регионами РФ, аннексированным Крымом, Азовским и Черным морями, — Минобороны России «В течение прошедшей ночи дежурными силами ПВО перехвачены и уничтожены 343 украинских беспилотных летательных аппарата самолетного типа над территориями Брянской, Белгородской, Курской, Ор…"
+      }
+     ],
+     "published": "2026-11-26T06:02:25+00:00",
+     "source_tier": "state",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Bryansk oblast",
+      "Belgorod oblast",
+      "Kursk oblast",
+      "Oryol oblast",
+      "Voronezh oblast",
+      "Tula oblast",
+      "Saratov oblast",
+      "Samara oblast",
+      "Rostov oblast",
+      "Ulyanovsk oblast",
+      "Moscow oblast",
+      "Stavropol krai",
+      "Krasnodar krai",
+      "Tatarstan",
+      "Bashkortostan",
+      "Crimea",
+      "Sea of Azov",
+      "Черного морей"
+     ],
+     "id": "d6a100a1629d"
     },
     {
      "date": "2026-11-26",
@@ -101,6 +489,37 @@
     },
     {
      "date": "2026-11-26",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132278",
+     "quote": "Замком ВКС России по вооружению Юрий Грехов арестован в Москве, ранее он отвечал за ПВО 235-й гарнизонный военный суд Москвы арестовал заместителя главнокомандующего Воздушно-космическими силами по вооружению генерал-полковника Юрия Грехова.",
+     "time": "11:01",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Moscow",
+      "Tatarstan"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T09:01:52+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7b0c19313278"
+    },
+    {
+     "date": "2026-11-26",
      "category": "front_line",
      "source_id": "ukrinform",
      "source_name": "Ukrinform",
@@ -121,13 +540,162 @@
      "lang": "en",
      "extraction": "rules",
      "also_reported_by": [],
-     "published": "2026-11-25T22:06:30+00:00",
+     "published": "2026-11-25T22:06:00+00:00",
      "source_tier": "media",
      "corrected": null,
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
      "id": "c08a74b4f020"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "front_line",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4188741-167-clashes-reported-along-front-line-in-past-24-hours-with-pokrovsk-sector-remaining-hottest-spot.html",
+     "quote": "167 clashes reported along front line in past 24 hours, with Pokrovsk sector remaining hottest spot",
+     "time": "10:17",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "Over the past 24 hours, on 25 November, 167 combat engagements between the Ukrainian Defence Forces and Russian invaders were recorded on the front line, with the Pokrovsk sector remaining the hottest.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Pokrovsk"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T08:17:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "086323aa2dec"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "front_activity",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42999",
+     "quote": "Оперативна інформація станом на 08:00 26.11.2026 щодо відбиття російського вторгнення Слава Україні!",
+     "time": "08:00",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": "past 24 hours to 08:00, as reported",
+     "detail": "Air strikes on: Вакалівщина, Вільне",
+     "weapons": [],
+     "counts": {
+      "clashes": 167,
+      "guided_bombs": 228,
+      "air_strikes": 69,
+      "missile_strikes": 1,
+      "kamikaze_drones": 6016,
+      "shellings": 1876,
+      "concentration_areas_struck": 2,
+      "settlements_shelled": 58
+     },
+     "breakdown": [],
+     "locations": [
+      "Sumy oblast: Сопич, Бачівськ, Павлівка, Кореньок, Товстодубове, Лужки, Ободи, Храпівщина, Юнаківка, Запсілля, Нескучне, Безсалівка, Іскрисківщина, Яструбщина, Старикове, Гірки, Отруба, Нова Січ, Миропілля, Іволжанське, Вовківка, Гута, Шпиль, Волфине, Андріївка, Дорошівка, Атинське, Тополя, Суходіл",
+      "Sumy oblast: населені пункти Сопич, Бачівськ, Павлівка, Кореньок, Товстодубове, Лужки, Ободи, Храпівщина, Юнаківка, Запсілля, Нескучне, Безсалівка, Іскрисківщина, Яструбщина, Старикове, Гірки, Отруба, Нова Січ, Миропілля, Іволжанське, Вовківка, Гута, Шпиль, Волфине, Андріївка, Дорошівка, Атинське, Тополя, Суходіл"
+     ],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-26T06:00:13+00:00",
+     "source_tier": "operational",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": [
+      "Sumy oblast: Сопич, Бачівськ, Павлівка, Кореньок, Товстодубове, Лужки, Ободи, Храпівщина, Юнаківка, Запсілля, Нескучне, Безсалівка, Іскрисківщина, Яструбщина, Старикове, Гірки, Отруба, Нова Січ, Миропілля, Іволжанське, Вовківка, Гута, Шпиль, Волфине, Андріївка, Дорошівка, Атинське, Тополя, Суходіл",
+      "Sumy oblast: населені пункти Сопич, Бачівськ, Павлівка, Кореньок, Товстодубове, Лужки, Ободи, Храпівщина, Юнаківка, Запсілля, Нескучне, Безсалівка, Іскрисківщина, Яструбщина, Старикове, Гірки, Отруба, Нова Січ, Миропілля, Іволжанське, Вовківка, Гута, Шпиль, Волфине, Андріївка, Дорошівка, Атинське, Тополя, Суходіл"
+     ],
+     "id": "fea1fbb99341"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "losses_claimed",
+     "source_id": "generalstaff",
+     "source_name": "General Staff of the Armed Forces of Ukraine",
+     "source_side": "ua_official",
+     "source_url": "https://t.me/GeneralStaffZSU/42999",
+     "quote": "втрати російських загарбників склали 2319 осіб",
+     "time": null,
+     "actor": "Ukraine (General Staff)",
+     "target": "Russia",
+     "action": "Russian losses in the past 24 hours, as claimed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [
+      {
+       "label": "personnel",
+       "delta": 2319
+      },
+      {
+       "label": "armoured fighting vehicles",
+       "delta": 18
+      },
+      {
+       "label": "artillery systems",
+       "delta": 24
+      },
+      {
+       "label": "multiple rocket launchers",
+       "delta": 3
+      },
+      {
+       "label": "air defence systems",
+       "delta": 2
+      },
+      {
+       "label": "ground robotic systems",
+       "delta": 4
+      },
+      {
+       "label": "UAVs",
+       "delta": 989
+      },
+      {
+       "label": "vehicles and fuel tankers",
+       "delta": 495
+      },
+      {
+       "label": "special equipment",
+       "delta": 6
+      }
+     ],
+     "locations": [],
+     "lang": "uk",
+     "extraction": "structured",
+     "also_reported_by": [
+      {
+       "name": "The Kyiv Independent",
+       "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-645-899-troops-in-ukraine-since-feb-24-2022/",
+       "quote": "General Staff: Russia has lost 1,645,899 troops in Ukraine since Feb. 24, 2022"
+      },
+      {
+       "name": "Ukrinform",
+       "url": "https://www.ukrinform.net/rubric-ato/4188726-russia-loses-another-2319-troops-and-four-aircraft-in-war-against-ukraine-in-past-24-hours.html",
+       "quote": "Russia loses another 2,319 troops and four aircraft in war against Ukraine in past 24 hours"
+      }
+     ],
+     "published": "2026-11-26T06:00:13+00:00",
+     "source_tier": "operational",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "527969cbffa7"
     },
     {
      "date": "2026-11-26",
@@ -248,13 +816,168 @@
      "lang": "en",
      "extraction": "structured",
      "also_reported_by": [],
-     "published": "2026-11-26T00:27:29.782780+00:00",
+     "published": "2026-11-26T10:58:40.762117+00:00",
      "source_tier": "osint",
      "corrected": null,
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
      "id": "eca589eab183"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12396, of which: destroyed: 9775, damaged: 729, abandoned: 693, captured: 1199",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12396,
+      "destroyed": 9775,
+      "damaged": 729,
+      "abandoned": 693,
+      "captured": 1199
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1475
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 568
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1628
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1490
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1021
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2231
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 105
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 303
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 307
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1010
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 137
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 152
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1409
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-26T10:58:43.683407+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "eefc12e5a3e5"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "losses_claimed",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4188814-russias-november-losses-in-ukraine-already-top-55000-setting-new-wartime-record-general-staff.html",
+     "quote": "Russia’s November losses in Ukraine already top 55,000, setting new wartime record – General Staff",
+     "time": "12:19",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The Russian military has suffered its highest monthly losses of the entire war, losing 55,629 troops in the first 25 days of November.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T10:19:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "acd90ba68153"
     },
     {
      "date": "2026-11-26",
@@ -283,6 +1006,156 @@
      "detail_en": null,
      "locations_en": null,
      "id": "f8c0f98b2f7c"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "weapons_deliveries",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/ukrainian-drones-attack-key-russian-fertilizer-plant-linked-to-explosives-production-in-stavropol-krai-local-official-says/",
+     "quote": "Ukrainian drones attack key Russian fertilizer plant linked to explosives production, Stavropol Krai governor says",
+     "time": "05:14",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The Nevinnomyssk Azot plant produces up to 1 million tons of ammonia and more than 1 million tons of ammonium nitrate annually, materials used in the production of explosives and artillery shells.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Stavropol krai"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T03:14:17+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "59dbd86c7059"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "weapons_deliveries",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-polytics/4188791-north-korea-suspends-military-aid-to-russia-including-ballistic-missile-dupplies-diu.html",
+     "quote": "North Korea suspends military aid to Russia, including ballistic missile dupplies – DIU",
+     "time": "11:20",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "North Korean Foreign Minister Choe Son Hui has announced the suspension of military support for the Russian Federation, with the decision personally made by North Korean leader Kim Jong Un.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T09:20:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "7089cef3db39"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "weapons_deliveries",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4188798-us-department-of-state-approves-possible-sale-of-f16-equipment-to-ukraine.html",
+     "quote": "U.S. Department of State approves possible sale of F-16 equipment to Ukraine",
+     "time": "11:40",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The U.S.",
+     "weapons": [
+      {
+       "name": "F-16"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T09:40:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "02ef63fd869c"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "weapons_deliveries",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/north-korea-pauses-military-aid-to-russia-ukrainian-intelligence-says/",
+     "quote": "North Korea pauses military aid to Russia, Ukrainian intelligence says",
+     "time": "11:56",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The measures include banning Russian military transport aircraft from North Korean airspace and a delivery stop for KN-23 ballistic missiles and artillery shells, HUR said.",
+     "weapons": [
+      {
+       "name": "KN-23 ballistic missile"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T09:56:07+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "b971c0749789"
+    },
+    {
+     "date": "2026-11-26",
+     "category": "infrastructure",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/exclusive-eu-report-confirms-trump-threw-russian-energy-sector-an-economic-lifeline-even-as-sanctions-ukrainian-drones-bite-hard/",
+     "quote": "Exclusive: EU report confirms Trump threw Russian energy sector an economic lifeline even as sanctions, Ukrainian drones, bite hard",
+     "time": "07:00",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "The report describes Russia as \"regaining negotiating power\" thanks to the \"supply shock\" caused by the disruption in the Strait of Hormuz, a disruption it goes on to describe as \"unprecedented in scale.\"",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T05:00:16+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f762a5e50dea"
     }
    ]
   },
@@ -645,12 +1518,12 @@
      "source_name": "The Kyiv Independent",
      "source_side": "media",
      "source_url": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
-     "quote": "Russia slams Kyiv in ballistic missile attack, hits shopping center, injures 4",
+     "quote": "Russia slams Kyiv in ballistic missile attack, hits shopping center, injures 7",
      "time": "23:42",
      "actor": "Russia",
      "target": "Ukraine",
      "action": null,
-     "detail": "Russia launched a massive ballistic missile attack against Ukraine late on Nov.",
+     "detail": "Russia launched a ballistic missile attack against Ukraine late on Nov.",
      "weapons": [],
      "counts": {},
      "breakdown": [],
@@ -666,7 +1539,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "6d5c17130fb3"
+     "id": "fb09db3eeec0"
     },
     {
      "date": "2026-11-25",
@@ -1980,7 +2853,7 @@
      "lang": "en",
      "extraction": "rules",
      "also_reported_by": [],
-     "published": "2026-11-25T20:58:39+00:00",
+     "published": "2026-11-25T20:58:00+00:00",
      "source_tier": "media",
      "corrected": null,
      "quote_en": null,
