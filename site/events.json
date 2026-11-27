@@ -1,6 +1,547 @@
 {
- "generated_at": "2026-11-26 21:39",
+ "generated_at": "2026-11-27 04:18",
  "days": [
+  {
+   "date": "2026-11-27",
+   "events": [
+    {
+     "date": "2026-11-27",
+     "category": "air_attack",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-crime/4188803-ssu-detains-serviceman-suspected-of-guiding-russian-strikes-at-ukraines-defense-forces-in-donetsk-region.html",
+     "quote": "SSU detains serviceman suspected of guiding Russian strikes at Ukraine’s Defense Forces in Donetsk region",
+     "time": "03:33",
+     "actor": "Russia",
+     "target": "Ukraine",
+     "action": null,
+     "detail": "The military counterintelligence unit of the Security Service of Ukraine (SSU), with the assistance of the Commander-in-Chief of the Armed Forces of Ukraine, has detained a serviceman in the Donetsk region suspected of providing Russia with the coordinates of Ukrainian Defense Forces units and military facilities.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Donetsk oblast"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-27T01:33:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "557b0f158553"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "civilian_damage",
+     "source_id": "gov_rostov",
+     "source_name": "Governor of Rostov oblast",
+     "source_side": "ru_official",
+     "source_url": "https://t.me/Yuri_Slusar/8034",
+     "quote": "Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область БПЛА уничтожены в городе Каменске-Шахтинском, а также Каменском и Тарасовском районах области.",
+     "time": "05:50",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "attack on the region, as reported by the governor",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Rostov oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-27T03:50:37+00:00",
+     "source_tier": "state",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "16cc3efbe566"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132319",
+     "quote": "Ким Чен Ын приостановил помощь России из-за заявлений замминистра МИД РФ Андрея Руденко, — ГУР МО Украины По данным украинской разведки, ограничения предусматривают запрет на использование воздушного пространства КНДР российскими военно-транспортными самолетами, а также приостановку поставок баллистических ракет KN-23…",
+     "time": "00:04",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [
+      {
+       "name": "KN-23 ballistic missile"
+      }
+     ],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Kursk oblast",
+      "Voronezh oblast",
+      "Moscow",
+      "Kyiv"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T22:04:44+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "827f79278446"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132320",
+     "quote": "В Ефремове Тульской области, вероятно, атакован завод синтетического каучука на фоне опасности БПЛА О взрывах в городе сообщил читатель ASTRA.",
+     "time": "00:51",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Tula oblast",
+      "Tver oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [
+      {
+       "name": "ASTRA",
+       "url": "https://t.me/astrapress/132321"
+      }
+     ],
+     "published": "2026-11-26T22:51:03+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "9251d8c1e775"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132324",
+     "quote": "В Тульской области повреждена Ефремовская ТЭЦ, которая питает завод-производитель компонентов для ракетного топлива, — OSINT-анализ ASTRA Читатели ASTRA сообщали о взрывах в городе, звуках дронов и отметили, что в городе пропало отопление.",
+     "time": "02:26",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Tula oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-27T00:26:58+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "2581c11c24c0"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132327",
+     "quote": "Зафиксирован взрыв на Ефремовском заводе синтетического каучука, критически важном поставщике ВПК РФ, — OSINT-анализ ASTRA Город Ефремов Тульской области атакуют дроны.",
+     "time": "03:34",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Tula oblast"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-27T01:34:06+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "f307bf7ceb8e"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "strikes_in_russia",
+     "source_id": "astra",
+     "source_name": "ASTRA",
+     "source_side": "monitoring",
+     "source_url": "https://t.me/astrapress/132333",
+     "quote": "Над Ленинградской областью сбито 52 беспилотника.",
+     "time": "06:08",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": "as reported, unconfirmed",
+     "detail": null,
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Leningrad oblast",
+      "St Petersburg"
+     ],
+     "lang": "ru",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-27T04:08:07+00:00",
+     "source_tier": "unconfirmed",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "5e89a5b6314d"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "losses_claimed",
+     "source_id": "oryx_russia",
+     "source_name": "Oryx (Russian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+     "quote": "Russia - 24323, of which: destroyed: 19276, damaged: 1012, abandoned: 1193, captured: 2842",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Russia",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 24323,
+      "destroyed": 19276,
+      "damaged": 1012,
+      "abandoned": 1193,
+      "captured": 2842
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 4460
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 2432
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 6499
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 757
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 64
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 442
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 323
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 742
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 47
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 183
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 622
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1073
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 652
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 71
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 12
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 469
+      },
+      {
+       "label": "Radars",
+       "count": 144
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 107
+      },
+      {
+       "label": "Aircraft",
+       "count": 209
+      },
+      {
+       "label": "Helicopters",
+       "count": 188
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 26
+      },
+      {
+       "label": "Naval Ships and Submarines",
+       "count": 41
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 4760
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-27T04:17:58.240248+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "eca589eab183"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "losses_claimed",
+     "source_id": "oryx_ukraine",
+     "source_name": "Oryx (Ukrainian equipment losses)",
+     "source_side": "osint",
+     "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+     "quote": "Ukraine - 12396, of which: destroyed: 9775, damaged: 729, abandoned: 693, captured: 1199",
+     "time": null,
+     "actor": "Oryx",
+     "target": "Ukraine",
+     "action": "visually confirmed equipment losses, cumulative",
+     "detail": null,
+     "weapons": [],
+     "counts": {
+      "total": 12396,
+      "destroyed": 9775,
+      "damaged": 729,
+      "abandoned": 693,
+      "captured": 1199
+     },
+     "breakdown": [
+      {
+       "label": "Tanks",
+       "count": 1475
+      },
+      {
+       "label": "Armoured Fighting Vehicles",
+       "count": 568
+      },
+      {
+       "label": "Infantry Fighting Vehicles",
+       "count": 1628
+      },
+      {
+       "label": "Armoured Personnel Carriers",
+       "count": 1490
+      },
+      {
+       "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+       "count": 1021
+      },
+      {
+       "label": "Infantry Mobility Vehicles",
+       "count": 2231
+      },
+      {
+       "label": "Command Posts And Communications Stations",
+       "count": 105
+      },
+      {
+       "label": "Engineering Vehicles And Equipment",
+       "count": 303
+      },
+      {
+       "label": "Self-Propelled Anti-Tank Missile Systems",
+       "count": 19
+      },
+      {
+       "label": "Artillery and Missile Support Vehicles And Equipment",
+       "count": 37
+      },
+      {
+       "label": "Towed Artillery",
+       "count": 307
+      },
+      {
+       "label": "Self-Propelled Artillery",
+       "count": 1010
+      },
+      {
+       "label": "Rocket and Missile Artillery",
+       "count": 137
+      },
+      {
+       "label": "Anti-Aircraft Guns",
+       "count": 8
+      },
+      {
+       "label": "Self-Propelled Anti-Aircraft Guns",
+       "count": 51
+      },
+      {
+       "label": "Surface-To-Air Missile Systems",
+       "count": 179
+      },
+      {
+       "label": "Radars And Communications Equipment",
+       "count": 152
+      },
+      {
+       "label": "Jammers And Deception Systems",
+       "count": 12
+      },
+      {
+       "label": "Aircraft",
+       "count": 122
+      },
+      {
+       "label": "Helicopters",
+       "count": 59
+      },
+      {
+       "label": "Unmanned Combat Aerial Vehicles",
+       "count": 29
+      },
+      {
+       "label": "Naval Ships",
+       "count": 44
+      },
+      {
+       "label": "Trucks and similar vehicles",
+       "count": 1409
+      }
+     ],
+     "locations": [],
+     "lang": "en",
+     "extraction": "structured",
+     "also_reported_by": [],
+     "published": "2026-11-27T04:17:58.705498+00:00",
+     "source_tier": "osint",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "eefc12e5a3e5"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "logistics",
+     "source_id": "ukrinform",
+     "source_name": "Ukrinform",
+     "source_side": "media",
+     "source_url": "https://www.ukrinform.net/rubric-ato/4189074-enemy-attack-sparks-warehouse-fire-in-bila-tserkva-district.html",
+     "quote": "Enemy attack sparks warehouse fire in Bila Tserkva district",
+     "time": "00:03",
+     "actor": null,
+     "target": null,
+     "action": null,
+     "detail": "In the Bila Tserkva district, a fire has broken out in a warehouse following an enemy attack; emergency services are on the scene.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-26T22:03:00+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "fed5a85e9725"
+    },
+    {
+     "date": "2026-11-27",
+     "category": "infrastructure",
+     "source_id": "kyivindependent",
+     "source_name": "The Kyiv Independent",
+     "source_side": "media",
+     "source_url": "https://kyivindependent.com/explosions-reported-at-power-plant-synthetic-rubber-factory-in-russias-tula-oblast-following-drone-attack/",
+     "quote": "Explosions reported at power plant, synthetic rubber factory in Russia's Tula Oblast following drone attack",
+     "time": "06:03",
+     "actor": "Ukraine",
+     "target": "Russia",
+     "action": null,
+     "detail": "Tula Oblast Governor Dmitry Milyayev said on Telegram that Russian air defenses had downed four Ukrainian drones over the region, adding that the threat of further drone attacks remained.",
+     "weapons": [],
+     "counts": {},
+     "breakdown": [],
+     "locations": [
+      "Tula oblast"
+     ],
+     "lang": "en",
+     "extraction": "rules",
+     "also_reported_by": [],
+     "published": "2026-11-27T04:03:16+00:00",
+     "source_tier": "media",
+     "corrected": null,
+     "quote_en": null,
+     "detail_en": null,
+     "locations_en": null,
+     "id": "eac82aca5cad"
+    }
+   ]
+  },
   {
    "date": "2026-11-26",
    "events": [
@@ -132,7 +673,7 @@
      "source_name": "ASTRA",
      "source_side": "monitoring",
      "source_url": "https://t.me/astrapress/132316",
-     "quote": "Z-канал «От Мариуполя до Карпат» опубликовал видео целенаправленной атаки российского дрона на гражданского в Херсонской области На видео российский беспилотник под жизнерадостную музыку ведет наблюдение за местностью, затем обнаруживает мужчину на мопеде и атакует его.",
+     "quote": "Z-канал «От Мариуполя до Карпат» опубликовал видео целенаправленной атаки российского дрона на мужчину в гражданском в Херсонской области На видео российский беспилотник под жизнерадостную музыку ведет наблюдение за местностью, затем обнаруживает мужчину на мопеде и атакует его.",
      "time": "22:45",
      "actor": "Russia",
      "target": "Ukraine",
@@ -153,7 +694,7 @@
      "quote_en": null,
      "detail_en": null,
      "locations_en": null,
-     "id": "f9b7b557d1b3"
+     "id": "380957e224c6"
     },
     {
      "date": "2026-11-26",

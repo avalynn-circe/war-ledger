@@ -6,12 +6,111 @@
 <atom:link href="https://avalynn-circe.github.io/war-ledger/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Every entry as its source published it, newest first. Figures are each source's claims; see the tier on each item.</description>
 <language>en</language>
-<lastBuildDate>Thu, 26 Nov 2026 21:39:46 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 04:18:01 +0000</lastBuildDate>
 
 <item>
-<title>[Unconfirmed] Z-канал «От Мариуполя до Карпат» опубликовал видео целенаправленной атаки российского дрона на гражданского в Херсонской области На видео российский беспилотник под жизнерадостную музыку</title>
+<title>[Verified OSINT] Oryx → Ukraine · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html</link>
+<guid isPermaLink="false">eefc12e5a3e5</guid>
+<pubDate>Fri, 27 Nov 2026 04:17:58 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Ukrainian equipment losses)</description>
+</item>
+
+<item>
+<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
+<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
+<guid isPermaLink="false">eca589eab183</guid>
+<pubDate>Fri, 27 Nov 2026 04:17:58 +0000</pubDate>
+<category>Claimed losses</category>
+<description>Oryx (Russian equipment losses)</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Над Ленинградской областью сбито 52 беспилотника.</title>
+<link>https://t.me/astrapress/132333</link>
+<guid isPermaLink="false">5e89a5b6314d</guid>
+<pubDate>Fri, 27 Nov 2026 04:08:07 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Leningrad oblast, St Petersburg</description>
+</item>
+
+<item>
+<title>[Media] Explosions reported at power plant, synthetic rubber factory in Russia&#39;s Tula Oblast following drone attack</title>
+<link>https://kyivindependent.com/explosions-reported-at-power-plant-synthetic-rubber-factory-in-russias-tula-oblast-following-drone-attack/</link>
+<guid isPermaLink="false">eac82aca5cad</guid>
+<pubDate>Fri, 27 Nov 2026 04:03:16 +0000</pubDate>
+<category>Infrastructure</category>
+<description>The Kyiv Independent · Tula Oblast Governor Dmitry Milyayev said on Telegram that Russian air defenses had downed four Ukrainian drones over the region, adding that the threat of further drone attacks remained. · Tula oblast</description>
+</item>
+
+<item>
+<title>[State claim] Минувшей ночью в ходе отражения воздушной атаки на Ростовскую область БПЛА уничтожены в городе Каменске-Шахтинском, а также Каменском и Тарасовском районах области.</title>
+<link>https://t.me/Yuri_Slusar/8034</link>
+<guid isPermaLink="false">16cc3efbe566</guid>
+<pubDate>Fri, 27 Nov 2026 03:50:37 +0000</pubDate>
+<category>Civilian damage</category>
+<description>Governor of Rostov oblast · Rostov oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Зафиксирован взрыв на Ефремовском заводе синтетического каучука, критически важном поставщике ВПК РФ, — OSINT-анализ ASTRA Город Ефремов Тульской области атакуют дроны.</title>
+<link>https://t.me/astrapress/132327</link>
+<guid isPermaLink="false">f307bf7ceb8e</guid>
+<pubDate>Fri, 27 Nov 2026 01:34:06 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Tula oblast</description>
+</item>
+
+<item>
+<title>[Media] SSU detains serviceman suspected of guiding Russian strikes at Ukraine’s Defense Forces in Donetsk region</title>
+<link>https://www.ukrinform.net/rubric-crime/4188803-ssu-detains-serviceman-suspected-of-guiding-russian-strikes-at-ukraines-defense-forces-in-donetsk-region.html</link>
+<guid isPermaLink="false">557b0f158553</guid>
+<pubDate>Fri, 27 Nov 2026 01:33:00 +0000</pubDate>
+<category>Air attacks on Ukraine</category>
+<description>Ukrinform · The military counterintelligence unit of the Security Service of Ukraine (SSU), with the assistance of the Commander-in-Chief of the Armed Forces of Ukraine, has detained a serviceman in the Donetsk region suspected of providing Russia with the coordinates of Ukrainian Defense Forces units and military facilities. · Donetsk oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Тульской области повреждена Ефремовская ТЭЦ, которая питает завод-производитель компонентов для ракетного топлива, — OSINT-анализ ASTRA Читатели ASTRA сообщали о взрывах в городе, звук</title>
+<link>https://t.me/astrapress/132324</link>
+<guid isPermaLink="false">2581c11c24c0</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:58 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Tula oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] В Ефремове Тульской области, вероятно, атакован завод синтетического каучука на фоне опасности БПЛА О взрывах в городе сообщил читатель ASTRA.</title>
+<link>https://t.me/astrapress/132320</link>
+<guid isPermaLink="false">9251d8c1e775</guid>
+<pubDate>Thu, 26 Nov 2026 22:51:03 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Tula oblast, Tver oblast</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Ким Чен Ын приостановил помощь России из-за заявлений замминистра МИД РФ Андрея Руденко, — ГУР МО Украины По данным украинской разведки, ограничения предусматривают запрет на использован</title>
+<link>https://t.me/astrapress/132319</link>
+<guid isPermaLink="false">827f79278446</guid>
+<pubDate>Thu, 26 Nov 2026 22:04:44 +0000</pubDate>
+<category>Strikes in Russia and occupied territory</category>
+<description>ASTRA · Kursk oblast, Voronezh oblast, Moscow, Kyiv</description>
+</item>
+
+<item>
+<title>[Media] Enemy attack sparks warehouse fire in Bila Tserkva district</title>
+<link>https://www.ukrinform.net/rubric-ato/4189074-enemy-attack-sparks-warehouse-fire-in-bila-tserkva-district.html</link>
+<guid isPermaLink="false">fed5a85e9725</guid>
+<pubDate>Thu, 26 Nov 2026 22:03:00 +0000</pubDate>
+<category>Logistics and supply</category>
+<description>Ukrinform · In the Bila Tserkva district, a fire has broken out in a warehouse following an enemy attack; emergency services are on the scene.</description>
+</item>
+
+<item>
+<title>[Unconfirmed] Z-канал «От Мариуполя до Карпат» опубликовал видео целенаправленной атаки российского дрона на мужчину в гражданском в Херсонской области На видео российский беспилотник под жизнерадостн</title>
 <link>https://t.me/astrapress/132316</link>
-<guid isPermaLink="false">f9b7b557d1b3</guid>
+<guid isPermaLink="false">380957e224c6</guid>
 <pubDate>Thu, 26 Nov 2026 20:45:49 +0000</pubDate>
 <category>Air attacks on Ukraine</category>
 <description>ASTRA · Kherson</description>
@@ -1257,105 +1356,6 @@
 <pubDate>Tue, 24 Nov 2026 11:07:33 +0000</pubDate>
 <category>Strikes in Russia and occupied territory</category>
 <description>ASTRA · Tatarstan</description>
-</item>
-
-<item>
-<title>[Media] Russian drone hits railway station in Korosten, killing one and injuring two</title>
-<link>https://www.ukrinform.net/rubric-ato/4187988-russian-drone-hits-railway-station-in-korosten-killing-one-and-injuring-two.html</link>
-<guid isPermaLink="false">08ae93d6ca4a</guid>
-<pubDate>Tue, 24 Nov 2026 09:38:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · A Russian drone struck a railway station in Korosten, Zhytomyr region, killing one person and injuring two others. · Zhytomyr</description>
-</item>
-
-<item>
-<title>[Media] Hegseth yet to approve transfer of Patriot missiles already allocated to Ukraine – FT</title>
-<link>https://www.ukrinform.net/rubric-polytics/4187966-hegseth-yet-to-approve-transfer-of-patriot-missiles-already-allocated-to-ukraine-ft.html</link>
-<guid isPermaLink="false">8183b92e2b1e</guid>
-<pubDate>Tue, 24 Nov 2026 08:55:00 +0000</pubDate>
-<category>Weapons and deliveries</category>
-<description>Ukrinform · US Defense Secretary Pete Hegseth has yet to authorize the transfer of around 60 PAC-3 and PAC-2 interceptor missiles for Patriot air defense systems to Ukraine, even though Kyiv’s Western allies have already paid for them. · Kyiv</description>
-</item>
-
-<item>
-<title>[Verified OSINT] Russia → Ukraine · advanced near</title>
-<link>https://t.me/DeepStateUA/24023</link>
-<guid isPermaLink="false">2058bc46711c</guid>
-<pubDate>Tue, 24 Nov 2026 06:08:01 +0000</pubDate>
-<category>Front line changes</category>
-<description>DeepState · Воздвижівки, Білогір&#39;я</description>
-</item>
-
-<item>
-<title>[Operational report] Russia → Ukraine · 161 combat clashes · 250 guided aerial bombs dropped · 7,475 kamikaze drones used · 1,865 shellings · 31 settlements shelled</title>
-<link>https://t.me/GeneralStaffZSU/42986</link>
-<guid isPermaLink="false">538a9317ae94</guid>
-<pubDate>Tue, 24 Nov 2026 06:03:49 +0000</pubDate>
-<category>Front activity</category>
-<description>General Staff of the Armed Forces of Ukraine · Air strikes on: Пустогород, Вакалівщина · Sumy oblast: Винторівка, Марчишина Буда, Бачівськ, Товстодубове, Вільна Слобода, Сопич, Харківка, Кучерівка, Кореньок, Шалигине, Яструбщина, Партизанське, Вовківка, Нова Слобода, Гірки, Безсалівка, Іскрівщина, Отруба, Волфине, Павлівка, Ободи, Корчаківка, Нова Січ, Писарівка, Іволжанське, Кияниця, Юнаківка, Могриця, Лужки, Храпівщина, Нескучне</description>
-</item>
-
-<item>
-<title>[Verified OSINT] Oryx → Russia · visually confirmed equipment losses, cumulative</title>
-<link>https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html</link>
-<guid isPermaLink="false">eca589eab183</guid>
-<pubDate>Tue, 24 Nov 2026 04:50:47 +0000</pubDate>
-<category>Claimed losses</category>
-<description>Oryx (Russian equipment losses)</description>
-</item>
-
-<item>
-<title>[Unconfirmed] Минюст РФ разработал схему перераспределения смертей российских военных между регионами, чтобы не показывать всплеск смертности в Ростовской области Издание «Важные истории» обнаружили в</title>
-<link>https://t.me/astrapress/132084</link>
-<guid isPermaLink="false">78fdbb8e5d7f</guid>
-<pubDate>Tue, 24 Nov 2026 04:29:27 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Rostov oblast, St Petersburg, Leningrad oblast</description>
-</item>
-
-<item>
-<title>[Media] Russian strikes on Zaporizhzhia leave two people killed, 11 injured, houses destroyed</title>
-<link>https://www.ukrinform.net/rubric-ato/4187890-russian-strikes-on-zaporizhzhia-leave-11-injured-houses-destroyed.html</link>
-<guid isPermaLink="false">97528cf051fe</guid>
-<pubDate>Tue, 24 Nov 2026 04:20:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Two people were killed and 11 injured in a Russian attack on Zaporizhzhia, which damaged apartment buildings, private houses and a transport infrastructure facility. · Zaporizhzhia</description>
-</item>
-
-<item>
-<title>[Media] 2 killed, 48 injured in Russian attack on residential building in Zaporizhzhia</title>
-<link>https://kyivindependent.com/2-killed-22-injured-in-russian-attack-on-residential-building-in-zaporizhzhia/</link>
-<guid isPermaLink="false">4eca41c9c0d2</guid>
-<pubDate>Tue, 24 Nov 2026 04:19:44 +0000</pubDate>
-<category>Civilian damage</category>
-<description>The Kyiv Independent · Mykhailo Semikin, the head of the Zaporizhzhia Oblast Military Administration, reported that Russian forces partially destroyed a five-story residential building in the Kosmichnyi district of the city. · Zaporizhzhia</description>
-</item>
-
-<item>
-<title>[Media] Russia develops new reconnaissance version of Molniya drone with gasoline engine – presidential advisor</title>
-<link>https://www.ukrinform.net/rubric-ato/4187755-russia-develops-new-reconnaissance-version-of-molniya-drone-with-gasoline-engine-presidential-advisor.html</link>
-<guid isPermaLink="false">2307b1147d13</guid>
-<pubDate>Tue, 24 Nov 2026 03:27:00 +0000</pubDate>
-<category>Civilian damage</category>
-<description>Ukrinform · Russian forces have developed a new reconnaissance version of the Molniya unmanned aerial vehicle equipped with a gasoline engine.</description>
-</item>
-
-<item>
-<title>[Unconfirmed] ВС РФ атаковали Запорожье: повреждены многоэтажка и частный дом, 11 человек ранены, — ОВА «Разрушен частный жилой дом, частично разрушена пятиэтажка.</title>
-<link>https://t.me/astrapress/132078</link>
-<guid isPermaLink="false">324094abcb65</guid>
-<pubDate>Tue, 24 Nov 2026 03:22:02 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Zaporizhzhia</description>
-</item>
-
-<item>
-<title>[Unconfirmed] В результате авиаудара ВС РФ по Запорожью пострадали семь человек, — ОВА Атака произошла вечером 23 ноября.</title>
-<link>https://t.me/astrapress/132072</link>
-<guid isPermaLink="false">57689d7e9ba2</guid>
-<pubDate>Tue, 24 Nov 2026 01:27:50 +0000</pubDate>
-<category>Civilian damage</category>
-<description>ASTRA · Zaporizhzhia</description>
 </item>
 
 </channel>
