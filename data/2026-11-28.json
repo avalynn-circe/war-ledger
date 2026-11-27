@@ -1,0 +1,174 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-27T22:45:41+00:00",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "category": "civilian_damage",
+   "source_id": "astra",
+   "source_name": "ASTRA",
+   "source_side": "monitoring",
+   "source_url": "https://t.me/astrapress/132408",
+   "quote": "За 27 ноября в Харькове и Харьковской области от российских атак пострадали 13 человек, — прокуратура Харьковская областная прокуратура сообщила, что начала досудебные расследования по шести фактам совершения военных преступлений.",
+   "time": "00:03",
+   "actor": "Russia",
+   "target": "Ukraine",
+   "action": "as reported, unconfirmed",
+   "detail": null,
+   "weapons": [
+    {
+     "name": "Shahed/Geran-2 strike UAV"
+    },
+    {
+     "name": "FPV drone"
+    },
+    {
+     "name": "Lancet loitering munition"
+    }
+   ],
+   "counts": {},
+   "breakdown": [],
+   "locations": [
+    "Kharkiv",
+    "Kyiv"
+   ],
+   "lang": "ru",
+   "extraction": "rules",
+   "also_reported_by": [],
+   "published": "2026-11-27T22:03:39+00:00",
+   "source_tier": "unconfirmed",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "6aac310c323d"
+  },
+  {
+   "date": "2026-11-28",
+   "category": "losses_claimed",
+   "source_id": "oryx_ukraine",
+   "source_name": "Oryx (Ukrainian equipment losses)",
+   "source_side": "osint",
+   "source_url": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html",
+   "quote": "Ukraine - 12396, of which: destroyed: 9775, damaged: 729, abandoned: 693, captured: 1199",
+   "time": null,
+   "actor": "Oryx",
+   "target": "Ukraine",
+   "action": "visually confirmed equipment losses, cumulative",
+   "detail": null,
+   "weapons": [],
+   "counts": {
+    "total": 12396,
+    "destroyed": 9775,
+    "damaged": 729,
+    "abandoned": 693,
+    "captured": 1199
+   },
+   "breakdown": [
+    {
+     "label": "Tanks",
+     "count": 1475
+    },
+    {
+     "label": "Armoured Fighting Vehicles",
+     "count": 568
+    },
+    {
+     "label": "Infantry Fighting Vehicles",
+     "count": 1628
+    },
+    {
+     "label": "Armoured Personnel Carriers",
+     "count": 1490
+    },
+    {
+     "label": "Mine-Resistant Ambush Protected (MRAP) Vehicles",
+     "count": 1021
+    },
+    {
+     "label": "Infantry Mobility Vehicles",
+     "count": 2231
+    },
+    {
+     "label": "Command Posts And Communications Stations",
+     "count": 105
+    },
+    {
+     "label": "Engineering Vehicles And Equipment",
+     "count": 303
+    },
+    {
+     "label": "Self-Propelled Anti-Tank Missile Systems",
+     "count": 19
+    },
+    {
+     "label": "Artillery and Missile Support Vehicles And Equipment",
+     "count": 37
+    },
+    {
+     "label": "Towed Artillery",
+     "count": 307
+    },
+    {
+     "label": "Self-Propelled Artillery",
+     "count": 1010
+    },
+    {
+     "label": "Rocket and Missile Artillery",
+     "count": 137
+    },
+    {
+     "label": "Anti-Aircraft Guns",
+     "count": 8
+    },
+    {
+     "label": "Self-Propelled Anti-Aircraft Guns",
+     "count": 51
+    },
+    {
+     "label": "Surface-To-Air Missile Systems",
+     "count": 179
+    },
+    {
+     "label": "Radars And Communications Equipment",
+     "count": 152
+    },
+    {
+     "label": "Jammers And Deception Systems",
+     "count": 12
+    },
+    {
+     "label": "Aircraft",
+     "count": 122
+    },
+    {
+     "label": "Helicopters",
+     "count": 59
+    },
+    {
+     "label": "Unmanned Combat Aerial Vehicles",
+     "count": 29
+    },
+    {
+     "label": "Naval Ships",
+     "count": 44
+    },
+    {
+     "label": "Trucks and similar vehicles",
+     "count": 1409
+    }
+   ],
+   "locations": [],
+   "lang": "en",
+   "extraction": "structured",
+   "also_reported_by": [],
+   "published": "2026-11-27T22:45:39.002375+00:00",
+   "source_tier": "osint",
+   "corrected": null,
+   "quote_en": null,
+   "detail_en": null,
+   "locations_en": null,
+   "id": "eefc12e5a3e5"
+  }
+ ]
+}
